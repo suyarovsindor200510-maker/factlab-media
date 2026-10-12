@@ -79,8 +79,9 @@ def fake_timeline(spec):
 
 
 def build_html(spec, tl, wd):
-    h = open(f'{HERE}/template.html').read()
-    h = h.replace('__FONTS__', 'file://' + HERE + '/fonts')
+    tpl = 'story.html' if spec.get('format') == 'story' else 'template.html'
+    h = open(f'{HERE}/{tpl}').read()
+    h = h.replace('__FONTS__', 'file://' + HERE + '/fonts').replace('__ROOT__', 'file://' + os.path.dirname(HERE))
     h = h.replace('__SPEC__', json.dumps(spec, ensure_ascii=False)).replace('__TL__', json.dumps(tl))
     open(f'{wd}/e.html', 'w').write(h)
 
@@ -108,12 +109,19 @@ def preview(spec, tl, wd):
     times = []
     for i, (a, d) in enumerate(zip(tl['starts'], tl['durs'])):
         times.append((f'{wd}/pv{i:02d}.jpg', a + min(d * 0.7, 1.6)))
-    times.append((f'{wd}/cover.jpg', min(tl['starts'][1] - 0.6, 1.5)))
+    times.append((f'{wd}/cover.jpg', spec.get('cover_t', min(tl['starts'][1] - 0.6, 1.5))))
     render(wd, times, 4)
     sh(f'ffmpeg -y -i "{wd}/pv%02d.jpg" -vf "scale=270:480,tile={len(tl["starts"])}x1" -frames:v 1 "{wd}/sheet.jpg"')
 
 
-def music(tl, wd, seed):
+def music(tl, wd, seed, spec=None):
+    root = os.path.dirname(HERE)
+    if spec and spec.get('music'):
+        # licensed-free track from music/ (NCS): start offset, fade in/out, fit to video length
+        T = tl['total']; ss = spec.get('music_start', 0)
+        sh(f'ffmpeg -y -ss {ss} -i "{root}/{spec["music"]}" -t {T} -af "afade=t=in:d=0.6,afade=t=out:st={T-1.8:.2f}:d=1.8,'
+           f'loudnorm=I=-16:TP=-1.5" -ar 44100 -ac 2 "{wd}/music.wav"')
+        return
     sh(f'python3 "{HERE}/music.py" "{wd}/timeline.json" "{wd}/music.wav" {seed}')
 
 
@@ -129,10 +137,10 @@ def main():
     print('timeline', tl)
     build_html(spec, tl, wd)
     seed = sum(map(ord, spec.get('id', 'x'))) % 1000
-    music(tl, wd, seed)
+    music(tl, wd, seed, spec)
     # mix: music ducked under voice, loudness normalised for Instagram
     sh(f'ffmpeg -y -i "{wd}/voice.wav" -i "{wd}/music.wav" -filter_complex '
-       f'"[0:a]aformat=channel_layouts=stereo,volume=1.0,asplit[v][sc];[1:a]volume=0.55[m];'
+       f'"[0:a]aformat=channel_layouts=stereo,volume=1.0,asplit[v][sc];[1:a]volume={spec.get("music_vol", 0.55)}[m];'
        f'[m][sc]sidechaincompress=threshold=0.03:ratio=8:attack=20:release=350[md];'
        f'[v][md]amix=inputs=2:normalize=0,loudnorm=I=-14:TP=-1.2:LRA=11[o]" -map "[o]" -ar 48000 "{wd}/audio.wav"')
     fr = f'{wd}/fr'; shutil.rmtree(fr, ignore_errors=True); os.makedirs(fr)

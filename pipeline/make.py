@@ -2,7 +2,7 @@
 """FactLab daily reel builder.
 
 usage:
-  python3 pipeline/make.py <spec.json> <voice.mp3> <out_dir>      # full build
+  python3 pipeline/make.py <spec.json> <voice.mp3> <out_dir> [words.json]  # full build (words.json = ElevenLabs transcript words for exact cuts/captions)
   python3 pipeline/make.py <spec.json> --preview <out_dir>         # fake-timed preview frames only (no audio)
 
 Produces in out_dir: video.mp4 (1080x1920, 30fps), cover.jpg, and preview frames pv*.jpg.
@@ -34,19 +34,38 @@ def dur(f):
     return float(sh(f'ffprobe -v error -show_entries format=duration -of csv=p=0 "{f}"').stdout)
 
 
-def split_voice(mp3, n, wd):
-    """Split the voice into n segments at the n-1 longest inner pauses."""
+def split_voice(mp3, n, wd, texts=None):
+    """Split the voice into n segments at pauses. With scene texts, pick the pauses that best match
+    the expected boundaries (by character count); otherwise take the n-1 longest pauses."""
     raw = f'{wd}/raw.wav'
     sh(f'ffmpeg -y -i "{mp3}" -ac 1 -ar 44100 "{raw}"')
     T = dur(raw)
     sil = silences(raw)
-    # speech start/end
     s0 = sil[0][1] if sil and sil[0][0] < 0.05 else 0.0
     s1 = sil[-1][0] if sil and sil[-1][1] > T - 0.05 else T
     inner = [x for x in sil if x[0] > s0 + 0.3 and x[1] < s1 - 0.3]
     if len(inner) < n - 1:
         raise SystemExit(f'only {len(inner)} pauses found, need {n-1}: write each scene voice as its own paragraph')
-    cuts = sorted(sorted(inner, key=lambda x: x[1] - x[0], reverse=True)[:n - 1])
+    if texts and len(texts) == n:
+        lens = [max(1, len(t)) for t in texts]; tot = sum(lens); acc = 0; exp = []
+        for l in lens[:-1]:
+            acc += l; exp.append(s0 + (s1 - s0) * acc / tot)
+        K = len(inner); mids = [(a + b) / 2 for a, b in inner]; ln = [b - a for a, b in inner]
+        INF = 1e9
+        cost = lambda j, k: abs(mids[k] - exp[j]) - 4.0 * ln[k]
+        dp = [[INF] * K for _ in range(n - 1)]; bk = [[-1] * K for _ in range(n - 1)]
+        for k in range(K): dp[0][k] = cost(0, k)
+        for j in range(1, n - 1):
+            best, bi = INF, -1
+            for k in range(K):
+                if k > 0 and dp[j - 1][k - 1] < best: best, bi = dp[j - 1][k - 1], k - 1
+                if bi >= 0: dp[j][k] = best + cost(j, k); bk[j][k] = bi
+        k = min(range(K), key=lambda q: dp[n - 2][q]); pick = []
+        for j in range(n - 2, -1, -1):
+            pick.append(k); k = bk[j][k]
+        cuts = [inner[q] for q in reversed(pick)]
+    else:
+        cuts = sorted(sorted(inner, key=lambda x: x[1] - x[0], reverse=True)[:n - 1])
     bounds = [s0] + [c for pair in cuts for c in pair] + [s1]
     segs = []
     for i in range(n):
@@ -68,6 +87,44 @@ def split_voice(mp3, n, wd):
     sh(f'ffmpeg -y {ins} -filter_complex "{filt}" -map "[o]" -t {total} -ar 44100 -ac 1 "{wd}/voice.wav"')
     tl = {'starts': starts, 'durs': durs, 'total': total}
     json.dump(tl, open(f'{wd}/timeline.json', 'w'))
+    return tl
+
+
+def split_by_words(mp3, spec, words, wd, tempo=None, gap=None):
+    """Cut the voice at scene boundaries using word timestamps (from ElevenLabs transcription)."""
+    tempo = tempo or spec.get('tempo', TEMPO); gap = GAP if gap is None else gap
+    raw = f'{wd}/raw.wav'
+    sh(f'ffmpeg -y -i "{mp3}" -ac 1 -ar 44100 "{raw}"')
+    T = dur(raw)
+    counts = [len((sc.get('voice') or '').split()) for sc in spec['scenes']]
+    nW = len(words)
+    if sum(counts) != nW:  # scale counts to transcript length
+        acc, b = 0, []
+        for c in counts[:-1]:
+            acc += c; b.append(round(acc * nW / sum(counts)))
+    else:
+        b = []; acc = 0
+        for c in counts[:-1]:
+            acc += c; b.append(acc)
+    idx = [0] + b + [nW]
+    segs, starts, durs, wl = [], [], [], []
+    t = LEAD
+    for i in range(len(counts)):
+        w0, w1 = words[idx[i]], words[idx[i + 1] - 1]
+        a = max(0, w0['start'] - 0.06) if i == 0 else (words[idx[i] - 1]['end'] + w0['start']) / 2
+        e = min(T, w1['end'] + 0.25) if i == len(counts) - 1 else (w1['end'] + words[idx[i + 1]]['start']) / 2
+        out = f'{wd}/v{i}.wav'
+        sh(f'ffmpeg -y -ss {a:.3f} -to {e:.3f} -i "{raw}" -af "atempo={tempo},afade=t=in:d=0.015" -ar 44100 "{out}"')
+        d = dur(out); starts.append(round(t, 3)); durs.append(round(d, 3))
+        wl.append([[w['text'], round(t + (w['start'] - a) / tempo, 3), round(t + (w['end'] - a) / tempo, 3)] for w in words[idx[i]:idx[i + 1]]])
+        segs.append(out); t += d + gap
+    total = round(t - gap + TAIL, 3)
+    parts = [f'[{i}:a]adelay={int(starts[i]*1000)}|{int(starts[i]*1000)}[a{i}]' for i in range(len(segs))]
+    filt = ';'.join(parts) + ';' + ''.join(f'[a{i}]' for i in range(len(segs))) + f'amix=inputs={len(segs)}:normalize=0,apad=whole_dur={total}[o]'
+    ins = ' '.join(f'-i "{x}"' for x in segs)
+    sh(f'ffmpeg -y {ins} -filter_complex "{filt}" -map "[o]" -t {total} -ar 44100 -ac 1 "{wd}/voice.wav"')
+    tl = {'starts': starts, 'durs': durs, 'total': total, 'words': wl}
+    json.dump(tl, open(f'{wd}/timeline.json', 'w'), ensure_ascii=False)
     return tl
 
 
@@ -133,7 +190,11 @@ def main():
         tl = fake_timeline(spec); build_html(spec, tl, wd); preview(spec, tl, wd); print('preview', wd); return
     mp3, wd = sys.argv[2], os.path.abspath(sys.argv[3]); os.makedirs(wd, exist_ok=True)
     n = len(spec['scenes'])
-    tl = split_voice(mp3, n, wd)
+    wf = sys.argv[4] if len(sys.argv) > 4 else None
+    if wf:
+        tl = split_by_words(mp3, spec, json.load(open(wf)), wd, gap=spec.get('gap'))
+    else:
+        tl = split_voice(mp3, n, wd, [sc.get('voice', '') for sc in spec['scenes']])
     print('timeline', tl)
     build_html(spec, tl, wd)
     seed = sum(map(ord, spec.get('id', 'x'))) % 1000

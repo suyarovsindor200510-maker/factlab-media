@@ -128,6 +128,46 @@ def split_by_words(mp3, spec, words, wd, tempo=None, gap=None):
     return tl
 
 
+def sfx_track(spec, tl, wd):
+    """Place sound effects on the story events (stickers, counters, badges, cuts)."""
+    import numpy as np, soundfile as sf
+    sdir = f'{HERE}/sfx'
+    if not os.path.exists(f'{sdir}/pop.wav'):
+        sh(f'python3 "{HERE}/sfx.py"')
+    SR = 44100; N = int((tl['total'] + 2) * SR); mix = np.zeros((N, 2))
+    cache = {}
+    def put(name, t0, g=1.0):
+        if t0 < 0 or not name: return
+        if name not in cache:
+            a, sr = sf.read(f'{sdir}/{name}.wav'); cache[name] = a if a.ndim == 2 else np.stack([a, a], 1)
+        a = cache[name]; i = int(t0 * SR); n = min(len(a), N - i)
+        if n > 0: mix[i:i + n] += a[:n] * g
+    st = tl['starts']
+    STY = {'red': 'stamp', 'dark': 'stamp', 'yellow': 'pop', 'paper': 'pop', 'teal': 'pop'}
+    put('boom', 0.05, 0.8)
+    for i, s in enumerate(spec['scenes']):
+        a = st[i]
+        if i > 0: put('whoosh', a - 0.42, 0.55)
+        for k in s.get('stickers', []):
+            put(k.get('sfx') or STY.get(k.get('style', 'paper'), 'pop'), a + k.get('at', 0) - 0.02, 0.7)
+        if s.get('kind') == 'card':
+            for r in s.get('rows', []):
+                t0 = a + (r.get('at') if r.get('at') is not None else 0.5)
+                for q in range(9): put('tick', t0 + q * 0.07, 0.35)
+                put('kaching' if r.get('hl') else 'pop', t0 + 0.65, 0.7 if r.get('hl') else 0.6)
+        if s.get('kind') == 'bigstat':
+            t0 = a - 0.18 + 0.1
+            for q in range(13): put('tick', t0 + q * 0.075, 0.35)
+            put('kaching', a + s.get('sub_at', 1), 0.75); put('boom', a + s.get('sub_at', 1), 0.5)
+        if s.get('kind') == 'choice':
+            for b in s.get('badge_at', []): put('ding', a + b, 0.55)
+        for e in s.get('sfx', []):
+            put(e['t'], a + e.get('at', 0), e.get('g', 0.7))
+    pk = np.max(np.abs(mix))
+    if pk > 0.98: mix *= 0.98 / pk
+    sf.write(f'{wd}/sfx.wav', mix, SR)
+
+
 def fake_timeline(spec):
     starts, durs, t = [], [], LEAD
     for s in spec['scenes']:
@@ -199,16 +239,24 @@ def main():
     build_html(spec, tl, wd)
     seed = sum(map(ord, spec.get('id', 'x'))) % 1000
     music(tl, wd, seed, spec)
-    # mix: music ducked under voice, loudness normalised for Instagram
-    sh(f'ffmpeg -y -i "{wd}/voice.wav" -i "{wd}/music.wav" -filter_complex '
-       f'"[0:a]aformat=channel_layouts=stereo,volume=1.0,asplit[v][sc];[1:a]volume={spec.get("music_vol", 0.55)}[m];'
-       f'[m][sc]sidechaincompress=threshold=0.03:ratio=8:attack=20:release=350[md];'
-       f'[v][md]amix=inputs=2:normalize=0,loudnorm=I=-14:TP=-1.2:LRA=11[o]" -map "[o]" -ar 48000 "{wd}/audio.wav"')
+    # mix: music ducked under voice (+ bass lift), sound effects on top, loudness normalised for Instagram
+    has_sfx = spec.get('format') == 'story'
+    if has_sfx: sfx_track(spec, tl, wd)
+    mv = spec.get("music_vol", 0.55)
+    sx = f' -i "{wd}/sfx.wav"' if has_sfx else ''
+    mixin = '[v][md][fx]amix=inputs=3:normalize=0' if has_sfx else '[v][md]amix=inputs=2:normalize=0'
+    fxs = f';[2:a]volume={spec.get("sfx_vol", 0.9)}[fx]' if has_sfx else ''
+    sh(f'ffmpeg -y -i "{wd}/voice.wav" -i "{wd}/music.wav"{sx} -filter_complex '
+       f'"[0:a]aformat=channel_layouts=stereo,highpass=f=70,acompressor=threshold=0.1:ratio=3:attack=5:release=80,volume=1.15,asplit[v][sc];'
+       f'[1:a]bass=g=4:f=90,volume={mv}[m];'
+       f'[m][sc]sidechaincompress=threshold=0.05:ratio=4:attack=10:release=250[md]{fxs};'
+       f'{mixin},alimiter=limit=0.95,loudnorm=I=-13:TP=-1.0:LRA=9[o]" -map "[o]" -ar 48000 "{wd}/audio.wav"')
     fr = f'{wd}/fr'; shutil.rmtree(fr, ignore_errors=True); os.makedirs(fr)
     NFR = int(tl['total'] * FPS)
     render(wd, [(f'{fr}/f{f:05d}.jpg', f / FPS) for f in range(NFR)], 4)
-    sh(f'ffmpeg -y -framerate {FPS} -i "{fr}/f%05d.jpg" -i "{wd}/audio.wav" -vf "noise=alls=4:allf=t,format=yuv420p" '
-       f'-c:v libx264 -preset medium -crf 20 -profile:v high -c:a aac -b:a 192k -shortest -movflags +faststart "{wd}/video.mp4"',
+    vf = 'unsharp=5:5:0.7:5:5:0.0,eq=contrast=1.05:saturation=1.12,format=yuv420p' if spec.get('format') == 'story' else 'noise=alls=4:allf=t,format=yuv420p'
+    sh(f'ffmpeg -y -framerate {FPS} -i "{fr}/f%05d.jpg" -i "{wd}/audio.wav" -vf "{vf}" '
+       f'-c:v libx264 -preset medium -crf 18 -profile:v high -c:a aac -b:a 192k -shortest -movflags +faststart "{wd}/video.mp4"',
        timeout=1800)
     preview(spec, tl, wd)
     print('done', wd, tl['total'])

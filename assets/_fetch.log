@@ -47,3 +47,13 @@ assets/pxb/silk_road.html FAILED 22 curl: (22) The requested URL returned error:
 assets/pxb/uzbekistan.html FAILED 22 curl: (22) The requested URL returned error: 403
 assets/pxb/oriental_hip_hop.html FAILED 22 curl: (22) The requested URL returned error: 403
 tools/demucs/955717e8-8726e21a.th ok
+assets/ncs2/oriental.html ok
+assets/ncs2/arabic.html ok
+assets/ncs2/turkish.html ok
+assets/ncs2/desert.html ok
+assets/ncs2/persian.html ok
+assets/ncs2/middle_east.html ok
+assets/ncs2/eastern.html ok
+assets/ncs2/bazaar.html ok
+assets/ncs2/sultan.html ok
+assets/ncs2/silk.html ok

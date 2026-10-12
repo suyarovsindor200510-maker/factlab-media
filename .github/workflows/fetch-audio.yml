@@ -10,18 +10,27 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Download audio for jobs that have no mp3 yet
+      - name: Download files listed in jobs
         run: |
           set -e
-          for f in jobs/*.json; do
-            id=$(basename "$f" .json)
-            [ -f "audio/$id.mp3" ] && continue
-            url=$(python3 -c "import json,sys;print(json.load(open('$f'))['audio_url'])")
-            curl -fsSL --retry 3 -o "audio/$id.mp3" "$url" && echo "got $id"
-          done
+          mkdir -p audio assets
+          python3 - <<'PY'
+          import json, glob, os, subprocess
+          for f in glob.glob('jobs/*.json'):
+              j = json.load(open(f)); jid = os.path.basename(f)[:-5]
+              items = []
+              if 'audio_url' in j: items.append((j['audio_url'], f'audio/{jid}.mp3'))
+              for it in j.get('files', []): items.append((it['url'], it['path']))
+              for url, path in items:
+                  if os.path.exists(path): continue
+                  os.makedirs(os.path.dirname(path), exist_ok=True)
+                  r = subprocess.run(['curl', '-fsSL', '--retry', '3', '-o', path, url])
+                  print(path, 'ok' if r.returncode == 0 else f'FAILED {r.returncode}')
+                  if r.returncode and os.path.exists(path): os.remove(path)
+          PY
       - name: Commit
         run: |
           git config user.name "factlab-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add audio/
-          git diff --cached --quiet || (git commit -m "audio: fetched" && git push)
+          git add audio/ assets/
+          git diff --cached --quiet || (git commit -m "fetched files" && git pull --rebase && git push)

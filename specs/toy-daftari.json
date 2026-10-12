@@ -3,9 +3,7 @@
  "format": "story",
  "topic": "to'y daftari",
  "category": "milliy urf-odat",
- "music": "music/mortals-funk-remix.mp3",
- "music_start": 31,
- "music_vol": 0.5,
+ "music_vol": 0.45,
  "gap": 0.22,
  "cover_t": 2.6,
  "scenes": [
@@ -240,5 +238,6 @@
    ]
   }
  ],
- "caption": "Sizning uyingizda ham shunaqa daftar bormi? 📒\n\nKim, qaysi to'yda, qancha pul bergani — hammasi yozilgan 😅\n10 yil oldin qo'shningiz 100 ming bergan edi... endi siz qancha solasiz? 🤔\n\nKam solsangiz — uyat.\nKo'p solsangiz — keyingi safar u ham ko'proq qaytarishi kerak 🔄\n\nSizningcha, to'y daftari kerakmi?\n1️⃣ Kerak — bu hurmat\n2️⃣ Keraksiz — bu shunchaki hisob-kitob\n\n👇 Izohda raqamini yozing va oilangizdagi \"daftar egasi\"ni belgilang 😄\n\n🎵 Music: Mortals Funk Remix — Warriyo, LXNGVX [NCS Release]\n\n#toy #toydaftari #ozbektoyi #urfodat #milliy #oila #uzbekistan #toshkent #samarqand #ozbekcha #reelsuz #thefactlab"
+ "caption": "Sizning uyingizda ham shunaqa daftar bormi? 📒\n\nKim, qaysi to'yda, qancha pul bergani — hammasi yozilgan 😅\n10 yil oldin qo'shningiz 100 ming bergan edi... endi siz qancha solasiz? 🤔\n\nKam solsangiz — uyat.\nKo'p solsangiz — keyingi safar u ham ko'proq qaytarishi kerak 🔄\n\nSizningcha, to'y daftari kerakmi?\n1️⃣ Kerak — bu hurmat\n2️⃣ Keraksiz — bu shunchaki hisob-kitob\n\n👇 Izohda raqamini yozing va oilangizdagi \"daftar egasi\"ni belgilang 😄\n\n🎵 Music: Mortals Funk Remix — Warriyo, LXNGVX [NCS Release]\n\n#toy #toydaftari #ozbektoyi #urfodat #milliy #oila #uzbekistan #toshkent #samarqand #ozbekcha #reelsuz #thefactlab",
+ "uzmusic": "bazm"
 }

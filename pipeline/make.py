@@ -213,6 +213,9 @@ def preview(spec, tl, wd):
 
 def music(tl, wd, seed, spec=None):
     root = os.path.dirname(HERE)
+    if spec and spec.get('uzmusic'):
+        sh(f'python3 "{HERE}/uzmusic.py" "{wd}/timeline.json" "{wd}/music.wav" {seed} {spec["uzmusic"]}')
+        return
     if spec and spec.get('music'):
         # licensed-free track from music/ (NCS): start offset, fade in/out, fit to video length
         T = tl['total']; ss = spec.get('music_start', 0)

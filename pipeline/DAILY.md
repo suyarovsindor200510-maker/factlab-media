@@ -1,8 +1,8 @@
 # FactLab daily reel — runbook (v2 "milliy story" format)
 
 Goal: every day one 40–60 s Uzbek **discussion reel** for Instagram **@thefactlab.daily** in the style of @birfoiz_ / @shoshmang_:
-relatable Uzbek family/social life topic, vivid comic illustrations, paper stickers, Bekzod voice, phonk/trap music, sound effects,
-ending with a "1 yoki 2?" question so people comment. Published automatically by Buffer at **20:00 Asia/Seoul**.
+relatable Uzbek family/social life topic, vivid comic illustrations, paper stickers, Bekzod voice, sound effects,
+Uzbek-style music (doira/dutar), ending with a "1 yoki 2?" question so people comment. Published automatically by Buffer at **20:00 Asia/Seoul**.
 
 Fixed IDs
 - ElevenLabs voice `kGOig3GPePLxobJGHo2M` (Bekzod), model `eleven_v4`, `generations_count: 1` (never retry a generation call).
@@ -46,7 +46,7 @@ commit + push, then `git pull` every 10 s until `audio/<ID>.mp3`, `words/<ID>.js
   `bigstat` (one big number), `choice` (badges 1/2 at `a`/`b` = [x,y] over heads). Frame is 540×960 CSS px; keep stickers at y 80–620
   (captions sit near y 700). Sticker styles: yellow, paper, red, dark, teal; optional `"sfx"` per sticker (pop, stamp, kaching, ding, fail, boing, riser, shutter).
 - Timing: `at` = seconds after the scene's first word. From words json: `at ≈ (word.start − first_word_of_scene.start) / 1.06`.
-- Music: pick from `music.json` — phonk/epic/playful; set `music_start` to where the track is loud (drop), `music_vol` 0.5.
+- Music: ALWAYS Uzbek-style (owner's requirement): set `"uzmusic": "bazm"` (lively: to'y, mehmon, bozor), `"lapar"` (playful/comedy), `"dramatic"` (money problems, tense stories) or `"modern"` (youth, phones, city), `music_vol` 0.45. Do NOT use the NCS phonk/EDM tracks. (Generator: pipeline/uzmusic.py — doira, dutar, rubob, gijjak/nay, 808, harmonic-minor/hijaz.)
 - `python3 pipeline/make.py specs/<ID>.json audio/<ID>.mp3 /tmp/fl/<ID> words/<ID>.json` (≈4–7 min).
 - Check: extract 6–7 frames (one per scene, after its stickers appear) and Read them — no overlapping stickers, faces not covered,
   captions readable. Fix the spec and rebuild if needed.
@@ -57,7 +57,7 @@ commit + push, then `git pull` every 10 s until `audio/<ID>.mp3`, `words/<ID>.js
 - Buffer `create_post`: channel above, `schedulingType: automatic`, `mode: customScheduled`, `dueAt: "<ID>T20:00:00+09:00"`
   (if already past 19:55 → `shareNow`), `metadata.instagram {type:"reel", shouldShareToFeed:true}`, video asset with `thumbnailOffset` = cover moment (ms).
 - Caption: hook line, 3–6 short lines of story, the 1️⃣/2️⃣ question, "👇 Izohda raqamini yozing va … belgilang 😄",
-  `🎵 Music: <Title> — <Artist> [NCS Release]` (required by NCS), 10–13 hashtags (#ozbekcha #reelsuz #thefactlab + topic tags).
+  10–13 hashtags (#ozbekcha #reelsuz #thefactlab + topic tags).
 
 ## Fallback
 If Canva image generation fails repeatedly, build the old fact format instead (`specs/2026-10-13.json` style, kinds intro/count/percent/emoji/outro,

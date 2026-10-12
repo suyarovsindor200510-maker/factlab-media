@@ -9,6 +9,8 @@ Fixed IDs
 
 ## Steps (ID = today's date in Seoul, YYYY-MM-DD)
 
+0. If `history.json` already has an entry with today's ID (or `videos/<ID>.mp4` exists), today's reel is already done — report that and stop.
+
 1. **Pick a topic** not in `history.json` (rotate categories: animals, human body, space, ocean, history, food, technology, geography, plants, physics). Use only well-established facts you are confident about (no shaky numbers, no myths). Prefer WebSearch to double-check any number.
 2. **Write `specs/<ID>.json`** in the format of `specs/2026-10-13.json`:
    - 6 scenes: `intro`, 4 facts, `outro`. Fact kinds: `count` (n, unit, repeat for n≤6), `percent` (n, unit), `vs` (a/b with emoji,label,v), `emoji` (emoji, orbit).

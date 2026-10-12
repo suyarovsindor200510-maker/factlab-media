@@ -46,7 +46,7 @@ commit + push, then `git pull` every 10 s until `audio/<ID>.mp3`, `words/<ID>.js
   `bigstat` (one big number), `choice` (badges 1/2 at `a`/`b` = [x,y] over heads). Frame is 540×960 CSS px; keep stickers at y 80–620
   (captions sit near y 700). Sticker styles: yellow, paper, red, dark, teal; optional `"sfx"` per sticker (pop, stamp, kaching, ding, fail, boing, riser, shutter).
 - Timing: `at` = seconds after the scene's first word. From words json: `at ≈ (word.start − first_word_of_scene.start) / 1.06`.
-- Music: ALWAYS Uzbek-style (owner's requirement): set `"uzmusic": "bazm"` (lively: to'y, mehmon, bozor), `"lapar"` (playful/comedy), `"dramatic"` (money problems, tense stories) or `"modern"` (youth, phones, city), `music_vol` 0.45. Do NOT use the NCS phonk/EDM tracks. (Generator: pipeline/uzmusic.py — doira, dutar, rubob, gijjak/nay, 808, harmonic-minor/hijaz.)
+- Music: ALWAYS `"uzmusic": "bazm"` (owner chose the bazm style — doira, dutar, rubob), `music_vol` 0.45. Do NOT use other styles or the NCS phonk/EDM tracks. Generator: pipeline/uzmusic.py (a new melody every seed).
 - `python3 pipeline/make.py specs/<ID>.json audio/<ID>.mp3 /tmp/fl/<ID> words/<ID>.json` (≈4–7 min).
 - Check: extract 6–7 frames (one per scene, after its stickers appear) and Read them — no overlapping stickers, faces not covered,
   captions readable. Fix the spec and rebuild if needed.

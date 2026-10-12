@@ -44,7 +44,7 @@ jobs:
         run: |
           git config user.name "factlab-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add -A audio assets music words
+          git add -A audio assets music words tools
           git status --short | head -50
           if git diff --cached --quiet; then echo "nothing to commit"; exit 0; fi
           git commit -q -m "fetched files"

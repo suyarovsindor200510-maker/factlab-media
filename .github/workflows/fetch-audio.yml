@@ -13,14 +13,17 @@ jobs:
       - name: Download files listed in jobs
         run: |
           set -e
-          mkdir -p audio assets
+          mkdir -p audio assets music
           python3 - <<'PY'
           import json, glob, os, subprocess
           for f in glob.glob('jobs/*.json'):
               j = json.load(open(f)); jid = os.path.basename(f)[:-5]
               items = []
               if 'audio_url' in j: items.append((j['audio_url'], f'audio/{jid}.mp3'))
-              for it in j.get('files', []): items.append((it['url'], it['path']))
+              it_trim = {}
+              for it in j.get('files', []):
+                  items.append((it['url'], it['path']))
+                  if it.get('trim'): it_trim[it['path']] = it['trim']
               for url, path in items:
                   if os.path.exists(path): continue
                   os.makedirs(os.path.dirname(path), exist_ok=True)
@@ -28,10 +31,13 @@ jobs:
                   msg = f"{path} {'ok' if r.returncode == 0 else 'FAILED ' + str(r.returncode) + ' ' + r.stderr.strip()[:200]}"
                   print(msg); open('assets/_fetch.log', 'a').write(msg + '\n')
                   if r.returncode and os.path.exists(path): os.remove(path)
+                  elif it_trim.get(path):
+                      tmp = path + '.tmp.mp3'; os.rename(path, tmp)
+                      subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', tmp, '-t', str(it_trim[path]), '-ac', '2', '-ar', '44100', '-b:a', '128k', path], check=True); os.remove(tmp)
           PY
       - name: Commit
         run: |
           git config user.name "factlab-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add audio/ assets/
+          git add audio/ assets/ music/ 2>/dev/null || true; git add -A audio assets music 2>/dev/null || true
           git diff --cached --quiet || (git commit -m "fetched files" && git pull --rebase && git push)

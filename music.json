@@ -1,0 +1,177 @@
+[
+ {
+  "file": "music/cradles.mp3",
+  "title": "Cradles",
+  "artist": "Sub Urban",
+  "mood": "playful",
+  "genre": "Bass"
+ },
+ {
+  "file": "music/wooyawooya.mp3",
+  "title": "wooyawooya",
+  "artist": "Zachz Winner, Carpe",
+  "mood": "playful",
+  "genre": "Pluggnb"
+ },
+ {
+  "file": "music/blu.mp3",
+  "title": "blu",
+  "artist": "Zachz Winner",
+  "mood": "playful",
+  "genre": "Pluggnb"
+ },
+ {
+  "file": "music/cake.mp3",
+  "title": "Cake",
+  "artist": "RetroVision",
+  "mood": "playful",
+  "genre": "House"
+ },
+ {
+  "file": "music/dino.mp3",
+  "title": "Dino",
+  "artist": "Mountkid",
+  "mood": "playful",
+  "genre": "Trap"
+ },
+ {
+  "file": "music/memes.mp3",
+  "title": "Memes",
+  "artist": "NIVIRO",
+  "mood": "playful",
+  "genre": "House"
+ },
+ {
+  "file": "music/the-floor-is-lava.mp3",
+  "title": "The Floor Is Lava",
+  "artist": "NIVIRO",
+  "mood": "playful",
+  "genre": "House"
+ },
+ {
+  "file": "music/so-funky.mp3",
+  "title": "So Funky",
+  "artist": "NIVIRO",
+  "mood": "playful",
+  "genre": "House"
+ },
+ {
+  "file": "music/clown-around.mp3",
+  "title": "Clown Around",
+  "artist": "Daniel Levi",
+  "mood": "playful",
+  "genre": "Indie"
+ },
+ {
+  "file": "music/platform-9.mp3",
+  "title": "Platform 9",
+  "artist": "ONEEVA",
+  "mood": "playful",
+  "genre": "Indie"
+ },
+ {
+  "file": "music/fade.mp3",
+  "title": "fade",
+  "artist": "dashie",
+  "mood": "phonk",
+  "genre": "Brazilian Phonk"
+ },
+ {
+  "file": "music/mortals-funk-remix.mp3",
+  "title": "Mortals Funk Remix",
+  "artist": "Warriyo, LXNGVX",
+  "mood": "phonk",
+  "genre": "Brazilian Phonk"
+ },
+ {
+  "file": "music/royalty-funk.mp3",
+  "title": "Royalty Funk",
+  "artist": "LXNGVX",
+  "mood": "phonk",
+  "genre": "Brazilian Phonk"
+ },
+ {
+  "file": "music/mortals-feat-laura-brehm.mp3",
+  "title": "Mortals (feat. Laura Brehm)",
+  "artist": "Warriyo, Laura Brehm",
+  "mood": "epic",
+  "genre": "Trap"
+ },
+ {
+  "file": "music/invincible.mp3",
+  "title": "Invincible",
+  "artist": "DEAF KEV",
+  "mood": "epic",
+  "genre": "Melodic Dubstep"
+ },
+ {
+  "file": "music/sky-high.mp3",
+  "title": "Sky High",
+  "artist": "Elektronomia",
+  "mood": "epic",
+  "genre": "House"
+ },
+ {
+  "file": "music/energy.mp3",
+  "title": "Energy",
+  "artist": "Elektronomia",
+  "mood": "epic",
+  "genre": "House"
+ },
+ {
+  "file": "music/heroes-tonight-feat-johnning.mp3",
+  "title": "Heroes Tonight (feat. Johnning)",
+  "artist": "Janji, Johnning",
+  "mood": "epic",
+  "genre": "House"
+ },
+ {
+  "file": "music/royalty.mp3",
+  "title": "Royalty",
+  "artist": "Maestro Chives, Egzod, Neoni",
+  "mood": "epic",
+  "genre": "Trap"
+ },
+ {
+  "file": "music/on-on-feat-daniel-levi.mp3",
+  "title": "On & On (feat. Daniel Levi)",
+  "artist": "Cartoon, Daniel Levi, Jéja",
+  "mood": "epic",
+  "genre": "Electronic"
+ },
+ {
+  "file": "music/symbolism.mp3",
+  "title": "Symbolism",
+  "artist": "Electro-Light",
+  "mood": "epic",
+  "genre": "Trap"
+ },
+ {
+  "file": "music/blank.mp3",
+  "title": "Blank",
+  "artist": "Disfigure",
+  "mood": "epic",
+  "genre": "Melodic Dubstep"
+ },
+ {
+  "file": "music/why-we-lose-feat-coleman-trapp.mp3",
+  "title": "Why We Lose (feat. Coleman Trapp)",
+  "artist": "Cartoon, Coleman Trapp, Jéja",
+  "mood": "emotional",
+  "genre": "Drum & Bass"
+ },
+ {
+  "file": "music/dreams-pt-ii-feat-sara-skinner-slowed.mp3",
+  "title": "Dreams pt. II (feat. Sara Skinner) (Slowed)",
+  "artist": "Sara Skinner, Lost Sky",
+  "mood": "emotional",
+  "genre": "Trap"
+ },
+ {
+  "file": "music/invincible-slowed.mp3",
+  "title": "Invincible (Slowed)",
+  "artist": "DEAF KEV",
+  "mood": "emotional",
+  "genre": "Melodic Dubstep"
+ }
+]

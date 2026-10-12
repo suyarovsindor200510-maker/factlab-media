@@ -1,1 +1,16 @@
-[{"id":"2026-10-13","topic":"osminog","category":"animals","title":"Osminog haqida 4 fakt"}]
+[
+ {
+  "id": "2026-10-13",
+  "topic": "osminog",
+  "category": "animals",
+  "title": "Osminog haqida 4 fakt"
+ },
+ {
+  "id": "2026-10-13-kredit",
+  "topic": "telefonni kreditga olish",
+  "category": "pul va hayot",
+  "title": "Telefonni kreditga olish: 1 yoki 2?",
+  "format": "story",
+  "music": "music/memes.mp3"
+ }
+]

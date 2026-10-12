@@ -1,0 +1,56 @@
+{
+ "id": "2026-10-13",
+ "topic": "osminog",
+ "accent": "#3fa9ff",
+ "hook": "OSMINOG HAQIDA 4 FAKT",
+ "scenes": [
+  {
+   "kind": "intro",
+   "emoji": "🐙",
+   "title": "Osminog",
+   "sub": "Yerdagi eng g'alati jonzot",
+   "voice": "Osminog — Yerdagi eng g'alati jonzotlardan biri."
+  },
+  {
+   "kind": "count",
+   "emoji": "❤️",
+   "n": 3,
+   "repeat": true,
+   "unit": "ta yurak",
+   "title": "Uchta yurak",
+   "voice": "Uning bitta emas, uchta yuragi bor."
+  },
+  {
+   "kind": "emoji",
+   "emoji": "🩸",
+   "orbit": "💙",
+   "title": "Ko'k qon",
+   "sub": "qizil emas — ko'k",
+   "voice": "Qoni esa qizil emas — ko'k rangda."
+  },
+  {
+   "kind": "percent",
+   "emoji": "🦾",
+   "n": 67,
+   "unit": "%",
+   "title": "Aqlli qo'llar",
+   "sub": "neyronlarining 2/3 qismi qo'llarida",
+   "voice": "Miya hujayralarining uchdan ikki qismi qo'llarida joylashgan. Har bir qo'li o'zicha \"o'ylaydi\"."
+  },
+  {
+   "kind": "emoji",
+   "emoji": "🎨",
+   "orbit": "🌈",
+   "title": "Bir soniyada",
+   "sub": "ranglarni ko'rmaydi, lekin rangini o'zgartiradi",
+   "voice": "Eng qizig'i: u ranglarni ko'rmaydi, lekin terisi rangini bir soniyada o'zgartira oladi."
+  },
+  {
+   "kind": "outro",
+   "title": "Obuna bo'ling",
+   "sub": "@thefactlab.daily",
+   "voice": "Yana shunday faktlar uchun obuna bo'ling!"
+  }
+ ],
+ "caption": "🐙 Osminog haqida 4 ta aql bovar qilmaydigan fakt!\n\n❤️ 3 ta yurak\n💙 Ko'k qon\n🦾 Neyronlarining 2/3 qismi qo'llarida\n🎨 Ranglarni ko'rmaydi, lekin rangini bir zumda o'zgartiradi\n\nQaysi fakt sizni ko'proq hayratga soldi? Izohda yozing 👇\n\nHar kuni yangi fakt uchun obuna bo'ling 👉 @thefactlab.daily\n\n#faktlar #qiziqarlifaktlar #osminog #hayvonlar #bilasizmi #uzbekistan #ozbekcha #fakt #reels #thefactlab"
+}

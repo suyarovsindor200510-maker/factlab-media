@@ -168,6 +168,30 @@ def sfx_track(spec, tl, wd):
     sf.write(f'{wd}/sfx.wav', mix, SR)
 
 
+def resolve_word_timing(spec, tl):
+    """Turn {"w": "keyword"} anchors into scene-relative seconds using the transcript word times."""
+    W = tl.get('words')
+    if not W: return
+    import re as _re
+    norm = lambda x: _re.sub(r"[^a-z0-9']", '', x.lower().replace('\u2019', "'").replace('\u02bb', "'"))
+    def find(i, key, nth=1):
+        k = norm(key); c = 0
+        for w in W[i]:
+            if norm(w[0]).startswith(k):
+                c += 1
+                if c == nth: return round(w[1] - tl['starts'][i], 2)
+        return None
+    for i, s in enumerate(spec['scenes']):
+        for it in s.get('stickers', []) + s.get('rows', []) + s.get('sfx', []):
+            if 'w' in it:
+                v = find(i, it['w'], it.get('nth', 1))
+                if v is not None: it['at'] = round(v + it.get('dt', 0), 2)
+        if 'sub_w' in s:
+            v = find(i, s['sub_w']); s['sub_at'] = v if v is not None else s.get('sub_at', 1)
+        if 'badge_w' in s:
+            s['badge_at'] = [find(i, k) or 1.0 for k in s['badge_w']]
+
+
 def fake_timeline(spec):
     starts, durs, t = [], [], LEAD
     for s in spec['scenes']:
@@ -240,7 +264,8 @@ def main():
         tl = split_by_words(mp3, spec, W, wd, gap=spec.get('gap'))
     else:
         tl = split_voice(mp3, n, wd, [sc.get('voice', '') for sc in spec['scenes']])
-    print('timeline', tl)
+    print('timeline', tl['starts'], tl['total'])
+    resolve_word_timing(spec, tl)
     build_html(spec, tl, wd)
     seed = sum(map(ord, spec.get('id', 'x'))) % 1000
     music(tl, wd, seed, spec)

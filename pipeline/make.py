@@ -232,7 +232,9 @@ def main():
     n = len(spec['scenes'])
     wf = sys.argv[4] if len(sys.argv) > 4 else None
     if wf:
-        tl = split_by_words(mp3, spec, json.load(open(wf)), wd, gap=spec.get('gap'))
+        W = json.load(open(wf)); W = W.get('words', W) if isinstance(W, dict) else W
+        W = [w for w in W if w.get('type', 'word') == 'word']
+        tl = split_by_words(mp3, spec, W, wd, gap=spec.get('gap'))
     else:
         tl = split_voice(mp3, n, wd, [sc.get('voice', '') for sc in spec['scenes']])
     print('timeline', tl)
@@ -248,7 +250,7 @@ def main():
     fxs = f';[2:a]volume={spec.get("sfx_vol", 0.9)}[fx]' if has_sfx else ''
     sh(f'ffmpeg -y -i "{wd}/voice.wav" -i "{wd}/music.wav"{sx} -filter_complex '
        f'"[0:a]aformat=channel_layouts=stereo,highpass=f=70,acompressor=threshold=0.1:ratio=3:attack=5:release=80,volume=1.15,asplit[v][sc];'
-       f'[1:a]bass=g=4:f=90,volume={mv}[m];'
+       f'[1:a]bass=g=1.5:f=90,volume={mv}[m];'
        f'[m][sc]sidechaincompress=threshold=0.05:ratio=4:attack=10:release=250[md]{fxs};'
        f'{mixin},alimiter=limit=0.95,loudnorm=I=-13:TP=-1.0:LRA=9[o]" -map "[o]" -ar 48000 "{wd}/audio.wav"')
     fr = f'{wd}/fr'; shutil.rmtree(fr, ignore_errors=True); os.makedirs(fr)

@@ -12,5 +12,13 @@
   "title": "Telefonni kreditga olish: 1 yoki 2?",
   "format": "story",
   "music": "music/memes.mp3"
+ },
+ {
+  "id": "2026-10-13-daftar",
+  "topic": "to'y daftari",
+  "category": "milliy urf-odat",
+  "title": "To'y daftari kerakmi? 1 yoki 2",
+  "format": "story",
+  "music": "music/mortals-funk-remix.mp3"
  }
 ]

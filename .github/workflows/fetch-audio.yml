@@ -24,8 +24,9 @@ jobs:
               for url, path in items:
                   if os.path.exists(path): continue
                   os.makedirs(os.path.dirname(path), exist_ok=True)
-                  r = subprocess.run(['curl', '-fsSL', '--retry', '3', '-o', path, url])
-                  print(path, 'ok' if r.returncode == 0 else f'FAILED {r.returncode}')
+                  r = subprocess.run(['curl', '-fsSL', '--retry', '3', '-A', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/126 Safari/537.36', '-o', path, url], capture_output=True, text=True)
+                  msg = f"{path} {'ok' if r.returncode == 0 else 'FAILED ' + str(r.returncode) + ' ' + r.stderr.strip()[:200]}"
+                  print(msg); open('assets/_fetch.log', 'a').write(msg + '\n')
                   if r.returncode and os.path.exists(path): os.remove(path)
           PY
       - name: Commit

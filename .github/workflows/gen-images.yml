@@ -1,0 +1,63 @@
+name: Generate images
+on:
+  push:
+    paths: ["imgjobs/*.json"]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: fetch
+  cancel-in-progress: false
+jobs:
+  gen:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Generate with Cloudflare Workers AI
+        env:
+          CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
+          CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+        run: |
+          python3 - <<'PY'
+          import json, glob, os, subprocess, base64
+          acc, tok = os.environ.get('CF_ACCOUNT_ID', ''), os.environ.get('CF_API_TOKEN', '')
+          log = open('assets/_gen.log', 'a')
+          if not acc or not tok:
+              log.write('MISSING SECRETS CF_ACCOUNT_ID / CF_API_TOKEN\n'); raise SystemExit(0)
+          for f in sorted(glob.glob('imgjobs/*.json')):
+              for it in json.load(open(f)):
+                  path = it['path']
+                  if os.path.exists(path): continue
+                  os.makedirs(os.path.dirname(path), exist_ok=True)
+                  model = it.get('model', '@cf/black-forest-labs/flux-2-klein-4b')
+                  url = f'https://api.cloudflare.com/client/v4/accounts/{acc}/ai/run/{model}'
+                  args = ['curl', '-sS', '-X', 'POST', url, '-H', f'Authorization: Bearer {tok}', '-o', '/tmp/resp',
+                          '-w', '%{http_code} %{content_type}',
+                          '-F', f"prompt={it['prompt']}", '-F', f"width={it.get('w', 768)}", '-F', f"height={it.get('h', 1344)}"]
+                  if 'seed' in it: args += ['-F', f"seed={it['seed']}"]
+                  if 'guidance' in it: args += ['-F', f"guidance={it['guidance']}"]
+                  for k, ref in enumerate(it.get('refs', [])[:4]):
+                      args += ['-F', f'input_image_{k}=@{ref}']
+                  r = subprocess.run(args, capture_output=True, text=True)
+                  info = r.stdout.strip(); data = open('/tmp/resp', 'rb').read()
+                  ok = False
+                  if data[:4] in (b'\x89PNG', b'\xff\xd8\xff\xe0', b'\xff\xd8\xff\xe1', b'\xff\xd8\xff\xdb', b'RIFF'):
+                      open(path, 'wb').write(data); ok = True
+                  else:
+                      try:
+                          j = json.loads(data); img = (j.get('result') or {}).get('image')
+                          if img: open(path, 'wb').write(base64.b64decode(img)); ok = True
+                          else: info += ' ' + data[:300].decode('utf8', 'replace')
+                      except Exception as e:
+                          info += f' parse-error {e} ' + data[:200].decode('utf8', 'replace')
+                  log.write(f"{path} {'ok' if ok else 'FAILED'} {info}\n"); print(path, ok, info)
+          PY
+      - name: Commit
+        run: |
+          git config user.name "factlab-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A assets
+          if git diff --cached --quiet; then echo "nothing"; exit 0; fi
+          git commit -q -m "generated images"
+          for i in 1 2 3 4 5; do git pull -q --rebase -X theirs origin main && git push -q origin HEAD:main && exit 0; sleep 5; done
+          exit 1

@@ -13,6 +13,7 @@ jobs:
       - name: Download files listed in jobs
         run: |
           set -e
+          grep -q '"trim"' jobs/*.json 2>/dev/null && (which ffmpeg || (sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg)) || true
           mkdir -p audio assets music
           python3 - <<'PY'
           import json, glob, os, subprocess
@@ -33,7 +34,8 @@ jobs:
                   if r.returncode and os.path.exists(path): os.remove(path)
                   elif it_trim.get(path):
                       tmp = path + '.tmp.mp3'; os.rename(path, tmp)
-                      subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', tmp, '-t', str(it_trim[path]), '-ac', '2', '-ar', '44100', '-b:a', '128k', path], check=True); os.remove(tmp)
+                      rr = subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', tmp, '-t', str(it_trim[path]), '-ac', '2', '-ar', '44100', '-b:a', '128k', path])
+                      os.replace(tmp, path) if rr.returncode else os.remove(tmp)
           PY
       - name: Commit
         run: |

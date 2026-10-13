@@ -23,9 +23,13 @@ async def one(it):
 
 async def main():
     for f in sorted(glob.glob('tts/*.json')):
-        for it in json.load(open(f))['items']:
+        j = json.load(open(f))
+        if j.get('engine', 'edge') != 'edge': continue
+        for it in j['items']:
             try: msg = await one(it)
-            except Exception as e: msg = f"{it['path']} FAILED {e}"
+            except Exception as e:
+                msg = f"{it['path']} FAILED {e}"
+                if os.path.exists(it['path']): os.remove(it['path'])
             print(msg); open('assets/_tts.log', 'a').write(msg + '\n')
 
 asyncio.run(main())

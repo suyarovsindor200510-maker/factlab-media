@@ -1,0 +1,54 @@
+{
+ "id": "2026-10-13-ijara",
+ "format": "story",
+ "uzmusic": "shox",
+ "music_vol": 0.4,
+ "seed": 41,
+ "cover_t": 0.9,
+ "gap": 0.12,
+ "hud": {"label": "SABR", "levels": [100, 90, 70, 45, 25, 5, 5, 0], "clock": ["08:00", "09:30", "11:00", "14:00", "17:00", "22:00", "22:30", "23:59"]},
+ "scenes": [
+  {"kind": "image", "img": "assets/2026-10-13-ijara/1.png", "voice": "Toshkentda ijara kvartira topish — bu haqiqiy missiya!",
+   "stickers": [
+    {"t": "Toshkentda ijara:\n[imkonsiz missiya?]", "style": "head", "x": 270, "y": 118, "size": 27, "at": 0.0, "sfx": "boom"},
+    {"t": "IZOHDA: NECHTA UY KO'RDINGIZ?", "style": "yellow", "x": 270, "y": 830, "size": 21, "w": "missiya", "sfx": "pop", "r": -2}
+   ]},
+  {"kind": "image", "img": "assets/2026-10-13-ijara/2.png", "voice": "Aziz e'lon topdi: arzon, metroga yaqin, yevroremont!",
+   "stickers": [
+    {"t": "E'lon: [ideal kvartira]", "style": "head", "x": 270, "y": 118, "size": 26, "w": "Aziz", "sfx": "ding"},
+    {"t": "ARZON + METRO + REMONT", "style": "paper", "x": 270, "y": 830, "size": 24, "w": "metroga", "r": 2}
+   ]},
+  {"kind": "image", "img": "assets/2026-10-13-ijara/3.png", "voice": "Uka, biz faqat oilaga beramiz. Bo'ydoqqa yo'q!",
+   "stickers": [
+    {"t": "1-uy: [faqat oilaga]", "style": "head", "x": 270, "y": 118, "size": 26, "w": "Uka", "sfx": "whoosh"},
+    {"t": "RAD ETILDI", "style": "red", "x": 270, "y": 830, "size": 34, "w": "Bo'ydoqqa", "sfx": "stamp", "r": -3}
+   ]},
+  {"kind": "image", "img": "assets/2026-10-13-ijara/4.png", "voice": "Ikkinchisi rasmda saroy edi... haqiqatda esa — mana.",
+   "stickers": [
+    {"t": "2-uy: [rasmda saroy]", "style": "head", "x": 270, "y": 118, "size": 26, "w": "Ikkinchisi", "sfx": "swish"},
+    {"t": "HAQIQATDA: SHIFT TOMCHILAYDI", "style": "red", "x": 270, "y": 830, "size": 21, "w": "mana", "sfx": "fail", "r": 2}
+   ]},
+  {"kind": "image", "img": "assets/2026-10-13-ijara/5.png", "voice": "Kvartira zo'r, aka! Faqat mening xizmat haqim alohida, xo'pmi?",
+   "stickers": [
+    {"t": "3-uy: [makler]", "style": "head", "x": 270, "y": 118, "size": 26, "w": "Kvartira", "sfx": "ding"},
+    {"t": "+ XIZMAT HAQI", "style": "red", "x": 270, "y": 830, "size": 30, "w": "xizmat", "sfx": "kaching", "r": -2}
+   ]},
+  {"kind": "image", "img": "assets/2026-10-13-ijara/6.png", "silent": 2.3,
+   "stickers": [
+    {"t": "Kech soat 22:00... [sabr tugadi]", "style": "head", "x": 270, "y": 118, "size": 25, "at": 0.1, "sfx": "tick"},
+    {"t": "SABR: 5%", "style": "dark", "x": 270, "y": 830, "size": 28, "at": 0.9, "sfx": "fail", "r": 2}
+   ]},
+  {"kind": "image", "img": "assets/2026-10-13-ijara/7.png", "voice": "Bolam, qo'y shu Toshkentni! Qishloqda hovli bo'm-bo'sh turibdi!",
+   "stickers": [
+    {"t": "Oyim [qo'ng'iroq qildi]", "style": "head", "x": 270, "y": 118, "size": 26, "w": "Bolam", "sfx": "ding"},
+    {"t": "HOVLI BO'M-BO'SH :)", "style": "yellow", "x": 270, "y": 830, "size": 26, "w": "Qishloqda", "r": -2}
+   ]},
+  {"kind": "image", "img": "assets/2026-10-13-ijara/8.png", "silent": 4.2,
+   "stickers": [
+    {"t": "Siz [nechta] uy ko'rgansiz?", "style": "head", "x": 270, "y": 118, "size": 27, "at": 0.1, "sfx": "whoosh"},
+    {"t": "7 ta :)", "type": true, "style": "input", "x": 270, "y": 812, "size": 20, "at": 0.8, "sfx": "pop"},
+    {"t": "IJARA IZLAYOTGAN DO'STINGIZGA YUBORING", "style": "yellow", "x": 270, "y": 880, "size": 16, "at": 2.2, "sfx": "ding", "r": -1}
+   ]}
+ ],
+ "caption": "Toshkentda ijara kvartira topish — imkonsiz missiya? 🏠😅\n\nFaqat oilaga… rasmda saroy… makler haqi alohida…\nTanish holatmi?\n\n👇 Siz nechta uy ko'rib topgansiz? Faqat raqam yozing!\n📲 Ijara izlayotgan do'stingizga yuboring\n\n#ijara #toshkent #kvartira #ozbekcha #thefactlab"
+}

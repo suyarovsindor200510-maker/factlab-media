@@ -1,0 +1,263 @@
+{
+ "id": "2026-10-14-orol",
+ "format": "story",
+ "uzmusic": "dramatic",
+ "music_vol": 0.35,
+ "seed": 17,
+ "cover_t": 0.9,
+ "gap": 0.1,
+ "hud": {
+  "label": "SUV",
+  "levels": [
+   10,
+   100,
+   100,
+   80,
+   10,
+   5,
+   5,
+   5
+  ],
+  "clock": [
+   "2026",
+   "1960",
+   "1960",
+   "1970",
+   "2010",
+   "2026",
+   "2026",
+   "2026"
+  ]
+ },
+ "scenes": [
+  {
+   "kind": "image",
+   "img": "assets/2026-10-14-orol/1.png",
+   "voice": "Bu kemalar dengizda emas, cho'lda turibdi. Nega?",
+   "stickers": [
+    {
+     "t": "Kemalar [cho'lda?!]",
+     "style": "head",
+     "x": 270,
+     "y": 118,
+     "size": 34,
+     "sfx": "boom",
+     "at": 0.0
+    },
+    {
+     "t": "NEGA?",
+     "style": "red",
+     "x": 270,
+     "y": 830,
+     "size": 44,
+     "sfx": "stamp",
+     "w": "Nega",
+     "r": -3
+    }
+   ]
+  },
+  {
+   "kind": "image",
+   "img": "assets/2026-10-14-orol/2.png",
+   "voice": "Bu — Orol dengizi. Bir paytlar dunyodagi eng katta to'rtinchi ko'l edi.",
+   "stickers": [
+    {
+     "t": "Bu — [Orol dengizi]",
+     "style": "head",
+     "x": 270,
+     "y": 118,
+     "size": 28,
+     "sfx": "whoosh",
+     "w": "Orol"
+    },
+    {
+     "t": "DUNYODA 4-O'RINDAGI KO'L",
+     "style": "yellow",
+     "x": 270,
+     "y": 830,
+     "size": 24,
+     "sfx": "pop",
+     "w": "to'rtinchi",
+     "r": -1
+    }
+   ]
+  },
+  {
+   "kind": "image",
+   "img": "assets/2026-10-14-orol/3.png",
+   "voice": "Mo'ynoq baliqchilar shahri edi, portda kemalar to'la edi.",
+   "stickers": [
+    {
+     "t": "Mo'ynoq — [baliqchilar shahri]",
+     "style": "head",
+     "x": 270,
+     "y": 118,
+     "size": 26,
+     "sfx": "whoosh",
+     "w": "Mo'ynoq"
+    },
+    {
+     "t": "PORTDA KEMALAR TO'LA",
+     "style": "paper",
+     "x": 270,
+     "y": 830,
+     "size": 24,
+     "sfx": "pop",
+     "w": "portda",
+     "r": 1
+    }
+   ]
+  },
+  {
+   "kind": "image",
+   "img": "assets/2026-10-14-orol/4.png",
+   "voice": "Oltmishinchi yillarda Amudaryo va Sirdaryo suvi paxta dalalariga burib yuborildi.",
+   "stickers": [
+    {
+     "t": "[1960]-yillar",
+     "style": "head",
+     "x": 270,
+     "y": 118,
+     "size": 28,
+     "sfx": "tick",
+     "w": "Oltmishinchi"
+    },
+    {
+     "t": "DARYOLAR → PAXTAGA",
+     "style": "red",
+     "x": 270,
+     "y": 830,
+     "size": 24,
+     "sfx": "whoosh",
+     "w": "paxta",
+     "r": -1
+    }
+   ]
+  },
+  {
+   "kind": "image",
+   "img": "assets/2026-10-14-orol/5.png",
+   "voice": "Natijada dengizning qariyb to'qson foizi qurib qoldi.",
+   "stickers": [
+    {
+     "t": "Dengizning [90%] i quridi",
+     "style": "head",
+     "x": 270,
+     "y": 118,
+     "size": 28,
+     "sfx": "boom",
+     "w": "Natijada"
+    },
+    {
+     "t": "-90%",
+     "style": "red",
+     "x": 270,
+     "y": 830,
+     "size": 46,
+     "sfx": "stamp",
+     "w": "to'qson",
+     "r": -3
+    }
+   ]
+  },
+  {
+   "kind": "image",
+   "img": "assets/2026-10-14-orol/6.png",
+   "voice": "O'rnida yangi cho'l paydo bo'ldi: Orolqum.",
+   "stickers": [
+    {
+     "t": "Yangi cho'l: [Orolqum]",
+     "style": "head",
+     "x": 270,
+     "y": 118,
+     "size": 28,
+     "sfx": "whoosh",
+     "w": "O'rnida"
+    },
+    {
+     "t": "TUZ VA CHANG BO'RONLARI",
+     "style": "dark",
+     "x": 270,
+     "y": 830,
+     "size": 24,
+     "sfx": "pop",
+     "w": "Orolqum",
+     "r": 1
+    }
+   ]
+  },
+  {
+   "kind": "image",
+   "img": "assets/2026-10-14-orol/7.png",
+   "voice": "Sizningcha, Orolni qutqarib bo'ladimi? Ha yoki yo'q, izohda yozing!",
+   "stickers": [
+    {
+     "t": "Orolni [qutqarib] bo'ladimi?",
+     "style": "head",
+     "x": 270,
+     "y": 118,
+     "size": 28,
+     "sfx": "whoosh",
+     "w": "Sizningcha"
+    },
+    {
+     "t": "Ha, albatta!",
+     "type": true,
+     "style": "input",
+     "x": 270,
+     "y": 812,
+     "size": 20,
+     "w": "Ha",
+     "sfx": "pop"
+    },
+    {
+     "t": "DO'STINGIZGA YUBORING",
+     "style": "yellow",
+     "x": 270,
+     "y": 880,
+     "size": 18,
+     "w": "izohda",
+     "dt": 0.5,
+     "sfx": "ding",
+     "r": -1
+    }
+   ]
+  },
+  {
+   "kind": "image",
+   "img": "assets/2026-10-14-orol/7.png",
+   "silent": 2.2,
+   "stickers": [
+    {
+     "t": "Orolni [qutqarib] bo'ladimi?",
+     "style": "head",
+     "x": 270,
+     "y": 118,
+     "size": 28,
+     "at": 0,
+     "nofx": true
+    },
+    {
+     "t": "Ha, albatta!",
+     "style": "input",
+     "x": 270,
+     "y": 812,
+     "size": 20,
+     "at": 0,
+     "nofx": true
+    },
+    {
+     "t": "DO'STINGIZGA YUBORING",
+     "style": "yellow",
+     "x": 270,
+     "y": 880,
+     "size": 18,
+     "r": -1,
+     "at": 0,
+     "nofx": true
+    }
+   ]
+  }
+ ],
+ "caption": "Orol dengizi qanday qurib qoldi? 🌊➡️🏜️\n\nBir paytlar dunyodagi eng katta 4-ko'l edi (68 000 km²). 1960-yillardan Amudaryo va Sirdaryo suvi paxta dalalariga burildi — dengizning qariyb 90% i quridi, o'rnida Orolqum cho'li paydo bo'ldi.\n\n👇 Sizningcha, Orolni qutqarib bo'ladimi? Ha yoki yo'q — izohda yozing!\n📲 Do'stingizga yuboring\n\n#orol #oroldengizi #ozbekiston #moynoq #thefactlab"
+}

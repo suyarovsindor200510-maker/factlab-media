@@ -1,0 +1,264 @@
+{
+ "id": "2026-10-14-ayolburch",
+ "format": "story",
+ "uzmusic": "bazm",
+ "music_vol": 0,
+ "sfx_vol": 0.55,
+ "seed": 23,
+ "cover_t": 1.0,
+ "gap": 0.12,
+ "hud": {
+  "label": "BURCH",
+  "levels": [
+   0,
+   20,
+   40,
+   60,
+   80,
+   100,
+   100,
+   100
+  ],
+  "clock": [
+   "0/5",
+   "1/5",
+   "2/5",
+   "3/5",
+   "4/5",
+   "5/5",
+   "5/5",
+   "5/5"
+  ]
+ },
+ "scenes": [
+  {
+   "kind": "image",
+   "img": "assets/2026-10-14-ayolburch/1.png",
+   "voice": "Kecha erning beshta burchini aytdik. Bugun navbat ayolga!",
+   "stickers": [
+    {
+     "t": "Kecha erlar edi...\n[Bugun AYOLLAR!]",
+     "style": "head",
+     "x": 270,
+     "y": 118,
+     "size": 28,
+     "sfx": "boom",
+     "at": 0.0
+    },
+    {
+     "t": "AYOLNING 5 BURCHI",
+     "style": "yellow",
+     "x": 270,
+     "y": 830,
+     "size": 24,
+     "sfx": "pop",
+     "w": "navbat",
+     "r": -1
+    }
+   ]
+  },
+  {
+   "kind": "image",
+   "img": "assets/2026-10-14-ayolburch/2.png",
+   "voice": "Birinchisi: yaxshilikda eriga itoat qilish.",
+   "stickers": [
+    {
+     "t": "1 · [ITOAT]",
+     "style": "head",
+     "x": 270,
+     "y": 118,
+     "size": 34,
+     "sfx": "ding",
+     "w": "Birinchisi"
+    },
+    {
+     "t": "YAXSHILIKDA · NISO, 34",
+     "style": "paper",
+     "x": 270,
+     "y": 830,
+     "size": 24,
+     "sfx": "pop",
+     "w": "yaxshilikda",
+     "r": -1
+    }
+   ]
+  },
+  {
+   "kind": "image",
+   "img": "assets/2026-10-14-ayolburch/3.png",
+   "voice": "Ikkinchisi: eri yo'qligida o'zini va uning molini asrash.",
+   "stickers": [
+    {
+     "t": "2 · [OMONAT]",
+     "style": "head",
+     "x": 270,
+     "y": 118,
+     "size": 34,
+     "sfx": "ding",
+     "w": "Ikkinchisi"
+    },
+    {
+     "t": "NISO SURASI, 34-OYAT",
+     "style": "paper",
+     "x": 270,
+     "y": 830,
+     "size": 24,
+     "sfx": "pop",
+     "w": "yo'qligida",
+     "r": 1
+    }
+   ]
+  },
+  {
+   "kind": "image",
+   "img": "assets/2026-10-14-ayolburch/4.png",
+   "voice": "Uchinchisi: eri yoqtirmagan odamni uyga kiritmaslik.",
+   "stickers": [
+    {
+     "t": "3 · [UYGA KIM KIRADI]",
+     "style": "head",
+     "x": 270,
+     "y": 118,
+     "size": 30,
+     "sfx": "ding",
+     "w": "Uchinchisi"
+    },
+    {
+     "t": "MUSLIM RIVOYATI",
+     "style": "paper",
+     "x": 270,
+     "y": 830,
+     "size": 24,
+     "sfx": "pop",
+     "w": "uyga",
+     "r": -1
+    }
+   ]
+  },
+  {
+   "kind": "image",
+   "img": "assets/2026-10-14-ayolburch/5.png",
+   "voice": "To'rtinchisi: uy va farzandlar tarbiyasiga mas'ul bo'lish.",
+   "stickers": [
+    {
+     "t": "4 · [TARBIYA]",
+     "style": "head",
+     "x": 270,
+     "y": 118,
+     "size": 34,
+     "sfx": "ding",
+     "w": "To'rtinchisi"
+    },
+    {
+     "t": "BUXORIY VA MUSLIM",
+     "style": "paper",
+     "x": 270,
+     "y": 830,
+     "size": 24,
+     "sfx": "pop",
+     "w": "farzandlar",
+     "r": 1
+    }
+   ]
+  },
+  {
+   "kind": "image",
+   "img": "assets/2026-10-14-ayolburch/6.png",
+   "voice": "Beshinchisi: erini xursand qiladigan shirin muomala.",
+   "stickers": [
+    {
+     "t": "5 · [SHIRIN MUOMALA]",
+     "style": "head",
+     "x": 270,
+     "y": 118,
+     "size": 30,
+     "sfx": "ding",
+     "w": "Beshinchisi"
+    },
+    {
+     "t": "NASOIY RIVOYATI",
+     "style": "paper",
+     "x": 270,
+     "y": 830,
+     "size": 24,
+     "sfx": "pop",
+     "w": "xursand",
+     "r": -1
+    }
+   ]
+  },
+  {
+   "kind": "image",
+   "img": "assets/2026-10-14-ayolburch/7.png",
+   "voice": "Siz qaysi birini eng muhim deb bilasiz? Raqamini yozing va turmush o'rtog'ingizga yuboring!",
+   "stickers": [
+    {
+     "t": "Qaysi biri [eng muhim?]",
+     "style": "head",
+     "x": 270,
+     "y": 118,
+     "size": 28,
+     "sfx": "whoosh",
+     "w": "Siz"
+    },
+    {
+     "t": "2 - omonat",
+     "type": true,
+     "style": "input",
+     "x": 270,
+     "y": 812,
+     "size": 20,
+     "w": "Raqamini",
+     "sfx": "pop"
+    },
+    {
+     "t": "TURMUSH O'RTOG'INGIZGA YUBORING",
+     "style": "yellow",
+     "x": 270,
+     "y": 880,
+     "size": 17,
+     "w": "yozing",
+     "dt": 0.5,
+     "sfx": "ding",
+     "r": -1
+    }
+   ]
+  },
+  {
+   "kind": "image",
+   "img": "assets/2026-10-14-ayolburch/7.png",
+   "silent": 2.2,
+   "stickers": [
+    {
+     "t": "Qaysi biri [eng muhim?]",
+     "style": "head",
+     "x": 270,
+     "y": 118,
+     "size": 28,
+     "at": 0,
+     "nofx": true
+    },
+    {
+     "t": "2 - omonat",
+     "style": "input",
+     "x": 270,
+     "y": 812,
+     "size": 20,
+     "at": 0,
+     "nofx": true
+    },
+    {
+     "t": "TURMUSH O'RTOG'INGIZGA YUBORING",
+     "style": "yellow",
+     "x": 270,
+     "y": 880,
+     "size": 17,
+     "r": -1,
+     "at": 0,
+     "nofx": true
+    }
+   ]
+  }
+ ],
+ "caption": "Islomda ayolning eri oldidagi 5 burchi 🤲 (kecha — erning burchlari edi)\n\n1️⃣ Yaxshilikda itoat — Niso surasi, 34-oyat\n2️⃣ Eri yo'qligida o'zini va molini asrash — Niso, 34\n3️⃣ Eri yoqtirmagan odamni uyga kiritmaslik — Muslim rivoyati\n4️⃣ Uy va farzandlar tarbiyasiga mas'ullik — Buxoriy va Muslim\n5️⃣ Erini xursand qiladigan shirin muomala — Nasoiy rivoyati\n\nBurchlar ikki tomonlama: er ham, ayol ham bir-biriga mas'ul 🤝\n\n👇 Siz qaysi birini eng muhim deb bilasiz? Raqamini yozing!\n📲 Turmush o'rtog'ingizga yuboring\n\n#islom #oila #ayol #nikoh #thefactlab"
+}

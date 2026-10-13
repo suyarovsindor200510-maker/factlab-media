@@ -60,3 +60,7 @@ Commit + push; `git pull --rebase` until files exist (Action "Fetch audio"; log 
 
 ## Failure rules
 Image or voice generation fails twice → skip this slot, report why. ElevenLabs "Free Tier access disabled" / quota → report, do not loop.
+
+## Engine v3.1 (motion)
+story.html now has: alternating Ken-Burns camera per scene (zoom up to 1.14), 110 bpm beat pulse on the image, idle wobble on stickers, confetti burst when a sticker lands (`"nofx":true` on a sticker disables it). No config needed.
+Epidemic Sound download is FORBIDDEN (no subscription) → keep own `uzmusic` generator. Motion/HyperFrames are paid/unsuitable.

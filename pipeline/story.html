@@ -42,7 +42,7 @@ html,body{width:540px;height:960px;overflow:hidden;background:#111;font-family:O
 </style></head><body>
 <div id="cam"></div>
 <canvas id="grain" width="540" height="960"></canvas>
-<div id="vig"></div><div id="flash"></div>
+<canvas id="fx" width="1080" height="1920" style="position:absolute;left:0;top:0;width:540px;height:960px;z-index:48;pointer-events:none"></canvas><div id="vig"></div><div id="flash"></div>
 <div id="logo"><span>💡</span>FACT</div>
 <div id="cap"><span id="capT"></span></div>
 <div id="prog"></div>
@@ -86,6 +86,14 @@ function caption(t){if(TL.words)return capW(t);const el=$('capT');for(let i=0;i<
     const lp=C((t-acc)/d)*len;let c=0,html='';ch[j].forEach((wd,k)=>{const on=lp>=c&&lp<c+wd.length+1;html+=(k?' ':'')+(on?`<i>${wd}</i>`:wd);c+=wd.length+1});
     if(el.innerHTML!==html)el.innerHTML=html;const k=E.bk(P(t,acc-.03,acc+.18));el.style.opacity=P(t,acc-.03,acc+.06);el.style.transform=`scale(${L(.8,1,k)})`;return}acc+=d}}}
  el.style.opacity=0}
+const spec_bpm=110;
+// confetti bursts at sticker entries
+const EV=[];function collectEv(){SC.forEach((s,i)=>{(s.stickers||[]).forEach((k,j)=>{if(k.nofx)return;EV.push({t:st[i]+(k.at||0),x:k.x,y:k.y+20,n:i*10+j})})})}
+const FXC=['#ffd23f','#ff4d6d','#2ec4b6','#ffffff','#ff9f1c','#7b5cff'];
+function fx(t){const c=$('fx').getContext('2d');c.clearRect(0,0,1080,1920);
+ for(const e of EV){const a=t-e.t;if(a<0||a>.9)continue;let s=e.n*7919+13;const r=()=>{s=(s*16807)%2147483647;return s/2147483647};
+  for(let k=0;k<16;k++){const ang=r()*6.283,sp=120+r()*260,rot=r()*6+a*8,sz=7+r()*9;const x=(e.x+Math.cos(ang)*sp*a)*2,y=(e.y+Math.sin(ang)*sp*a+420*a*a)*2;
+   c.save();c.globalAlpha=Math.max(0,1-a/.9);c.translate(x,y);c.rotate(rot);c.fillStyle=FXC[k%6];if(k%3==0){c.beginPath();c.arc(0,0,sz*.8,0,6.283);c.fill()}else c.fillRect(-sz,-sz/2,sz*2,sz);c.restore()}}}
 // grain
 const GR=[];for(let k=0;k<4;k++){const c=document.createElement('canvas');c.width=270;c.height=480;const g=c.getContext('2d');const im=g.createImageData(270,480);
  for(let p=0;p<im.data.length;p+=4){const v=rnd()*255;im.data[p]=im.data[p+1]=im.data[p+2]=v;im.data[p+3]=255}g.putImageData(im,0,0);GR.push(c)}
@@ -94,11 +102,11 @@ function render(t){let fl=0,shake=0;
   const s=SC[i],u=t-a,D=b-a,ut=t-st[i];const ki=i==0?1:E.o3(P(t,a-.25,a+.12)),ko=i==N-1?0:E.i3(P(t,b-.12,b+.25));
   el.style.opacity=Math.min(ki,1-ko);el.style.zIndex=10+i;
   if(i>0&&u>=0&&u<.2)fl=Math.max(fl,(1-u/.2)*.35);
-  const img=el.querySelector('.bgimg');if(img){const kb=s.kb||[1.02,0,0,1.08,0,-10];const q=E.io(C(u/Math.max(1,D)));
-   const sc=L(kb[0],kb[3],q)*L(1.06,1,ki),x=L(kb[1],kb[4],q),y=L(kb[2],kb[5],q);img.style.transform=`translate(${x}px,${y}px) scale(${sc})`;
+  const img=el.querySelector('.bgimg');if(img){const KB=[[1.03,-16,8,1.14,14,-10],[1.14,12,-8,1.03,-14,10],[1.04,14,10,1.13,-12,-8],[1.13,-10,-10,1.03,12,10]];const kb=s.kb||KB[i%4];const q=E.io(C(u/Math.max(1,D)));
+   const bp=Math.max(0,1-((t*(spec_bpm/60))%1)*3.2);const sc=L(kb[0],kb[3],q)*L(1.06,1,ki)*(1+.014*bp),x=L(kb[1],kb[4],q),y=L(kb[2],kb[5],q);img.style.transform=`translate(${x}px,${y}px) scale(${sc})`;
    img.style.filter=(s.kind=='card'||s.kind=='bigstat'||s.blur)?'blur(6px) brightness(.85)':'contrast(1.06) saturate(1.12)'}
   el.querySelectorAll('.st[data-at]').forEach(e=>{const at=parseFloat(e.dataset.at),r=parseFloat(e.dataset.r);const k=P(ut,at,at+.32);
-   if(ut>=at&&ut<at+.12)shake=Math.max(shake,1-(ut-at)/.12);S(e,{op:P(ut,at,at+.04),s:L(1.9,1,E.bk(k)),r:L(r*3,r,E.o3(k))})});
+   if(ut>=at&&ut<at+.12)shake=Math.max(shake,1-(ut-at)/.12);const idle=ut>at+.4?1:0;S(e,{op:P(ut,at,at+.04),s:L(1.9,1,E.bk(k))*(1+idle*.025*Math.sin(t*6.5+at*3)),r:L(r*3,r,E.o3(k))+idle*1.6*Math.sin(t*4.2+at)})});
   if(s.kind=='card'){const cd=el.querySelector('.card');S(cd,{op:P(u,0,.15),y:(1-E.bk(P(u,0,.45)))*120,r:L(-6,-1.2,E.o3(P(u,0,.5)))});
    el.querySelectorAll('.row').forEach((r,k)=>{const t0=s.rows[k].at!=null?s.rows[k].at:.35+k*Math.max(.5,(D-1.2)/Math.max(1,s.rows.length));S(r,{op:P(ut,t0,t0+.15),x:(1-E.o3(P(ut,t0,t0+.35)))*-30});
     const v=r.querySelector('.v'),vv=parseFloat(v.dataset.v)*E.o3(P(ut,t0,t0+.8)),dd=+v.dataset.d;v.textContent=v.dataset.p+(dd?vv.toFixed(dd):fmt(vv))+v.dataset.u;
@@ -108,9 +116,9 @@ function render(t){let fl=0,shake=0;
   if(s.kind=='choice')el.querySelectorAll('.badge').forEach((e,k)=>{const t0=(s.badge_at||[.6,1.4])[k];S(e,{op:P(ut,t0,t0+.05),s:L(2.2,1,E.bk(P(ut,t0,t0+.35)))*(1+.05*Math.sin(t*6+k))});if(ut>=t0&&ut<t0+.1)shake=Math.max(shake,.8)})
  }
  const sx=shake*(Math.sin(t*97)*5),sy=shake*(Math.cos(t*83)*5);$('cam').style.transform=`translate(${sx}px,${sy}px)`;
- $('flash').style.opacity=fl;caption(t);
+ $('flash').style.opacity=fl;caption(t);fx(t);
  const g=$('grain').getContext('2d');g.drawImage(GR[Math.floor(t*12)%4],0,0,540,960);
  $('prog').style.width=(540*t/TL.total).toFixed(1)+'px'}
 window.render=render;window.TOTAL=TL.total;
-Promise.all([document.fonts.ready,...[...document.images].map(im=>im.decode().catch(()=>0))]).then(()=>{layout();window.READY=1;render(0)});
+collectEv();Promise.all([document.fonts.ready,...[...document.images].map(im=>im.decode().catch(()=>0))]).then(()=>{layout();window.READY=1;render(0)});
 </script></body></html>

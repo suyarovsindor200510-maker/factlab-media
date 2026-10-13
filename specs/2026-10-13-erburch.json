@@ -1,0 +1,264 @@
+{
+ "id": "2026-10-13-erburch",
+ "format": "story",
+ "uzmusic": "bazm",
+ "music_vol": 0,
+ "sfx_vol": 0.55,
+ "seed": 91,
+ "cover_t": 1.6,
+ "gap": 0.15,
+ "hud": {
+  "label": "BURCH",
+  "levels": [
+   0,
+   20,
+   40,
+   60,
+   80,
+   100,
+   100,
+   100
+  ],
+  "clock": [
+   "0/5",
+   "1/5",
+   "2/5",
+   "3/5",
+   "4/5",
+   "5/5",
+   "5/5",
+   "5/5"
+  ]
+ },
+ "scenes": [
+  {
+   "kind": "image",
+   "img": "assets/2026-10-13-erburch/1.png",
+   "voice": "Islomda er kishining ayoli oldida beshta majburiyati bor. Ko'pchilik faqat ikkitasini biladi.",
+   "stickers": [
+    {
+     "t": "Erning [5 ta] majburiyati",
+     "style": "head",
+     "x": 270,
+     "y": 118,
+     "size": 26,
+     "sfx": "whoosh",
+     "w": "Islomda"
+    },
+    {
+     "t": "KO'PCHILIK FAQAT 2 TASINI BILADI",
+     "style": "yellow",
+     "x": 270,
+     "y": 830,
+     "size": 22,
+     "sfx": "pop",
+     "w": "Ko'pchilik",
+     "r": -1
+    }
+   ]
+  },
+  {
+   "kind": "image",
+   "img": "assets/2026-10-13-erburch/2.png",
+   "voice": "Birinchisi: mahr. Qur'onda: Ayollarga mahrlarini ko'ngildan chiqarib bering, deyilgan.",
+   "stickers": [
+    {
+     "t": "1 · [MAHR]",
+     "style": "head",
+     "x": 270,
+     "y": 118,
+     "size": 34,
+     "sfx": "ding",
+     "w": "Birinchisi"
+    },
+    {
+     "t": "NISO SURASI, 4-OYAT",
+     "style": "paper",
+     "x": 270,
+     "y": 830,
+     "size": 22,
+     "sfx": "pop",
+     "w": "Qur'onda",
+     "r": -1
+    }
+   ]
+  },
+  {
+   "kind": "image",
+   "img": "assets/2026-10-13-erburch/3.png",
+   "voice": "Ikkinchisi: nafaqa. Ayolining ovqati va kiyimi erning zimmasida.",
+   "stickers": [
+    {
+     "t": "2 · [NAFAQA]",
+     "style": "head",
+     "x": 270,
+     "y": 118,
+     "size": 34,
+     "sfx": "ding",
+     "w": "Ikkinchisi"
+    },
+    {
+     "t": "OVQAT + KIYIM",
+     "style": "yellow",
+     "x": 270,
+     "y": 830,
+     "size": 22,
+     "sfx": "pop",
+     "w": "ovqati",
+     "r": 1
+    }
+   ]
+  },
+  {
+   "kind": "image",
+   "img": "assets/2026-10-13-erburch/4.png",
+   "voice": "Uchinchisi: munosib turar joy. Ayolning o'z uyi, o'z xonasi bo'lishi kerak.",
+   "stickers": [
+    {
+     "t": "3 · [TURAR JOY]",
+     "style": "head",
+     "x": 270,
+     "y": 118,
+     "size": 34,
+     "sfx": "ding",
+     "w": "Uchinchisi"
+    },
+    {
+     "t": "TALOQ SURASI, 6-OYAT",
+     "style": "paper",
+     "x": 270,
+     "y": 830,
+     "size": 22,
+     "sfx": "pop",
+     "w": "o'z",
+     "r": -1
+    }
+   ]
+  },
+  {
+   "kind": "image",
+   "img": "assets/2026-10-13-erburch/5.png",
+   "voice": "To'rtinchisi: yaxshi muomala. Payg'ambarimiz: Sizlarning eng yaxshingiz, ahliga eng yaxshi bo'lganingizdir, deganlar.",
+   "stickers": [
+    {
+     "t": "4 · [YAXSHI MUOMALA]",
+     "style": "head",
+     "x": 270,
+     "y": 118,
+     "size": 32,
+     "sfx": "ding",
+     "w": "To'rtinchisi"
+    },
+    {
+     "t": "TERMIZIY RIVOYATI",
+     "style": "paper",
+     "x": 270,
+     "y": 830,
+     "size": 22,
+     "sfx": "pop",
+     "w": "Payg'ambarimiz",
+     "r": 1
+    }
+   ]
+  },
+  {
+   "kind": "image",
+   "img": "assets/2026-10-13-erburch/6.png",
+   "voice": "Beshinchisi: oilasiga dinini o'rgatish va uni har qanday yomonlikdan himoya qilish.",
+   "stickers": [
+    {
+     "t": "5 · [DIN VA HIMOYA]",
+     "style": "head",
+     "x": 270,
+     "y": 118,
+     "size": 32,
+     "sfx": "ding",
+     "w": "Beshinchisi"
+    },
+    {
+     "t": "TAHRIM SURASI, 6-OYAT",
+     "style": "paper",
+     "x": 270,
+     "y": 830,
+     "size": 22,
+     "sfx": "pop",
+     "w": "himoya",
+     "r": -1
+    }
+   ]
+  },
+  {
+   "kind": "image",
+   "img": "assets/2026-10-13-erburch/7.png",
+   "voice": "Sizningcha, bugungi oilalarda qaysi biri eng ko'p unutilyapti? Raqamini izohda yozing!",
+   "stickers": [
+    {
+     "t": "Qaysi biri [unutilyapti?]",
+     "style": "head",
+     "x": 270,
+     "y": 118,
+     "size": 28,
+     "sfx": "whoosh",
+     "w": "Sizningcha"
+    },
+    {
+     "t": "4 - yaxshi muomala",
+     "type": true,
+     "style": "input",
+     "x": 270,
+     "y": 812,
+     "size": 20,
+     "w": "Raqamini",
+     "sfx": "pop"
+    },
+    {
+     "t": "TURMUSH O'RTOG'INGIZGA YUBORING",
+     "style": "yellow",
+     "x": 270,
+     "y": 880,
+     "size": 17,
+     "w": "izohda",
+     "dt": 0.6,
+     "sfx": "ding",
+     "r": -1
+    }
+   ]
+  },
+  {
+   "kind": "image",
+   "img": "assets/2026-10-13-erburch/7.png",
+   "silent": 2.4,
+   "stickers": [
+    {
+     "t": "TURMUSH O'RTOG'INGIZGA YUBORING",
+     "style": "yellow",
+     "x": 270,
+     "y": 880,
+     "size": 17,
+     "at": 0,
+     "nofx": true,
+     "r": -1
+    },
+    {
+     "t": "4 - yaxshi muomala",
+     "style": "input",
+     "x": 270,
+     "y": 812,
+     "size": 20,
+     "at": 0,
+     "nofx": true
+    },
+    {
+     "t": "Qaysi biri [unutilyapti?]",
+     "style": "head",
+     "x": 270,
+     "y": 118,
+     "size": 28,
+     "at": 0,
+     "nofx": true
+    }
+   ]
+  }
+ ],
+ "caption": "Islomda erning ayoli oldidagi 5 majburiyati 🤲\n\n1️⃣ Mahr — Niso surasi, 4-oyat\n2️⃣ Nafaqa: ovqat va kiyim — Baqara, 233-oyat\n3️⃣ Munosib turar joy — Taloq surasi, 6-oyat\n4️⃣ Yaxshi muomala — \"Sizlarning eng yaxshingiz — ahliga eng yaxshi bo'lganingiz\" (Termiziy)\n5️⃣ Oilasiga dinni o'rgatish va himoya qilish — Tahrim surasi, 6-oyat\n\n👇 Sizningcha, bugungi oilalarda qaysi biri eng ko'p unutilyapti? Raqamini yozing!\n💬 6-chi qaysi burchni qo'shgan bo'lardingiz?\n📲 Turmush o'rtog'ingizga yuboring\n\n#islom #oila #er #ayol #nikoh #mahr #nafaqa #oilaviyhayot #ozbekcha #ozbekiston #reelsuz #thefactlab"
+}

@@ -158,6 +158,7 @@ STYLES = {
     'bazm':     dict(bpm=110, modes=['harmonic', 'hijaz'], usul='bazm', bass=True, hats=False, nay=0.5),
     'lapar':    dict(bpm=100, modes=['mixolyd', 'dorian'], usul='lapar', bass=True, hats=False, nay=0.3),
     'dramatic': dict(bpm=84, modes=['hijaz', 'phrygian'], usul='slow', bass=True, hats=False, nay=0.7),
+    'shox':     dict(bpm=128, modes=['harmonic', 'hijaz'], usul='shox', bass=True, hats=True, nay=0.6, four=True, intro=0.0),
     'modern':   dict(bpm=106, modes=['harmonic', 'hijaz'], usul='trap', bass=True, hats=True, nay=0.5),
 }
 # doira patterns over one bar of 8 eighths: B=bum, T=tak, t=soft tak, '.'=rest
@@ -166,6 +167,7 @@ USUL = {
     'lapar': ['B.T.BtT.', 'B.TtB.Tt'],
     'slow':  ['B...T.t.', 'B..tT...'],
     'trap':  ['B...T...', 'B..BT...'],
+    'shox':  ['BtTtB.TT', 'BtTtBtTt'],
 }
 
 
@@ -197,7 +199,7 @@ def render(tl, out, seed=1, style='bazm'):
     pat = USUL[S['usul']]
 
     def energy(t):   # 0 intro, 1 main, 0.6 choice/outro
-        if t < 1.2 * bar: return 0.0
+        if t < S.get('intro', 1.2) * bar: return 0.0
         if t >= last - 0.2: return 0.6
         return 1.0
 
@@ -225,7 +227,9 @@ def render(tl, out, seed=1, style='bazm'):
         # --- modern low end
         if S['bass'] and en > 0:
             M.add(kick808(n2f(cr - 24) * 0.9), t0, 0.55 * en)
-            if S['usul'] in ('trap', 'bazm'): M.add(kick808(n2f(cr - 24) * 0.9, 0.4), t0 + 5 * e, 0.35 * en)
+            if S.get('four'):
+                for q in (2, 4, 6): M.add(kick808(n2f(cr - 24) * 0.9, 0.3), t0 + q * e, 0.42 * en)
+            elif S['usul'] in ('trap', 'bazm'): M.add(kick808(n2f(cr - 24) * 0.9, 0.4), t0 + 5 * e, 0.35 * en)
             M.add(sub(n2f(cr - 24), bar * 0.95), t0, 0.35 * en)
         if S['hats'] and en > 0:
             for k in range(16):

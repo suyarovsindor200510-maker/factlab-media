@@ -96,7 +96,9 @@ def split_by_words(mp3, spec, words, wd, tempo=None, gap=None):
     raw = f'{wd}/raw.wav'
     sh(f'ffmpeg -y -i "{mp3}" -ac 1 -ar 44100 "{raw}"')
     T = dur(raw)
-    counts = [len((sc.get('voice') or '').split()) for sc in spec['scenes']]
+    allc = [len((sc.get('voice') or '').split()) for sc in spec['scenes']]
+    vidx = [i for i, c in enumerate(allc) if c > 0]          # voiced scenes; others are silent beats (sc['silent'] seconds)
+    counts = [allc[i] for i in vidx]
     nW = len(words)
     if sum(counts) != nW:  # scale counts to transcript length
         acc, b = 0, []
@@ -109,11 +111,17 @@ def split_by_words(mp3, spec, words, wd, tempo=None, gap=None):
     idx = [0] + b + [nW]
     segs, starts, durs, wl = [], [], [], []
     t = LEAD
-    for i in range(len(counts)):
+    for si, sc in enumerate(spec['scenes']):
+        out = f'{wd}/v{si}.wav'
+        if si not in vidx:
+            d0 = float(sc.get('silent', 2.5))
+            sh(f'ffmpeg -y -f lavfi -i anullsrc=r=44100:cl=mono -t {d0:.3f} "{out}"')
+            d = dur(out); starts.append(round(t, 3)); durs.append(round(d, 3)); wl.append([]); segs.append(out); t += d + gap
+            continue
+        i = vidx.index(si)
         w0, w1 = words[idx[i]], words[idx[i + 1] - 1]
         a = max(0, w0['start'] - 0.06) if i == 0 else (words[idx[i] - 1]['end'] + w0['start']) / 2
         e = min(T, w1['end'] + 0.25) if i == len(counts) - 1 else (w1['end'] + words[idx[i + 1]]['start']) / 2
-        out = f'{wd}/v{i}.wav'
         sh(f'ffmpeg -y -ss {a:.3f} -to {e:.3f} -i "{raw}" -af "atempo={tempo},afade=t=in:d=0.015" -ar 44100 "{out}"')
         d = dur(out); starts.append(round(t, 3)); durs.append(round(d, 3))
         wl.append([[w['text'], round(t + (w['start'] - a) / tempo, 3), round(t + (w['end'] - a) / tempo, 3)] for w in words[idx[i]:idx[i + 1]]])

@@ -1,0 +1,5 @@
+{"items":[
+ {"voice":"uz-UZ-SardorNeural","text":"Stipendiya tushdi! Talaba Azizning eng baxtli kuni boshlandi.","path":"assets/_test/tts/sardor.mp3"},
+ {"voice":"uz-UZ-MadinaNeural","text":"Bolam, pulingni tejab ishlat, xo'pmi? Bir oyga yetkazishing kerak!","path":"assets/_test/tts/madina.mp3"},
+ {"voice":"uz-UZ-SardorNeural","text":"Yarim tun. Hamyonda shamol. Keyingi stipendiya esa o'ttiz kundan keyin.","path":"assets/_test/tts/sardor_fast.mp3","rate":"+12%"}
+]}

@@ -1,12 +1,13 @@
-# FactLab reel runbook (v3 — every 3 hours, varied topics, dialogue voices)
+# FactLab reel runbook (v4 — every 4 hours, owner's own voice narrates)
 
 Goal: every 3 hours one 30–50 s Uzbek reel for Instagram **@thefactlab.daily** (owner Sindorbek, speaks Uzbek), published immediately via Buffer.
 Style: @birfoiz_ / @shoshmang_ — vivid comic illustrations, paper stickers, sound effects, "1 yoki 2? Izohda yozing" ending.
 Owner gave full permission to create and post without asking. Never post a broken, offensive or factually wrong video.
 
 ## Fixed IDs
-- ElevenLabs model `eleven_v4`, `generations_count: 1`, never repeat a generation call (a failed one is not charged).
-  Voices: Bekzod (male) `kGOig3GPePLxobJGHo2M`; Uzbek female: Dilnoza `O72h9AUwisM6Zj4He72B` (cheerful, default),
+- ElevenLabs (Creator plan since 13 Oct) model `eleven_v4`, `generations_count: 1`, never repeat a generation call (a failed one is not charged).
+  **NARRATOR = owner's cloned voice "Sindorbek" `7qE9SJG22POpFvegZOWQ`** — use it for all narration and the main male role (~1 credit/char, ≈100 credits per line).
+  Other voices only for extra characters: Bekzod (male) `kGOig3GPePLxobJGHo2M`; Uzbek female: Dilnoza `O72h9AUwisM6Zj4He72B` (cheerful, default),
   Zilola `cyPun3bl9MxcpLBX6pT0`, Malika `VTN9ql0D5MshokKncKAy` (calm), Gulnora `6Fkh9WgMXOqBcOWxX91f`, Nodira `132QLQIkg1RJGmpicuhR`, Shahnoza `eggZu1Ffe4if51TKev2v`.
 - Buffer org `6accf09480d8092d22a4b156` (Asia/Seoul), Instagram channel `6accf680778b240e2fe7cd28`.
 - Canva carrier design `DAHX0TkK-lI` (5 pages 1080×1920). Image rect locators:
@@ -93,3 +94,7 @@ Example spec: `specs/2026-10-13-talaba.json`.
 | Uzbek social problem / everyday life (oila, to'y, talaba, kurs, taksi, pul…) | **STORY**: one hero, "bir kuni" arc, HUD meter+clock, 8–12 shots, silent gags, twist ending, one-word comment + share bait | v4 section, specs/2026-10-13-talaba.json |
 | Amazing facts (tana, kosmos, hayvonlar, tarix, texnika) | **FACT** (provisional until owner sends references): strong hook question, numbered countdown "5 → 1", one big number per fact (bigstat/card scenes), comparison visuals (X = N ta Y), 1/2 choice ending | specs/2026-10-13-tana.json, kosmos |
 New styles are added here when the owner sends reference reels: analyse (frames every 2–4 s, scene count, text layout, HUD/graphics, tempo, ending), write the recipe, then build it.
+
+## Budget (Creator = 121 000 credits/month)
+6 reels/day × 30 = 180 reels → ≤ 650 credits per reel. Keep total voice text ≤ ~600 characters per reel
+(silent beats carry the rest). The free-tier block of 13 Oct is lifted by the paid plan.

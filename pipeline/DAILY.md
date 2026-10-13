@@ -124,3 +124,8 @@ So every reel MUST:
 4. Comment bait that is easy: one word / one number, asked on screen early (not only at the end), plus pin-able first comment.
 5. Caption = searchable Uzbek keywords in the first line (Instagram search reads caption text more than hashtags); 3–5 hashtags are enough.
 6. Ending loops back to the start (seamless replay) when possible.
+
+## v5 kadr (2026-10-14) — bo'sh xira bantlar yo'q
+Foydalanuvchi shikoyati: kvadrat rasm o'rtada, tepa/pastda katta xira bo'sh joy — feedda yomon ko'rinadi.
+prep_img.py endi kvadratni 1560px ga kattalashtiradi (markaziy 1080 qoladi), y=180..1740 — kadrning ~81% rasm.
+Canva promptida asosiy obyektlarni MARKAZGA qo'yishni so'ra (yon tomonlar ~14% dan kesiladi).

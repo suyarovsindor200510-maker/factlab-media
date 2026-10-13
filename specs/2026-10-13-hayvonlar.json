@@ -1,0 +1,303 @@
+{
+ "id": "2026-10-13-hayvonlar",
+ "format": "story",
+ "topic": "hayvonlar haqida hayratli faktlar (dialog)",
+ "category": "hayvonlar",
+ "uzmusic": "shox",
+ "music_vol": 0.38,
+ "seed": 88,
+ "cover_t": 2.2,
+ "gap": 0.12,
+ "hud": {
+  "label": "HAYRAT",
+  "levels": [
+   20,
+   35,
+   50,
+   58,
+   70,
+   78,
+   88,
+   94,
+   100
+  ],
+  "clock": [
+   "FAKT 1",
+   "FAKT 1",
+   "FAKT 2",
+   "FAKT 2",
+   "FAKT 3",
+   "FAKT 3",
+   "FAKT 4",
+   "FAKT 4",
+   "1 / 2 ?"
+  ]
+ },
+ "scenes": [
+  {
+   "kind": "image",
+   "img": "assets/2026-10-13-hayvonlar/1.png",
+   "voice": "Zilola, bilasizmi, ahtapotning uchta yuragi bor ekan! Qoni esa ko'k rangda!",
+   "stickers": [
+    {
+     "t": "Ahtapotda [3 ta yurak]!",
+     "style": "head",
+     "x": 270,
+     "y": 118,
+     "size": 26,
+     "w": "ahtapotning",
+     "sfx": "whoosh"
+    },
+    {
+     "t": "QONI ESA KO'K!",
+     "style": "teal",
+     "x": 270,
+     "y": 830,
+     "size": 24,
+     "w": "Qoni",
+     "r": -2,
+     "sfx": "ding"
+    }
+   ]
+  },
+  {
+   "kind": "image",
+   "img": "assets/2026-10-13-hayvonlar/2.png",
+   "voice": "Uchta? Sizning bitta yuragingiz ham menga zo'rg'a yetadi-ku!",
+   "stickers": [
+    {
+     "t": "[Uchta]?!",
+     "style": "head",
+     "x": 270,
+     "y": 118,
+     "size": 30,
+     "w": "Uchta",
+     "sfx": "boing"
+    },
+    {
+     "t": "BITTASI HAM ZO'RG'A YETADI",
+     "style": "red",
+     "x": 270,
+     "y": 830,
+     "size": 22,
+     "w": "zo'rg'a",
+     "r": 2,
+     "sfx": "boing"
+    }
+   ]
+  },
+  {
+   "kind": "image",
+   "img": "assets/2026-10-13-hayvonlar/3.png",
+   "voice": "Men ham bittasini bilaman: delfinlar miyasining yarmi bilan uxlarkan, bir ko'zi esa ochiq turarkan.",
+   "stickers": [
+    {
+     "t": "Delfin [yarim miya]\nbilan uxlaydi",
+     "style": "head",
+     "x": 270,
+     "y": 118,
+     "size": 24,
+     "w": "delfinlar",
+     "sfx": "whoosh"
+    },
+    {
+     "t": "BIR KO'ZI OCHIQ",
+     "style": "yellow",
+     "x": 270,
+     "y": 830,
+     "size": 24,
+     "w": "ko'zi",
+     "r": -2,
+     "sfx": "ding"
+    }
+   ]
+  },
+  {
+   "kind": "image",
+   "img": "assets/2026-10-13-hayvonlar/4.png",
+   "voice": "Ana, men ham majlisda xuddi shunday uxlayman!",
+   "stickers": [
+    {
+     "t": "Majlisdagi [Bekzod]",
+     "style": "head",
+     "x": 270,
+     "y": 118,
+     "size": 26,
+     "w": "majlisda",
+     "sfx": "swish"
+    },
+    {
+     "t": "XUDDI DELFINDEK",
+     "style": "red",
+     "x": 270,
+     "y": 830,
+     "size": 24,
+     "w": "xuddi",
+     "r": 2,
+     "sfx": "boing"
+    }
+   ]
+  },
+  {
+   "kind": "image",
+   "img": "assets/2026-10-13-hayvonlar/5.png",
+   "voice": "Flamingolar kulrang bo'lib tug'ilarkan. Pushti rangi esa yeydigan ovqatidan kelarkan.",
+   "stickers": [
+    {
+     "t": "Flamingo [kulrang]\ntug'iladi",
+     "style": "head",
+     "x": 270,
+     "y": 118,
+     "size": 24,
+     "w": "Flamingolar",
+     "sfx": "whoosh"
+    },
+    {
+     "t": "PUSHTI RANG = OVQATDAN",
+     "style": "yellow",
+     "x": 270,
+     "y": 830,
+     "size": 22,
+     "w": "Pushti",
+     "r": -2,
+     "sfx": "ding"
+    }
+   ]
+  },
+  {
+   "kind": "image",
+   "img": "assets/2026-10-13-hayvonlar/6.png",
+   "voice": "Unda men sabzi yeyaverib, to'q sariq bo'lib ketardim!",
+   "stickers": [
+    {
+     "t": "Sabzi [diyetasi]",
+     "style": "head",
+     "x": 270,
+     "y": 118,
+     "size": 26,
+     "w": "sabzi",
+     "sfx": "pop"
+    },
+    {
+     "t": "NATIJA: TO'Q SARIQ",
+     "style": "red",
+     "x": 270,
+     "y": 830,
+     "size": 24,
+     "w": "sariq",
+     "r": 2,
+     "sfx": "boing"
+    }
+   ]
+  },
+  {
+   "kind": "image",
+   "img": "assets/2026-10-13-hayvonlar/7.png",
+   "voice": "Koalaning barmoq izi esa odamnikiga juda o'xshash ekan!",
+   "stickers": [
+    {
+     "t": "Koala [barmoq izi]",
+     "style": "head",
+     "x": 270,
+     "y": 118,
+     "size": 26,
+     "w": "Koalaning",
+     "sfx": "whoosh"
+    },
+    {
+     "t": "ODAMNIKIGA JUDA O'XSHASH",
+     "style": "yellow",
+     "x": 270,
+     "y": 830,
+     "size": 22,
+     "w": "o'xshash",
+     "r": -2,
+     "sfx": "stamp"
+    }
+   ]
+  },
+  {
+   "kind": "image",
+   "img": "assets/2026-10-13-hayvonlar/8.png",
+   "voice": "Qo'rqmang, sizning izingizni muzlatgich eshigidan har kuni topaman!",
+   "stickers": [
+    {
+     "t": "Muzlatgich — [guvoh]",
+     "style": "head",
+     "x": 270,
+     "y": 118,
+     "size": 26,
+     "w": "muzlatgich",
+     "sfx": "swish"
+    },
+    {
+     "t": "HAR KUNI IZ TOPILADI",
+     "style": "paper",
+     "x": 270,
+     "y": 830,
+     "size": 24,
+     "w": "har",
+     "r": -2,
+     "sfx": "ding"
+    }
+   ]
+  },
+  {
+   "kind": "choice",
+   "img": "assets/2026-10-13-hayvonlar/9.png",
+   "a": [
+    135,
+    420
+   ],
+   "b": [
+    405,
+    420
+   ],
+   "badge_w": [
+    "Birinchi",
+    "Ikkinchi"
+   ],
+   "voice": "Xo'sh, qaysi fakt sizni ko'proq hayratga soldi? Birinchi — ahtapotning uchta yuragi. Ikkinchi — delfin miyasining yarmi bilan uxlashi. Izohda raqamini yozing!",
+   "stickers": [
+    {
+     "t": "Qaysi biri [hayratli]?",
+     "style": "head",
+     "x": 270,
+     "y": 118,
+     "size": 26,
+     "at": 0.2,
+     "sfx": "whoosh"
+    },
+    {
+     "t": "1 · 3 TA YURAK",
+     "style": "red",
+     "x": 135,
+     "y": 800,
+     "r": -3,
+     "w": "Birinchi",
+     "size": 20
+    },
+    {
+     "t": "2 · YARIM MIYA",
+     "style": "teal",
+     "x": 405,
+     "y": 800,
+     "r": 3,
+     "w": "Ikkinchi",
+     "size": 20
+    },
+    {
+     "t": "1",
+     "type": true,
+     "style": "input",
+     "x": 270,
+     "y": 868,
+     "size": 20,
+     "w": "Izohda",
+     "sfx": "pop"
+    }
+   ]
+  }
+ ],
+ "caption": "Ahtapotning 3 ta yuragi bor, qoni esa ko'k! 🐙💙\nDelfinlar miyasining yarmi bilan uxlaydi — bir ko'zi ochiq turadi 🐬\nFlamingolar kulrang tug'iladi, pushti rang ovqatidan keladi 🦩\nKoalaning barmoq izi odamnikiga juda o'xshash 🐨\n\nQaysi fakt sizni ko'proq hayratga soldi?\n1️⃣ Ahtapotning 3 ta yuragi\n2️⃣ Delfin yarim miya bilan uxlaydi\n\n👇 Izohda raqamini yozing va do'stingizga yuboring 😄\n\n#ozbekcha #reelsuz #thefactlab #hayvonlar #qiziqfaktlar #faktlar #ahtapot #delfin #flamingo #koala #uzbekistan #bilasizmi"
+}

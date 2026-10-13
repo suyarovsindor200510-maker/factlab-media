@@ -113,3 +113,14 @@ Rules learned:
 - **STORY / social** → talaba recipe (above).
 - **Religious topics** → respectful: no instrumental music (music_vol 0), soft sfx only, cite sura/hadith source on screen, no mockery, no depiction of prophets.
 - Loudness of all refs ≈ −14 LUFS (we use −13; fine).
+
+## Instagram algorithm rules (researched 13 Oct; Mosseri's stated signals)
+Ranking = watch time (esp. first 3 s + completion + replays), **sends per reach** (strongest for non-followers), likes per reach. Original content only.
+Our own stats (first posts): avg watch 7.9 s on ~40 s reels → people leave early; 24 shares; 0 comments.
+So every reel MUST:
+1. Hook in the first 1.5 s: on-screen question/shock number + motion + sound hit before any intro. Never start with "Assalomu alaykum" / slow setup.
+2. Be 20–35 s (shorter = higher completion). Cut filler lines.
+3. Give a reason to SEND: "… ga yuboring" (mother, wife, classmate) — sends matter more than likes.
+4. Comment bait that is easy: one word / one number, asked on screen early (not only at the end), plus pin-able first comment.
+5. Caption = searchable Uzbek keywords in the first line (Instagram search reads caption text more than hashtags); 3–5 hashtags are enough.
+6. Ending loops back to the start (seamless replay) when possible.

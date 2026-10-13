@@ -64,3 +64,25 @@ Image or voice generation fails twice → skip this slot, report why. ElevenLabs
 ## Engine v3.1 (motion)
 story.html now has: alternating Ken-Burns camera per scene (zoom up to 1.14), 110 bpm beat pulse on the image, idle wobble on stickers, confetti burst when a sticker lands (`"nofx":true` on a sticker disables it). No config needed.
 Epidemic Sound download is FORBIDDEN (no subscription) → keep own `uzmusic` generator. Motion/HyperFrames are paid/unsuitable.
+
+## v4 — "birfoiz / shoshmang" style (learned from two reference reels, 13 Oct)
+What makes those reels work (copy this, not just the look):
+1. **Story, not a list.** One relatable everyday pain told as a mini-story with a twist ending
+   (e.g. "taksistning bir kuni", "qaysi kurs bolani odam qiladi"). Facts topics → still frame as a story/mission.
+2. **One recurring hero.** Generate a character reference first (Canva generate-image, full body, plain bg),
+   then pass its media id in `imageReferences` for EVERY scene image → same face/clothes in all scenes.
+3. **Many shots.** 8–12 images per 40–60 s (≈4 s each). A scene may be voiceless: `"silent": 2.8` (no `voice`) —
+   a visual gag with sticker + sfx carried by music.
+4. **HUD that changes every scene** (meter + clock): spec `"hud": {"label":"PUL"|"SABR"|"VAQT", "levels":[...per scene], "clock":[...]}`.
+   Big drops (≥10) make the meter bounce. Keep stickers at y ≥ 110 (HUD sits at y 40–76).
+5. **Header stickers** `style:"head"` with highlighted words in `[brackets]`, `\n` for 2 lines; bottom stickers for numbers (red = loss).
+6. **Ending = comment + share bait**: typed input box `{"type":true,"style":"input","t":"Somsaga :)"}` +
+   "… do'stingizga yuboring". One-word comment asks get more comments than 1/2.
+7. **Music**: energetic 125–145 bpm, continuous from frame 1 → `"uzmusic":"shox"` (128 bpm, four-on-floor + doira), music_vol 0.4–0.45.
+Example spec: `specs/2026-10-13-talaba.json`.
+
+## Blockers (13 Oct 16:00)
+- ElevenLabs: "Free Tier access has been disabled" → no new voice until the owner buys a paid plan (Starter $6 / Creator $22).
+  If voice generation fails with this message: do not retry, skip the slot, report.
+- Adobe connector cannot read files from github.io or Canva URLs and the sandbox cannot upload to Adobe → no Adobe outpaint for now.
+- Epidemic Sound downloads are FORBIDDEN without a subscription.

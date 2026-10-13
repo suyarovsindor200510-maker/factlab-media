@@ -86,3 +86,10 @@ Example spec: `specs/2026-10-13-talaba.json`.
   If voice generation fails with this message: do not retry, skip the slot, report.
 - Adobe connector cannot read files from github.io or Canva URLs and the sandbox cannot upload to Adobe → no Adobe outpaint for now.
 - Epidemic Sound downloads are FORBIDDEN without a subscription.
+
+## Style library — pick the style by topic (owner's rule, 13 Oct)
+| Topic | Style | Reference |
+|---|---|---|
+| Uzbek social problem / everyday life (oila, to'y, talaba, kurs, taksi, pul…) | **STORY**: one hero, "bir kuni" arc, HUD meter+clock, 8–12 shots, silent gags, twist ending, one-word comment + share bait | v4 section, specs/2026-10-13-talaba.json |
+| Amazing facts (tana, kosmos, hayvonlar, tarix, texnika) | **FACT** (provisional until owner sends references): strong hook question, numbered countdown "5 → 1", one big number per fact (bigstat/card scenes), comparison visuals (X = N ta Y), 1/2 choice ending | specs/2026-10-13-tana.json, kosmos |
+New styles are added here when the owner sends reference reels: analyse (frames every 2–4 s, scene count, text layout, HUD/graphics, tempo, ending), write the recipe, then build it.

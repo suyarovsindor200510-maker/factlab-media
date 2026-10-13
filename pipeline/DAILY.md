@@ -98,3 +98,18 @@ New styles are added here when the owner sends reference reels: analyse (frames 
 ## Budget (Creator = 121 000 credits/month)
 6 reels/day × 30 = 180 reels → ≤ 650 credits per reel. Keep total voice text ≤ ~600 characters per reel
 (silent beats carry the rest). The free-tier block of 13 Oct is lifted by the paid plan.
+
+## Reference analysis #2 (5 reels the owner liked, 13 Oct 20:17)
+| # | Channel / topic | Look | Shots | Audio |
+|---|---|---|---|---|
+| 1 | "Nimaga bunaqa" — El Niño & Uzbek rain | sepia antique map + 3D globe, ONE continuous canvas, camera flies/zooms between places; thermometer HUD, red data overlays, charts, "Toshkentdan 3 209 km" labels | 0 hard cuts, ~96 s | calm narrator, deep sub-boom hits on reveals, soft pings, quiet bed (125 bpm) |
+| 4 | "Nimaga bunaqa" — meat price | vintage engraving characters on parchment, chalkboard + paper charts hanging on strings, bar/line graphs animate, red stamps "-73%" | 0 cuts, ~100 s | voice-led, almost no music between phrases |
+| 2 | kids-clothes-by-kilo story (ad) | warm storybook illustration, cutout characters, torn-paper headers (yellow/red/green), chalkboard explainers, map pin outro | ~25 scenes / 79 s | continuous bass-heavy beat 144 bpm |
+| 3 | father-son wedding story | semi-realistic characters cut-out over scenes, 2-line header (yellow line + white line) at top, word captions bottom, moral ending | ~12 scenes / 58 s | continuous emotional beat 144 bpm |
+| 5 | AI-tools explainer (host avatar) | clean white bg, 3D cartoon host at bottom, "BIRINCHISI 1/3" progress, red accent, phone/app cards, VS cards, "kommentariyada yozing" | 40 s | voice + light sfx, no music under speech |
+Rules learned:
+- **FACT / explainer** → "Nimaga bunaqa" recipe: one consistent visual world (map / parchment), numbers as big labeled overlays, charts that draw themselves, sub-boom on each reveal, calm voice, music low or none, sources line ("Manba: …") small at the bottom.
+- **LIST / advice** (top-N, "5 ta …") → avatar/host or hero couple + "1/5" progress HUD, two-line headers, numbered stickers, ending with a comment question and "… ga yuboring".
+- **STORY / social** → talaba recipe (above).
+- **Religious topics** → respectful: no instrumental music (music_vol 0), soft sfx only, cite sura/hadith source on screen, no mockery, no depiction of prophets.
+- Loudness of all refs ≈ −14 LUFS (we use −13; fine).

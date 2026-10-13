@@ -1,0 +1,276 @@
+{
+ "id": "2026-10-13-talaba",
+ "format": "story",
+ "uzmusic": "shox",
+ "music_vol": 0.42,
+ "seed": 73,
+ "cover_t": 1.4,
+ "gap": 0.12,
+ "hud": {
+  "label": "PUL",
+  "levels": [
+   100,
+   85,
+   70,
+   50,
+   30,
+   30,
+   15,
+   1,
+   1
+  ],
+  "clock": [
+   "07:00",
+   "08:30",
+   "09:10",
+   "13:00",
+   "18:45",
+   "19:00",
+   "21:00",
+   "23:58",
+   "00:00"
+  ]
+ },
+ "scenes": [
+  {
+   "kind": "image",
+   "img": "assets/2026-10-13-talaba/1.png",
+   "voice": "Stipendiya tushdi! Talaba Azizning eng baxtli kuni boshlandi.",
+   "stickers": [
+    {
+     "t": "Stipendiya [tushdi!]",
+     "style": "head",
+     "x": 270,
+     "y": 118,
+     "size": 26,
+     "w": "Stipendiya",
+     "sfx": "kaching"
+    },
+    {
+     "t": "ENG BAXTLI KUN",
+     "style": "yellow",
+     "x": 270,
+     "y": 830,
+     "size": 26,
+     "w": "baxtli",
+     "r": -2
+    }
+   ]
+  },
+  {
+   "kind": "image",
+   "img": "assets/2026-10-13-talaba/2.png",
+   "voice": "Avval nonushta: somsa, choy... do'stlarga ham bittadan, albatta.",
+   "stickers": [
+    {
+     "t": "Nonushta: [somsa x 4]",
+     "style": "head",
+     "x": 270,
+     "y": 118,
+     "size": 26,
+     "w": "Avval"
+    },
+    {
+     "t": "PUL: -15%",
+     "style": "red",
+     "x": 270,
+     "y": 830,
+     "size": 26,
+     "w": "do'stlarga",
+     "sfx": "kaching",
+     "r": 2
+    }
+   ]
+  },
+  {
+   "kind": "image",
+   "img": "assets/2026-10-13-talaba/3.png",
+   "voice": "Avtobus kutmadi, taksi chaqirdi. Talaba kechikmasligi kerak-da!",
+   "stickers": [
+    {
+     "t": "Avtobus [kutmadi]",
+     "style": "head",
+     "x": 270,
+     "y": 118,
+     "size": 26,
+     "w": "Avtobus"
+    },
+    {
+     "t": "TAKSI: -15%",
+     "style": "red",
+     "x": 270,
+     "y": 830,
+     "size": 26,
+     "w": "taksi",
+     "sfx": "boing",
+     "r": -2
+    }
+   ]
+  },
+  {
+   "kind": "image",
+   "img": "assets/2026-10-13-talaba/4.png",
+   "voice": "Aziz, guruh bilan kinoga boramiz! Chiptaga pul yig'yapmiz, sen ham ber!",
+   "stickers": [
+    {
+     "t": "Guruhda [pul yig'ish]",
+     "style": "head",
+     "x": 270,
+     "y": 118,
+     "size": 26,
+     "w": "Aziz"
+    },
+    {
+     "t": "KINO: -20%",
+     "style": "red",
+     "x": 270,
+     "y": 830,
+     "size": 26,
+     "w": "Chiptaga",
+     "sfx": "kaching",
+     "r": 2
+    }
+   ]
+  },
+  {
+   "kind": "image",
+   "img": "assets/2026-10-13-talaba/5.png",
+   "silent": 2.8,
+   "stickers": [
+    {
+     "t": "Telefon... [CHIL-CHIL!]",
+     "style": "head",
+     "x": 270,
+     "y": 118,
+     "size": 26,
+     "at": 0.15,
+     "sfx": "boom"
+    },
+    {
+     "t": "EKRAN: -20%",
+     "style": "red",
+     "x": 270,
+     "y": 830,
+     "size": 26,
+     "at": 1.0,
+     "sfx": "fail",
+     "r": -3
+    }
+   ]
+  },
+  {
+   "kind": "image",
+   "img": "assets/2026-10-13-talaba/6.png",
+   "voice": "Bolam, pulingni tejab ishlat, xo'pmi? Bir oyga yetkazishing kerak!",
+   "stickers": [
+    {
+     "t": "Oyim [qo'ng'iroq qilyapti]",
+     "style": "head",
+     "x": 270,
+     "y": 118,
+     "size": 26,
+     "w": "Bolam",
+     "sfx": "ding"
+    },
+    {
+     "t": "TEJAB ISHLAT!",
+     "style": "paper",
+     "x": 270,
+     "y": 830,
+     "size": 26,
+     "w": "tejab",
+     "r": -2
+    }
+   ]
+  },
+  {
+   "kind": "image",
+   "img": "assets/2026-10-13-talaba/7.png",
+   "silent": 2.8,
+   "stickers": [
+    {
+     "t": "Kechki ovqat: [yarmi ertaga]",
+     "style": "head",
+     "x": 270,
+     "y": 118,
+     "size": 26,
+     "at": 0.15,
+     "sfx": "pop"
+    },
+    {
+     "t": "TEJAMKORLIK REJIMI",
+     "style": "yellow",
+     "x": 270,
+     "y": 830,
+     "size": 26,
+     "at": 1.1,
+     "sfx": "stamp",
+     "r": 2
+    }
+   ]
+  },
+  {
+   "kind": "image",
+   "img": "assets/2026-10-13-talaba/8.png",
+   "voice": "Yarim tun. Hamyonda shamol. Keyingi stipendiya esa o'ttiz kundan keyin.",
+   "stickers": [
+    {
+     "t": "Hamyonda [shamol]",
+     "style": "head",
+     "x": 270,
+     "y": 118,
+     "size": 26,
+     "w": "Hamyonda",
+     "sfx": "swish"
+    },
+    {
+     "t": "KEYINGISI: 30 KUN",
+     "style": "dark",
+     "x": 270,
+     "y": 830,
+     "size": 26,
+     "w": "Keyingi",
+     "sfx": "tick",
+     "r": -2
+    }
+   ]
+  },
+  {
+   "kind": "image",
+   "img": "assets/2026-10-13-talaba/9.png",
+   "silent": 5.2,
+   "stickers": [
+    {
+     "t": "Sizning pulingiz\n[qayerga] ketadi?",
+     "style": "head",
+     "x": 270,
+     "y": 118,
+     "size": 28,
+     "at": 0.1,
+     "sfx": "whoosh"
+    },
+    {
+     "t": "Somsaga :)",
+     "type": true,
+     "style": "input",
+     "x": 270,
+     "y": 812,
+     "size": 20,
+     "at": 0.9,
+     "sfx": "pop"
+    },
+    {
+     "t": "TALABA DO'STINGIZGA YUBORING",
+     "style": "yellow",
+     "x": 270,
+     "y": 880,
+     "size": 18,
+     "at": 2.6,
+     "sfx": "ding",
+     "r": -1
+    }
+   ]
+  }
+ ],
+ "caption": "Talabaning stipendiya kuni 😅💸\n\nErtalab — boy, kechqurun — hamyonda shamol.\nTanish holatmi? 😂\n\n👇 Sizning pulingiz birinchi kuni qayerga ketadi? Bitta so'z yozing!\n📲 Talaba do'stingizga yuboring\n\n#ozbekcha #reelsuz #thefactlab #talaba #stipendiya #student #universitet #toshkent #samarqand #hayot #kulgili #ozbekiston"
+}

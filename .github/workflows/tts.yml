@@ -16,9 +16,11 @@ jobs:
       - run: pip install -q edge-tts transformers torch soundfile --extra-index-url https://download.pytorch.org/whl/cpu
       - run: sudo apt-get install -y -qq ffmpeg >/dev/null || true
       - name: Edge voices (may be blocked by Microsoft)
-        run: mkdir -p assets && python3 pipeline/tts_edge.py || true
+        run: |
+          mkdir -p assets && python3 pipeline/tts_edge.py || true
       - name: MMS open-source voice
-        run: grep -l '"engine": *"mms"' tts/*.json >/dev/null 2>&1 && python3 pipeline/tts_mms.py || true
+        run: |
+          python3 pipeline/tts_mms.py || true
       - name: Commit
         run: |
           git config user.name "github-actions"; git config user.email "actions@github.com"

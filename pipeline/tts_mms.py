@@ -21,7 +21,9 @@ def cyr(t):
 
 model = VitsModel.from_pretrained("facebook/mms-tts-uzb-script_cyrillic"); tok = AutoTokenizer.from_pretrained("facebook/mms-tts-uzb-script_cyrillic")
 for f in sorted(glob.glob('tts/*.json')):
-    for it in json.load(open(f))['items']:
+    j = json.load(open(f))
+    if j.get('engine') != 'mms': continue
+    for it in j['items']:
         mp3 = it['path']
         if os.path.exists(mp3) and os.path.getsize(mp3) > 0: continue
         os.makedirs(os.path.dirname(mp3), exist_ok=True)

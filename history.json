@@ -79,5 +79,14 @@
   "title": "Talabaning bir kuni",
   "format": "story",
   "music": "shox"
+ },
+ {
+  "id": "2026-10-13-hayvonlar",
+  "topic": "hayvonlar: ahtapotning 3 yuragi, delfin yarim miya bilan uxlaydi, flamingo kulrang tug'iladi, koala barmoq izi",
+  "category": "hayvonlar",
+  "type": "dialog",
+  "title": "Hayvonlar haqida hayratli faktlar",
+  "format": "story",
+  "music": "shox"
  }
 ]

@@ -1,0 +1,264 @@
+{
+ "id": "2026-10-13-kosmos",
+ "format": "story",
+ "topic": "kosmos: Venera kuni, Quyosh nuri, Oydagi izlar, neytron yulduz",
+ "category": "kosmos",
+ "uzmusic": "bazm",
+ "seed": 73,
+ "music_vol": 0.3,
+ "gap": 0.22,
+ "cover_t": 2.6,
+ "scenes": [
+  {
+   "kind": "image",
+   "img": "assets/2026-10-13-kosmos/1.png",
+   "kb": [
+    1.0,
+    0,
+    0,
+    1.06,
+    0,
+    0
+   ],
+   "voice": "Kosmos haqida hayratlanarli faktlar! Venerada bir kun bir yildan uzunroq davom etadi! Yo'g'-e! Qanday qilib? Venera o'z o'qi atrofida ikki yuz qirq uch kunda aylanadi, Quyosh atrofida esa atigi ikki yuz yigirma besh kunda.",
+   "stickers": [
+    {
+     "t": "VENERADA KUN > YIL!",
+     "style": "yellow",
+     "x": 270,
+     "y": 90,
+     "r": -2,
+     "size": 30,
+     "w": "Venerada"
+    },
+    {
+     "t": "YO'G'-E!",
+     "style": "red",
+     "x": 270,
+     "y": 165,
+     "r": 2,
+     "size": 40,
+     "w": "Yo'g'-e!",
+     "sfx": "boing"
+    },
+    {
+     "t": "1 KUN = 243 KUN",
+     "style": "paper",
+     "x": 150,
+     "y": 820,
+     "r": -3,
+     "size": 24,
+     "w": "qirq",
+     "sfx": "stamp"
+    },
+    {
+     "t": "1 YIL = 225 KUN",
+     "style": "teal",
+     "x": 395,
+     "y": 820,
+     "r": 3,
+     "size": 24,
+     "w": "yigirma",
+     "sfx": "ding"
+    }
+   ]
+  },
+  {
+   "kind": "image",
+   "img": "assets/2026-10-13-kosmos/2.png",
+   "kb": [
+    1.06,
+    0,
+    0,
+    1.0,
+    0,
+    0
+   ],
+   "voice": "Quyosh nuri bizgacha taxminan sakkiz daqiqada yetib keladi. Demak, biz Quyoshni sakkiz daqiqa oldingi holatida ko'ramiz!",
+   "stickers": [
+    {
+     "t": "QUYOSH NURI → YER",
+     "style": "paper",
+     "x": 270,
+     "y": 90,
+     "r": -2,
+     "size": 28,
+     "w": "Quyosh"
+    },
+    {
+     "t": "≈ 8 DAQIQA!",
+     "style": "red",
+     "x": 270,
+     "y": 165,
+     "r": 2,
+     "size": 44,
+     "w": "sakkiz",
+     "sfx": "stamp"
+    },
+    {
+     "t": "8 DAQIQA OLDINGI QUYOSH",
+     "style": "yellow",
+     "x": 270,
+     "y": 830,
+     "r": -2,
+     "size": 24,
+     "w": "oldingi",
+     "sfx": "ding"
+    }
+   ]
+  },
+  {
+   "kind": "image",
+   "img": "assets/2026-10-13-kosmos/3.png",
+   "kb": [
+    1.0,
+    0,
+    0,
+    1.06,
+    0,
+    0
+   ],
+   "voice": "Oydagi izlar-chi? Astronavtlarning oyoq izlari hali ham bormi? Ha! Oyda shamol ham, yomg'ir ham yo'q. Shuning uchun izlar millionlab yil saqlanishi mumkin.",
+   "stickers": [
+    {
+     "t": "OYDAGI IZLAR?",
+     "style": "paper",
+     "x": 270,
+     "y": 90,
+     "r": -2,
+     "size": 32,
+     "w": "Oydagi"
+    },
+    {
+     "t": "SHAMOL YO'Q · YOMG'IR YO'Q",
+     "style": "teal",
+     "x": 270,
+     "y": 165,
+     "r": 2,
+     "size": 24,
+     "w": "shamol",
+     "sfx": "boing"
+    },
+    {
+     "t": "MILLIONLAB YIL SAQLANADI!",
+     "style": "yellow",
+     "x": 270,
+     "y": 830,
+     "r": -2,
+     "size": 26,
+     "w": "millionlab",
+     "sfx": "ding"
+    }
+   ]
+  },
+  {
+   "kind": "image",
+   "img": "assets/2026-10-13-kosmos/4.png",
+   "kb": [
+    1.06,
+    0,
+    0,
+    1.0,
+    0,
+    0
+   ],
+   "voice": "Eng zo'ri: neytron yulduzidan bir choy qoshiq modda taxminan bir milliard tonna keladi! Bir qoshig'i-ya?! Vay!",
+   "stickers": [
+    {
+     "t": "NEYTRON YULDUZ",
+     "style": "paper",
+     "x": 270,
+     "y": 90,
+     "r": -2,
+     "size": 30,
+     "w": "neytron"
+    },
+    {
+     "t": "1 QOSHIQ ≈ 1 MLRD TONNA!",
+     "style": "red",
+     "x": 270,
+     "y": 165,
+     "r": 2,
+     "size": 30,
+     "w": "milliard",
+     "sfx": "stamp"
+    },
+    {
+     "t": "VAY!",
+     "style": "yellow",
+     "x": 270,
+     "y": 830,
+     "r": -3,
+     "size": 44,
+     "w": "Vay!",
+     "sfx": "boing"
+    }
+   ]
+  },
+  {
+   "kind": "choice",
+   "img": "assets/2026-10-13-kosmos/5.png",
+   "kb": [
+    1.0,
+    0,
+    0,
+    1.03,
+    0,
+    0
+   ],
+   "a": [
+    70,
+    300
+   ],
+   "b": [
+    480,
+    560
+   ],
+   "badge_w": [
+    "Birinchi",
+    "Ikkinchi"
+   ],
+   "voice": "Qaysi biri sizni ko'proq hayratga soldi? Birinchi, Venerada kun yildan uzun. Ikkinchi, bir qoshiq yulduz moddasi milliard tonna. Izohda raqamini yozing!",
+   "stickers": [
+    {
+     "t": "QAYSI BIRI?",
+     "style": "paper",
+     "x": 270,
+     "y": 70,
+     "r": -2,
+     "size": 40,
+     "at": 0.2
+    },
+    {
+     "t": "IZOHDA: 1 YOKI 2? ↓",
+     "style": "yellow",
+     "x": 270,
+     "y": 135,
+     "r": 1,
+     "size": 28,
+     "w": "Izohda",
+     "sfx": "ding"
+    },
+    {
+     "t": "1 · VENERADA KUN > YIL",
+     "style": "red",
+     "x": 135,
+     "y": 810,
+     "r": -3,
+     "size": 18,
+     "w": "Venerada"
+    },
+    {
+     "t": "2 · QOSHIQ = MLRD TONNA",
+     "style": "teal",
+     "x": 405,
+     "y": 810,
+     "r": 3,
+     "size": 18,
+     "w": "qoshiq"
+    }
+   ]
+  }
+ ],
+ "caption": "Venerada bir kun bir yildan uzun! 🪐 U o'z o'qi atrofida 243 kunda, Quyosh atrofida esa 225 kunda aylanadi.\nQuyosh nuri bizgacha ~8 daqiqada yetib keladi ☀️ — biz Quyoshni 8 daqiqa oldingi holatida ko'ramiz!\nOyda shamol ham, yomg'ir ham yo'q — astronavtlar izlari millionlab yil saqlanishi mumkin 👣🌕\nNeytron yulduzidan bir choy qoshiq modda ~1 milliard tonna keladi! 🥄💫\n\nQaysi fakt sizni ko'proq hayratga soldi?\n1️⃣ Venerada kun yildan uzun\n2️⃣ Bir qoshiq yulduz moddasi — milliard tonna\n\n👇 Izohda raqamini yozing va do'stingizga yuboring 😄\n\n#kosmos #koinot #faktlar #qiziqfaktlar #venera #oy #yulduzlar #astronomiya #ozbekcha #uzbekistan #reelsuz #thefactlab"
+}

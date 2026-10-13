@@ -52,5 +52,14 @@
   "title": "Odamlar nima deydi?",
   "format": "story",
   "music": "yo'q"
+ },
+ {
+  "id": "2026-10-13-tana",
+  "topic": "inson tanasi: yurak, qon tomirlari, miya, suyaklar",
+  "category": "inson tanasi",
+  "type": "tana+dialog",
+  "title": "Inson tanasi: hayratlanarli faktlar",
+  "format": "story",
+  "music": "bazm (past)"
  }
 ]

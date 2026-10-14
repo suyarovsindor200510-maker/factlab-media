@@ -280,14 +280,14 @@ def main():
     # mix: music ducked under voice (+ bass lift), sound effects on top, loudness normalised for Instagram
     has_sfx = spec.get('format') == 'story'
     if has_sfx: sfx_track(spec, tl, wd)
-    mv = spec.get("music_vol", 0.55)
+    mv = spec.get("music_vol", 0.2)
     sx = f' -i "{wd}/sfx.wav"' if has_sfx else ''
     mixin = '[v][md][fx]amix=inputs=3:normalize=0' if has_sfx else '[v][md]amix=inputs=2:normalize=0'
     fxs = f';[2:a]volume={spec.get("sfx_vol", 0.9)}[fx]' if has_sfx else ''
     sh(f'ffmpeg -y -i "{wd}/voice.wav" -i "{wd}/music.wav"{sx} -filter_complex '
        f'"[0:a]aformat=channel_layouts=stereo,highpass=f=70,acompressor=threshold=0.1:ratio=3:attack=5:release=80,volume=1.15,asplit[v][sc];'
-       f'[1:a]bass=g=1.5:f=90,volume={mv}[m];'
-       f'[m][sc]sidechaincompress=threshold=0.05:ratio=4:attack=10:release=250[md]{fxs};'
+       f'[1:a]lowpass=f=5500,bass=g=1:f=90,volume={mv}[m];'
+       f'[m][sc]sidechaincompress=threshold=0.02:ratio=10:attack=5:release=400[md]{fxs};'
        f'{mixin},alimiter=limit=0.95,loudnorm=I=-13:TP=-1.0:LRA=9[o]" -map "[o]" -ar 48000 "{wd}/audio.wav"')
     fr = f'{wd}/fr'; shutil.rmtree(fr, ignore_errors=True); os.makedirs(fr)
     NFR = int(tl['total'] * FPS)

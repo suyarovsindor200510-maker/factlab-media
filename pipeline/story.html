@@ -116,11 +116,11 @@ function render(t){let fl=0,shake=0;
   const s=SC[i],u=t-a,D=b-a,ut=t-st[i];const ki=i==0?1:E.o3(P(t,a-.25,a+.12)),ko=i==N-1?0:E.i3(P(t,b-.12,b+.25));
   el.style.opacity=Math.min(ki,1-ko);el.style.zIndex=10+i;
   if(i>0&&u>=0&&u<.2)fl=Math.max(fl,(1-u/.2)*.35);
-  const img=el.querySelector('.bgimg');if(img){const KB=[[1.03,-16,8,1.14,14,-10],[1.14,12,-8,1.03,-14,10],[1.04,14,10,1.13,-12,-8],[1.13,-10,-10,1.03,12,10]];const kb=s.kb||KB[i%4];const q=E.io(C(u/Math.max(1,D)));
-   const bp=Math.max(0,1-((t*(spec_bpm/60))%1)*3.2);const sc=L(kb[0],kb[3],q)*L(1.06,1,ki)*(1+.014*bp),x=L(kb[1],kb[4],q),y=L(kb[2],kb[5],q);img.style.transform=`translate(${x}px,${y}px) scale(${sc})`;
+  const img=el.querySelector('.bgimg');if(img){const KB=[[1.0,-4,2,1.04,4,-2],[1.04,3,-2,1.0,-4,2],[1.01,4,2,1.045,-3,-2],[1.045,-3,-2,1.01,3,2]];const kb=s.kb||KB[i%4];const q=E.io(C(u/Math.max(1,D)));
+   const bp=Math.max(0,1-((t*(spec_bpm/60))%1)*3.2);const sc=L(kb[0],kb[3],q)*L(1.015,1,ki)*(1+(SPEC.pulse||0)*bp),x=L(kb[1],kb[4],q),y=L(kb[2],kb[5],q);img.style.transform=`translate(${x}px,${y}px) scale(${sc})`;
    img.style.filter=(s.kind=='card'||s.kind=='bigstat'||s.blur)?'blur(6px) brightness(.85)':'contrast(1.06) saturate(1.12)'}
   el.querySelectorAll('.st[data-at]').forEach(e=>{const at=parseFloat(e.dataset.at),r=parseFloat(e.dataset.r);const k=P(ut,at,at+.32);
-   if(ut>=at&&ut<at+.12)shake=Math.max(shake,1-(ut-at)/.12);const idle=ut>at+.4?1:0;S(e,{op:P(ut,at,at+.04),s:L(1.9,1,E.bk(k))*(1+idle*.025*Math.sin(t*6.5+at*3)),r:L(r*3,r,E.o3(k))+idle*1.6*Math.sin(t*4.2+at)})});
+   if(ut>=at&&ut<at+.12)shake=Math.max(shake,1-(ut-at)/.12);const idle=ut>at+.4?1:0;S(e,{op:P(ut,at,at+.04),s:L(1.9,1,E.bk(k))*(1+idle*.006*Math.sin(t*3+at*3)),r:L(r*3,r,E.o3(k))+idle*.4*Math.sin(t*2+at)})});
   if(s.kind=='card'){const cd=el.querySelector('.card');S(cd,{op:P(u,0,.15),y:(1-E.bk(P(u,0,.45)))*120,r:L(-6,-1.2,E.o3(P(u,0,.5)))});
    el.querySelectorAll('.row').forEach((r,k)=>{const t0=s.rows[k].at!=null?s.rows[k].at:.35+k*Math.max(.5,(D-1.2)/Math.max(1,s.rows.length));S(r,{op:P(ut,t0,t0+.15),x:(1-E.o3(P(ut,t0,t0+.35)))*-30});
     const v=r.querySelector('.v'),vv=parseFloat(v.dataset.v)*E.o3(P(ut,t0,t0+.8)),dd=+v.dataset.d;v.textContent=v.dataset.p+(dd?vv.toFixed(dd):fmt(vv))+v.dataset.u;
@@ -129,7 +129,7 @@ function render(t){let fl=0,shake=0;
    const sa=s.sub_at||1;const sb=el.querySelector('.sub');S(sb,{op:P(ut,sa,sa+.05),s:L(1.9,1,E.bk(P(ut,sa,sa+.3))),r:L(-8,-2,E.o3(P(ut,sa,sa+.3)))});if(ut>=sa&&ut<sa+.12)shake=1}
   if(s.kind=='choice')el.querySelectorAll('.badge').forEach((e,k)=>{const t0=(s.badge_at||[.6,1.4])[k];S(e,{op:P(ut,t0,t0+.05),s:L(2.2,1,E.bk(P(ut,t0,t0+.35)))*(1+.05*Math.sin(t*6+k))});if(ut>=t0&&ut<t0+.1)shake=Math.max(shake,.8)})
  }
- const sx=shake*(Math.sin(t*97)*5),sy=shake*(Math.cos(t*83)*5);$('cam').style.transform=`translate(${sx}px,${sy}px)`;
+ const sx=shake*(Math.sin(t*97)*1.5),sy=shake*(Math.cos(t*83)*1.5);$('cam').style.transform=`translate(${sx}px,${sy}px)`;
  $('flash').style.opacity=fl;caption(t);fx(t);hud(t);
  document.querySelectorAll('.ty').forEach(e=>{const st0=e.closest('.st');const sc=+st0.closest('.sc').id.slice(1);const at=parseFloat(st0.dataset.at)+.35;const f=e.dataset.full;const n=Math.floor(C((t-st[sc]-at)/Math.max(.6,f.length*.07))*f.length);if(e.textContent.length!==n)e.textContent=f.slice(0,n);const c=st0.querySelector('.car');if(c)c.style.opacity=(Math.floor(t*2.5)%2||n<f.length)?1:0});
  const g=$('grain').getContext('2d');g.drawImage(GR[Math.floor(t*12)%4],0,0,540,960);

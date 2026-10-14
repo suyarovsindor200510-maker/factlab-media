@@ -1,0 +1,225 @@
+{
+ "id": "2026-10-14-asal",
+ "format": "story",
+ "uzmusic": "dramatic",
+ "music_vol": 0.15,
+ "seed": 83,
+ "cover_t": 0.9,
+ "gap": 0.12,
+ "hud": {
+  "label": "YANGILIK",
+  "levels": [
+   100,
+   100,
+   100,
+   100,
+   100,
+   60,
+   100
+  ],
+  "clock": [
+   "-1000",
+   "QADIM",
+   "2026",
+   "2026",
+   "2026",
+   "2026",
+   "2026"
+  ]
+ },
+ "scenes": [
+  {
+   "kind": "image",
+   "img": "assets/2026-10-14-asal/1.png",
+   "voice": "Uch ming yillik ovqatni yeyish mumkinmi? Bittasini — ha!",
+   "stickers": [
+    {
+     "t": "[3000 yillik] ovqat?!",
+     "style": "head",
+     "x": 270,
+     "y": 118,
+     "size": 30,
+     "sfx": "boom",
+     "at": 0.0
+    },
+    {
+     "t": "BITTASINI — HA!",
+     "style": "yellow",
+     "x": 270,
+     "y": 830,
+     "size": 28,
+     "sfx": "stamp",
+     "w": "Bittasini",
+     "r": -2
+    }
+   ]
+  },
+  {
+   "kind": "image",
+   "img": "assets/2026-10-14-asal/2.png",
+   "voice": "Arxeologlar qadimgi Misr qabrlaridan asal to'la ko'zalar topishdi.",
+   "stickers": [
+    {
+     "t": "Misr qabrlarida [asal]",
+     "style": "head",
+     "x": 270,
+     "y": 118,
+     "size": 28,
+     "sfx": "whoosh",
+     "w": "Arxeologlar"
+    },
+    {
+     "t": "ARXEOLOGLAR TOPILMASI",
+     "style": "paper",
+     "x": 270,
+     "y": 830,
+     "size": 24,
+     "sfx": "pop",
+     "w": "ko'zalar",
+     "r": 1
+    }
+   ]
+  },
+  {
+   "kind": "image",
+   "img": "assets/2026-10-14-asal/3.png",
+   "voice": "Uch ming yil o'tsa ham, u buzilmagan ekan!",
+   "stickers": [
+    {
+     "t": "3000 yil = [buzilmagan!]",
+     "style": "head",
+     "x": 270,
+     "y": 118,
+     "size": 28,
+     "sfx": "boom",
+     "w": "Uch"
+    },
+    {
+     "t": "HALI HAM YAROQLI",
+     "style": "yellow",
+     "x": 270,
+     "y": 830,
+     "size": 26,
+     "sfx": "ding",
+     "w": "buzilmagan",
+     "r": -1
+    }
+   ]
+  },
+  {
+   "kind": "image",
+   "img": "assets/2026-10-14-asal/4.png",
+   "voice": "Sababi: asalda suv juda kam, o'zi esa nordon. Mikroblar unda yashay olmaydi.",
+   "stickers": [
+    {
+     "t": "Sir: [suv kam + nordon]",
+     "style": "head",
+     "x": 270,
+     "y": 118,
+     "size": 26,
+     "sfx": "whoosh",
+     "w": "Sababi"
+    },
+    {
+     "t": "MIKROBLAR ✗",
+     "style": "red",
+     "x": 270,
+     "y": 830,
+     "size": 32,
+     "sfx": "stamp",
+     "w": "Mikroblar",
+     "r": -2
+    }
+   ]
+  },
+  {
+   "kind": "image",
+   "img": "assets/2026-10-14-asal/5.png",
+   "voice": "Asalarilar esa unga maxsus ferment qo'shadi — bu tabiiy himoya.",
+   "stickers": [
+    {
+     "t": "Asalari [fermenti]",
+     "style": "head",
+     "x": 270,
+     "y": 118,
+     "size": 28,
+     "sfx": "whoosh",
+     "w": "Asalarilar"
+    },
+    {
+     "t": "TABIIY HIMOYA",
+     "style": "yellow",
+     "x": 270,
+     "y": 830,
+     "size": 26,
+     "sfx": "ding",
+     "w": "tabiiy",
+     "r": 1
+    }
+   ]
+  },
+  {
+   "kind": "image",
+   "img": "assets/2026-10-14-asal/6.png",
+   "voice": "Faqat qopqog'ini yaxshi yoping — namlik tegsa, achib qolishi mumkin.",
+   "stickers": [
+    {
+     "t": "Qopqog'ini [yoping!]",
+     "style": "head",
+     "x": 270,
+     "y": 118,
+     "size": 30,
+     "sfx": "whoosh",
+     "w": "Faqat"
+    },
+    {
+     "t": "NAMLIK = ACHISH",
+     "style": "red",
+     "x": 270,
+     "y": 830,
+     "size": 28,
+     "sfx": "stamp",
+     "w": "namlik",
+     "r": -1
+    }
+   ]
+  },
+  {
+   "kind": "image",
+   "img": "assets/2026-10-14-asal/7.png",
+   "voice": "Uyingizda asal bormi? Ha yoki yo'q deb yozing va asalni yaxshi ko'radigan do'stingizga yuboring!",
+   "stickers": [
+    {
+     "t": "Uyingizda [asal bormi?]",
+     "style": "head",
+     "x": 270,
+     "y": 118,
+     "size": 28,
+     "sfx": "whoosh",
+     "w": "Uyingizda"
+    },
+    {
+     "t": "Ha, bor! 🍯",
+     "type": true,
+     "style": "input",
+     "x": 270,
+     "y": 812,
+     "size": 20,
+     "sfx": "pop",
+     "w": "yozing"
+    },
+    {
+     "t": "ASAL SEVAR DO'STINGIZGA YUBORING",
+     "style": "yellow",
+     "x": 270,
+     "y": 880,
+     "size": 18,
+     "sfx": "ding",
+     "w": "asalni",
+     "r": -1
+    }
+   ]
+  }
+ ],
+ "caption": "Asal 3000 yil buzilmaydi! 🍯🏺\n\nArxeologlar Misr qabrlaridan asal topishgan — u hali ham buzilmagan. Sababi: asalda suv juda kam, o'zi nordon, asalarilar qo'shgan ferment esa tabiiy himoya beradi. Faqat qopqog'ini yaxshi yoping — namlik tegsa achishi mumkin.\n\n👇 Uyingizda asal bormi? Ha yoki yo'q — izohda yozing!\n📲 Asal sevar do'stingizga yuboring\n\n#asal #fakt #qiziqarli #ozbekcha #thefactlab"
+}

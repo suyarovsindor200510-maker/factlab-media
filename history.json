@@ -119,5 +119,30 @@
   "title": "Ijara — imkonsiz missiya",
   "format": "story",
   "music": "shox"
+ },
+ {
+  "id": "2026-10-14-ulugbek",
+  "topic": "Ulug'bek yil uzunligi",
+  "type": "fakt"
+ },
+ {
+  "id": "2026-10-14-bozor",
+  "topic": "Bozorda savdolashish",
+  "type": "dialog"
+ },
+ {
+  "id": "2026-10-14-uyqu",
+  "topic": "17 soat uyg'oqlik = mastlik",
+  "type": "tana"
+ },
+ {
+  "id": "2026-10-14-erxotin",
+  "topic": "Kim ko'proq charchaydi",
+  "type": "dialog"
+ },
+ {
+  "id": "2026-10-14-asal",
+  "topic": "Asal buzilmaydi",
+  "type": "fakt"
  }
 ]

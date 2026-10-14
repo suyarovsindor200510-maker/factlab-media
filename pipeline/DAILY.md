@@ -142,3 +142,9 @@ Canva promptida asosiy obyektlarni MARKAZGA qo'yishni so'ra (yon tomonlar ~14% d
 ## v7 (2026-10-14 16:10) — STATIC images (owner: "videolarni ko'p silkitma")
 - Engine: image is completely static inside a scene; the only motion is at the scene change (crossfade + 3.5% zoom settle + soft flash).
 - No camera shake, no sticker wobble; stickers just fade/scale in (1.25→1). Do NOT re-add Ken Burns, pulse or shake.
+
+## v8 voices (2026-10-14 17:30 KST) — owner: "Sindorbek ovozini ishlatma, asosan Bekzod"
+- Narrator and ALL male roles = **Bekzod** kGOig3GPePLxobJGHo2M. The "Sindorbek" cloned voice (7qE9SJG22POpFvegZOWQ) is BANNED.
+- Female roles: Dilnoza O72h9AUwisM6Zj4He72B or Malika VTN9ql0D5MshokKncKAy. Zilola: never.
+- Fetch action never overwrites an existing path — re-voiced lines go to a NEW path (e.g. assets/<ID>/voice/bek/pN.mp3), then copy locally.
+- Owner thinks in Korea time (KST): report schedules in KST.

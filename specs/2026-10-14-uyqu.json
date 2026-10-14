@@ -1,0 +1,225 @@
+{
+ "id": "2026-10-14-uyqu",
+ "format": "story",
+ "uzmusic": "modern",
+ "music_vol": 0.14,
+ "seed": 53,
+ "cover_t": 0.9,
+ "gap": 0.12,
+ "hud": {
+  "label": "QUVVAT",
+  "levels": [
+   30,
+   25,
+   10,
+   5,
+   70,
+   90,
+   100
+  ],
+  "clock": [
+   "02:00",
+   "09:00",
+   "00:00",
+   "07:30",
+   "23:00",
+   "03:00",
+   "07:00"
+  ]
+ },
+ "scenes": [
+  {
+   "kind": "image",
+   "img": "assets/2026-10-14-uyqu/1.png",
+   "voice": "Kecha necha soat uxladingiz? Bu fakt sizni hayron qoldiradi!",
+   "stickers": [
+    {
+     "t": "Kecha necha soat [uxladingiz?]",
+     "style": "head",
+     "x": 270,
+     "y": 118,
+     "size": 26,
+     "sfx": "boom",
+     "at": 0.0
+    },
+    {
+     "t": "2 soat? 4? 😴",
+     "style": "dark",
+     "x": 270,
+     "y": 830,
+     "size": 26,
+     "sfx": "pop",
+     "w": "fakt",
+     "r": -1
+    }
+   ]
+  },
+  {
+   "kind": "image",
+   "img": "assets/2026-10-14-uyqu/2.png",
+   "voice": "Olimlar odamlarni uxlatmay, ularning diqqati va tezligini tekshirishdi.",
+   "stickers": [
+    {
+     "t": "Olimlar [tajribasi]",
+     "style": "head",
+     "x": 270,
+     "y": 118,
+     "size": 28,
+     "sfx": "whoosh",
+     "w": "Olimlar"
+    },
+    {
+     "t": "DIQQAT + TEZLIK TESTI",
+     "style": "paper",
+     "x": 270,
+     "y": 830,
+     "size": 24,
+     "sfx": "pop",
+     "w": "diqqati",
+     "r": 1
+    }
+   ]
+  },
+  {
+   "kind": "image",
+   "img": "assets/2026-10-14-uyqu/3.png",
+   "voice": "O'n yetti soat uyg'oq qolganlar xuddi mast odamdek sekin harakat qilishgan!",
+   "stickers": [
+    {
+     "t": "[17 soat] uyg'oq =",
+     "style": "head",
+     "x": 270,
+     "y": 118,
+     "size": 30,
+     "sfx": "boom",
+     "w": "O'n"
+    },
+    {
+     "t": "MAST ODAMDEK SEKIN!",
+     "style": "red",
+     "x": 270,
+     "y": 830,
+     "size": 28,
+     "sfx": "stamp",
+     "w": "mast",
+     "r": -2
+    }
+   ]
+  },
+  {
+   "kind": "image",
+   "img": "assets/2026-10-14-uyqu/4.png",
+   "voice": "Ya'ni tun bo'yi telefon ko'rib, ertalab rulga o'tirish — juda xavfli.",
+   "stickers": [
+    {
+     "t": "Tunda telefon → [rulda uyqu]",
+     "style": "head",
+     "x": 270,
+     "y": 118,
+     "size": 24,
+     "sfx": "whoosh",
+     "w": "telefon"
+    },
+    {
+     "t": "XAVFLI!",
+     "style": "red",
+     "x": 270,
+     "y": 830,
+     "size": 40,
+     "sfx": "stamp",
+     "w": "xavfli",
+     "r": 2
+    }
+   ]
+  },
+  {
+   "kind": "image",
+   "img": "assets/2026-10-14-uyqu/5.png",
+   "voice": "Kattalarga kechasi yetti-to'qqiz soat uyqu tavsiya qilinadi.",
+   "stickers": [
+    {
+     "t": "Norma: [7–9 soat]",
+     "style": "head",
+     "x": 270,
+     "y": 118,
+     "size": 30,
+     "sfx": "ding",
+     "w": "yetti"
+    },
+    {
+     "t": "KATTALAR UCHUN",
+     "style": "yellow",
+     "x": 270,
+     "y": 830,
+     "size": 24,
+     "sfx": "pop",
+     "w": "tavsiya",
+     "r": -1
+    }
+   ]
+  },
+  {
+   "kind": "image",
+   "img": "assets/2026-10-14-uyqu/6.png",
+   "voice": "Uyqu — dangasalik emas, miyangiz uchun quvvat!",
+   "stickers": [
+    {
+     "t": "Uyqu = [miya quvvati]",
+     "style": "head",
+     "x": 270,
+     "y": 118,
+     "size": 28,
+     "sfx": "whoosh",
+     "w": "Uyqu"
+    },
+    {
+     "t": "DANGASALIK EMAS!",
+     "style": "paper",
+     "x": 270,
+     "y": 830,
+     "size": 26,
+     "sfx": "stamp",
+     "w": "dangasalik",
+     "r": 1
+    }
+   ]
+  },
+  {
+   "kind": "image",
+   "img": "assets/2026-10-14-uyqu/7.png",
+   "voice": "Kecha necha soat uxladingiz? Raqamini yozing va tunda telefon ko'radigan do'stingizga yuboring!",
+   "stickers": [
+    {
+     "t": "Siz necha soat [uxladingiz?]",
+     "style": "head",
+     "x": 270,
+     "y": 118,
+     "size": 26,
+     "sfx": "whoosh",
+     "w": "Kecha"
+    },
+    {
+     "t": "5 soat 😅",
+     "type": true,
+     "style": "input",
+     "x": 270,
+     "y": 812,
+     "size": 20,
+     "sfx": "pop",
+     "w": "Raqamini"
+    },
+    {
+     "t": "TUNDA TELEFON KO'RADIGAN DO'STINGIZGA",
+     "style": "yellow",
+     "x": 270,
+     "y": 880,
+     "size": 16,
+     "sfx": "ding",
+     "w": "tunda",
+     "r": -1
+    }
+   ]
+  }
+ ],
+ "caption": "17 soat uyg'oq qolish = mast odamdek reaksiya 😴📱\n\nOlimlar tajribasida 17–19 soat uxlamagan odamlarning reaksiyasi qonida 0,05% alkogol bor odamnikidek sekinlashgan. Kattalarga kechasi 7–9 soat uyqu tavsiya qilinadi.\n\n👇 Siz kecha necha soat uxladingiz? Raqamini yozing!\n📲 Tunda telefon ko'radigan do'stingizga yuboring\n\n#uyqu #salomatlik #fakt #ozbekcha #thefactlab"
+}

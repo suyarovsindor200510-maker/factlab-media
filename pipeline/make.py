@@ -297,6 +297,7 @@ def main():
        f'-c:v libx264 -preset medium -crf 18 -profile:v high -c:a aac -b:a 192k -shortest -movflags +faststart "{wd}/video.mp4"',
        timeout=1800)
     preview(spec, tl, wd)
+    shutil.rmtree(fr, ignore_errors=True)  # frames are ~500 MB per video; disk is limited
     print('done', wd, tl['total'])
 
 

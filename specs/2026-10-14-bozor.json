@@ -1,0 +1,261 @@
+{
+ "id": "2026-10-14-bozor",
+ "format": "story",
+ "uzmusic": "lapar",
+ "music_vol": 0.15,
+ "seed": 41,
+ "cover_t": 0.8,
+ "gap": 0.18,
+ "hud": {
+  "label": "SABR",
+  "levels": [
+   100,
+   80,
+   60,
+   50,
+   30,
+   20,
+   60,
+   100,
+   100
+  ],
+  "clock": [
+   "?",
+   "12 000",
+   "8 000",
+   "12 000",
+   "8 000",
+   "12 000",
+   "10 000",
+   "10 000",
+   "10 000"
+  ]
+ },
+ "scenes": [
+  {
+   "kind": "image",
+   "img": "assets/2026-10-14-bozor/1.png",
+   "voice": "Aka, pomidor necha pul?",
+   "stickers": [
+    {
+     "t": "Pomidor [necha pul?]",
+     "style": "head",
+     "x": 270,
+     "y": 118,
+     "size": 30,
+     "sfx": "boom",
+     "at": 0.0
+    }
+   ]
+  },
+  {
+   "kind": "image",
+   "img": "assets/2026-10-14-bozor/2.png",
+   "voice": "Sizga, opa, o'n ikki ming!",
+   "stickers": [
+    {
+     "t": "[12 000] so'm!",
+     "style": "head",
+     "x": 270,
+     "y": 118,
+     "size": 32,
+     "sfx": "ding",
+     "w": "o'n"
+    },
+    {
+     "t": "QIMMAT?!",
+     "style": "red",
+     "x": 270,
+     "y": 830,
+     "size": 36,
+     "sfx": "stamp",
+     "w": "ming",
+     "r": -3
+    }
+   ]
+  },
+  {
+   "kind": "image",
+   "img": "assets/2026-10-14-bozor/3.png",
+   "voice": "Voy! Narigi rastada sakkiz ming-ku!",
+   "stickers": [
+    {
+     "t": "Narigi rastada [8 000]!",
+     "style": "head",
+     "x": 270,
+     "y": 118,
+     "size": 26,
+     "sfx": "whoosh",
+     "w": "Narigi"
+    },
+    {
+     "t": "-4 000",
+     "style": "red",
+     "x": 270,
+     "y": 830,
+     "size": 40,
+     "sfx": "stamp",
+     "w": "sakkiz",
+     "r": 2
+    }
+   ]
+  },
+  {
+   "kind": "image",
+   "img": "assets/2026-10-14-bozor/4.png",
+   "voice": "Unda narigi rastadan olavering-da, opa!",
+   "stickers": [
+    {
+     "t": "Unda [o'shandan] oling!",
+     "style": "head",
+     "x": 270,
+     "y": 118,
+     "size": 28,
+     "sfx": "whoosh",
+     "w": "Unda"
+    }
+   ]
+  },
+  {
+   "kind": "image",
+   "img": "assets/2026-10-14-bozor/5.png",
+   "voice": "U yerda tugab qolibdi...",
+   "stickers": [
+    {
+     "t": "U yerda... [tugabdi]",
+     "style": "head",
+     "x": 270,
+     "y": 118,
+     "size": 28,
+     "sfx": "swish",
+     "w": "tugab"
+    },
+    {
+     "t": "BO'SH RASTA",
+     "style": "dark",
+     "x": 270,
+     "y": 830,
+     "size": 28,
+     "sfx": "pop",
+     "w": "qolibdi",
+     "r": -1
+    }
+   ]
+  },
+  {
+   "kind": "image",
+   "img": "assets/2026-10-14-bozor/6.png",
+   "voice": "Tugaganda men ham sakkiz mingga beraman... ertaga!",
+   "stickers": [
+    {
+     "t": "Ertaga [8 000] :)",
+     "style": "head",
+     "x": 270,
+     "y": 118,
+     "size": 28,
+     "sfx": "whoosh",
+     "w": "sakkiz"
+    },
+    {
+     "t": "SOTUVCHI 1 : 0 OPA",
+     "style": "yellow",
+     "x": 270,
+     "y": 830,
+     "size": 26,
+     "sfx": "ding",
+     "w": "ertaga",
+     "r": -1
+    }
+   ]
+  },
+  {
+   "kind": "image",
+   "img": "assets/2026-10-14-bozor/7.png",
+   "voice": "Mayli, o'n mingdan bering, ikki kilo olaman.",
+   "stickers": [
+    {
+     "t": "[10 000] dan, 2 kilo!",
+     "style": "head",
+     "x": 270,
+     "y": 118,
+     "size": 28,
+     "sfx": "whoosh",
+     "w": "o'n"
+    },
+    {
+     "t": "SAVDOLASHUV BOSHLANDI",
+     "style": "paper",
+     "x": 270,
+     "y": 830,
+     "size": 24,
+     "sfx": "pop",
+     "w": "ikki",
+     "r": 1
+    }
+   ]
+  },
+  {
+   "kind": "image",
+   "img": "assets/2026-10-14-bozor/8.png",
+   "voice": "Kelishdik! Baraka toping, opa!",
+   "stickers": [
+    {
+     "t": "[Kelishdik!]",
+     "style": "head",
+     "x": 270,
+     "y": 118,
+     "size": 34,
+     "sfx": "boom",
+     "w": "Kelishdik"
+    },
+    {
+     "t": "SOTUVCHI 1 : 1 OPA",
+     "style": "yellow",
+     "x": 270,
+     "y": 830,
+     "size": 26,
+     "sfx": "ding",
+     "w": "Baraka",
+     "r": -1
+    }
+   ]
+  },
+  {
+   "kind": "image",
+   "img": "assets/2026-10-14-bozor/1.png",
+   "voice": "Xo'sh, savdolashishda kim yutdi? Sotuvchimi yoki opa? Bitta so'z bilan yozing!",
+   "stickers": [
+    {
+     "t": "Kim [yutdi?]",
+     "style": "head",
+     "x": 270,
+     "y": 118,
+     "size": 34,
+     "sfx": "whoosh",
+     "w": "kim"
+    },
+    {
+     "t": "Opa!",
+     "type": true,
+     "style": "input",
+     "x": 270,
+     "y": 812,
+     "size": 20,
+     "sfx": "pop",
+     "w": "Bitta"
+    },
+    {
+     "t": "BOZORCHI DO'STINGIZGA YUBORING",
+     "style": "yellow",
+     "x": 270,
+     "y": 880,
+     "size": 18,
+     "sfx": "ding",
+     "w": "yozing",
+     "r": -1
+    }
+   ]
+  }
+ ],
+ "caption": "Bozorda savdolashish: kim yutdi? 🍅😂\n\n— Aka, pomidor necha pul?\n— Sizga, opa, 12 ming!\nTanish holatmi? 😅\n\n👇 Sotuvchimi yoki opa? Bitta so'z bilan izohda yozing!\n📲 Bozorga boradigan do'stingizga yuboring\n\n#bozor #savdolashish #ozbekcha #kulgili #thefactlab"
+}

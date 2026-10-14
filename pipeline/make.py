@@ -152,10 +152,22 @@ def sfx_track(spec, tl, wd):
         if n > 0: mix[i:i + n] += a[:n] * g
     st = tl['starts']
     STY = {'red': 'stamp', 'dark': 'stamp', 'yellow': 'pop', 'paper': 'pop', 'teal': 'pop'}
-    put('boom', 0.05, 0.8)
+    doc = spec.get('format') == 'doc'
+    put('boom', 0.05, 0.5 if doc else 0.8)
+    OVS = {'punch': ('boom', 0.45), 'stamp': ('stamp', 0.75), 'tag': ('pop', 0.4), 'name': ('pop', 0.45), 'title': ('swish', 0.5),
+           'lower': ('swish', 0.35), 'polar': ('shutter', 0.5), 'big': ('ding', 0.45), 'phone': ('swish', 0.45)}
     for i, s in enumerate(spec['scenes']):
         a = st[i]
-        if i > 0: put('whoosh', a - 0.42, 0.55)
+        if i > 0: put('swish' if doc else 'whoosh', a - (0.2 if doc else 0.42), 0.18 if doc else 0.55)
+        for o in s.get('ov', []):
+            at = a + o.get('at', 0)
+            nm, g = OVS.get(o.get('type'), (None, 0))
+            if o.get('sfx') is not None: nm = o['sfx']
+            put(nm, at - 0.02, g or 0.5)
+            if o.get('type') == 'phone':
+                for q in range(len(o.get('items', []))): put('ding', a + (o.get('ats') or [None]*9)[q] if (o.get('ats') or [None]*9)[q] is not None else at + 0.45 + q * o.get('step', 0.55), 0.4)
+            if o.get('type') == 'bars':
+                for q in range(len(o.get('items', []))): put('pop', at + q * o.get('step', 0.35) + 0.3, 0.4)
         for k in s.get('stickers', []):
             put(k.get('sfx') or STY.get(k.get('style', 'paper'), 'pop'), a + k.get('at', 0) - 0.02, 0.7)
         if s.get('kind') == 'card':
@@ -190,7 +202,7 @@ def resolve_word_timing(spec, tl):
                 if c == nth: return round(w[1] - tl['starts'][i], 2)
         return None
     for i, s in enumerate(spec['scenes']):
-        for it in s.get('stickers', []) + s.get('rows', []) + s.get('sfx', []):
+        for it in s.get('stickers', []) + s.get('rows', []) + s.get('sfx', []) + s.get('ov', []):
             if 'w' in it:
                 v = find(i, it['w'], it.get('nth', 1))
                 if v is not None: it['at'] = round(v + it.get('dt', 0), 2)
@@ -208,7 +220,7 @@ def fake_timeline(spec):
 
 
 def build_html(spec, tl, wd):
-    tpl = 'story.html' if spec.get('format') == 'story' else 'template.html'
+    tpl = {'story': 'story.html', 'doc': 'doc.html'}.get(spec.get('format'), 'template.html')
     h = open(f'{HERE}/{tpl}').read()
     h = h.replace('__FONTS__', 'file://' + HERE + '/fonts').replace('__ROOT__', 'file://' + os.path.dirname(HERE))
     h = h.replace('__SPEC__', json.dumps(spec, ensure_ascii=False)).replace('__TL__', json.dumps(tl))
@@ -278,7 +290,7 @@ def main():
     seed = sum(map(ord, spec.get('id', 'x'))) % 1000
     music(tl, wd, seed, spec)
     # mix: music ducked under voice (+ bass lift), sound effects on top, loudness normalised for Instagram
-    has_sfx = spec.get('format') == 'story'
+    has_sfx = spec.get('format') in ('story', 'doc')
     if has_sfx: sfx_track(spec, tl, wd)
     mv = spec.get("music_vol", 0.2)
     sx = f' -i "{wd}/sfx.wav"' if has_sfx else ''
@@ -292,7 +304,7 @@ def main():
     fr = f'{wd}/fr'; shutil.rmtree(fr, ignore_errors=True); os.makedirs(fr)
     NFR = int(tl['total'] * FPS)
     render(wd, [(f'{fr}/f{f:05d}.jpg', f / FPS) for f in range(NFR)], 4)
-    vf = 'unsharp=5:5:0.7:5:5:0.0,eq=contrast=1.05:saturation=1.12,format=yuv420p' if spec.get('format') == 'story' else 'noise=alls=4:allf=t,format=yuv420p'
+    vf = 'unsharp=5:5:0.7:5:5:0.0,eq=contrast=1.05:saturation=1.12,format=yuv420p' if spec.get('format') in ('story', 'doc') else 'noise=alls=4:allf=t,format=yuv420p'
     sh(f'ffmpeg -y -framerate {FPS} -i "{fr}/f%05d.jpg" -i "{wd}/audio.wav" -vf "{vf}" '
        f'-c:v libx264 -preset medium -crf 18 -profile:v high -c:a aac -b:a 192k -shortest -movflags +faststart "{wd}/video.mp4"',
        timeout=1800)

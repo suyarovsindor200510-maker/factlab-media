@@ -129,3 +129,12 @@ So every reel MUST:
 Foydalanuvchi shikoyati: kvadrat rasm o'rtada, tepa/pastda katta xira bo'sh joy — feedda yomon ko'rinadi.
 prep_img.py endi kvadratni 1560px ga kattalashtiradi (markaziy 1080 qoladi), y=180..1740 — kadrning ~81% rasm.
 Canva promptida asosiy obyektlarni MARKAZGA qo'yishni so'ra (yon tomonlar ~14% dan kesiladi).
+
+## v6 owner rules (2026-10-14) — every 2 hours
+- Cadence: one reel every 2 h, Tashkent 08:30…22:30 (scheduled task runs at :55 of odd hours and skips if a post is due within 100 min).
+- NEVER use the name "Zilola" (script, stickers, captions) and never use the Zilola voice.
+- Dialogue reels wanted (~every 3rd): one TTS call per line, male = Sindorbek, female = Dilnoza or Malika.
+- Calm camera: engine Ken Burns now ≤4.5% zoom, no beat pulse, small shake. Don't add more motion.
+- Music: topic-matched, quiet: music_vol 0.12–0.18 (engine lowpasses music at 5.5 kHz and ducks hard under voice). Religious → 0.
+- Engine deletes out/<id>/fr frames after encoding; still delete old out/ folders (disk limit).
+- Helpers used on 14 Oct: specdef .py (ID/META/SCENES/CAPTION) → prep (estwords per part + joinvoice + spec json). See specs/2026-10-14-bozor.json for a dialogue example.

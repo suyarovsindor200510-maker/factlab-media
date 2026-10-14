@@ -67,17 +67,21 @@
     {
      "type": "punch",
      "t": "OLING!",
-     "y": 180,
-     "at": 0.05
+     "x": 160,
+     "y": 600,
+     "at": 0.05,
+     "r": -8,
+     "size": 54
     },
     {
      "type": "punch",
      "t": "OLING!",
-     "y": 790,
+     "x": 370,
+     "y": 810,
      "w": "oling",
      "nth": 2,
-     "r": 4,
-     "size": 56
+     "r": 6,
+     "size": 58
     }
    ]
   },
@@ -106,17 +110,20 @@
    "voice": "Hech bo'lmasa bittasini oling!",
    "ov": [
     {
-     "type": "stamp",
-     "t": "1 DONA",
-     "y": 800,
-     "w": "bittasini"
-    },
-    {
      "type": "punch",
      "t": "OLING!",
-     "y": 180,
+     "x": 390,
+     "y": 660,
      "w": "oling",
-     "size": 54
+     "size": 52,
+     "r": 5
+    },
+    {
+     "type": "stamp",
+     "t": "1 DONA",
+     "x": 170,
+     "y": 830,
+     "w": "bittasini"
     }
    ]
   },
@@ -269,14 +276,14 @@
     {
      "type": "big",
      "t": "3 MARTA",
-     "y": 230,
+     "y": 680,
      "w": "uch"
     },
     {
      "type": "lower",
      "small": "OVQATGA CHAQIRISH",
      "t": "= O'ZBEK OILASI 😂",
-     "y": 790,
+     "y": 800,
      "w": "ovqatga"
     }
    ]

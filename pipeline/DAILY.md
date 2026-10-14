@@ -148,3 +148,31 @@ Canva promptida asosiy obyektlarni MARKAZGA qo'yishni so'ra (yon tomonlar ~14% d
 - Female roles: Dilnoza O72h9AUwisM6Zj4He72B or Malika VTN9ql0D5MshokKncKAy. Zilola: never.
 - Fetch action never overwrites an existing path — re-voiced lines go to a NEW path (e.g. assets/<ID>/voice/bek/pN.mp3), then copy locally.
 - Owner thinks in Korea time (KST): report schedules in KST.
+
+## v9 — @birfoiz_ deep analysis (14 Oct 22:40 KST, owner: "videolarimiz zerikarli, shu profilni ipidan ignasigacha o'rgan")
+Account: 117K followers in ~1 week, 86 posts, several/day. Top reels: comedian-tribute story 2.1M (156 s), biographies 1.9M/1.2M (175 s),
+"Taksistlarga osonmi?" 896K (108 s), "Davlatga pul qayerdan keladi?" 457K (118 s), "Gigiyena" 523K.
+What they do (frame-by-frame):
+1. LONG stories (100–175 s), continuous narration, one arc. Shots change every 1–4 s; ~40–60 shots.
+2. Full-bleed illustrations (no frame, no blurred bands). Style = colored pencil/gouache on textured paper, warm palette, caricature heroes,
+   SAME hero in every shot. Biographies = realistic painterly "documentary" look.
+3. Camera = slow smooth push-in / pan on each still. NO shake, no beat pulse.
+4. Very little text: NO subtitles. Only: punch words (yellow bold, dark outline: "TILLA!", "DEV!"), red rubber stamps ("1000 YIL", "+3 QADAM"),
+   small paper tags on objects ("2 m²", "GAZ!"), name tag under a polaroid portrait ("RUSTAM AKA · TAKSIST"), phone notification mockups
+   ("JARIMA! Tezlik +1 km/soat" ×3), bar charts, a live counter ("Video boshlanganidan beri budjetga: +22 816 844 so'm").
+5. Templates: (a) STORY — paper HUD "SABR [battery] %" + dark clock that changes per shot; (b) BIO — top torn-paper card with big serif year,
+   "22 yosh", timeline 1930–2030 with red marker; lower-third card "1961–1966 / Toshkent aviatsiya zavodi"; (c) EXPLAIN — counter + charts + metaphor object.
+6. Hook: open in the middle of the funniest/most dramatic moment, then title card (serif, torn paper) within 3–5 s. Ending calls back the opening.
+
+## Engine v9 "doc" (pipeline/doc.html, spec `"format":"doc"`)
+- Images: full-bleed → `PREP_SIZE=1800 python3 pipeline/prep_img.py assets/<ID>` (square → 1800 px, centre 1080 kept). Prompts: tall vertical
+  composition, characters close together in the CENTER. Style prefix: "Hand-drawn colored pencil and gouache illustration on warm textured paper,
+  gentle caricature storybook style…" + `imageReferences` = character sheet media id.
+- Scenes may SPLIT one voice line into several shots (scene `voice` texts must concatenate to the transcript words; avoid "—" tokens).
+  Spec `"gap":0` so split shots don't add pauses (joinvoice already adds 0.18 s between lines). `"tempo":1.03`.
+- Scene keys: `img`, `voice`, `cam` (in/out/left/right/up/down/none, default alternates), `focus:[x%,y%]`, `dim`, `blurbg`, `year`/`ysub` (bio),
+  `ov:[…]` overlays: `title{t,sub}`, `name{t}`, `punch{t,size,white}`, `stamp{t}`, `tag{t,dark}`, `lower{small,t}`, `big{t|v,unit,dec,sub}`,
+  `polar{img,t}`, `phone{time,items:[{h,t,ok}]}`, `bars{items:[{l,v,c}],unit,dec}`; each with `x,y` (centre, 540×960 space), `at` or `w` anchor, `until`.
+- Spec-level widgets: `hud{label,levels,clock}`, `timeline{range,ticks}`, `counter{label,per,unit}`, `subs:true` (off by default).
+- Keep text off faces: faces usually y 80–420 → put punch/stamp/lower at y 560–840.
+- Example: specs/2026-10-14-mehmon.json (owner's own script, 48 s).

@@ -1,0 +1,225 @@
+{
+ "id": "2026-10-14-ulugbek",
+ "format": "story",
+ "uzmusic": "dramatic",
+ "music_vol": 0.16,
+ "seed": 29,
+ "cover_t": 1.0,
+ "gap": 0.12,
+ "hud": {
+  "label": "ANIQLIK",
+  "levels": [
+   40,
+   60,
+   75,
+   90,
+   99,
+   99,
+   99
+  ],
+  "clock": [
+   "2026",
+   "1420",
+   "1428",
+   "1437",
+   "2026",
+   "1609",
+   "2026"
+  ]
+ },
+ "scenes": [
+  {
+   "kind": "image",
+   "img": "assets/2026-10-14-ulugbek/1.png",
+   "voice": "Teleskop yo'q, kompyuter yo'q. Lekin bir samarqandlik yilni deyarli aniq o'lchagan!",
+   "stickers": [
+    {
+     "t": "Teleskopsiz [yilni o'lchagan?!]",
+     "style": "head",
+     "x": 270,
+     "y": 118,
+     "size": 26,
+     "sfx": "boom",
+     "at": 0.0
+    },
+    {
+     "t": "TELESKOP ✗   KOMPYUTER ✗",
+     "style": "dark",
+     "x": 270,
+     "y": 830,
+     "size": 22,
+     "sfx": "pop",
+     "w": "kompyuter",
+     "r": -1
+    }
+   ]
+  },
+  {
+   "kind": "image",
+   "img": "assets/2026-10-14-ulugbek/2.png",
+   "voice": "O'n beshinchi asr. Samarqand. Mirzo Ulug'bek bu yerda ulkan rasadxona qurdirdi.",
+   "stickers": [
+    {
+     "t": "[Samarqand], XV asr",
+     "style": "head",
+     "x": 270,
+     "y": 118,
+     "size": 28,
+     "sfx": "whoosh",
+     "w": "Samarqand."
+    },
+    {
+     "t": "ULUG'BEK RASADXONASI",
+     "style": "yellow",
+     "x": 270,
+     "y": 830,
+     "size": 24,
+     "sfx": "pop",
+     "w": "rasadxona",
+     "r": -1
+    }
+   ]
+  },
+  {
+   "kind": "image",
+   "img": "assets/2026-10-14-ulugbek/3.png",
+   "voice": "Uning ulkan sekstantining radiusi qirq metrga yaqin edi!",
+   "stickers": [
+    {
+     "t": "Sekstant: [~40 metr]",
+     "style": "head",
+     "x": 270,
+     "y": 118,
+     "size": 28,
+     "sfx": "whoosh",
+     "w": "Uning"
+    },
+    {
+     "t": "O'Z DAVRINING ENG KATTASI",
+     "style": "paper",
+     "x": 270,
+     "y": 830,
+     "size": 22,
+     "sfx": "stamp",
+     "w": "qirq",
+     "r": 1
+    }
+   ]
+  },
+  {
+   "kind": "image",
+   "img": "assets/2026-10-14-ulugbek/4.png",
+   "voice": "U yil uzunligini hisobladi: uch yuz oltmish besh kun, olti soat, o'n daqiqa, sakkiz soniya.",
+   "stickers": [
+    {
+     "t": "Bir yil = [?]",
+     "style": "head",
+     "x": 270,
+     "y": 118,
+     "size": 30,
+     "sfx": "tick",
+     "w": "U"
+    },
+    {
+     "t": "365 kun 6 soat 10 daq 8 son",
+     "style": "yellow",
+     "x": 270,
+     "y": 830,
+     "size": 22,
+     "sfx": "ding",
+     "w": "uch",
+     "r": -1
+    }
+   ]
+  },
+  {
+   "kind": "image",
+   "img": "assets/2026-10-14-ulugbek/5.png",
+   "voice": "Bugungi hisobdan farqi esa bor-yo'g'i bir daqiqaga ham yetmaydi!",
+   "stickers": [
+    {
+     "t": "Farq: [1 daqiqadan kam!]",
+     "style": "head",
+     "x": 270,
+     "y": 118,
+     "size": 26,
+     "sfx": "boom",
+     "w": "farqi"
+    },
+    {
+     "t": "XATO ≈ 58 SONIYA",
+     "style": "red",
+     "x": 270,
+     "y": 830,
+     "size": 30,
+     "sfx": "stamp",
+     "w": "daqiqaga",
+     "r": -2
+    }
+   ]
+  },
+  {
+   "kind": "image",
+   "img": "assets/2026-10-14-ulugbek/6.png",
+   "voice": "Va bu — teleskop ixtiro qilinishidan qariyb ikki yuz yil oldin edi.",
+   "stickers": [
+    {
+     "t": "Teleskopdan [~200 yil] oldin",
+     "style": "head",
+     "x": 270,
+     "y": 118,
+     "size": 26,
+     "sfx": "whoosh",
+     "w": "teleskop"
+    },
+    {
+     "t": "TELESKOP: 1609-YIL",
+     "style": "dark",
+     "x": 270,
+     "y": 830,
+     "size": 24,
+     "sfx": "pop",
+     "w": "ikki",
+     "r": 1
+    }
+   ]
+  },
+  {
+   "kind": "image",
+   "img": "assets/2026-10-14-ulugbek/7.png",
+   "voice": "Siz Ulug'bek rasadxonasida bo'lganmisiz? Ha yoki yo'q deb yozing va samarqandlik do'stingizga yuboring!",
+   "stickers": [
+    {
+     "t": "Siz [borganmisiz?]",
+     "style": "head",
+     "x": 270,
+     "y": 118,
+     "size": 30,
+     "sfx": "whoosh",
+     "w": "Siz"
+    },
+    {
+     "t": "Ha, borganman!",
+     "type": true,
+     "style": "input",
+     "x": 270,
+     "y": 812,
+     "size": 20,
+     "sfx": "pop",
+     "w": "yozing"
+    },
+    {
+     "t": "SAMARQANDLIK DO'STINGIZGA YUBORING",
+     "style": "yellow",
+     "x": 270,
+     "y": 880,
+     "size": 17,
+     "sfx": "ding",
+     "w": "samarqandlik",
+     "r": -1
+    }
+   ]
+  }
+ ],
+ "caption": "Ulug'bek yilni 1 daqiqadan kam xato bilan o'lchagan 🔭✨\n\nXV asr, Samarqand. Teleskop ham, kompyuter ham yo'q. Mirzo Ulug'bek yil uzunligini 365 kun 6 soat 10 daqiqa 8 soniya deb hisobladi — bugungi hisobdan farqi taxminan 58 soniya! Va bu teleskop ixtirosidan qariyb 200 yil oldin edi.\n\n👇 Siz Ulug'bek rasadxonasida bo'lganmisiz? Ha yoki yo'q — izohda yozing!\n📲 Samarqandlik do'stingizga yuboring\n\n#ulugbek #samarqand #tarix #ozbekiston #thefactlab"
+}

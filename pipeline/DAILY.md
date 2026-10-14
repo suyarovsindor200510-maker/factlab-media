@@ -138,3 +138,7 @@ Canva promptida asosiy obyektlarni MARKAZGA qo'yishni so'ra (yon tomonlar ~14% d
 - Music: topic-matched, quiet: music_vol 0.12–0.18 (engine lowpasses music at 5.5 kHz and ducks hard under voice). Religious → 0.
 - Engine deletes out/<id>/fr frames after encoding; still delete old out/ folders (disk limit).
 - Helpers used on 14 Oct: specdef .py (ID/META/SCENES/CAPTION) → prep (estwords per part + joinvoice + spec json). See specs/2026-10-14-bozor.json for a dialogue example.
+
+## v7 (2026-10-14 16:10) — STATIC images (owner: "videolarni ko'p silkitma")
+- Engine: image is completely static inside a scene; the only motion is at the scene change (crossfade + 3.5% zoom settle + soft flash).
+- No camera shake, no sticker wobble; stickers just fade/scale in (1.25→1). Do NOT re-add Ken Burns, pulse or shake.

@@ -1,0 +1,307 @@
+{
+ "id": "2026-10-14-mehmon",
+ "format": "doc",
+ "uzmusic": "lapar",
+ "music_vol": 0.14,
+ "gap": 0,
+ "tempo": 1.03,
+ "cover_t": 1.2,
+ "scenes": [
+  {
+   "img": "assets/2026-10-14-mehmon/1.png",
+   "cam": "in",
+   "voice": "Bir narsaga e'tibor berganmisiz?",
+   "ov": [
+    {
+     "type": "title",
+     "t": "NEGA O'ZBEKLAR\nBUNAQA? 😂",
+     "y": 190,
+     "at": 0.0
+    }
+   ],
+   "sfx": [
+    {
+     "t": "whoosh",
+     "at": 0,
+     "g": 0.6
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-14-mehmon/1.png",
+   "cam": "right",
+   "voice": "O'zbek uyida mehmon yo'q, rahmat desa ham...",
+   "ov": [
+    {
+     "type": "tag",
+     "t": "«Yo'q, rahmat»",
+     "x": 200,
+     "y": 640,
+     "w": "yo'q",
+     "r": -3
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-14-mehmon/2.png",
+   "cam": "in",
+   "voice": "yana ovqat taklif qilishadi.",
+   "ov": [
+    {
+     "type": "punch",
+     "t": "YANA!",
+     "y": 790,
+     "w": "yana"
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-14-mehmon/2.png",
+   "cam": "out",
+   "focus": [
+    50,
+    60
+   ],
+   "voice": "Oling, oling!",
+   "ov": [
+    {
+     "type": "punch",
+     "t": "OLING!",
+     "y": 180,
+     "at": 0.05
+    },
+    {
+     "type": "punch",
+     "t": "OLING!",
+     "y": 790,
+     "w": "oling",
+     "nth": 2,
+     "r": 4,
+     "size": 56
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-14-mehmon/3.png",
+   "cam": "in",
+   "voice": "Rahmat, to'ydim.",
+   "ov": [
+    {
+     "type": "tag",
+     "t": "TO'YDIM 🙏",
+     "x": 270,
+     "y": 800,
+     "w": "to'ydim",
+     "dark": true
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-14-mehmon/4.png",
+   "cam": "in",
+   "focus": [
+    45,
+    50
+   ],
+   "voice": "Hech bo'lmasa bittasini oling!",
+   "ov": [
+    {
+     "type": "stamp",
+     "t": "1 DONA",
+     "y": 800,
+     "w": "bittasini"
+    },
+    {
+     "type": "punch",
+     "t": "OLING!",
+     "y": 180,
+     "w": "oling",
+     "size": 54
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-14-mehmon/5.png",
+   "cam": "out",
+   "voice": "Bu shunchaki ovqat emas.",
+   "ov": []
+  },
+  {
+   "img": "assets/2026-10-14-mehmon/5.png",
+   "cam": "left",
+   "voice": "O'zbek madaniyatida mehmonni qayta-qayta dasturxonga taklif qilish",
+   "ov": [
+    {
+     "type": "lower",
+     "small": "O'ZBEK ODATI",
+     "t": "Mehmonni qayta-qayta\ndasturxonga chaqirish",
+     "y": 790,
+     "at": 0.3
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-14-mehmon/6.png",
+   "cam": "in",
+   "voice": "hurmat va mehmondo'stlik belgisi.",
+   "ov": [
+    {
+     "type": "stamp",
+     "t": "HURMAT",
+     "y": 780,
+     "w": "hurmat"
+    },
+    {
+     "type": "tag",
+     "t": "+ MEHMONDO'STLIK",
+     "x": 270,
+     "y": 860,
+     "w": "mehmondo'stlik",
+     "dark": true
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-14-mehmon/7.png",
+   "cam": "in",
+   "voice": "Shuning uchun mehmon men to'ydim desa ham...",
+   "ov": [
+    {
+     "type": "stamp",
+     "t": "TO'YDIM ❌",
+     "y": 790,
+     "w": "to'ydim"
+    }
+   ],
+   "sfx": [
+    {
+     "t": "boing",
+     "w": "desa",
+     "g": 0.6
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-14-mehmon/8.png",
+   "cam": "out",
+   "voice": "uy egasi buni yana ozgina yeyishim mumkin deb tushunadi.",
+   "ov": [
+    {
+     "type": "punch",
+     "t": "YANA OLING ✅",
+     "y": 800,
+     "w": "yana",
+     "size": 50
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-14-mehmon/9.png",
+   "cam": "in",
+   "voice": "Eng qizig'i esa, mehmon ketayotganida ham...",
+   "ov": [
+    {
+     "type": "tag",
+     "t": "ESHIK OLDIDA",
+     "x": 270,
+     "y": 820,
+     "at": 0.2
+    }
+   ],
+   "sfx": [
+    {
+     "t": "fail",
+     "at": 0.0,
+     "g": 0.35
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-14-mehmon/9.png",
+   "cam": "right",
+   "focus": [
+    50,
+    55
+   ],
+   "voice": "yo'lda yeb oling deb,",
+   "ov": [
+    {
+     "type": "punch",
+     "t": "YO'LGA! 🍞",
+     "y": 800,
+     "w": "yo'lda",
+     "size": 56
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-14-mehmon/10.png",
+   "cam": "left",
+   "voice": "qo'liga yana biror narsa tutqazishadi.",
+   "ov": [
+    {
+     "type": "stamp",
+     "t": "+3 PAKET",
+     "y": 790,
+     "w": "tutqazishadi"
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-14-mehmon/11.png",
+   "cam": "in",
+   "voice": "Rostini ayting...",
+   "ov": [],
+   "sfx": [
+    {
+     "t": "boom",
+     "at": 0.0,
+     "g": 0.6
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-14-mehmon/11.png",
+   "cam": "out",
+   "dim": 0.35,
+   "voice": "Sizning oilangizda ham mehmonni kamida uch marta ovqatga chaqirishadimi?",
+   "ov": [
+    {
+     "type": "big",
+     "t": "3 MARTA",
+     "y": 230,
+     "w": "uch"
+    },
+    {
+     "type": "lower",
+     "small": "OVQATGA CHAQIRISH",
+     "t": "= O'ZBEK OILASI 😂",
+     "y": 790,
+     "w": "ovqatga"
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-14-mehmon/1.png",
+   "cam": "in",
+   "dim": 0.25,
+   "voice": "Kommentga HA deb yozing!",
+   "ov": [
+    {
+     "type": "title",
+     "t": "BIZDA HAM\nSHUNAQA 😭",
+     "y": 210,
+     "at": 0.0
+    },
+    {
+     "type": "punch",
+     "t": "HA ✍️",
+     "y": 780,
+     "w": "HA",
+     "size": 80
+    }
+   ]
+  }
+ ],
+ "caption": "Nega o'zbeklar mehmonni 3 marta ovqatga chaqiradi? 😂🍽\n\n\"Rahmat, to'ydim\" — \"Hech bo'lmasa bittasini oling!\" 😅\nO'zbek madaniyatida mehmonni qayta-qayta dasturxonga taklif qilish — hurmat va mehmondo'stlik belgisi. Ketayotganda ham \"yo'lda yeb oling\" deb qo'lingizga paket tutqazishadi 🍞\n\n👇 Sizning oilangizda ham shunaqami? Kommentga \"HA\" yozing!\n📲 Mehmondo'st do'stingizga yuboring\n\n#mehmon #ozbekcha #oila #kulgili #thefactlab"
+}

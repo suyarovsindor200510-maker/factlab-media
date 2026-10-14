@@ -1,0 +1,214 @@
+{
+ "id": "2026-10-14-erxotin",
+ "format": "story",
+ "uzmusic": "lapar",
+ "music_vol": 0.14,
+ "seed": 67,
+ "cover_t": 0.8,
+ "gap": 0.2,
+ "hud": {
+  "label": "SABR",
+  "levels": [
+   60,
+   40,
+   30,
+   15,
+   50,
+   100,
+   5,
+   5
+  ],
+  "clock": [
+   "19:00",
+   "19:01",
+   "19:01",
+   "19:02",
+   "19:02",
+   "19:03",
+   "19:03",
+   "19:03"
+  ]
+ },
+ "scenes": [
+  {
+   "kind": "image",
+   "img": "assets/2026-10-14-erxotin/1.png",
+   "voice": "Voy, bugun ishda juda charchadim!",
+   "stickers": [
+    {
+     "t": "Kim ko'proq [charchaydi?]",
+     "style": "head",
+     "x": 270,
+     "y": 118,
+     "size": 28,
+     "sfx": "boom",
+     "at": 0.0
+    }
+   ]
+  },
+  {
+   "kind": "image",
+   "img": "assets/2026-10-14-erxotin/2.png",
+   "voice": "Men-chi? Ovqat, kir, bolalar, uy tozalash...",
+   "stickers": [
+    {
+     "t": "Ovqat + kir + [bolalar]...",
+     "style": "head",
+     "x": 270,
+     "y": 118,
+     "size": 26,
+     "sfx": "whoosh",
+     "w": "Ovqat"
+    },
+    {
+     "t": "+ UY TOZALASH",
+     "style": "paper",
+     "x": 270,
+     "y": 830,
+     "size": 26,
+     "sfx": "pop",
+     "w": "uy",
+     "r": 1
+    }
+   ]
+  },
+  {
+   "kind": "image",
+   "img": "assets/2026-10-14-erxotin/3.png",
+   "voice": "Lekin men sakkiz soat ishladim-ku!",
+   "stickers": [
+    {
+     "t": "Er: [8 soat] ish",
+     "style": "head",
+     "x": 270,
+     "y": 118,
+     "size": 30,
+     "sfx": "tick",
+     "w": "sakkiz"
+    }
+   ]
+  },
+  {
+   "kind": "image",
+   "img": "assets/2026-10-14-erxotin/4.png",
+   "voice": "Men esa yigirma to'rt soat ishlayman. Dam olish kunisiz!",
+   "stickers": [
+    {
+     "t": "Xotin: [24 soat] ish",
+     "style": "head",
+     "x": 270,
+     "y": 118,
+     "size": 30,
+     "sfx": "boom",
+     "w": "yigirma"
+    },
+    {
+     "t": "DAM OLISH KUNISIZ!",
+     "style": "red",
+     "x": 270,
+     "y": 830,
+     "size": 28,
+     "sfx": "stamp",
+     "w": "Dam",
+     "r": -2
+    }
+   ]
+  },
+  {
+   "kind": "image",
+   "img": "assets/2026-10-14-erxotin/5.png",
+   "voice": "Mayli, mayli... bugun idishni men yuvaman.",
+   "stickers": [
+    {
+     "t": "Idishni [men yuvaman]",
+     "style": "head",
+     "x": 270,
+     "y": 118,
+     "size": 28,
+     "sfx": "ding",
+     "w": "idishni"
+    }
+   ]
+  },
+  {
+   "kind": "image",
+   "img": "assets/2026-10-14-erxotin/6.png",
+   "voice": "Rostdanmi?!",
+   "stickers": [
+    {
+     "t": "[Rostdanmi?!]",
+     "style": "head",
+     "x": 270,
+     "y": 118,
+     "size": 36,
+     "sfx": "pop",
+     "w": "Rostdanmi"
+    }
+   ]
+  },
+  {
+   "kind": "image",
+   "img": "assets/2026-10-14-erxotin/7.png",
+   "voice": "Ha... ertaga.",
+   "stickers": [
+    {
+     "t": "Ha... [ertaga] 😅",
+     "style": "head",
+     "x": 270,
+     "y": 118,
+     "size": 32,
+     "sfx": "boom",
+     "w": "ertaga"
+    },
+    {
+     "t": "KLASSIKA",
+     "style": "yellow",
+     "x": 270,
+     "y": 830,
+     "size": 30,
+     "sfx": "stamp",
+     "w": "ertaga",
+     "dt": 0.4,
+     "r": -2
+    }
+   ]
+  },
+  {
+   "kind": "image",
+   "img": "assets/2026-10-14-erxotin/8.png",
+   "voice": "Sizningcha kim haq? Er bo'lsa — bir, xotin bo'lsa — ikki deb yozing va turmush o'rtog'ingizga yuboring!",
+   "stickers": [
+    {
+     "t": "Kim [haq?] 1 yoki 2",
+     "style": "head",
+     "x": 270,
+     "y": 118,
+     "size": 30,
+     "sfx": "whoosh",
+     "w": "Sizningcha"
+    },
+    {
+     "t": "2 — xotin! :)",
+     "type": true,
+     "style": "input",
+     "x": 270,
+     "y": 812,
+     "size": 20,
+     "sfx": "pop",
+     "w": "ikki"
+    },
+    {
+     "t": "TURMUSH O'RTOG'INGIZGA YUBORING",
+     "style": "yellow",
+     "x": 270,
+     "y": 880,
+     "size": 18,
+     "sfx": "ding",
+     "w": "turmush",
+     "r": -1
+    }
+   ]
+  }
+ ],
+ "caption": "Er va xotin: kim ko'proq charchaydi? 😅🍽\n\n— Bugun ishda juda charchadim!\n— Men-chi? Ovqat, kir, bolalar...\n— Mayli, idishni men yuvaman... ertaga 😂\n\n👇 Kim haq? Er — 1, xotin — 2. Izohda yozing!\n📲 Turmush o'rtog'ingizga yuboring\n\n#oila #erxotin #ozbekcha #kulgili #thefactlab"
+}

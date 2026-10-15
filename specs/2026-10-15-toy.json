@@ -1,8 +1,7 @@
 {
  "id": "2026-10-15-toy",
  "format": "doc",
- "uzmusic": "shox",
- "music_vol": 0.16,
+ "music_vol": 0.14,
  "gap": 0,
  "tempo": 1.04,
  "cover_t": 1.0,
@@ -314,5 +313,7 @@
    ]
   }
  ],
- "caption": "O'zbek to'yidagi eng katta yolg'on: \"Men ozgina yeyman\" 😂🍚\n\nSalat — bir qoshiq. Issiq ovqat — hurmat uchun ozgina. Keyin... OSH! 🔥 Ikkinchi lagan, meva, choy — va uyga qaytayotib yana: \"ozgina yedim\" 😅\n\n👇 To'yda sizni nima to'xtatadi: osh yoki somsa? Kommentda yozing!\n📲 To'yxo'r do'stingizga yuboring\n\n#toy #osh #ozbekcha #kulgili #thefactlab"
+ "caption": "O'zbek to'yidagi eng katta yolg'on: \"Men ozgina yeyman\" 😂🍚\n\nSalat — bir qoshiq. Issiq ovqat — hurmat uchun ozgina. Keyin... OSH! 🔥 Ikkinchi lagan, meva, choy — va uyga qaytayotib yana: \"ozgina yedim\" 😅\n\n👇 To'yda sizni nima to'xtatadi: osh yoki somsa? Kommentda yozing!\n📲 To'yxo'r do'stingizga yuboring\n\n#toy #osh #ozbekcha #kulgili #thefactlab",
+ "music": "music/_local/toylar.mp3",
+ "music_start": 14
 }

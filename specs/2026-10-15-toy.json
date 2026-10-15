@@ -72,7 +72,7 @@
      "t": "«MEN OZGINA\nYEYMAN»",
      "y": 700,
      "w": "Men",
-     "size": 50,
+     "size": 46,
      "white": true
     },
     {
@@ -103,10 +103,10 @@
    "voice": "Mana, to'yga keldingiz. Avval salat... bir qoshiq, xolos!",
    "ov": [
     {
-     "type": "tag",
+     "type": "name",
      "t": "1-TAOM: SALAT 🥗",
      "x": 270,
-     "y": 690,
+     "y": 660,
      "w": "salat",
      "sfx": "pop"
     },
@@ -125,10 +125,10 @@
    "voice": "Keyin issiq ovqat. Mayli, hurmat uchun ozgina.",
    "ov": [
     {
-     "type": "tag",
+     "type": "name",
      "t": "2-TAOM: ISSIQ OVQAT 🍖",
      "x": 270,
-     "y": 720,
+     "y": 660,
      "w": "issiq",
      "sfx": "pop"
     },
@@ -165,12 +165,11 @@
      "size": 110
     },
     {
-     "type": "tag",
+     "type": "name",
      "t": "3-TAOM",
      "x": 270,
      "y": 880,
-     "at": 0.4,
-     "dark": true
+     "at": 0.4
     }
    ],
    "sfx": [
@@ -208,12 +207,11 @@
    "voice": "Keyin meva: qovun, uzum, anor... shunchaki tatib ko'rish uchun, albatta.",
    "ov": [
     {
-     "type": "tag",
+     "type": "name",
      "t": "4: MEVA",
      "x": 270,
      "y": 660,
      "w": "meva",
-     "dark": true,
      "sfx": "pop"
     },
     {
@@ -254,10 +252,10 @@
    "voice": "Oxirida esa choy. Hazm bo'lishi uchun.",
    "ov": [
     {
-     "type": "tag",
+     "type": "name",
      "t": "5: CHOY 😇",
      "x": 270,
-     "y": 720,
+     "y": 760,
      "w": "choy",
      "sfx": ""
     }

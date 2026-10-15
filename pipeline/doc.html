@@ -24,8 +24,8 @@ html,body{width:540px;height:960px;overflow:hidden;background:#15110d;color:#1d1
 .title{padding:16px 26px 14px;text-align:center;min-width:420px}
 .title b{display:block;font-family:PF,EM;font-weight:900;font-size:40px;letter-spacing:.02em;text-transform:uppercase;color:#1d1a16;line-height:1.05}
 .title i{display:block;font-family:PF,EM;font-style:italic;font-weight:700;font-size:21px;color:#a8322b;margin-top:6px}
-.name{background:#3b2a1c;color:#ffd257;font-family:O,EM;font-weight:700;font-size:21px;letter-spacing:.05em;padding:7px 14px;text-transform:uppercase;box-shadow:0 6px 14px rgba(0,0,0,.45)}
-.punch{font-family:M,EM;font-weight:900;font-size:64px;color:#ffd23f;text-transform:uppercase;letter-spacing:.01em;line-height:1;
+.name{background:#3b2a1c;color:#ffd257;font-family:O,EM;font-weight:700;font-size:26px;letter-spacing:.05em;padding:7px 14px;text-transform:uppercase;box-shadow:0 6px 14px rgba(0,0,0,.45)}
+.punch{text-align:center;font-family:M,EM;font-weight:900;font-size:64px;color:#ffd23f;text-transform:uppercase;letter-spacing:.01em;line-height:1;
  -webkit-text-stroke:3px #2a1d10;paint-order:stroke fill;text-shadow:0 5px 0 #2a1d10,0 10px 22px rgba(0,0,0,.55)}
 .punch.w{color:#fff}
 .stamp{font-family:O,EM;font-weight:700;font-size:34px;color:#b8242b;text-transform:uppercase;letter-spacing:.06em;padding:5px 16px 4px;border:4px solid #b8242b;
@@ -113,7 +113,7 @@ SC.forEach((s,i)=>{const d=document.createElement('div');d.className='sc';d.id='
  (s.ov||[]).forEach((o,j)=>{const ty=o.type;let inner='',cls='ov '+ty,sty='';
   if(ty=='title'){cls+=' paper';inner=`<b>${tx(o.t)}</b>${o.sub?`<i>${o.sub}</i>`:''}`;sty=`clip-path:${torn(5)}`}
   else if(ty=='name')inner=o.t;
-  else if(ty=='punch'){inner=o.t;if(o.white)cls+=' w';if(o.size)sty=`font-size:${o.size}px`}
+  else if(ty=='punch'){inner=o.t.replace(/\n/g,'<br>');if(o.white)cls+=' w';if(o.size)sty=`font-size:${o.size}px`}
   else if(ty=='stamp'){inner=o.t;if(o.size)sty=`font-size:${o.size}px`}
   else if(ty=='tag'){inner=o.t;if(o.dark)cls+=' dark'}
   else if(ty=='lower'){cls+=' paper';inner=`${o.small?`<s>${o.small}</s>`:''}<b>${tx(o.t)}</b>`;sty=`clip-path:${torn(6)}`}

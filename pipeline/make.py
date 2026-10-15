@@ -122,9 +122,11 @@ def split_by_words(mp3, spec, words, wd, tempo=None, gap=None):
         w0, w1 = words[idx[i]], words[idx[i + 1] - 1]
         a = max(0, w0['start'] - 0.06) if i == 0 else (words[idx[i] - 1]['end'] + w0['start']) / 2
         e = min(T, w1['end'] + 0.25) if i == len(counts) - 1 else (w1['end'] + words[idx[i + 1]]['start']) / 2
-        sh(f'ffmpeg -y -ss {a:.3f} -to {e:.3f} -i "{raw}" -af "atempo={tempo},afade=t=in:d=0.015" -ar 44100 "{out}"')
+        pd = float(sc.get('pre_sil', 0))  # extra absolute silence at the start of this scene (dramatic pause)
+        dl = f',adelay={int(pd*1000)}|{int(pd*1000)}' if pd else ''
+        sh(f'ffmpeg -y -ss {a:.3f} -to {e:.3f} -i "{raw}" -af "atempo={tempo},afade=t=in:d=0.015{dl}" -ar 44100 "{out}"')
         d = dur(out); starts.append(round(t, 3)); durs.append(round(d, 3))
-        wl.append([[w['text'], round(t + (w['start'] - a) / tempo, 3), round(t + (w['end'] - a) / tempo, 3)] for w in words[idx[i]:idx[i + 1]]])
+        wl.append([[w['text'], round(t + pd + (w['start'] - a) / tempo, 3), round(t + pd + (w['end'] - a) / tempo, 3)] for w in words[idx[i]:idx[i + 1]]])
         segs.append(out); t += d + gap
     total = round(t - gap + TAIL, 3)
     parts = [f'[{i}:a]adelay={int(starts[i]*1000)}|{int(starts[i]*1000)}[a{i}]' for i in range(len(segs))]

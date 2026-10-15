@@ -162,5 +162,14 @@
   "title": "O'zbek to'yidagi eng katta yolg'on",
   "format": "doc",
   "music": "shox"
+ },
+ {
+  "id": "2026-10-15-telefon",
+  "topic": "Telefon sizni eshityaptimi? Algoritmlar",
+  "category": "texnologiya",
+  "type": "texnologiya",
+  "title": "Telefon sizni eshityaptimi?",
+  "format": "doc",
+  "music": "gen:dark"
  }
 ]

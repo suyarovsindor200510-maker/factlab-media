@@ -81,7 +81,70 @@ def hit():
     return st(x * env(n, 0.003, 0.1))
 
 
+def notif():
+    # phone notification: two bright sine tones (E6 -> B6) with soft bell decay
+    T = 0.7; n = int(T * SR); t = np.arange(n) / SR
+    x = np.zeros(n)
+    for t0, f in ((0.0, 1318.5), (0.11, 1975.5)):
+        tt = np.clip(t - t0, 0, None); on = t >= t0
+        x += on * (np.sin(2 * np.pi * f * tt) + 0.3 * np.sin(2 * np.pi * 2 * f * tt)) * np.exp(-tt * 9)
+    return st(x * env(n, 0.002, 0.05))
+
+
+def glitch():
+    # digital glitch: bit-crushed noise bursts + stuttering square tones, chopped in random slices
+    T = 0.6; n = int(T * SR); t = np.arange(n) / SR
+    x = np.zeros(n); i = 0
+    while i < n:
+        L = int(rng.uniform(0.012, 0.06) * SR); seg = np.arange(min(L, n - i)) / SR
+        k = rng.integers(3)
+        if k == 0: y = np.sign(np.sin(2 * np.pi * rng.uniform(200, 3000) * seg))
+        elif k == 1: y = np.round(rng.standard_normal(len(seg)) * 3) / 3
+        else: y = np.zeros(len(seg))
+        x[i:i + len(seg)] = y * rng.uniform(0.3, 1); i += L
+    x = np.repeat(x[::6], 6)[:n]  # sample-rate reduction -> crunchy
+    return st(x * env(n, 0.002, 0.08))
+
+
+def typing():
+    # computer processing: fast keyboard clicks over a soft data hum with bleeps (~2.2 s)
+    T = 2.2; n = int(T * SR); t = np.arange(n) / SR
+    x = 0.08 * np.sin(2 * np.pi * 120 * t) * (0.6 + 0.4 * np.sin(2 * np.pi * 3 * t))
+    tk = 0.0
+    while tk < T - 0.05:
+        i = int(tk * SR); L = int(0.025 * SR); seg = np.arange(L) / SR
+        click = rng.standard_normal(L) * np.exp(-seg * 300) + 0.5 * np.sin(2 * np.pi * rng.uniform(1800, 3200) * seg) * np.exp(-seg * 400)
+        x[i:i + L] += click * rng.uniform(0.4, 0.9)
+        tk += rng.uniform(0.05, 0.14)
+    for b in np.arange(0.3, T - 0.2, 0.45):
+        i = int(b * SR); L = int(0.06 * SR); seg = np.arange(L) / SR
+        x[i:i + L] += 0.35 * np.sin(2 * np.pi * rng.choice([880, 1320, 1760]) * seg) * env(L, 0.003, 0.03)
+    return st(x * env(n, 0.05, 0.3))
+
+
+def clock():
+    # clock ticking, 5 s (tick-tock alternating pitch)
+    T = 5.0; n = int(T * SR); x = np.zeros(n)
+    for q, tk in enumerate(np.arange(0.05, T, 0.5)):
+        i = int(tk * SR); L = int(0.03 * SR); seg = np.arange(L) / SR
+        f = 3200 if q % 2 == 0 else 2500
+        x[i:i + L] += (np.sin(2 * np.pi * f * seg) + rng.standard_normal(L) * 0.5) * np.exp(-seg * 250)
+    return st(x)
+
+
+def impact():
+    # deep cinematic bass impact: sub thump 45 Hz + low boom sweep + noise crack, long dark tail
+    T = 3.0; n = int(T * SR); t = np.arange(n) / SR
+    f = 28 + 60 * np.exp(-t * 5)
+    sub = np.tanh(2.5 * np.sin(2 * np.pi * np.cumsum(f) / SR)) * np.exp(-t * 1.1)
+    crack = rng.standard_normal(n) * np.exp(-t * 25) * 0.5
+    crack = np.convolve(crack, np.ones(20) / 20, 'same') * 3
+    tail = np.convolve(rng.standard_normal(n), np.ones(400) / 400, 'same') * np.exp(-t * 1.5) * 6
+    return st((sub + crack + tail) * env(n, 0.001, 0.6))
+
+
 if __name__ == '__main__':
-    for name, fn in (('scratch', scratch), ('choir', choir), ('bassdrop', bassdrop), ('hit', hit)):
+    for name, fn in (('scratch', scratch), ('choir', choir), ('bassdrop', bassdrop), ('hit', hit), ('notif', notif), ('glitch', glitch),
+                     ('typing', typing), ('clock', clock), ('impact', impact)):
         sf.write(f'{D}/{name}.wav', fn(), SR)
         print(name, 'ok')

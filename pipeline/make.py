@@ -260,6 +260,9 @@ def music(tl, wd, seed, spec=None):
     if spec and spec.get('uzmusic'):
         sh(f'python3 "{HERE}/uzmusic.py" "{wd}/timeline.json" "{wd}/music.wav" {seed} {spec["uzmusic"]}')
         return
+    if spec and str(spec.get('music', '')).startswith('gen:'):
+        sh(f'python3 "{HERE}/darkmusic.py" "{wd}/music.wav" {tl["total"]:.2f} {spec.get("music_bpm", 100)}')
+        return
     if spec and spec.get('music'):
         # licensed-free track from music/ (NCS): start offset, fade in/out, fit to video length
         T = tl['total']; ss = spec.get('music_start', 0)
@@ -267,6 +270,18 @@ def music(tl, wd, seed, spec=None):
            f'loudnorm=I=-16:TP=-1.5" -ar 44100 -ac 2 "{wd}/music.wav"')
         return
     sh(f'python3 "{HERE}/music.py" "{wd}/timeline.json" "{wd}/music.wav" {seed}')
+
+
+def music_automation(spec, tl, wd):
+    """Per-scene music level: scene key "mv" = multiplier of music_vol from that scene's start (smoothed 0.6 s ramps)."""
+    if not any('mv' in s for s in spec['scenes']): return
+    import numpy as np, soundfile as sf
+    a, sr = sf.read(f'{wd}/music.wav'); n = len(a); g = np.ones(n); cur = 1.0
+    st = tl['starts'] + [tl['total'] + 5]
+    for i, s in enumerate(spec['scenes']):
+        cur = s.get('mv', cur); a0 = int(max(0, st[i] - 0.3) * sr) if i else 0; g[a0:int(st[i + 1] * sr)] = cur
+    k = int(0.6 * sr); g = np.convolve(np.pad(g, (k, k), mode='edge'), np.ones(k) / k, 'same')[k:k + n]
+    sf.write(f'{wd}/music.wav', a * (g[:, None] if a.ndim == 2 else g), sr)
 
 
 def main():
@@ -289,6 +304,7 @@ def main():
     build_html(spec, tl, wd)
     seed = sum(map(ord, spec.get('id', 'x'))) % 1000
     music(tl, wd, seed, spec)
+    music_automation(spec, tl, wd)
     # mix: music ducked under voice (+ bass lift), sound effects on top, loudness normalised for Instagram
     has_sfx = spec.get('format') in ('story', 'doc')
     if has_sfx: sfx_track(spec, tl, wd)

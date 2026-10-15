@@ -171,5 +171,15 @@
   "title": "Telefon sizni eshityaptimi?",
   "format": "doc",
   "music": "gen:dark"
+ },
+ {
+  "id": "2026-10-16-seen",
+  "topic": "Nega odamlar xabarni ko'rib javob bermaydi (seen)",
+  "category": "psixologiya",
+  "type": "dialog",
+  "title": "Seen — nega javob bermaydi",
+  "format": "doc",
+  "music": "gen:dark",
+  "source": "owner script"
  }
 ]

@@ -7,7 +7,7 @@ cumulative duration. Output words json: {"words":[{"text","start","end","type":"
 """
 import sys, json, subprocess, tempfile, os
 
-GAP = 0.18
+GAP = float(__import__("os").environ.get("JGAP", 0.18))
 
 
 def dur(p):

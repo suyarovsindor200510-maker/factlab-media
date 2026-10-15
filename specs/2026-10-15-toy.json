@@ -1,0 +1,320 @@
+{
+ "id": "2026-10-15-toy",
+ "format": "doc",
+ "uzmusic": "shox",
+ "music_vol": 0.16,
+ "gap": 0,
+ "tempo": 1.04,
+ "cover_t": 1.0,
+ "hud": {
+  "label": "QORIN",
+  "levels": [
+   5,
+   5,
+   15,
+   40,
+   50,
+   60,
+   85,
+   95,
+   100,
+   100,
+   100
+  ],
+  "clock": [
+   "18:00",
+   "18:00",
+   "18:20",
+   "19:00",
+   "19:40",
+   "19:40",
+   "20:10",
+   "21:00",
+   "21:30",
+   "22:00",
+   "22:00"
+  ]
+ },
+ "scenes": [
+  {
+   "img": "assets/2026-10-15-toy/1.png",
+   "cam": "in",
+   "voice": "O'zbek to'yidagi eng katta yolg'on nima ekanini bilasizmi?",
+   "ov": [
+    {
+     "type": "title",
+     "t": "TO'YDAGI ENG KATTA\nYOLG'ON 🤥",
+     "y": 230,
+     "at": 0.0
+    }
+   ],
+   "sfx": [
+    {
+     "t": "whoosh",
+     "at": 0,
+     "g": 0.6
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-15-toy/2.png",
+   "cam": "slam",
+   "camT": 0.5,
+   "voice": "Men ozgina yeyman.",
+   "mcut": {
+    "at": 0,
+    "pre": 0.35,
+    "dur": 2.4
+   },
+   "ov": [
+    {
+     "type": "punch",
+     "t": "«MEN OZGINA\nYEYMAN»",
+     "y": 700,
+     "w": "Men",
+     "size": 50,
+     "white": true
+    },
+    {
+     "type": "stamp",
+     "t": "YOLG'ON!",
+     "y": 840,
+     "w": "yeyman",
+     "dt": 0.55
+    }
+   ],
+   "sfx": [
+    {
+     "t": "scratch",
+     "at": -0.4,
+     "g": 0.9
+    },
+    {
+     "t": "hit",
+     "w": "yeyman",
+     "dt": 0.5,
+     "g": 0.8
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-15-toy/3.png",
+   "cam": "in",
+   "voice": "Mana, to'yga keldingiz. Avval salat... bir qoshiq, xolos!",
+   "ov": [
+    {
+     "type": "tag",
+     "t": "1-TAOM: SALAT 🥗",
+     "x": 270,
+     "y": 690,
+     "w": "salat",
+     "sfx": "pop"
+    },
+    {
+     "type": "punch",
+     "t": "BIR QOSHIQ? 🤨",
+     "y": 820,
+     "w": "bir",
+     "size": 44
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-15-toy/4.png",
+   "cam": "out",
+   "voice": "Keyin issiq ovqat. Mayli, hurmat uchun ozgina.",
+   "ov": [
+    {
+     "type": "tag",
+     "t": "2-TAOM: ISSIQ OVQAT 🍖",
+     "x": 270,
+     "y": 720,
+     "w": "issiq",
+     "sfx": "pop"
+    },
+    {
+     "type": "stamp",
+     "t": "«OZGINA»",
+     "y": 840,
+     "w": "ozgina"
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-15-toy/5.png",
+   "cam": "in",
+   "voice": "Va nihoyat...",
+   "ov": []
+  },
+  {
+   "img": "assets/2026-10-15-toy/6.png",
+   "cam": "slam",
+   "camT": 0.7,
+   "voice": "OSH!",
+   "mcut": {
+    "at": 0,
+    "pre": 0.3,
+    "dur": 0
+   },
+   "ov": [
+    {
+     "type": "punch",
+     "t": "OSH! 🔥",
+     "y": 760,
+     "at": 0.0,
+     "size": 110
+    },
+    {
+     "type": "tag",
+     "t": "3-TAOM",
+     "x": 270,
+     "y": 880,
+     "at": 0.4,
+     "dark": true
+    }
+   ],
+   "sfx": [
+    {
+     "t": "bassdrop",
+     "at": 0.0,
+     "g": 1.0
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-15-toy/7.png",
+   "cam": "in",
+   "voice": "Ozgina yeyman degan odam ikkinchi laganni so'raydi!",
+   "ov": [
+    {
+     "type": "stamp",
+     "t": "2-LAGAN!",
+     "y": 800,
+     "w": "ikkinchi",
+     "size": 40
+    }
+   ],
+   "sfx": [
+    {
+     "t": "boing",
+     "w": "so'raydi",
+     "g": 0.6
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-15-toy/8.png",
+   "cam": "left",
+   "voice": "Keyin meva: qovun, uzum, anor... shunchaki tatib ko'rish uchun, albatta.",
+   "ov": [
+    {
+     "type": "tag",
+     "t": "4: MEVA",
+     "x": 270,
+     "y": 660,
+     "w": "meva",
+     "dark": true,
+     "sfx": "pop"
+    },
+    {
+     "type": "punch",
+     "t": "QOVUN",
+     "x": 140,
+     "y": 760,
+     "w": "qovun",
+     "size": 40,
+     "r": -6,
+     "sfx": "pop"
+    },
+    {
+     "type": "punch",
+     "t": "UZUM",
+     "x": 380,
+     "y": 760,
+     "w": "uzum",
+     "size": 40,
+     "r": 5,
+     "sfx": "pop"
+    },
+    {
+     "type": "punch",
+     "t": "ANOR",
+     "x": 270,
+     "y": 850,
+     "w": "anor",
+     "size": 40,
+     "r": -2,
+     "sfx": "pop"
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-15-toy/9.png",
+   "cam": "in",
+   "voice": "Oxirida esa choy. Hazm bo'lishi uchun.",
+   "ov": [
+    {
+     "type": "tag",
+     "t": "5: CHOY 😇",
+     "x": 270,
+     "y": 720,
+     "w": "choy",
+     "sfx": ""
+    }
+   ],
+   "sfx": [
+    {
+     "t": "choir",
+     "w": "choy",
+     "dt": -0.1,
+     "g": 0.75
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-15-toy/10.png",
+   "cam": "right",
+   "voice": "Uyga qaytayotib esa yana o'sha gap: Men ozgina yedim.",
+   "ov": [
+    {
+     "type": "punch",
+     "t": "«OZGINA YEDIM» 😂",
+     "y": 800,
+     "w": "Men",
+     "size": 44,
+     "white": true
+    }
+   ],
+   "sfx": [
+    {
+     "t": "boing",
+     "w": "yedim",
+     "dt": 0.3,
+     "g": 0.6
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-15-toy/11.png",
+   "cam": "out",
+   "dim": 0.15,
+   "voice": "To'yda sizni nima to'xtatadi: osh yoki somsa? Kommentda yozing va to'yxo'r do'stingizga yuboring!",
+   "ov": [
+    {
+     "type": "title",
+     "t": "OSH 🍚 yoki\nSOMSA 🥟?",
+     "y": 230,
+     "at": 0.2
+    },
+    {
+     "type": "punch",
+     "t": "KOMMENTGA YOZING ✍️",
+     "y": 820,
+     "w": "Kommentda",
+     "size": 38
+    }
+   ]
+  }
+ ],
+ "caption": "O'zbek to'yidagi eng katta yolg'on: \"Men ozgina yeyman\" 😂🍚\n\nSalat — bir qoshiq. Issiq ovqat — hurmat uchun ozgina. Keyin... OSH! 🔥 Ikkinchi lagan, meva, choy — va uyga qaytayotib yana: \"ozgina yedim\" 😅\n\n👇 To'yda sizni nima to'xtatadi: osh yoki somsa? Kommentda yozing!\n📲 To'yxo'r do'stingizga yuboring\n\n#toy #osh #ozbekcha #kulgili #thefactlab"
+}

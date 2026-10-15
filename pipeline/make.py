@@ -202,7 +202,7 @@ def resolve_word_timing(spec, tl):
                 if c == nth: return round(w[1] - tl['starts'][i], 2)
         return None
     for i, s in enumerate(spec['scenes']):
-        for it in s.get('stickers', []) + s.get('rows', []) + s.get('sfx', []) + s.get('ov', []):
+        for it in s.get('stickers', []) + s.get('rows', []) + s.get('sfx', []) + s.get('ov', []) + ([s['mcut']] if s.get('mcut') else []):
             if 'w' in it:
                 v = find(i, it['w'], it.get('nth', 1))
                 if v is not None: it['at'] = round(v + it.get('dt', 0), 2)
@@ -293,12 +293,19 @@ def main():
     has_sfx = spec.get('format') in ('story', 'doc')
     if has_sfx: sfx_track(spec, tl, wd)
     mv = spec.get("music_vol", 0.2)
+    # music cuts (dramatic silence before a drop): scene-level {"mcut": {"w"|"at": .., "dur": 0.3, "pre": 0.3}}
+    cuts = []
+    for i, s in enumerate(spec['scenes']):
+        mc = s.get('mcut')
+        if mc:
+            t0 = tl['starts'][i] + mc.get('at', 0); cuts.append((max(0, t0 - mc.get('pre', 0.3)), t0 + mc.get('dur', 0.0)))
+    mcut = ''.join(f",volume=0:enable='between(t,{a:.2f},{b:.2f})'" for a, b in cuts)
     sx = f' -i "{wd}/sfx.wav"' if has_sfx else ''
     mixin = '[v][md][fx]amix=inputs=3:normalize=0' if has_sfx else '[v][md]amix=inputs=2:normalize=0'
     fxs = f';[2:a]volume={spec.get("sfx_vol", 0.9)}[fx]' if has_sfx else ''
     sh(f'ffmpeg -y -i "{wd}/voice.wav" -i "{wd}/music.wav"{sx} -filter_complex '
        f'"[0:a]aformat=channel_layouts=stereo,highpass=f=70,acompressor=threshold=0.1:ratio=3:attack=5:release=80,volume=1.15,asplit[v][sc];'
-       f'[1:a]lowpass=f=5500,bass=g=1:f=90,volume={mv}[m];'
+       f'[1:a]lowpass=f=5500,bass=g=1:f=90,volume={mv}{mcut}[m];'
        f'[m][sc]sidechaincompress=threshold=0.02:ratio=10:attack=5:release=400[md]{fxs};'
        f'{mixin},alimiter=limit=0.95,loudnorm=I=-13:TP=-1.0:LRA=9[o]" -map "[o]" -ar 48000 "{wd}/audio.wav"')
     fr = f'{wd}/fr'; shutil.rmtree(fr, ignore_errors=True); os.makedirs(fr)

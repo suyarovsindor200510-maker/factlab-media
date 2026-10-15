@@ -104,7 +104,7 @@ const tx=s=>(s||'').replace(/\[(.+?)\]/g,'<em style="font-style:normal;color:#b8
 // scene windows: scene i is on screen from st[i]-.12 until st[i+1]-.12 (cuts land just before the line starts)
 function win(i){return [i==0?0:st[i]-.12,i<N-1?st[i+1]-.12:TL.total]}
 // default camera alternates; values: [scale0,scale1,x0,x1,y0,y1]
-const CAMS={in:[1.0,1.075,0,0,0,0],out:[1.085,1.0,0,0,0,0],left:[1.1,1.1,22,-22,0,0],right:[1.1,1.1,-22,22,0,0],up:[1.1,1.1,0,0,26,-26],down:[1.1,1.1,0,0,-26,26],none:[1,1,0,0,0,0]};
+const CAMS={slam:[1.35,1.04,0,0,0,0],in:[1.0,1.075,0,0,0,0],out:[1.085,1.0,0,0,0,0],left:[1.1,1.1,22,-22,0,0],right:[1.1,1.1,-22,22,0,0],up:[1.1,1.1,0,0,26,-26],down:[1.1,1.1,0,0,-26,26],none:[1,1,0,0,0,0]};
 const cam=$('cam');
 SC.forEach((s,i)=>{const d=document.createElement('div');d.className='sc';d.id='s'+i;let h='';
  if(s.blurbg)h+=`<img class="bgb" src="${ROOT}/${s.img}">`;
@@ -149,7 +149,7 @@ function render(t){
   const s=SC[i],ut=t-st[i],D=b-a;
   // tiny cross-dissolve (.16s) between shots, no flash, no shake
   const fi=i==0?1:E.s(P(t,a-.08,a+.08)),fo=i==N-1?1:1-E.s(P(t,b-.08,b+.08));el.style.opacity=Math.min(fi,fo);el.style.zIndex=10+i;
-  const img=el.querySelector('.bg');if(img){const c=s.camv||CAMS[s.cam||(i%2?'out':'in')];const q=E.io(C((t-a)/Math.max(.8,D)));
+  const img=el.querySelector('.bg');if(img){const c=s.camv||CAMS[s.cam||(i%2?'out':'in')];const q=s.camT?E.o3(C((t-st[i]-(s.camAt||0))/s.camT)):E.io(C((t-a)/Math.max(.8,D)));
    img.style.transform=`translate(${L(c[2],c[3],q)}px,${L(c[4],c[5],q)}px) scale(${L(c[0],c[1],q)})`}
   (s.ov||[]).forEach((o,j)=>{const e=el.querySelector(`.ov[data-j="${j}"]`);anim(e,o,ut,D)})}
  // widgets

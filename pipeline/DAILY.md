@@ -176,3 +176,8 @@ What they do (frame-by-frame):
 - Spec-level widgets: `hud{label,levels,clock}`, `timeline{range,ticks}`, `counter{label,per,unit}`, `subs:true` (off by default).
 - Keep text off faces: faces usually y 80–420 → put punch/stamp/lower at y 560–840.
 - Example: specs/2026-10-14-mehmon.json (owner's own script, 48 s).
+
+## Notes (16 Oct 20:10 KST, onam reel)
+- Canva generate-image PORTRAIT_9_16 now returns real 9:16 images. Plain `update_fill` on the carrier fills 1080×1920 full-bleed —
+  export that directly and SKIP crop_media/prep_img (crop_media 0,0,1080,1080 zooms into the hoodie; prep_img expects the old square layout).
+- Sandbox may lack python `soundfile`/`scipy` → `pip install soundfile scipy --break-system-packages` before make.py.

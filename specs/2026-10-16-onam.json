@@ -1,53 +1,258 @@
 {
-  "id": "2026-10-16-onam",
-  "format": "doc",
-  "uzmusic": "lapar",
-  "music_vol": 0.15,
-  "sfx_vol": 0.8,
-  "gap": 0,
-  "tempo": 1.03,
-  "cover_t": 20.0,
-  "caption": "Onam qo'ng'iroq qilsa... 📞😂 Onaning birinchi savoli: \"Ovqat yedingmi?\"\n\n\"Ha, yedim\" desangiz — \"Nima yeding? Ozib ketgansan!\" 😅 Keyin: qalin kiyin, puling bormi... va eng qo'rqinchlisi: \"Qachon uylanasan?\" 💍\n\n👇 Onangiz birinchi nima deydi? Bir so'z bilan izohda yozing!\n📲 Bu videoni onangizga yuboring ❤️\n\n#onam #kulgili #ozbekcha #oila #thefactlab",
-  "scenes": [
-    {"img": "assets/2026-10-16-onam/1.png", "cam": "in",
-     "voice": "Onangiz qo'ng'iroq qilsa, birinchi savol nima bo'ladi?",
-     "ov": [{"type": "punch", "t": "ONANGIZ\nQO'NG'IROQ QILSA... 📞", "y": 700, "at": 0.0, "size": 50, "white": true, "sfx": ""},
-            {"type": "phone", "time": "21:47", "y": 230, "at": 0.05, "sfx": "", "items": [{"h": "📞 Kiruvchi qo'ng'iroq", "t": "ONAM ❤️"}]}],
-     "sfx": [{"t": "impact", "at": 0.0, "g": 0.7}, {"t": "notif", "at": 0.1, "g": 0.8}]},
-    {"img": "assets/2026-10-16-onam/2.png", "cam": "in",
-     "voice": "Allo, bolam! Ovqat yedingmi?",
-     "ov": [{"type": "punch", "t": "OVQAT YEDINGMI? 🍲", "y": 780, "w": "Ovqat", "size": 48, "white": true, "sfx": ""}]},
-    {"img": "assets/2026-10-16-onam/3.png", "cam": "in",
-     "voice": "Ha, ona, yedim.",
-     "ov": [{"type": "stamp", "t": "YEDIM 😅", "y": 800, "w": "yedim.", "sfx": ""},
-            {"type": "tag", "t": "🍜 doshirak", "x": 380, "y": 640, "w": "ona,", "dark": true, "sfx": ""}]},
-    {"img": "assets/2026-10-16-onam/2.png", "cam": "out",
-     "voice": "Nima yeding? Ozib ketgansan, ovozingdan bilinib turibdi!",
-     "ov": [{"type": "punch", "t": "OZIB KETGANSAN! 😟", "y": 780, "w": "Ozib", "size": 46, "white": true, "sfx": ""}]},
-    {"img": "assets/2026-10-16-onam/1.png", "cam": "out",
-     "voice": "Ona, kecha ham gaplashdik-ku...",
-     "ov": [{"type": "tag", "t": "📅 kecha ham...", "x": 270, "y": 800, "w": "kecha", "dark": true, "sfx": ""}]},
-    {"img": "assets/2026-10-16-onam/2.png", "cam": "in",
-     "voice": "Qalin kiyin, sovuq bo'ladi. Puling bormi?",
-     "ov": [{"type": "tag", "t": "🧥 QALIN KIYIN", "x": 170, "y": 700, "w": "Qalin", "sfx": ""},
-            {"type": "tag", "t": "💸 PULING BORMI?", "x": 360, "y": 790, "w": "Puling", "sfx": ""}]},
-    {"img": "assets/2026-10-16-onam/4.png", "cam": "slam", "camT": 0.5, "pre_sil": 0.35,
-     "voice": "Qachon uylanasan?",
-     "mcut": {"w": "Qachon", "pre": 0.35, "dur": 1.5},
-     "ov": [{"type": "punch", "t": "QACHON\nUYLANASAN?! 💍", "y": 760, "w": "Qachon", "size": 54, "white": true, "sfx": ""}],
-     "sfx": [{"t": "impact", "w": "Qachon", "dt": 0.0, "g": 1.0}]},
-    {"img": "assets/2026-10-16-onam/5.png", "cam": "in",
-     "voice": "Ona... internet... yomon... eshitilmayapti...",
-     "ov": [{"type": "stamp", "t": "📶 ALOQA YO'Q 😏", "y": 800, "w": "internet...", "sfx": ""}],
-     "sfx": [{"t": "glitch", "w": "internet...", "dt": 0.0, "g": 0.5}]},
-    {"img": "assets/2026-10-16-onam/6.png", "cam": "in",
-     "voice": "Mayli, bolam. Ertaga yana qo'ng'iroq qilaman. Ovqat ye!",
-     "ov": [{"type": "punch", "t": "OVQAT YE! ❤️", "y": 790, "w": "Ovqat", "size": 50, "white": true, "sfx": ""}]},
-    {"img": "assets/2026-10-16-onam/1.png", "cam": "out",
-     "voice": "Onangiz birinchi nima deydi? Bir so'z bilan izohda yozing. Va bu videoni onangizga yuboring!",
-     "ov": [{"type": "punch", "t": "ONANGIZ BIRINCHI\nNIMA DEYDI? 🤔", "y": 680, "w": "Onangiz", "size": 44, "white": true, "sfx": ""},
-            {"type": "tag", "t": "👇 BIR SO'Z — IZOHDA", "x": 270, "y": 810, "w": "so'z", "sfx": ""},
-            {"type": "tag", "t": "📲 ONANGIZGA YUBORING", "x": 270, "y": 880, "w": "onangizga", "dark": true, "sfx": ""}],
-     "sfx": [{"t": "pop", "w": "so'z", "dt": 0.0, "g": 0.5}]}
-  ]
+ "id": "2026-10-16-onam",
+ "format": "doc",
+ "uzmusic": "lapar",
+ "music_vol": 0.15,
+ "sfx_vol": 0.8,
+ "gap": 0,
+ "tempo": 1.03,
+ "cover_t": 20.0,
+ "caption": "Onam qo'ng'iroq qilsa... 📞😂 Onaning birinchi savoli: \"Ovqat yedingmi?\"\n\n\"Ha, yedim\" desangiz — \"Nima yeding? Ozib ketgansan!\" 😅 Keyin: qalin kiyin, puling bormi... va eng qo'rqinchlisi: \"Qachon uylanasan?\" 💍\n\n👇 Onangiz birinchi nima deydi? Bir so'z bilan izohda yozing!\n📲 Bu videoni onangizga yuboring ❤️\n\n#onam #kulgili #ozbekcha #oila #thefactlab",
+ "scenes": [
+  {
+   "img": "assets/2026-10-16-onam/1.png",
+   "cam": "in",
+   "voice": "Onangiz qo'ng'iroq qilsa, birinchi savol nima bo'ladi?",
+   "ov": [
+    {
+     "type": "punch",
+     "t": "ONANGIZ\nQO'NG'IROQ QILSA... 📞",
+     "y": 790,
+     "at": 0.0,
+     "size": 40,
+     "white": true,
+     "sfx": ""
+    },
+    {
+     "type": "phone",
+     "time": "21:47",
+     "y": 560,
+     "at": 0.05,
+     "sfx": "",
+     "items": [
+      {
+       "h": "📞 Kiruvchi qo'ng'iroq",
+       "t": "ONAM ❤️"
+      }
+     ]
+    }
+   ],
+   "sfx": [
+    {
+     "t": "impact",
+     "at": 0.0,
+     "g": 0.7
+    },
+    {
+     "t": "notif",
+     "at": 0.1,
+     "g": 0.8
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-16-onam/2.png",
+   "cam": "in",
+   "voice": "Allo, bolam! Ovqat yedingmi?",
+   "ov": [
+    {
+     "type": "punch",
+     "t": "OVQAT YEDINGMI? 🍲",
+     "y": 780,
+     "w": "Ovqat",
+     "size": 40,
+     "white": true,
+     "sfx": ""
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-16-onam/3.png",
+   "cam": "in",
+   "voice": "Ha, ona, yedim.",
+   "ov": [
+    {
+     "type": "stamp",
+     "t": "YEDIM 😅",
+     "y": 800,
+     "w": "yedim.",
+     "sfx": ""
+    },
+    {
+     "type": "tag",
+     "t": "🍜 doshirak",
+     "x": 380,
+     "y": 640,
+     "w": "ona,",
+     "dark": true,
+     "sfx": ""
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-16-onam/2.png",
+   "cam": "out",
+   "voice": "Nima yeding? Ozib ketgansan, ovozingdan bilinib turibdi!",
+   "ov": [
+    {
+     "type": "punch",
+     "t": "OZIB KETGANSAN! 😟",
+     "y": 780,
+     "w": "Ozib",
+     "size": 40,
+     "white": true,
+     "sfx": ""
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-16-onam/1.png",
+   "cam": "out",
+   "voice": "Ona, kecha ham gaplashdik-ku...",
+   "ov": [
+    {
+     "type": "tag",
+     "t": "📅 kecha ham...",
+     "x": 270,
+     "y": 800,
+     "w": "kecha",
+     "dark": true,
+     "sfx": ""
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-16-onam/2.png",
+   "cam": "in",
+   "voice": "Qalin kiyin, sovuq bo'ladi. Puling bormi?",
+   "ov": [
+    {
+     "type": "tag",
+     "t": "🧥 QALIN KIYIN",
+     "x": 170,
+     "y": 700,
+     "w": "Qalin",
+     "sfx": ""
+    },
+    {
+     "type": "tag",
+     "t": "💸 PULING BORMI?",
+     "x": 360,
+     "y": 790,
+     "w": "Puling",
+     "sfx": ""
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-16-onam/4.png",
+   "cam": "slam",
+   "camT": 0.5,
+   "pre_sil": 0.35,
+   "voice": "Qachon uylanasan?",
+   "mcut": {
+    "w": "Qachon",
+    "pre": 0.35,
+    "dur": 1.5
+   },
+   "ov": [
+    {
+     "type": "punch",
+     "t": "QACHON\nUYLANASAN?! 💍",
+     "y": 760,
+     "w": "Qachon",
+     "size": 46,
+     "white": true,
+     "sfx": ""
+    }
+   ],
+   "sfx": [
+    {
+     "t": "impact",
+     "w": "Qachon",
+     "dt": 0.0,
+     "g": 1.0
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-16-onam/5.png",
+   "cam": "in",
+   "voice": "Ona... internet... yomon... eshitilmayapti...",
+   "ov": [
+    {
+     "type": "stamp",
+     "t": "📶 ALOQA YO'Q 😏",
+     "y": 800,
+     "w": "internet...",
+     "sfx": ""
+    }
+   ],
+   "sfx": [
+    {
+     "t": "glitch",
+     "w": "internet...",
+     "dt": 0.0,
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-16-onam/6.png",
+   "cam": "in",
+   "voice": "Mayli, bolam. Ertaga yana qo'ng'iroq qilaman. Ovqat ye!",
+   "ov": [
+    {
+     "type": "punch",
+     "t": "OVQAT YE! ❤️",
+     "y": 790,
+     "w": "Ovqat",
+     "size": 46,
+     "white": true,
+     "sfx": ""
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-16-onam/1.png",
+   "cam": "out",
+   "voice": "Onangiz birinchi nima deydi? Bir so'z bilan izohda yozing. Va bu videoni onangizga yuboring!",
+   "ov": [
+    {
+     "type": "punch",
+     "t": "ONANGIZ BIRINCHI\nNIMA DEYDI? 🤔",
+     "y": 680,
+     "w": "Onangiz",
+     "size": 38,
+     "white": true,
+     "sfx": ""
+    },
+    {
+     "type": "tag",
+     "t": "👇 BIR SO'Z — IZOHDA",
+     "x": 270,
+     "y": 810,
+     "w": "so'z",
+     "sfx": ""
+    },
+    {
+     "type": "tag",
+     "t": "📲 ONANGIZGA YUBORING",
+     "x": 270,
+     "y": 880,
+     "w": "onangizga",
+     "dark": true,
+     "sfx": ""
+    }
+   ],
+   "sfx": [
+    {
+     "t": "pop",
+     "w": "so'z",
+     "dt": 0.0,
+     "g": 0.5
+    }
+   ]
+  }
+ ]
 }

@@ -1,0 +1,171 @@
+{
+ "id": "2026-10-16-temur",
+ "format": "doc",
+ "music": "gen:dark",
+ "music_bpm": 70,
+ "music_vol": 0.12,
+ "sfx_vol": 0.5,
+ "tempo": 1.1,
+ "gap": 0,
+ "cover_t": 1.0,
+ "caption": "Amir Temur qabri ochilganda nima bo'ldi? ⚰️🕯\n\nSamarqanddagi Go'ri Amir maqbarasida Temur qabri ustida qora-yashil nefrit tosh bor. 1740-yilda Nodirshoh uni olib ketmoqchi bo'lganda tosh ikkiga bo'lingan. 1941-yil iyunda Mixail Gerasimov boshchiligidagi guruh qabrni ochgan: Temurning bo'yi 172 sm, u cho'loq bo'lgan. \"La'nat\" haqidagi yozuv esa rivoyat — tarixchilar buni tasdiqlamaydi. 1942-yil dekabrda Temur islomiy marosim bilan qayta dafn etilgan.\n\n👇 Sizningcha, bu tasodifmi yoki shunchaki rivoyatmi?\n📲 Tarixni yaxshi ko'radigan do'stingizga yuboring\n\n#amirtemur #ozbekiston #tarix #samarqand #ozbekcha #thefactlab",
+ "scenes": [
+  {
+   "img": "assets/2026-10-16-temur/1.png",
+   "cam": "in",
+   "camT": 7.0,
+   "voice": "Amir Temurning qabri 1941-yilda ochilgan. Va shundan keyin... nimadir boshlandi.",
+   "ov": [
+    {
+     "type": "punch",
+     "t": "QABR OCHILDI.\n1941",
+     "y": 300,
+     "at": 0.0,
+     "size": 48,
+     "white": true,
+     "sfx": ""
+    }
+   ],
+   "sfx": [
+    {
+     "t": "impact",
+     "at": 0.05,
+     "g": 0.8
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-16-temur/2.png",
+   "cam": "in",
+   "voice": "Samarqanddagi Go'ri Amir maqbarasi. Temur qabri ustida qora-yashil nefrit tosh turadi.",
+   "ov": [
+    {
+     "type": "tag",
+     "t": "📍 GO'RI AMIR, SAMARQAND",
+     "x": 270,
+     "y": 260,
+     "at": 0.2,
+     "dark": true,
+     "sfx": ""
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-16-temur/3.png",
+   "cam": "in",
+   "voice": "1740-yilda Eron shohi Nodirshoh bu toshni olib ketmoqchi bo'ldi. Tosh ikkiga bo'lindi. Maslahatchilar uni joyiga qaytarishni talab qilishdi.",
+   "ov": [
+    {
+     "type": "stamp",
+     "t": "1740",
+     "y": 760,
+     "at": 0.0,
+     "sfx": ""
+    }
+   ],
+   "sfx": [
+    {
+     "t": "boom",
+     "w": "ikkiga",
+     "dt": 0.0,
+     "g": 0.8
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-16-temur/4.png",
+   "cam": "slam",
+   "camT": 0.5,
+   "voice": "1941-yil iyun. Sovet olimi Mixail Gerasimov boshchiligidagi guruh qabrni ochdi.",
+   "ov": [
+    {
+     "type": "stamp",
+     "t": "IYUN 1941",
+     "y": 760,
+     "at": 0.0,
+     "sfx": ""
+    }
+   ],
+   "sfx": [
+    {
+     "t": "swish",
+     "at": 0.0,
+     "g": 0.7
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-16-temur/5.png",
+   "cam": "in",
+   "voice": "Skeletni o'rganishdi. Bo'yi 172 santimetr. Temur cho'loq yurgan bo'lishi mumkin.",
+   "ov": [
+    {
+     "type": "tag",
+     "t": "📏 172 SM",
+     "x": 270,
+     "y": 260,
+     "w": "172",
+     "dark": true,
+     "sfx": ""
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-16-temur/4.png",
+   "cam": "out",
+   "mv": 1.1,
+   "voice": "Rivoyatga ko'ra, qabrda ogohlantirish yozuvi bor edi. Tarixchilar buni to'qima deyishadi. Lekin ikki kundan keyin, yigirma ikkinchi iyunda, urush boshlandi.",
+   "ov": [
+    {
+     "type": "tag",
+     "t": "⚠️ RIVOYAT — TASDIQLANMAGAN",
+     "x": 270,
+     "y": 260,
+     "w": "Rivoyatga",
+     "dark": true,
+     "sfx": ""
+    },
+    {
+     "type": "stamp",
+     "t": "22 IYUN 1941",
+     "y": 760,
+     "w": "yigirma",
+     "sfx": ""
+    }
+   ],
+   "sfx": [
+    {
+     "t": "impact",
+     "w": "urush",
+     "dt": -0.05,
+     "g": 1.0
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-16-temur/1.png",
+   "cam": "out",
+   "mv": 0.9,
+   "voice": "1942-yil dekabrda Temur islomiy marosim bilan qayta dafn etildi. Sizningcha, bu shunchaki tasodifmi? Do'stingizga yuboring.",
+   "ov": [
+    {
+     "type": "punch",
+     "t": "TASODIFMI?\n🕯",
+     "y": 300,
+     "w": "Sizningcha",
+     "size": 50,
+     "white": true,
+     "sfx": ""
+    },
+    {
+     "type": "tag",
+     "t": "👇 KOMMENTDA YOZING",
+     "x": 270,
+     "y": 420,
+     "w": "tasodifmi",
+     "sfx": ""
+    }
+   ]
+  }
+ ]
+}

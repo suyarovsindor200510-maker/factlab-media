@@ -199,5 +199,14 @@
   "title": "Tuya o'rkachida suv bormi?",
   "format": "doc",
   "music": "uzmusic:bazm"
+ },
+ {
+  "id": "2026-10-16-onam",
+  "topic": "Onam qo'ng'iroq qilsa: ovqat yedingmi, qachon uylanasan",
+  "category": "oila",
+  "type": "dialog",
+  "title": "Onam qo'ng'iroq qilsa",
+  "format": "doc",
+  "music": "lapar"
  }
 ]

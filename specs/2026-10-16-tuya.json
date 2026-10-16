@@ -1,43 +1,208 @@
 {
-  "id": "2026-10-16-tuya",
-  "format": "doc",
-  "uzmusic": "bazm",
-  "music_vol": 0.15,
-  "sfx_vol": 0.8,
-  "gap": 0,
-  "tempo": 1.03,
-  "cover_t": 0.6,
-  "scenes": [
-    {"img": "assets/2026-10-16-tuya/1.png", "cam": "none",
-     "voice": "Tuya o'rkachida suv saqlaydi, to'g'rimi?",
-     "ov": [{"type": "punch", "t": "O'RKACHDA\nSUV BORMI? 🐫", "y": 700, "at": 0.0, "size": 54, "white": true, "sfx": ""},
-            {"type": "tag", "t": "👇 HA yoki YO'Q?", "x": 270, "y": 850, "w": "to'g'rimi", "sfx": ""}],
-     "sfx": [{"t": "impact", "at": 0.0, "g": 0.85}]},
-    {"img": "assets/2026-10-16-tuya/1.png", "cam": "none",
-     "voice": "Yo'q! Bu eng katta afsona.",
-     "ov": [{"type": "stamp", "t": "AFSONA! ❌", "y": 780, "w": "afsona", "sfx": ""}]},
-    {"img": "assets/2026-10-16-tuya/2.png", "cam": "none",
-     "voice": "O'rkachda suv emas, yog' bor. O'ttiz olti kilogrammgacha!",
-     "ov": [{"type": "tag", "t": "💧 SUV ❌", "x": 160, "y": 640, "w": "suv", "dark": true, "sfx": ""},
-            {"type": "tag", "t": "🧈 YOG' ✅", "x": 380, "y": 640, "w": "yog'", "sfx": ""},
-            {"type": "big", "v": 36, "unit": " KG", "sub": "GACHA YOG'", "y": 790, "w": "O'ttiz"}]},
-    {"img": "assets/2026-10-16-tuya/3.png", "cam": "none",
-     "voice": "Ovqat topilmasa, tuya shu yog'ni sarflaydi. Shunda o'rkach bo'shashib, osilib qoladi.",
-     "ov": [{"type": "tag", "t": "🍽 OVQAT YO'Q → YOG' SARFLANADI", "x": 270, "y": 700, "w": "sarflaydi", "dark": true, "sfx": ""},
-            {"type": "stamp", "t": "O'RKACH OSILADI 😴", "y": 810, "w": "osilib", "sfx": ""}]},
-    {"img": "assets/2026-10-16-tuya/4.png", "cam": "none",
-     "voice": "Suvni esa qonida saqlaydi. U o'n besh daqiqada yuz litrdan ko'p suv icha oladi!",
-     "ov": [{"type": "tag", "t": "🩸 SUV — QONIDA", "x": 270, "y": 120, "w": "qonida", "dark": true, "sfx": ""},
-            {"type": "big", "v": 100, "pre": "", "unit": "+ LITR", "sub": "15 DAQIQADA", "y": 230, "w": "yuz"}]},
-    {"img": "assets/2026-10-16-tuya/5.png", "cam": "none",
-     "voice": "Shuning uchun cho'lda bir hafta suvsiz yura oladi.",
-     "ov": [{"type": "stamp", "t": "7 KUN SUVSIZ 🏜", "y": 790, "w": "hafta", "sfx": ""},
-            {"type": "lower", "small": "Manba", "t": "Library of Congress · Ripley's", "y": 880, "w": "yura", "sfx": ""}]},
-    {"img": "assets/2026-10-16-tuya/1.png", "cam": "none",
-     "voice": "Siz buni bilarmidingiz? Ha yoki yo'q, izohda yozing! Va bu videoni tuyani yaxshi ko'radigan do'stingizga yuboring!",
-     "ov": [{"type": "punch", "t": "BILARMIDINGIZ? 🤔", "y": 690, "w": "Siz", "size": 48, "white": true, "sfx": ""},
-            {"type": "tag", "t": "👇 HA yoki YO'Q", "x": 270, "y": 800, "w": "yoki", "sfx": ""},
-            {"type": "tag", "t": "📲 DO'STINGIZGA YUBORING", "x": 270, "y": 880, "w": "do'stingizga", "dark": true, "sfx": ""}],
-     "sfx": [{"t": "pop", "w": "yoki", "dt": 0.0, "g": 0.5}]}
-  ]
+ "id": "2026-10-16-tuya",
+ "format": "doc",
+ "uzmusic": "bazm",
+ "music_vol": 0.15,
+ "sfx_vol": 0.8,
+ "gap": 0,
+ "tempo": 1.03,
+ "cover_t": 0.6,
+ "scenes": [
+  {
+   "img": "assets/2026-10-16-tuya/1.png",
+   "cam": "none",
+   "voice": "Tuya o'rkachida suv saqlaydi, to'g'rimi?",
+   "ov": [
+    {
+     "type": "punch",
+     "t": "O'RKACHDA\nSUV BORMI? 🐫",
+     "y": 700,
+     "at": 0.0,
+     "size": 54,
+     "white": true,
+     "sfx": ""
+    },
+    {
+     "type": "tag",
+     "t": "👇 HA yoki YO'Q?",
+     "x": 270,
+     "y": 850,
+     "w": "to'g'rimi",
+     "sfx": ""
+    }
+   ],
+   "sfx": [
+    {
+     "t": "impact",
+     "at": 0.0,
+     "g": 0.85
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-16-tuya/1.png",
+   "cam": "none",
+   "voice": "Yo'q! Bu eng katta afsona.",
+   "ov": [
+    {
+     "type": "stamp",
+     "t": "AFSONA! ❌",
+     "y": 780,
+     "w": "afsona",
+     "sfx": ""
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-16-tuya/2.png",
+   "cam": "none",
+   "voice": "O'rkachda suv emas, yog' bor. O'ttiz olti kilogrammgacha!",
+   "ov": [
+    {
+     "type": "tag",
+     "t": "💧 SUV ❌",
+     "x": 160,
+     "y": 640,
+     "w": "suv",
+     "dark": true,
+     "sfx": ""
+    },
+    {
+     "type": "tag",
+     "t": "🧈 YOG' ✅",
+     "x": 380,
+     "y": 640,
+     "w": "yog'",
+     "sfx": ""
+    },
+    {
+     "type": "punch",
+     "t": "36 KG\nGACHA YOG'!",
+     "y": 800,
+     "w": "O'ttiz",
+     "size": 52,
+     "sfx": "ding"
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-16-tuya/3.png",
+   "cam": "none",
+   "voice": "Ovqat topilmasa, tuya shu yog'ni sarflaydi. Shunda o'rkach bo'shashib, osilib qoladi.",
+   "ov": [
+    {
+     "type": "tag",
+     "t": "🍽 OVQAT YO'Q → YOG' SARFLANADI",
+     "x": 270,
+     "y": 700,
+     "w": "sarflaydi",
+     "dark": true,
+     "sfx": ""
+    },
+    {
+     "type": "stamp",
+     "t": "O'RKACH OSILADI 😴",
+     "y": 810,
+     "w": "osilib",
+     "sfx": ""
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-16-tuya/4.png",
+   "cam": "none",
+   "voice": "Suvni esa qonida saqlaydi. U o'n besh daqiqada yuz litrdan ko'p suv icha oladi!",
+   "ov": [
+    {
+     "type": "tag",
+     "t": "🩸 SUV — QONIDA",
+     "x": 270,
+     "y": 120,
+     "w": "qonida",
+     "dark": true,
+     "sfx": ""
+    },
+    {
+     "type": "punch",
+     "t": "100+ LITR 💧",
+     "y": 240,
+     "w": "yuz",
+     "size": 56,
+     "sfx": "ding"
+    },
+    {
+     "type": "tag",
+     "t": "⏱ 15 DAQIQADA",
+     "x": 270,
+     "y": 330,
+     "w": "daqiqada",
+     "dark": true,
+     "sfx": ""
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-16-tuya/5.png",
+   "cam": "none",
+   "voice": "Shuning uchun cho'lda bir hafta suvsiz yura oladi.",
+   "ov": [
+    {
+     "type": "stamp",
+     "t": "7 KUN SUVSIZ 🏜",
+     "y": 790,
+     "w": "hafta",
+     "sfx": ""
+    },
+    {
+     "type": "lower",
+     "small": "Manba",
+     "t": "Library of Congress · Ripley's",
+     "y": 880,
+     "w": "yura",
+     "sfx": ""
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-16-tuya/1.png",
+   "cam": "none",
+   "voice": "Siz buni bilarmidingiz? Ha yoki yo'q, izohda yozing! Va bu videoni tuyani yaxshi ko'radigan do'stingizga yuboring!",
+   "ov": [
+    {
+     "type": "punch",
+     "t": "BILARMIDINGIZ? 🤔",
+     "y": 690,
+     "w": "Siz",
+     "size": 48,
+     "white": true,
+     "sfx": ""
+    },
+    {
+     "type": "tag",
+     "t": "👇 HA yoki YO'Q",
+     "x": 270,
+     "y": 800,
+     "w": "yoki",
+     "sfx": ""
+    },
+    {
+     "type": "tag",
+     "t": "📲 DO'STINGIZGA YUBORING",
+     "x": 270,
+     "y": 880,
+     "w": "do'stingizga",
+     "dark": true,
+     "sfx": ""
+    }
+   ],
+   "sfx": [
+    {
+     "t": "pop",
+     "w": "yoki",
+     "dt": 0.0,
+     "g": 0.5
+    }
+   ]
+  }
+ ]
 }

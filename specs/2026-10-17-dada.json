@@ -1,0 +1,243 @@
+{
+ "id": "2026-10-17-dada",
+ "format": "doc",
+ "uzmusic": "lapar",
+ "music_vol": 0.15,
+ "sfx_vol": 0.8,
+ "gap": 0,
+ "tempo": 1.03,
+ "cover_t": 1.2,
+ "caption": "Dadangizdan pul so'rasangiz... 💸😂 \"Men sening yoshingda o'zim ishlardim!\"\n\nMaktabga 5 km piyoda, qishda, qorda... 1 ta televizor butun mahallaga 📺 Lekin oxirida baribir: \"Qancha kerak? Faqat onangga aytma!\" 🤫❤️\n\n👇 Dadangiz ham shunaqami? Bir so'z bilan izohda yozing!\n📲 Bu videoni dadangizga yuboring 😄\n\n#dadam #kulgili #ozbekcha #oila #thefactlab",
+ "scenes": [
+  {
+   "img": "assets/2026-10-17-dada/1.png",
+   "cam": "in",
+   "voice": "Dada... ozgina pul kerak edi.",
+   "ov": [
+    {
+     "type": "punch",
+     "t": "DADANGIZDAN PUL\nSO'RASANGIZ... 💸",
+     "y": 780,
+     "size": 42,
+     "white": true,
+     "sfx": "",
+     "at": 0.0
+    }
+   ],
+   "sfx": [
+    {
+     "t": "impact",
+     "at": 0.0,
+     "g": 0.7
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-17-dada/2.png",
+   "cam": "in",
+   "voice": "Pul? Men sening yoshingda o'zim ishlardim!",
+   "ov": [
+    {
+     "type": "punch",
+     "t": "MEN SENING\nYOSHINGDA... ☝️",
+     "y": 790,
+     "size": 42,
+     "white": true,
+     "sfx": "",
+     "w": "yoshingda"
+    }
+   ],
+   "sfx": [
+    {
+     "t": "scratch",
+     "at": 0.0,
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-17-dada/3.png",
+   "cam": "in",
+   "voice": "Maktabga besh kilometr piyoda borardim. Qishda! Qorda!",
+   "ov": [
+    {
+     "type": "stamp",
+     "t": "5 KM 🚶",
+     "y": 640,
+     "w": "besh",
+     "sfx": ""
+    },
+    {
+     "type": "punch",
+     "t": "QISHDA! QORDA! ❄️",
+     "y": 800,
+     "size": 44,
+     "white": true,
+     "sfx": "",
+     "w": "Qishda!"
+    }
+   ],
+   "sfx": [
+    {
+     "t": "stamp",
+     "w": "besh",
+     "dt": 0.05,
+     "g": 0.6
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-17-dada/4.png",
+   "cam": "in",
+   "voice": "Dada, buvim aytdilar-ku, maktabingiz uyning ro'parasida bo'lgan.",
+   "ov": [
+    {
+     "type": "tag",
+     "t": "🏫 maktab — uyning ro'parasida",
+     "x": 270,
+     "y": 800,
+     "w": "uyning",
+     "dark": true,
+     "sfx": ""
+    }
+   ],
+   "sfx": [
+    {
+     "t": "boing",
+     "w": "ro'parasida",
+     "dt": 0.0,
+     "g": 0.45
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-17-dada/5.png",
+   "cam": "in",
+   "voice": "Bizning davrda telefon ham yo'q edi! Bitta televizor, butun mahallaga!",
+   "ov": [
+    {
+     "type": "tag",
+     "t": "📵 TELEFON YO'Q",
+     "x": 270,
+     "y": 670,
+     "w": "telefon",
+     "dark": true,
+     "sfx": ""
+    },
+    {
+     "type": "punch",
+     "t": "1 TV = BUTUN\nMAHALLA 📺",
+     "y": 790,
+     "size": 42,
+     "white": true,
+     "sfx": "",
+     "w": "Bitta"
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-17-dada/6.png",
+   "cam": "out",
+   "mv": 0.5,
+   "voice": "Xo'p, dada... kerak emas.",
+   "ov": [
+    {
+     "type": "tag",
+     "t": "😔 kerak emas...",
+     "x": 270,
+     "y": 810,
+     "w": "kerak",
+     "dark": true,
+     "sfx": ""
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-17-dada/7.png",
+   "cam": "slam",
+   "camT": 0.5,
+   "pre_sil": 0.35,
+   "mv": 1.0,
+   "voice": "Qancha kerak? Ol. Faqat onangga aytma!",
+   "mcut": {
+    "w": "Qancha",
+    "pre": 0.35,
+    "dur": 1.2
+   },
+   "ov": [
+    {
+     "type": "punch",
+     "t": "QANCHA KERAK? 💸",
+     "y": 730,
+     "size": 44,
+     "white": true,
+     "sfx": "",
+     "w": "Qancha"
+    },
+    {
+     "type": "stamp",
+     "t": "ONANGGA AYTMA! 🤫",
+     "y": 840,
+     "w": "onangga",
+     "sfx": ""
+    }
+   ],
+   "sfx": [
+    {
+     "t": "impact",
+     "w": "Qancha",
+     "dt": 0.0,
+     "g": 0.9
+    },
+    {
+     "t": "kaching",
+     "w": "Ol.",
+     "dt": 0.0,
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-17-dada/1.png",
+   "cam": "out",
+   "voice": "Dadangiz ham shunaqami? Bir so'z bilan izohda yozing. Va bu videoni dadangizga yuboring!",
+   "ov": [
+    {
+     "type": "punch",
+     "t": "DADANGIZ HAM\nSHUNAQAMI? 😄",
+     "y": 680,
+     "size": 40,
+     "white": true,
+     "sfx": "",
+     "w": "Dadangiz"
+    },
+    {
+     "type": "tag",
+     "t": "👇 BIR SO'Z — IZOHDA",
+     "x": 270,
+     "y": 810,
+     "w": "so'z",
+     "dark": false,
+     "sfx": ""
+    },
+    {
+     "type": "tag",
+     "t": "📲 DADANGIZGA YUBORING",
+     "x": 270,
+     "y": 880,
+     "w": "dadangizga",
+     "dark": true,
+     "sfx": ""
+    }
+   ],
+   "sfx": [
+    {
+     "t": "pop",
+     "w": "so'z",
+     "dt": 0.0,
+     "g": 0.5
+    }
+   ]
+  }
+ ]
+}

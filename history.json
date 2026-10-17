@@ -213,5 +213,14 @@
   "id": "2026-10-16-temur",
   "topic": "Go'ri Amir / Amir Temur qabri 1941",
   "category": "tarix"
+ },
+ {
+  "id": "2026-10-17-dada",
+  "topic": "Dadadan pul so'rash: men sening yoshingda... (oxirida baribir beradi)",
+  "category": "oila",
+  "type": "dialog",
+  "title": "Dadangizdan pul so'rasangiz",
+  "format": "doc",
+  "music": "uzmusic:lapar"
  }
 ]

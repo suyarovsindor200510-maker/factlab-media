@@ -1,0 +1,246 @@
+{
+ "id": "2026-10-17-buvi",
+ "format": "doc",
+ "uzmusic": "lapar",
+ "music_vol": 0.15,
+ "sfx_vol": 0.8,
+ "gap": 0,
+ "tempo": 1.03,
+ "cover_t": 1.2,
+ "caption": "Buvingizga Telegram o'rgatganmisiz? 📱👵 Ovozli xabar, \"Allo, eshityapsanmi?\" va 47 ta voice 😂\n\nBir kun o'rgatdim — ertasiga 47 ta ovozli xabar, dadamning ish guruhida \"Xayrli tong\" atirgullari 🌹 Oxirida esa: \"Nega ko'rib qo'yib javob bermaysan?!\" 😤❤️\n\n👇 Buvingiz nechta ovozli xabar yuboradi? Raqam bilan izohda yozing!\n📲 Buvisiga Telegram o'rgatgan do'stingizga yuboring\n\n#buvijon #telegram #kulgili #ozbekcha #thefactlab",
+ "scenes": [
+  {
+   "img": "assets/2026-10-17-buvi/1.png",
+   "cam": "in",
+   "voice": "Buvi, bu Telegram. Ko'k tugmani bosib tursangiz, ovozli xabar ketadi.",
+   "ov": [
+    {
+     "type": "punch",
+     "t": "BUVINGIZGA TELEGRAM\nO'RGATGANMISIZ? 📱",
+     "y": 770,
+     "size": 40,
+     "white": true,
+     "sfx": "",
+     "at": 0.0
+    },
+    {
+     "type": "tag",
+     "t": "🎤 bosib turing — ovozli xabar",
+     "x": 270,
+     "y": 880,
+     "w": "bosib",
+     "dark": true,
+     "sfx": ""
+    }
+   ],
+   "sfx": [
+    {
+     "t": "impact",
+     "at": 0.0,
+     "g": 0.7
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-17-buvi/2.png",
+   "cam": "in",
+   "voice": "Voy bolam, hammasi ko'k-ku! Qaysi biri?",
+   "ov": [
+    {
+     "type": "punch",
+     "t": "HAMMASI KO'K-KU! 🔵🔵🔵",
+     "y": 800,
+     "size": 40,
+     "white": true,
+     "sfx": "",
+     "w": "hammasi"
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-17-buvi/3.png",
+   "cam": "slam",
+   "camT": 0.4,
+   "voice": "Allo! Allo, Jasur! Eshityapsanmi?! Buvi, bu qo'ng'iroq emas...",
+   "ov": [
+    {
+     "type": "stamp",
+     "t": "ALLO?! 📞",
+     "y": 700,
+     "w": "Allo!",
+     "sfx": ""
+    },
+    {
+     "type": "tag",
+     "t": "🤦 bu qo'ng'iroq emas...",
+     "x": 270,
+     "y": 850,
+     "w": "qo'ng'iroq",
+     "dark": true,
+     "sfx": ""
+    }
+   ],
+   "sfx": [
+    {
+     "t": "stamp",
+     "w": "Allo!",
+     "dt": 0.05,
+     "g": 0.6
+    },
+    {
+     "t": "boing",
+     "w": "emas...",
+     "dt": 0.0,
+     "g": 0.45
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-17-buvi/4.png",
+   "cam": "in",
+   "voice": "Ertasi kuni buvim menga",
+   "ov": [
+    {
+     "type": "tag",
+     "t": "☀️ ERTASI KUNI 07:40",
+     "x": 270,
+     "y": 800,
+     "w": "Ertasi",
+     "dark": true,
+     "sfx": ""
+    }
+   ],
+   "sfx": [
+    {
+     "t": "notif",
+     "w": "buvim",
+     "dt": 0.0,
+     "g": 0.6
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-17-buvi/5.png",
+   "cam": "in",
+   "voice": "qirq yettita ovozli xabar yubordilar.",
+   "ov": [
+    {
+     "type": "stamp",
+     "t": "×47 🎤",
+     "y": 420,
+     "w": "yettita",
+     "sfx": ""
+    }
+   ],
+   "sfx": [
+    {
+     "t": "notif",
+     "w": "qirq",
+     "dt": 0.0,
+     "g": 0.55
+    },
+    {
+     "t": "notif",
+     "w": "ovozli",
+     "dt": 0.0,
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-17-buvi/6.png",
+   "cam": "in",
+   "voice": "Keyin dadamning ish guruhiga gul rasmini tashladilar: xayrli tong!",
+   "ov": [
+    {
+     "type": "phone",
+     "time": "08:01",
+     "y": 800,
+     "w": "guruhiga",
+     "sfx": "",
+     "items": [
+      {
+       "h": "Ish guruhi · Buvijon",
+       "t": "🌹🌹🌹 Xayrli tong! Hammaga sog'lik!"
+      }
+     ]
+    }
+   ],
+   "sfx": [
+    {
+     "t": "scratch",
+     "w": "xayrli",
+     "dt": 0.0,
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-17-buvi/7.png",
+   "cam": "slam",
+   "camT": 0.4,
+   "voice": "Bolam, nega ko'rib qo'yib javob bermaysan?!",
+   "ov": [
+    {
+     "type": "punch",
+     "t": "NEGA JAVOB\nBERMAYSAN?! 😤",
+     "y": 790,
+     "size": 44,
+     "white": true,
+     "sfx": "",
+     "w": "nega"
+    }
+   ],
+   "sfx": [
+    {
+     "t": "impact",
+     "w": "nega",
+     "dt": 0.0,
+     "g": 0.8
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-17-buvi/8.png",
+   "cam": "out",
+   "voice": "Buvingiz nechta ovozli xabar yuboradi? Raqam bilan yozing! Buvisiga Telegram o'rgatgan do'stingizga yuboring.",
+   "ov": [
+    {
+     "type": "punch",
+     "t": "BUVINGIZ NECHTA\nVOICE YUBORADI? 🎤",
+     "y": 690,
+     "size": 40,
+     "white": true,
+     "sfx": "",
+     "w": "Buvingiz"
+    },
+    {
+     "type": "tag",
+     "t": "👇 RAQAM BILAN — IZOHDA",
+     "x": 270,
+     "y": 815,
+     "w": "Raqam",
+     "dark": false,
+     "sfx": ""
+    },
+    {
+     "type": "tag",
+     "t": "📲 DO'STINGIZGA YUBORING",
+     "x": 270,
+     "y": 885,
+     "w": "Buvisiga",
+     "dark": true,
+     "sfx": ""
+    }
+   ],
+   "sfx": [
+    {
+     "t": "pop",
+     "w": "Raqam",
+     "dt": 0.0,
+     "g": 0.5
+    }
+   ]
+  }
+ ]
+}

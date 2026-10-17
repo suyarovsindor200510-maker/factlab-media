@@ -1,0 +1,187 @@
+{
+ "id": "2026-10-17-xorazmiy",
+ "format": "doc",
+ "music": "gen:dark",
+ "music_bpm": 70,
+ "music_vol": 0.12,
+ "sfx_vol": 0.5,
+ "tempo": 1.08,
+ "gap": 0,
+ "cover_t": 1.0,
+ "caption": "Algoritm va algebra so'zlari qayerdan kelgan? Al-Xorazmiy haqida 📜\n\nMuhammad ibn Muso al-Xorazmiy (taxminan 780–850) asli Xorazmdan bo'lgan, Bag'doddagi Bayt ul-Hikmada (Donishmandlar uyida) ishlagan. Taxminan 820-yilda yozgan \"al-jabr\" haqidagi kitobi nomidan \"algebra\" so'zi kelib chiqqan. XII asrda asarlari lotinchaga tarjima qilinib, ismi \"Algoritmi\" deb yozilgan — \"algoritm\" so'zi shundan. Yevropa uning kitoblari orqali o'nlik sanoq tizimi va hind-arab raqamlarini o'rgangan.\n\n👇 Siz buni bilarmidingiz? HA yoki YO'Q deb yozing\n📲 Tarixni sevadigan do'stingizga yuboring\n\n#xorazmiy #tarix #ozbekiston #algoritm #thefactlab",
+ "scenes": [
+  {
+   "img": "assets/2026-10-17-xorazmiy/1.png",
+   "cam": "in",
+   "camT": 7.0,
+   "voice": "Telefoningiz har soniyada algoritm bilan ishlaydi. Bu so'z esa... bir xorazmlik olimning ismidan kelib chiqqan.",
+   "ov": [
+    {
+     "type": "punch",
+     "t": "\"ALGORITM\"\nKIMNING ISMI?",
+     "y": 300,
+     "at": 0.0,
+     "size": 46,
+     "white": true,
+     "sfx": ""
+    }
+   ],
+   "sfx": [
+    {
+     "t": "impact",
+     "at": 0.05,
+     "g": 0.8
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-17-xorazmiy/2.png",
+   "cam": "in",
+   "voice": "Muhammad ibn Muso al-Xorazmiy. Taxminan yetti yuz saksoninchi yilda tug'ilgan, asli Xorazmdan.",
+   "ov": [
+    {
+     "type": "tag",
+     "t": "📍 XORAZM",
+     "x": 270,
+     "y": 200,
+     "at": 0.2,
+     "dark": true,
+     "sfx": ""
+    },
+    {
+     "type": "lower",
+     "small": "taxminan 780 – 850",
+     "t": "AL-XORAZMIY",
+     "y": 780,
+     "w": "Taxminan",
+     "sfx": ""
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-17-xorazmiy/3.png",
+   "cam": "in",
+   "voice": "U Bag'doddagi Donishmandlar uyida, Bayt ul-Hikmada ishlagan.",
+   "ov": [
+    {
+     "type": "tag",
+     "t": "📍 BAG'DOD · BAYT UL-HIKMA",
+     "x": 270,
+     "y": 200,
+     "at": 0.2,
+     "dark": true,
+     "sfx": ""
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-17-xorazmiy/4.png",
+   "cam": "in",
+   "voice": "Taxminan sakkiz yuz yigirmanchi yilda u al-jabr haqida kitob yozdi. Bugungi algebra so'zi shu kitob nomidan olingan.",
+   "ov": [
+    {
+     "type": "stamp",
+     "t": "≈ 820",
+     "y": 760,
+     "at": 0.1,
+     "sfx": ""
+    },
+    {
+     "type": "punch",
+     "t": "AL-JABR → ALGEBRA",
+     "y": 300,
+     "w": "algebra",
+     "size": 40,
+     "white": true,
+     "sfx": ""
+    }
+   ],
+   "sfx": [
+    {
+     "t": "boom",
+     "w": "algebra",
+     "dt": -0.05,
+     "g": 0.6
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-17-xorazmiy/5.png",
+   "cam": "slam",
+   "camT": 0.5,
+   "voice": "O'n ikkinchi asrda asarlari lotin tiliga tarjima qilindi. Ismi esa Algoritmi deb yozildi. Algoritm so'zi mana shundan.",
+   "ov": [
+    {
+     "type": "stamp",
+     "t": "XII ASR",
+     "y": 760,
+     "at": 0.1,
+     "sfx": ""
+    },
+    {
+     "type": "punch",
+     "t": "ALGORITMI → ALGORITM",
+     "y": 300,
+     "w": "Algoritm",
+     "size": 38,
+     "white": true,
+     "sfx": ""
+    }
+   ],
+   "sfx": [
+    {
+     "t": "swish",
+     "at": 0.0,
+     "g": 0.6
+    },
+    {
+     "t": "impact",
+     "w": "Algoritm",
+     "dt": -0.05,
+     "g": 0.8
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-17-xorazmiy/6.png",
+   "cam": "out",
+   "voice": "Yevropa uning kitoblari orqali o'nlik sanoq tizimi va hind-arab raqamlarini o'rgandi.",
+   "ov": [
+    {
+     "type": "punch",
+     "t": "XII  →  12",
+     "y": 300,
+     "w": "raqamlarini",
+     "size": 56,
+     "white": true,
+     "sfx": ""
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-17-xorazmiy/7.png",
+   "cam": "out",
+   "mv": 0.9,
+   "voice": "Siz buni bilarmidingiz? Ha yoki yo'q, deb yozing. Tarixni sevadigan do'stingizga ham yuboring.",
+   "ov": [
+    {
+     "type": "punch",
+     "t": "BILARMIDINGIZ?",
+     "y": 300,
+     "at": 0.0,
+     "size": 48,
+     "white": true,
+     "sfx": ""
+    },
+    {
+     "type": "tag",
+     "t": "👇 HA yoki YO'Q — yozing",
+     "x": 270,
+     "y": 420,
+     "w": "Ha",
+     "sfx": ""
+    }
+   ]
+  }
+ ]
+}

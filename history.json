@@ -222,5 +222,14 @@
   "title": "Dadangizdan pul so'rasangiz",
   "format": "doc",
   "music": "uzmusic:lapar"
+ },
+ {
+  "id": "2026-10-17-xorazmiy",
+  "topic": "Al-Xorazmiy: algoritm va algebra so'zlari uning nomi va kitobidan",
+  "category": "tarix",
+  "type": "fakt",
+  "title": "Algoritm — Xorazmiyning ismi",
+  "format": "doc",
+  "music": "gen:dark"
  }
 ]

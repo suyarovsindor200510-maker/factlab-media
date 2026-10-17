@@ -18,7 +18,7 @@
      "type": "punch",
      "t": "BUVINGIZGA TELEGRAM\nO'RGATGANMISIZ? 📱",
      "y": 770,
-     "size": 40,
+     "size": 36,
      "white": true,
      "sfx": "",
      "at": 0.0
@@ -48,9 +48,9 @@
    "ov": [
     {
      "type": "punch",
-     "t": "HAMMASI KO'K-KU! 🔵🔵🔵",
+     "t": "HAMMASI\nKO'K-KU! 🔵",
      "y": 800,
-     "size": 40,
+     "size": 42,
      "white": true,
      "sfx": "",
      "w": "hammasi"
@@ -209,7 +209,7 @@
      "type": "punch",
      "t": "BUVINGIZ NECHTA\nVOICE YUBORADI? 🎤",
      "y": 690,
-     "size": 40,
+     "size": 36,
      "white": true,
      "sfx": "",
      "w": "Buvingiz"

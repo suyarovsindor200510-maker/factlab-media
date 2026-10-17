@@ -240,5 +240,14 @@
   "title": "Buvimga Telegram o'rgatdim",
   "format": "doc",
   "music": "uzmusic:lapar"
+ },
+ {
+  "id": "2026-10-18-musofir",
+  "topic": "Musofirlik: ona bilan qo'ng'iroq",
+  "category": "oila",
+  "type": "dialog",
+  "title": "Musofirlikda eng og'ir narsa",
+  "format": "doc",
+  "music": "gen:dark"
  }
 ]

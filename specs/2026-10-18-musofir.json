@@ -1,0 +1,113 @@
+{
+ "id": "2026-10-18-musofir",
+ "format": "doc",
+ "music": "gen:dark",
+ "music_bpm": 62,
+ "music_vol": 0.14,
+ "sfx_vol": 0.28,
+ "tempo": 1.0,
+ "gap": 0,
+ "cover_t": 3.0,
+ "caption": "Musofirlikda eng og'ir narsa... 💔\n\nYurtdan uzoqda bo'lib, onangizga \"yaxshiman, ovqat yedim\" deb aytganmisiz? Ona esa ovozingizdan hammasini sezadi. 🥺\n\n❤️ Agar siz ham yurtdan uzoqda bo'lsangiz — yurakcha bosing\n📞 Bugun onangizga qo'ng'iroq qiling\n📲 Bu videoni musofirdagi do'stingizga yuboring\n\n#musofir #onam #ozbekcha #koreya #thefactlab",
+ "scenes": [
+  {
+   "img": "assets/2026-10-18-musofir/1.png",
+   "cam": "in",
+   "voice": "O'g'lim... ovqat yedingmi?",
+   "ov": [
+    {
+     "type": "punch",
+     "t": "ONASI\nQO'NG'IROQ QILDI 📞",
+     "y": 300,
+     "at": 0.0,
+     "size": 44,
+     "white": true,
+     "sfx": ""
+    }
+   ],
+   "sfx": [
+    {
+     "t": "notif",
+     "at": 0.05,
+     "g": 0.7
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-18-musofir/2.png",
+   "cam": "in",
+   "voice": "Ha, ona, yedim. Palov yedim.",
+   "ov": [
+    {
+     "type": "tag",
+     "t": "🍜 aslida: lapsha",
+     "x": 270,
+     "y": 330,
+     "at": 1.4,
+     "dark": true,
+     "sfx": ""
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-18-musofir/5.png",
+   "cam": "in",
+   "voice": "Yolg'on aytyapsan, bolam. Ovozingdan bilaman."
+  },
+  {
+   "img": "assets/2026-10-18-musofir/2.png",
+   "cam": "out",
+   "voice": "Yo'q, ona... shunchaki biroz charchadim."
+  },
+  {
+   "img": "assets/2026-10-18-musofir/3.png",
+   "cam": "in",
+   "voice": "Qachon kelasan, bolam? Dasturxonda sening joying bo'sh turibdi.",
+   "sfx": [
+    {
+     "t": "impact",
+     "w": "bo'sh",
+     "dt": -0.05,
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-18-musofir/4.png",
+   "cam": "in",
+   "voice": "Tez orada, ona... tez orada kelaman."
+  },
+  {
+   "img": "assets/2026-10-18-musofir/6.png",
+   "cam": "out",
+   "voice": "Musofirlikda eng og'ir narsa sovuq ham, yolg'izlik ham emas. Eng og'iri — onangiz ovozini eshitib, \"yaxshiman\" deb yolg'on gapirish.",
+   "ov": [
+    {
+     "type": "stamp",
+     "t": "\"YAXSHIMAN\"",
+     "y": 760,
+     "w": "yaxshiman",
+     "sfx": ""
+    }
+   ],
+   "mv": 1.1
+  },
+  {
+   "img": "assets/2026-10-18-musofir/1.png",
+   "cam": "in",
+   "voice": "Bugun onangizga qo'ng'iroq qiling. Va bu videoni yurtdan uzoqdagi do'stingizga yuboring.",
+   "ov": [
+    {
+     "type": "punch",
+     "t": "MUSOFIRMISIZ?\n❤️ BOSING",
+     "y": 300,
+     "w": "Bugun",
+     "size": 38,
+     "white": true,
+     "sfx": ""
+    }
+   ],
+   "mv": 1.0
+  }
+ ]
+}

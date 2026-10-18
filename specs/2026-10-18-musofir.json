@@ -11,14 +11,14 @@
  "caption": "Musofirlikda eng og'ir narsa... 💔\n\nYurtdan uzoqda bo'lib, onangizga \"yaxshiman, ovqat yedim\" deb aytganmisiz? Ona esa ovozingizdan hammasini sezadi. 🥺\n\n❤️ Agar siz ham yurtdan uzoqda bo'lsangiz — yurakcha bosing\n📞 Bugun onangizga qo'ng'iroq qiling\n📲 Bu videoni musofirdagi do'stingizga yuboring\n\n#musofir #onam #ozbekcha #koreya #thefactlab",
  "scenes": [
   {
-   "img": "assets/2026-10-18-musofir/1.png",
+   "img": "assets/2026-10-18-musofir/1b.png",
    "cam": "in",
    "voice": "O'g'lim... ovqat yedingmi?",
    "ov": [
     {
      "type": "punch",
      "t": "ONASI\nQO'NG'IROQ QILDI 📞",
-     "y": 300,
+     "y": 500,
      "at": 0.0,
      "size": 44,
      "white": true,
@@ -93,14 +93,14 @@
    "mv": 1.1
   },
   {
-   "img": "assets/2026-10-18-musofir/1.png",
+   "img": "assets/2026-10-18-musofir/1b.png",
    "cam": "in",
    "voice": "Bugun onangizga qo'ng'iroq qiling. Va bu videoni yurtdan uzoqdagi do'stingizga yuboring.",
    "ov": [
     {
      "type": "punch",
      "t": "MUSOFIRMISIZ?\n❤️ BOSING",
-     "y": 300,
+     "y": 500,
      "w": "Bugun",
      "size": 38,
      "white": true,

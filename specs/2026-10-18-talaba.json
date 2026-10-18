@@ -1,0 +1,117 @@
+{
+ "id": "2026-10-18-talaba",
+ "format": "doc",
+ "music": "music/royalty-funk.mp3",
+ "music_vol": 0.17,
+ "sfx_vol": 0.4,
+ "tempo": 1.25,
+ "gap": 0,
+ "cover_t": 3.0,
+ "caption": "1-kurs talabalari boshidan kechiradigan holatlar 😂🎓\n\nAuditoriyani topolmay qolish, professorni talaba deb o'ylash, \"kichkina\" topshiriq — 15 betlik prezentatsiya… Tanish-a? 😅\n\n👇 Kommentga o'zingizda bo'lgan eng kulgili holatni yozing\n📲 1-kursda o'qiydigan do'stingizga yuboring\n❤️ Yoqsa, yurakcha bosing\n\n#talaba #1kurs #universitet #kulgili #ozbekcha #thefactlab",
+ "scenes": [
+  {
+   "img": "assets/2026-10-18-talaba/1.png",
+   "cam": "in",
+   "voice": "Birinchi kursga kirganingizda o'zingizni qanday tasavvur qilgansiz? Universitet hayoti zo'r bo'ladi. Yangi do'stlar, erkinlik…",
+   "ov": [
+    {
+     "type": "punch",
+     "t": "1-KURSDA SIZDA HAM\nSHUNAQA BO'LGANMI? 😂",
+     "y": 520,
+     "at": 0.0,
+     "size": 34,
+     "white": true,
+     "sfx": ""
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-18-talaba/2.png",
+   "cam": "in",
+   "voice": "Keyin universitet boshlandi. Birinchi kuni auditoriyani topolmay, yigirma daqiqa yuribman.",
+   "sfx": [
+    {
+     "t": "scratch",
+     "at": 0.0,
+     "g": 0.8
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-18-talaba/3.png",
+   "cam": "out",
+   "voice": "Men esa professorni ko'rib, \"Assalomu alaykum, ustoz\" deb turibman… U professor emas ekanmi? Yo'q. Talaba ekan.",
+   "sfx": [
+    {
+     "t": "boing",
+     "w": "Talaba",
+     "dt": 0.0,
+     "g": 0.8
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-18-talaba/4.png",
+   "cam": "in",
+   "voice": "Eng yomoni, birinchi haftada hammani tanib olaman deb o'ylaysan. Ha! Ikki haftadan keyin esa… \"Aka, siz qaysi guruhdansiz?\"",
+   "sfx": [
+    {
+     "t": "boom",
+     "w": "qaysi",
+     "dt": 0.0,
+     "g": 0.8
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-18-talaba/5.png",
+   "cam": "in",
+   "voice": "Keyin professor: \"Ertaga kichkina topshiriq bor.\" \"Kichkina\" degani nima? O'n besh betlik prezentatsiya.",
+   "sfx": [
+    {
+     "t": "hit",
+     "w": "prezentatsiya.",
+     "dt": 0.0,
+     "g": 0.9
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-18-talaba/6.png",
+   "cam": "in",
+   "voice": "Yana bir klassika bor. Nima? Birinchi oy ota-onang: \"O'qishing qanday?\" \"Zo'r!\" Aslida esa…",
+   "sfx": [
+    {
+     "t": "glitch",
+     "w": "Aslida",
+     "dt": 0.0,
+     "g": 0.8
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-18-talaba/7.png",
+   "cam": "in",
+   "voice": "Rostini ayting… Siz birinchi kursda eng katta qanday xato qilgansiz? Auditoriyani topolmay qolishmi? Professorni tanimaslikmi? Yoki topshiriqni oxirgi kungacha qoldirishmi? Kommentga o'zingizda bo'lgan eng kulgili holatni yozing!",
+   "ov": [
+    {
+     "type": "punch",
+     "t": "🔥 1-KURSLAR,\nQAYSI BIRI SIZDA?",
+     "y": 520,
+     "at": 14.0,
+     "size": 34,
+     "white": true,
+     "sfx": ""
+    }
+   ],
+   "sfx": [
+    {
+     "t": "pop",
+     "w": "Kommentga",
+     "dt": 0.0,
+     "g": 0.6
+    }
+   ]
+  }
+ ]
+}

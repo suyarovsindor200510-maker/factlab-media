@@ -249,5 +249,16 @@
   "title": "Musofirlikda eng og'ir narsa",
   "format": "doc",
   "music": "gen:dark"
+ },
+ {
+  "id": "2026-10-18-kalon",
+  "topic": "Minorai Kalon (Buxoro, 1127): Chingizxon nega buzmagan — rivoyat",
+  "category": "tarix",
+  "type": "fakt",
+  "title": "Chingizxon nega buzmadi?",
+  "format": "doc",
+  "music": "gen:dark",
+  "voice": "Bekzod",
+  "status": "prepared, awaiting owner approval"
  }
 ]

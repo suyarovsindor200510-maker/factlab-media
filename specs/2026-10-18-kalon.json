@@ -1,0 +1,183 @@
+{
+ "id": "2026-10-18-kalon",
+ "format": "doc",
+ "music": "gen:dark",
+ "music_bpm": 70,
+ "music_vol": 0.12,
+ "sfx_vol": 0.5,
+ "tempo": 1.05,
+ "gap": 0,
+ "cover_t": 1.0,
+ "caption": "Minorai Kalon: Chingizxon Buxoroda nega aynan shu minorani buzmagan? 🕌\n\nBuxorodagi Minorai Kalon 1127-yilda qoraxoniylar hukmdori Arslonxon buyrug'i bilan qurilgan. Balandligi taxminan 46 metr (uchi bilan 48 m). Arxeologlar poydevorini 13 metr chuqurlikkacha qazishgan, lekin tubiga yetisha olmagan. 1220-yilda mo'g'ullar Buxoroni egallaganda, atrofdagi binolar vayron bo'lgan, minora esa saqlanib qolgan. Rivoyatga ko'ra, Chingizxon minoraga qaraganda dubulg'asi tushib ketgan va u: \"Bu bino ta'zimga loyiq\", degan. Minora azon, kuzatuv minorasi va cho'lda adashganlarga mayoq vazifasini bajargan. Bugun u UNESCO ro'yxatidagi Buxoro tarixiy markazining bir qismi.\n\n👇 Siz uni ko'rganmisiz? HA yoki YO'Q deb yozing\n📲 Buxoroni sevadigan do'stingizga yuboring\n\n#buxoro #minoraikalon #tarix #ozbekiston #thefactlab",
+ "scenes": [
+  {
+   "img": "assets/2026-10-18-kalon/1.png",
+   "cam": "in",
+   "camT": 6.0,
+   "voice": "Chingizxon Buxoroni vayron qildi. Lekin bitta minorani buzmadi. Nega?",
+   "ov": [
+    {
+     "type": "punch",
+     "t": "CHINGIZXON\nNEGA BUZMADI?",
+     "y": 300,
+     "at": 0.0,
+     "size": 46,
+     "white": true,
+     "sfx": ""
+    }
+   ],
+   "sfx": [
+    {
+     "t": "impact",
+     "at": 0.05,
+     "g": 0.8
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-18-kalon/2.png",
+   "cam": "in",
+   "voice": "Bu Minorai Kalon. Uni bir ming bir yuz yigirma yettinchi yilda qoraxoniylar hukmdori Arslonxon qurdirgan.",
+   "ov": [
+    {
+     "type": "tag",
+     "t": "📍 BUXORO",
+     "x": 270,
+     "y": 200,
+     "at": 0.2,
+     "dark": true,
+     "sfx": ""
+    },
+    {
+     "type": "lower",
+     "small": "1127-yil · Arslonxon",
+     "t": "MINORAI KALON",
+     "y": 780,
+     "w": "Uni",
+     "sfx": ""
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-18-kalon/3.png",
+   "cam": "out",
+   "voice": "Balandligi qirq olti metrga yaqin. Poydevorini o'n uch metr qazishgan, lekin tubiga yetisha olmagan.",
+   "ov": [
+    {
+     "type": "stamp",
+     "t": "≈ 46 M",
+     "y": 250,
+     "w": "Balandligi",
+     "sfx": ""
+    },
+    {
+     "type": "tag",
+     "t": "⛏ 13 m qazildi — tubi topilmadi",
+     "x": 270,
+     "y": 800,
+     "w": "Poydevorini",
+     "dark": true,
+     "sfx": ""
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-18-kalon/4.png",
+   "cam": "in",
+   "voice": "Bir ming ikki yuz yigirmanchi yili mo'g'ul qo'shini Buxoroni egalladi.",
+   "ov": [
+    {
+     "type": "stamp",
+     "t": "1220",
+     "y": 250,
+     "at": 0.1,
+     "sfx": ""
+    }
+   ],
+   "sfx": [
+    {
+     "t": "boom",
+     "w": "egalladi.",
+     "dt": -0.05,
+     "g": 0.6
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-18-kalon/5.png",
+   "cam": "slam",
+   "camT": 0.5,
+   "pre_sil": 0.3,
+   "voice": "Rivoyatga ko'ra, Chingizxon minoraga qaraganda, dubulg'asi tushib ketgan. U egilib: bu bino ta'zimga loyiq, degan.",
+   "ov": [
+    {
+     "type": "tag",
+     "t": "RIVOYATGA KO'RA",
+     "x": 270,
+     "y": 200,
+     "at": 0.1,
+     "dark": true,
+     "sfx": ""
+    },
+    {
+     "type": "punch",
+     "t": "\"BU BINO\nTA'ZIMGA LOYIQ\"",
+     "y": 760,
+     "w": "bu",
+     "size": 42,
+     "white": true,
+     "sfx": ""
+    }
+   ],
+   "sfx": [
+    {
+     "t": "impact",
+     "w": "egilib:",
+     "dt": -0.05,
+     "g": 0.6
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-18-kalon/6.png",
+   "cam": "in",
+   "voice": "Minora azon aytish, kuzatuv va cho'lda adashganlarga mayoq bo'lib xizmat qilgan.",
+   "ov": [
+    {
+     "type": "tag",
+     "t": "AZON · KUZATUV · MAYOQ",
+     "x": 270,
+     "y": 800,
+     "w": "azon",
+     "dark": true,
+     "sfx": ""
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-18-kalon/7.png",
+   "cam": "out",
+   "mv": 0.9,
+   "voice": "Siz uni ko'rganmisiz? Ha yoki yo'q, deb yozing. Buxoroni sevadigan do'stingizga yuboring.",
+   "ov": [
+    {
+     "type": "punch",
+     "t": "KO'RGANMISIZ?",
+     "y": 300,
+     "at": 0.0,
+     "size": 48,
+     "white": true,
+     "sfx": ""
+    },
+    {
+     "type": "tag",
+     "t": "👇 HA yoki YO'Q — yozing",
+     "x": 270,
+     "y": 420,
+     "w": "Ha",
+     "sfx": ""
+    }
+   ]
+  }
+ ]
+}

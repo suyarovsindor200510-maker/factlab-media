@@ -260,5 +260,16 @@
   "music": "gen:dark",
   "voice": "Bekzod",
   "status": "prepared, awaiting owner approval"
+ },
+ {
+  "id": "2026-10-20-rasadxona",
+  "topic": "Ulug'bek rasadxonasi: 1908 Vyatkin topgan Faxriy sekstant, 1000+ yulduz, yil uzunligi (xato <1 daqiqa)",
+  "category": "tarix",
+  "type": "fakt",
+  "title": "Yer ostidagi sir: Ulug'bek rasadxonasi",
+  "format": "doc",
+  "music": "gen:dark",
+  "voice": "Bekzod",
+  "status": "prepared, awaiting owner approval"
  }
 ]

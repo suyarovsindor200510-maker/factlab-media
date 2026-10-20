@@ -1,0 +1,216 @@
+{
+ "id": "2026-10-20-rasadxona",
+ "format": "doc",
+ "music": "gen:dark",
+ "music_bpm": 70,
+ "music_vol": 0.12,
+ "sfx_vol": 0.5,
+ "tempo": 1.05,
+ "gap": 0,
+ "cover_t": 1.0,
+ "caption": "Ulug'bek rasadxonasi: Samarqanddagi tepalik ostida 400 yil yashiringan sir 🔭\n\n1908-yilda arxeolog Vasiliy Vyatkin Samarqand yaqinidagi Ko'hak tepaligida yer ostidan ulkan marmar yoyni topdi. Bu Mirzo Ulug'bek rasadxonasidagi Faxriy sekstantning qoldig'i edi. Rasadxona XV asrning 20-yillarida qurilgan: diametri 46 metrga yaqin, uch qavatli dumaloq bino, ichidagi sekstantning radiusi 40 metrga yaqin bo'lgan. Ulug'bek va uning olimlari teleskopsiz mingdan ortiq yulduzning o'rnini aniqlab, \"Ziji jadidi Ko'ragoniy\" jadvaliga yozishgan. Yulduz yili uzunligini 365 kun 6 soat 10 daqiqa 8 soniya deb hisoblashgan — xato bir daqiqadan kam. 1449-yilda Ulug'bek o'ldirilgach, rasadxona asta-sekin vayron bo'lib, tuproq ostida qolgan.\n\n👇 Siz bu rasadxonani ko'rganmisiz? HA yoki YO'Q deb yozing\n📲 Samarqandlik do'stingizga yuboring\n\n#ulugbek #samarqand #tarix #ozbekiston #thefactlab",
+ "scenes": [
+  {
+   "img": "assets/2026-10-20-rasadxona/1.png",
+   "cam": "in",
+   "camT": 6.0,
+   "voice": "Samarqanddagi bir tepalik ostida asrlar davomida qanday sir yashirinib yotgan edi?",
+   "ov": [
+    {
+     "type": "punch",
+     "t": "YER OSTIDA\nQANDAY SIR BOR?",
+     "y": 300,
+     "at": 0.0,
+     "size": 46,
+     "white": true,
+     "sfx": ""
+    }
+   ],
+   "sfx": [
+    {
+     "t": "impact",
+     "at": 0.05,
+     "g": 0.8
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-20-rasadxona/2.png",
+   "cam": "in",
+   "voice": "Bir ming to'qqiz yuz sakkizinchi yili arxeolog Vyatkin yer ostidan ulkan marmar yoyni topdi.",
+   "ov": [
+    {
+     "type": "stamp",
+     "t": "1908",
+     "y": 230,
+     "at": 0.1,
+     "sfx": ""
+    },
+    {
+     "type": "lower",
+     "small": "Arxeolog V. L. Vyatkin",
+     "t": "SAMARQAND · KO'HAK TEPALIGI",
+     "y": 800,
+     "w": "Vyatkin",
+     "sfx": ""
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-20-rasadxona/3.png",
+   "cam": "out",
+   "voice": "Bu Mirzo Ulug'bek rasadxonasining qoldig'i edi. U o'n beshinchi asrning yigirmanchi yillarida qurilgan.",
+   "ov": [
+    {
+     "type": "lower",
+     "small": "XV asr, 1420-yillar",
+     "t": "ULUG'BEK RASADXONASI",
+     "y": 800,
+     "w": "Ulug'bek",
+     "sfx": ""
+    }
+   ],
+   "sfx": [
+    {
+     "t": "whoosh",
+     "w": "Bu",
+     "dt": -0.1,
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-20-rasadxona/4.png",
+   "cam": "in",
+   "voice": "Uch qavatli dumaloq bino ichida radiusi qirq metrli ulkan sekstant bo'lgan.",
+   "ov": [
+    {
+     "type": "tag",
+     "t": "⌀ ≈ 46 m · 3 qavat",
+     "x": 270,
+     "y": 200,
+     "w": "Uch",
+     "dark": true,
+     "sfx": ""
+    },
+    {
+     "type": "stamp",
+     "t": "R ≈ 40 M",
+     "y": 780,
+     "w": "radiusi",
+     "sfx": ""
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-20-rasadxona/5.png",
+   "cam": "in",
+   "voice": "Shu yerda olimlar mingdan ortiq yulduzning o'rnini aniqlab, jadvalga yozishdi.",
+   "ov": [
+    {
+     "type": "big",
+     "t": "1000+",
+     "sub": "yulduz o'rni aniqlandi",
+     "y": 760,
+     "w": "mingdan",
+     "sfx": ""
+    },
+    {
+     "type": "tag",
+     "t": "\"Ziji jadidi Ko'ragoniy\"",
+     "x": 270,
+     "y": 200,
+     "w": "jadvalga",
+     "dark": true,
+     "sfx": ""
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-20-rasadxona/6.png",
+   "cam": "slam",
+   "camT": 0.5,
+   "pre_sil": 0.3,
+   "voice": "Teleskop yo'q edi. Lekin ular yil uzunligini uch yuz oltmish besh kun, olti soat, o'n daqiqa deb hisoblashdi. Xato bir daqiqadan ham kam.",
+   "ov": [
+    {
+     "type": "punch",
+     "t": "TELESKOPSIZ!",
+     "y": 260,
+     "at": 0.05,
+     "size": 44,
+     "white": true,
+     "sfx": ""
+    },
+    {
+     "type": "lower",
+     "small": "1 yil =",
+     "t": "365 KUN 6 SOAT 10 DAQIQA",
+     "y": 760,
+     "w": "uch",
+     "sfx": ""
+    },
+    {
+     "type": "stamp",
+     "t": "XATO < 1 DAQIQA",
+     "y": 560,
+     "w": "Xato",
+     "sfx": ""
+    }
+   ],
+   "sfx": [
+    {
+     "t": "clock",
+     "w": "yil",
+     "dt": 0,
+     "g": 0.35
+    },
+    {
+     "t": "boom",
+     "w": "Xato",
+     "dt": -0.05,
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-20-rasadxona/7.png",
+   "cam": "out",
+   "voice": "Ulug'bek o'ldirilgach, rasadxona asta-sekin vayron bo'ldi va tuproq ostida qoldi.",
+   "ov": [
+    {
+     "type": "stamp",
+     "t": "1449",
+     "y": 250,
+     "at": 0.1,
+     "sfx": ""
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-20-rasadxona/8.png",
+   "cam": "in",
+   "mv": 0.9,
+   "voice": "Siz bu rasadxonani ko'rganmisiz? Ha yoki yo'q, deb yozing. Samarqandlik do'stingizga yuboring.",
+   "ov": [
+    {
+     "type": "punch",
+     "t": "KO'RGANMISIZ?",
+     "y": 300,
+     "at": 0.0,
+     "size": 48,
+     "white": true,
+     "sfx": ""
+    },
+    {
+     "type": "tag",
+     "t": "👇 HA yoki YO'Q — yozing",
+     "x": 270,
+     "y": 420,
+     "w": "Ha",
+     "sfx": ""
+    }
+   ]
+  }
+ ]
+}

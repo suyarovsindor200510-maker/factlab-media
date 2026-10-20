@@ -1,0 +1,156 @@
+{
+ "id": "2026-10-20-jazo",
+ "format": "doc",
+ "music": "gen:dark",
+ "music_bpm": 70,
+ "music_vol": 0.13,
+ "sfx_vol": 0.4,
+ "tempo": 1.15,
+ "gap": 0,
+ "cover_t": 2.5,
+ "caption": "Balki u dangasa emasdir. Balki biz sababini so'ramayapmiz. 💭\n\nDars qilmagan bolani darrov jazolash kerakmi yoki avval nima bo'lganini so'rash kerakmi?\n\n👇 Kommentda yozing: 1️⃣ — jazo kerak, 2️⃣ — avval sababini bilish kerak\n📲 Ustoz yoki ota-ona do'stingizga yuboring\n\n#ustoz #tarbiya #talim #ozbekcha #thefactlab",
+ "scenes": [
+  {
+   "img": "assets/2026-10-20-jazo/1.png",
+   "cam": "in",
+   "voice": "Bu bola dangasami?",
+   "mv": 0.8,
+   "ov": [
+    {
+     "type": "punch",
+     "t": "DARS QILMAYOTGAN\nBOLA…",
+     "y": 520,
+     "at": 0.0,
+     "size": 44,
+     "white": true,
+     "sfx": ""
+    }
+   ],
+   "sfx": [
+    {
+     "t": "ding",
+     "at": 0.05,
+     "g": 0.25
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-20-jazo/2.png",
+   "cam": "slam",
+   "voice": "Ha-da. Dars qilmayapti-ku. Lekin siz uning ichida nima bo'layotganini bilasizmi? Qanaqa ichida? Balki u shunchaki charchagandir.",
+   "mv": 0.8,
+   "sfx": [
+    {
+     "t": "impact",
+     "at": 0.0,
+     "g": 0.9
+    },
+    {
+     "t": "bassdrop",
+     "at": 0.05,
+     "g": 0.35
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-20-jazo/3.png",
+   "cam": "in",
+   "voice": "Balki uyida muammosi bordir? Balki. Balki o'qishni tushunmayotgandir? Yoki shunchaki hech kim uni tushunmayotgandir.",
+   "mv": 0.95,
+   "sfx": [
+    {
+     "t": "notif",
+     "w": "uyida",
+     "dt": 0.0,
+     "g": 0.3
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-20-jazo/4.png",
+   "cam": "in",
+   "voice": "Yana dars qilmagansanmi? Sen umuman o'qishni xohlamaysan!",
+   "mv": 1.25,
+   "sfx": [
+    {
+     "t": "boom",
+     "w": "umuman",
+     "dt": 0.0,
+     "g": 0.6
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-20-jazo/5.png",
+   "cam": "in",
+   "voice": "Eng yomon joyi nima bilasizmi? Nima? Avval bola dars qilishni xohlamaydi. Keyin esa… \"baribir mendan hech narsa chiqmaydi\" deb o'ylay boshlaydi.",
+   "mv": 1.0,
+   "sfx": [
+    {
+     "t": "bassdrop",
+     "w": "\"baribir",
+     "dt": 0.0,
+     "g": 0.6
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-20-jazo/6.png",
+   "cam": "in",
+   "voice": "Nima bo'ldi? Bilmayman… Dars qiyin bo'lyaptimi? Unda birga qilamiz.",
+   "mv": 0.7,
+   "sfx": [
+    {
+     "t": "ding",
+     "at": 0.0,
+     "g": 0.3
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-20-jazo/7.png",
+   "cam": "in",
+   "voice": "Ba'zan bolaga yana bir marta… \"Dangasasan\" deyish emas… \"Nima bo'ldi?\" deb so'rash kerak.",
+   "mv": 1.0,
+   "sfx": [
+    {
+     "t": "whoosh",
+     "w": "\"Dangasasan\"",
+     "dt": -0.1,
+     "g": 0.35
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-20-jazo/8.png",
+   "cam": "none",
+   "voice": "Sizningcha-chi? Dars qilmagan bolani darrov jazolash kerakmi? Yoki avval nima bo'lganini so'rash kerakmi?",
+   "mv": 0.0,
+   "ov": [
+    {
+     "type": "punch",
+     "t": "1️⃣ JAZO KERAK\n2️⃣ AVVAL SABABINI\nBILISH KERAK",
+     "y": 520,
+     "at": 2.0,
+     "size": 34,
+     "white": true,
+     "sfx": ""
+    }
+   ],
+   "sfx": [
+    {
+     "t": "impact",
+     "at": 0.0,
+     "g": 0.8
+    },
+    {
+     "t": "boom",
+     "w": "kerakmi?",
+     "nth": 2,
+     "dt": 0.2,
+     "g": 0.7
+    }
+   ]
+  }
+ ]
+}

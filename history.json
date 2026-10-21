@@ -282,5 +282,16 @@
   "music": "uzmusic:lapar",
   "voice": "Bekzod + Dilnoza/Malika (draft voices)",
   "status": "prepared, awaiting owner approval"
+ },
+ {
+  "id": "2026-10-21-beruniy",
+  "topic": "Abu Rayhon Beruniy Yer radiusini o'lchagan: Nandana tepaligi, ufq egilishi, ~6340 km (bugun ~6371), xato <1%",
+  "category": "tarix",
+  "type": "fakt",
+  "title": "Beruniy Yerni qanday o'lchagan?",
+  "format": "doc",
+  "music": "gen:dark",
+  "voice": "Bekzod",
+  "status": "prepared, awaiting owner approval"
  }
 ]

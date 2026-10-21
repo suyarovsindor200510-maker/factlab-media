@@ -1,0 +1,197 @@
+{
+ "id": "2026-10-21-beruniy",
+ "format": "doc",
+ "music": "gen:dark",
+ "music_bpm": 70,
+ "music_vol": 0.12,
+ "sfx_vol": 0.5,
+ "tempo": 1.05,
+ "gap": 0,
+ "cover_t": 1.0,
+ "caption": "Beruniy Yerni qanday o'lchagan? Ming yil oldin, teleskopsiz 🌍\n\nAbu Rayhon Beruniy 973-yilda Xorazmning Kat shahrida tug'ilgan. Hindistonda (bugungi Pokiston), Nandana qal'asi yonida u avval tepalik balandligini o'lchagan, so'ng cho'qqidan ufq qanchalik pastga egilganini aniqlab, geometriya yordamida Yer radiusini hisoblagan. Natija — taxminan 6340 km. Bugungi o'rtacha qiymat — taxminan 6371 km: xato bir foizdan kam. Bugun Qoraqalpog'istonda uning nomi bilan atalgan Beruniy shahri bor.\n\n👇 Beruniyni bilarmidingiz? HA yoki YO'Q deb yozing\n📲 Xorazmlik do'stingizga yuboring\n\n#beruniy #tarix #ozbekiston #xorazm #thefactlab",
+ "scenes": [
+  {
+   "img": "assets/2026-10-21-beruniy/1.png",
+   "cam": "in",
+   "camT": 6.5,
+   "voice": "Ming yil oldin bir olim tepalikka chiqib, butun Yer sharini o'lchagan. Qanday qilib?",
+   "ov": [
+    {
+     "type": "punch",
+     "t": "1000 YIL OLDIN\nYERNI O'LCHADI",
+     "y": 300,
+     "at": 0.0,
+     "size": 46,
+     "white": true,
+     "sfx": ""
+    }
+   ],
+   "sfx": [
+    {
+     "t": "impact",
+     "at": 0.05,
+     "g": 0.8
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-21-beruniy/2.png",
+   "cam": "in",
+   "voice": "Abu Rayhon Beruniy to'qqiz yuz yetmish uchinchi yili Xorazmning Kat shahrida tug'ilgan.",
+   "ov": [
+    {
+     "type": "stamp",
+     "t": "973",
+     "y": 230,
+     "w": "to'qqiz",
+     "sfx": ""
+    },
+    {
+     "type": "lower",
+     "small": "Abu Rayhon",
+     "t": "BERUNIY · KAT, XORAZM",
+     "y": 800,
+     "w": "Beruniy",
+     "sfx": ""
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-21-beruniy/3.png",
+   "cam": "out",
+   "voice": "Hindistonda, Nandana qal'asi yonida, u avval tepalikning balandligini o'lchadi.",
+   "ov": [
+    {
+     "type": "lower",
+     "small": "Nandana qal'asi",
+     "t": "BUGUNGI POKISTON",
+     "y": 800,
+     "w": "Nandana",
+     "sfx": ""
+    },
+    {
+     "type": "tag",
+     "t": "1-QADAM: BALANDLIK",
+     "x": 270,
+     "y": 200,
+     "w": "balandligini",
+     "dark": true,
+     "sfx": ""
+    }
+   ],
+   "sfx": [
+    {
+     "t": "whoosh",
+     "at": 0.0,
+     "g": 0.35
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-21-beruniy/4.png",
+   "cam": "in",
+   "voice": "So'ng cho'qqidan ufqqa qarab, ufq qanchalik pastga egilganini aniqladi. Qolgani esa geometriya.",
+   "ov": [
+    {
+     "type": "tag",
+     "t": "2-QADAM: UFQ BURCHAGI",
+     "x": 270,
+     "y": 200,
+     "w": "ufqqa",
+     "dark": true,
+     "sfx": ""
+    },
+    {
+     "type": "punch",
+     "t": "GEOMETRIYA",
+     "y": 780,
+     "w": "geometriya",
+     "size": 44,
+     "white": true,
+     "sfx": ""
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-21-beruniy/5.png",
+   "cam": "slam",
+   "camT": 0.5,
+   "pre_sil": 0.3,
+   "voice": "Natija: Yer radiusi taxminan olti ming uch yuz qirq kilometr. Bugungi qiymat, olti ming uch yuz yetmish bir. Xato bir foizdan ham kam!",
+   "ov": [
+    {
+     "type": "big",
+     "t": "≈ 6340 KM",
+     "sub": "Beruniy hisobi",
+     "y": 250,
+     "w": "taxminan",
+     "sfx": ""
+    },
+    {
+     "type": "lower",
+     "small": "Bugungi qiymat",
+     "t": "≈ 6371 KM",
+     "y": 800,
+     "w": "Bugungi",
+     "sfx": ""
+    },
+    {
+     "type": "stamp",
+     "t": "XATO < 1%",
+     "y": 560,
+     "w": "Xato",
+     "sfx": ""
+    }
+   ],
+   "sfx": [
+    {
+     "t": "boom",
+     "w": "Xato",
+     "dt": -0.05,
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-21-beruniy/6.png",
+   "cam": "out",
+   "voice": "Bugun Qoraqalpog'istonda uning nomi bilan atalgan Beruniy shahri bor.",
+   "ov": [
+    {
+     "type": "tag",
+     "t": "📍 BERUNIY SHAHRI, QORAQALPOG'ISTON",
+     "x": 270,
+     "y": 230,
+     "at": 0.2,
+     "dark": true,
+     "sfx": ""
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-21-beruniy/7.png",
+   "cam": "in",
+   "mv": 0.9,
+   "voice": "Beruniyni bilarmidingiz? Ha yoki yo'q deb yozing. Xorazmlik do'stingizga yuboring.",
+   "ov": [
+    {
+     "type": "punch",
+     "t": "BILARMIDINGIZ?",
+     "y": 300,
+     "at": 0.0,
+     "size": 48,
+     "white": true,
+     "sfx": ""
+    },
+    {
+     "type": "tag",
+     "t": "👇 HA yoki YO'Q — yozing",
+     "x": 270,
+     "y": 420,
+     "w": "Ha",
+     "sfx": ""
+    }
+   ]
+  }
+ ]
+}

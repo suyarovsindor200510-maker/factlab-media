@@ -1,6 +1,6 @@
 {
  "id": "2026-10-20-konfet",
- "status": "draft: waiting for 8 images (Canva quota_cooldown); voices + audio + words ready",
+ "status": "superseded by specs/2026-10-21-konfet.json",
  "format": "doc",
  "music": "gen:dark",
  "music_bpm": 110,
@@ -10,35 +10,179 @@
  "cover_t": 1.2,
  "caption": "Qaytimga konfet berishdi 🍬 O'zbekistondagi eng mashhur valyuta\n\nDo'konda mayda pul yo'q — \"ukajon, konfet olaqoling\". Kecha ham, bugun ham… Bir kuni yigitimiz bir xalta konfet bilan qaytib keldi 😂\n\n👇 Sizga ham qaytimga konfet berishganmi? HA yoki YO'Q — kommentda yozing\n📲 Konfetni yaxshi ko'radigan do'stingizga yuboring\n\n#qaytim #konfet #ozbekcha #kulgili #thefactlab",
  "scenes": [
-  {"img": "assets/2026-10-20-konfet/1.png", "cam": "in",
+  {
+   "img": "assets/2026-10-20-konfet/1.png",
+   "cam": "in",
    "voice": "O'zbekistondagi eng mashhur valyuta qaysi? Dollar emas... Konfet!",
-   "ov": [{"type": "punch", "t": "ENG MASHHUR\nVALYUTA? 🤔", "y": 700, "at": 0.0, "size": 46, "white": true, "sfx": ""},
-          {"type": "stamp", "t": "KONFET 🍬", "y": 820, "w": "Konfet!", "sfx": ""}],
-   "sfx": [{"t": "impact", "at": 0.0, "g": 0.7}, {"t": "impact", "w": "Konfet!", "dt": 0.0, "g": 0.9}]},
-  {"img": "assets/2026-10-20-konfet/2.png", "cam": "in",
+   "ov": [
+    {
+     "type": "punch",
+     "t": "ENG MASHHUR\nVALYUTA? 🤔",
+     "y": 700,
+     "at": 0.0,
+     "size": 46,
+     "white": true,
+     "sfx": ""
+    },
+    {
+     "type": "stamp",
+     "t": "KONFET 🍬",
+     "y": 820,
+     "w": "Konfet!",
+     "sfx": ""
+    }
+   ],
+   "sfx": [
+    {
+     "t": "impact",
+     "at": 0.0,
+     "g": 0.7
+    },
+    {
+     "t": "impact",
+     "w": "Konfet!",
+     "dt": 0.0,
+     "g": 0.9
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-20-konfet/2.png",
+   "cam": "in",
    "voice": "Ukajon, mayda pul yo'q. Qaytimiga konfet olaqoling!",
-   "ov": [{"type": "tag", "t": "QAYTIM: 🍬🍬🍬", "x": 270, "y": 800, "w": "konfet", "dark": true, "sfx": ""}],
-   "sfx": [{"t": "notif", "w": "konfet", "dt": 0.0, "g": 0.5}]},
-  {"img": "assets/2026-10-20-konfet/3.png", "cam": "in",
+   "ov": [
+    {
+     "type": "tag",
+     "t": "QAYTIM: 🍬🍬🍬",
+     "x": 270,
+     "y": 800,
+     "w": "konfet",
+     "dark": true,
+     "sfx": ""
+    }
+   ],
+   "sfx": [
+    {
+     "t": "notif",
+     "w": "konfet",
+     "dt": 0.0,
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-20-konfet/3.png",
+   "cam": "in",
    "voice": "Opa, kecha ham konfet bergandingiz-ku...",
-   "ov": [{"type": "punch", "t": "KECHA HAM… 😩", "y": 780, "w": "kecha", "size": 44, "white": true, "sfx": ""}]},
-  {"img": "assets/2026-10-20-konfet/4.png", "cam": "out",
-   "voice": "Shirin-shirin yeysiz-da, ukajon!"},
-  {"img": "assets/2026-10-20-konfet/5.png", "cam": "in",
+   "ov": [
+    {
+     "type": "punch",
+     "t": "KECHA HAM… 😩",
+     "y": 780,
+     "w": "kecha",
+     "size": 44,
+     "white": true,
+     "sfx": ""
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-20-konfet/4.png",
+   "cam": "out",
+   "voice": "Shirin-shirin yeysiz-da, ukajon!"
+  },
+  {
+   "img": "assets/2026-10-20-konfet/5.png",
+   "cam": "in",
    "voice": "Bir oydan keyin yigitimiz bir xalta konfet bilan keldi.",
-   "ov": [{"type": "stamp", "t": "1 OYDAN KEYIN", "y": 760, "w": "Bir", "sfx": ""}],
-   "sfx": [{"t": "clock", "at": 0.0, "g": 0.25}]},
-  {"img": "assets/2026-10-20-konfet/6.png", "cam": "in",
+   "ov": [
+    {
+     "type": "stamp",
+     "t": "1 OYDAN KEYIN",
+     "y": 760,
+     "w": "Bir",
+     "sfx": ""
+    }
+   ],
+   "sfx": [
+    {
+     "t": "clock",
+     "at": 0.0,
+     "g": 0.25
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-20-konfet/6.png",
+   "cam": "in",
    "voice": "Opa, bitta non bering. Mana, o'n beshta konfet!",
-   "ov": [{"type": "tag", "t": "🍞 1 NON = 🍬 x15", "x": 270, "y": 800, "w": "beshta", "sfx": ""}]},
-  {"img": "assets/2026-10-20-konfet/7.png", "cam": "slam", "camT": 0.3,
+   "ov": [
+    {
+     "type": "tag",
+     "t": "🍞 1 NON = 🍬 x15",
+     "x": 270,
+     "y": 800,
+     "w": "beshta",
+     "sfx": ""
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-20-konfet/7.png",
+   "cam": "slam",
+   "camT": 0.3,
    "voice": "Voy! Konfetga savdo qilmaymiz-ku!",
-   "ov": [{"type": "punch", "t": "VOY! 😱", "y": 780, "w": "Voy!", "size": 56, "white": true, "sfx": ""}],
-   "sfx": [{"t": "glitch", "w": "Voy!", "dt": 0.0, "g": 0.6}]},
-  {"img": "assets/2026-10-20-konfet/8.png", "cam": "out",
+   "ov": [
+    {
+     "type": "punch",
+     "t": "VOY! 😱",
+     "y": 780,
+     "w": "Voy!",
+     "size": 56,
+     "white": true,
+     "sfx": ""
+    }
+   ],
+   "sfx": [
+    {
+     "t": "glitch",
+     "w": "Voy!",
+     "dt": 0.0,
+     "g": 0.6
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-20-konfet/8.png",
+   "cam": "out",
    "voice": "Sizga ham qaytimga konfet berishganmi? Ha yoki yo'q, kommentda yozing. Konfetni yaxshi ko'radigan do'stingizga yuboring!",
-   "ov": [{"type": "punch", "t": "HA yoki YO'Q?", "y": 720, "w": "Ha", "size": 48, "white": true, "sfx": ""},
-          {"type": "tag", "t": "👇 KOMMENTDA YOZING", "x": 270, "y": 840, "w": "kommentda", "sfx": ""}],
-   "sfx": [{"t": "notif", "w": "yuboring!", "dt": 0.3, "g": 0.6}]}
+   "ov": [
+    {
+     "type": "punch",
+     "t": "HA yoki YO'Q?",
+     "y": 720,
+     "w": "Ha",
+     "size": 48,
+     "white": true,
+     "sfx": ""
+    },
+    {
+     "type": "tag",
+     "t": "👇 KOMMENTDA YOZING",
+     "x": 270,
+     "y": 840,
+     "w": "kommentda",
+     "sfx": ""
+    }
+   ],
+   "sfx": [
+    {
+     "t": "notif",
+     "w": "yuboring!",
+     "dt": 0.3,
+     "g": 0.6
+    }
+   ]
+  }
  ]
 }

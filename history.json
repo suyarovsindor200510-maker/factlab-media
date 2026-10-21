@@ -271,5 +271,16 @@
   "music": "gen:dark",
   "voice": "Bekzod",
   "status": "prepared, awaiting owner approval"
+ },
+ {
+  "id": "2026-10-21-konfet",
+  "topic": "Qaytimga konfet berishadi: bir oydan keyin yigit bir xalta konfet bilan non olishga keldi",
+  "category": "kundalik hayot",
+  "type": "dialog",
+  "title": "Eng mashhur valyuta — konfet",
+  "format": "doc",
+  "music": "uzmusic:lapar",
+  "voice": "Bekzod + Dilnoza/Malika (draft voices)",
+  "status": "prepared, awaiting owner approval"
  }
 ]

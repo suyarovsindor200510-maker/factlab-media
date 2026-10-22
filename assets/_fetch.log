@@ -749,3 +749,10 @@ assets/2026-10-22-taksi/raw/1.png ok
 assets/2026-10-22-taksi/raw/2.png ok
 toy-sr/m1.mp3 FAILED 22 curl: (22) The requested URL returned error: 400
 toy-sr/m2.mp3 FAILED 22 curl: (22) The requested URL returned error: 400
+toy-sr/m1.mp3 FAILED 22 curl: (22) The requested URL returned error: 400
+toy-sr/m2.mp3 FAILED 22 curl: (22) The requested URL returned error: 400
+assets/2026-10-22-taksi/raw/3.png ok
+assets/2026-10-22-taksi/raw/4.png ok
+assets/2026-10-22-taksi/raw/5.png ok
+assets/2026-10-22-taksi/raw/6.png ok
+assets/2026-10-22-taksi/raw/7.png ok

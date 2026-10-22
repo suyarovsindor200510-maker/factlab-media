@@ -17,7 +17,7 @@
      "t": "MEHMON 10 DAQIQADA\nKELADI! 😱",
      "y": 730,
      "at": 0.0,
-     "size": 44,
+     "size": 36,
      "white": true,
      "sfx": ""
     },
@@ -44,7 +44,7 @@
    "ov": [
     {
      "type": "tag",
-     "t": "UY: 💥 TARTIBSIZLIK",
+     "t": "UY: TARTIBSIZLIK 💥",
      "x": 270,
      "y": 820,
      "w": "mana",

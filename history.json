@@ -293,5 +293,15 @@
   "music": "gen:dark",
   "voice": "Bekzod",
   "status": "prepared, awaiting owner approval"
+ },
+ {
+  "id": "2026-10-21-mehmon",
+  "topic": "Mehmon kelsa hamma narsani yotoqxonaga tiqish: 9 daqiqada uy yaltiraydi, xola o'sha xonani ochadi",
+  "category": "oila",
+  "type": "dialog",
+  "title": "Mehmon kelsa — yashirin xona",
+  "format": "doc",
+  "music": "lapar",
+  "prepared": "2026-10-22 16:53 KST"
  }
 ]

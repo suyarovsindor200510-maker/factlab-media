@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="uz">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex">
+<title>Sen uchun sovg'a</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gloock&family=Nunito:wght@400;600;800&family=Caveat:wght@500;700&display=swap">
+<style>
+/* Layout: one phone-width card, screens swap in place: lock → gift boxes → each surprise → finale */
+:root{
+  --blush:#FCE8EE; --blush-2:#F8D6E0; --rose:#D94F78; --rose-deep:#A8325A;
+  --plum:#4A2333; --paper:#FFF9F3; --leaf:#6E9B6A; --gold:#E9B44C; --muted:#8A5D6E;
+  --display:"Gloock", Georgia, "Times New Roman", serif;
+  --body:"Nunito", "Segoe UI", system-ui, sans-serif;
+  --hand:"Caveat", "Segoe Script", cursive;
+  color-scheme: light;
+}
+*{box-sizing:border-box}
+html,body{min-height:100%}
+body{margin:0;background:var(--blush);color:var(--plum);font-family:var(--body);font-size:16px;line-height:1.5;
+  padding-left:max(16px, env(safe-area-inset-left,0px));padding-right:max(16px, env(safe-area-inset-right,0px));padding-block:24px;
+  background-image:radial-gradient(circle at 15% 10%, var(--blush-2) 0 120px, transparent 121px),radial-gradient(circle at 90% 85%, var(--blush-2) 0 160px, transparent 161px);
+  background-attachment:fixed}
+.stage{max-width:440px;margin:0 auto;position:relative}
+.screen{display:flex;flex-direction:column;align-items:center;gap:18px;text-align:center;animation:rise .45s ease both}
+@keyframes rise{from{opacity:.0;transform:translateY(10px)}to{opacity:1;transform:none}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important;transition:none!important}}
+h1,h2{font-family:var(--display);font-weight:400;margin:0;text-wrap:balance;color:var(--rose-deep)}
+h1{font-size:2.1rem;line-height:1.1}
+h2{font-size:1.7rem;line-height:1.15}
+.sub{margin:0;color:var(--muted);font-size:.98rem;max-width:34ch}
+.hand{font-family:var(--hand);font-size:1.35rem;line-height:1.3;color:var(--plum)}
+button{font:inherit;color:inherit;cursor:pointer}
+button:focus-visible{outline:3px solid var(--rose);outline-offset:3px}
+.btn{background:var(--rose);color:var(--paper);border:0;border-radius:999px;padding:12px 26px;font-weight:800;letter-spacing:.02em;box-shadow:0 6px 0 var(--rose-deep);transition:transform .1s}
+.btn:active{transform:translateY(3px);box-shadow:0 3px 0 var(--rose-deep)}
+.back{background:none;border:0;color:var(--rose-deep);font-weight:800;padding:8px 4px;align-self:flex-start}
+
+/* Lock screen */
+.hearts{display:flex;gap:0;margin-top:6px}
+.hearts svg{width:118px;height:108px}
+.hearts svg:last-child{margin-left:-26px;transform:rotate(8deg)}
+.dots{display:flex;gap:14px;margin:4px 0}
+.dot{width:16px;height:16px;border-radius:50%;border:2px solid var(--rose);background:transparent;transition:background .15s}
+.dot.on{background:var(--rose)}
+.pad{display:grid;grid-template-columns:repeat(3,72px);gap:12px}
+.key{height:60px;border-radius:18px;border:0;background:var(--paper);font-size:1.4rem;font-weight:800;color:var(--plum);box-shadow:0 4px 0 var(--blush-2)}
+.key:active{transform:translateY(2px);box-shadow:0 2px 0 var(--blush-2)}
+.key.go{background:var(--rose);color:var(--paper);box-shadow:0 4px 0 var(--rose-deep)}
+.shake{animation:shake .4s}
+@keyframes shake{20%,60%{transform:translateX(-8px)}40%,80%{transform:translateX(8px)}}
+.msg{min-height:1.5em;margin:0;font-weight:600;color:var(--rose-deep)}
+
+/* Gift boxes */
+.gifts{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;width:100%}
+.gift{background:var(--paper);border:0;border-radius:22px;padding:14px 10px 12px;display:flex;flex-direction:column;align-items:center;gap:6px;box-shadow:0 6px 0 var(--blush-2);transition:transform .15s}
+.gift:hover{transform:translateY(-3px) rotate(-1deg)}
+.gift svg{width:84px;height:84px}
+.gift b{font-size:.98rem}
+.gift small{color:var(--muted);font-size:.8rem}
+.gift.done{opacity:.75}
+.gift.done small{color:var(--leaf);font-weight:800}
+
+/* Tulips */
+.bouquet{position:relative;width:100%;display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:8px}
+.bouquet svg{width:150px;height:210px}
+.notes{display:flex;flex-direction:column;gap:10px}
+.note{background:var(--paper);border:0;border-radius:14px;padding:10px 8px;font-family:var(--hand);font-size:1.15rem;line-height:1.15;color:var(--plum);box-shadow:0 3px 0 var(--blush-2);min-height:58px}
+.note.closed{color:var(--rose);font-family:var(--body);font-weight:800;font-size:.85rem}
+
+/* Playlist */
+.player{display:flex;flex-direction:column;align-items:center;gap:14px;width:100%}
+.vinyl{width:210px;height:210px;border-radius:50%;max-width:100%;
+  background:repeating-radial-gradient(circle,#222 0 2px,#111 2px 5px);position:relative;box-shadow:0 10px 24px rgba(74,35,51,.25)}
+.vinyl::after{content:"";position:absolute;inset:36%;border-radius:50%;background:radial-gradient(circle,var(--plum) 0 7%,var(--rose) 8% 100%)}
+.vinyl.spin{animation:spin 3s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.songs{list-style:none;margin:0;padding:0;width:100%;display:flex;flex-direction:column;gap:8px;text-align:left}
+.song{width:100%;display:flex;justify-content:space-between;gap:10px;background:var(--paper);border:0;border-radius:14px;padding:12px 14px;color:var(--plum);font-weight:600;text-align:left}
+.song span:last-child{color:var(--rose);font-weight:800;white-space:nowrap}
+.song.now{background:var(--rose);color:var(--paper)}.song.now span:last-child{color:var(--paper)}
+.vinyl.small{width:120px;height:120px}
+.yt{width:100%;aspect-ratio:16/9;max-width:100%;border-radius:16px;overflow:hidden;background:#000;box-shadow:0 10px 24px rgba(74,35,51,.2)}
+.yt iframe{width:100%;height:100%;border:0;display:block}
+.photo{width:190px;height:190px;border-radius:50%;object-fit:cover;border:6px solid var(--paper);box-shadow:0 8px 0 var(--blush-2)}
+
+/* Letter */
+.letter{background:var(--paper);width:100%;border-radius:6px;padding:26px 22px 22px;text-align:left;position:relative;
+  background-image:repeating-linear-gradient(transparent 0 33px, var(--blush-2) 33px 34px);box-shadow:0 10px 24px rgba(74,35,51,.12)}
+.letter p{margin:0 0 6px;font-family:var(--hand);font-size:1.4rem;line-height:34px}
+.letter .sign{text-align:right;color:var(--rose-deep);font-weight:700}
+.cat{position:absolute;right:-6px;bottom:-26px;width:86px;height:86px}
+
+/* Mood jar */
+.jar{width:170px;height:200px}
+.wish{background:var(--paper);border-radius:18px;padding:16px 18px;min-height:86px;display:flex;align-items:center;justify-content:center;width:100%}
+
+#confetti{position:fixed;inset:0;pointer-events:none;z-index:20}
+</style>
+</head>
+<body>
+
+
+<div class="stage" id="app"></div>
+<canvas id="confetti"></canvas>
+
+<script>
+/* ---------- O'zgartiriladigan joylar ---------- */
+const CODE = "0506";                       // maxfiy kod
+const HINT = "Maslahat: eng sevimli raqamlaring 💗";
+const NAME = "Jonim";                      // kimga
+const FROM = "Seni sevuvchi inson";        // kimdan
+const COMPLIMENTS = [
+  "Tabassuming kunimni yoritadi","Sen bilan hamma narsa osonroq","Ovozing — eng sevimli musiqam",
+  "Sen mening eng yaxshi do'stimsan","Qalbing juda go'zal","Har kuni seni ko'proq yaxshi ko'raman"];
+const SONGS = [   // [nomi, YouTube video ID]
+  ["Ed Sheeran — Perfect","2Vv-BfVoq4g"],
+  ["Bruno Mars — Just the Way You Are","LjhCEhWiKXk"],
+  ["Christina Perri — A Thousand Years","rtOvBOTyX00"],
+  ["John Legend — All of Me","450p7goxZqg"]];
+const PHOTO = "";   // rasm fayli (masalan "biz.jpg"); bo'sh bo'lsa yurakchalar chiqadi
+const LETTER = [
+  `${NAME},`,
+  "bugun hech qanday bayram emas. Shunchaki bir oddiy kun.",
+  "Lekin sen borliging uchun bu kun ham men uchun alohida.",
+  "Charchagan kunlarimda ham, kulgili kunlarimda ham yonimda bo'lganing uchun rahmat.",
+  "Sen meni har kuni biroz yaxshiroq inson qilasan.",
+  "Bu kichik sovg'a seni bir lahza bo'lsa ham jilmaytirsa — maqsadimga yetdim."];
+const WISHES = [
+  "Bugun o'zingga bir piyola choy va 10 daqiqa dam ber — bu buyruq ☕",
+  "Esingda bo'lsin: sen yetarlisan, hatto qiyin kunlarda ham",
+  "Hozir ko'zguga qarab jilmay. Ana, dunyodagi eng chiroyli tabassum",
+  "Kechqurun quchog'im seni kutyapti 🤗",
+  "Sen haqingda o'ylasam, yuragim tinchlanadi",
+  "Bugungi vazifang: o'zingni yaxshi ko'rish. Bajarilsin!"];
+/* --------------------------------------------- */
+
+const app=document.getElementById('app');
+const opened=new Set();
+const heart=(fill,label)=>`<svg viewBox="0 0 120 110" aria-hidden="true"><path d="M60 104C24 78 4 58 4 34 4 17 17 5 33 5c11 0 21 6 27 15 6-9 16-15 27-15 16 0 29 12 29 29 0 24-20 44-56 70z" fill="${fill}" stroke="#fff" stroke-width="5"/><text x="60" y="58" text-anchor="middle" font-family="Gloock,serif" font-size="30" fill="#FFF9F3">${label}</text></svg>`;
+const box=(c,r)=>`<svg viewBox="0 0 100 100" aria-hidden="true"><rect x="14" y="44" width="72" height="46" rx="6" fill="${c}"/><rect x="10" y="32" width="80" height="16" rx="5" fill="${c}" opacity=".85"/><rect x="45" y="32" width="10" height="58" fill="${r}"/><path d="M50 32c-10-14-26-14-24-4 2 7 14 6 24 4zm0 0c10-14 26-14 24-4-2 7-14 6-24 4z" fill="${r}"/></svg>`;
+
+function lock(){
+  let entered='';
+  app.innerHTML=`<section class="screen" aria-label="Kod kiritish">
+    ${PHOTO?`<img class="photo" src="${PHOTO}" alt="Biz">`:`<div class="hearts">${heart('#E8789A','sen')}${heart('#D94F78','men')}</div>`}
+    <h1>Maxfiy kodni kirit</h1>
+    <p class="sub">${HINT}</p>
+    <div class="dots" id="dots">${'<span class="dot"></span>'.repeat(CODE.length)}</div>
+    <p class="msg" id="msg" aria-live="polite"></p>
+    <div class="pad" id="pad">${[1,2,3,4,5,6,7,8,9].map(n=>`<button class="key" data-k="${n}" aria-label="${n}">${n}</button>`).join('')}
+      <button class="key" data-k="del" aria-label="O'chirish">⌫</button><button class="key" data-k="0" aria-label="0">0</button><button class="key go" data-k="ok" aria-label="Ochish">♥</button></div>
+  </section>`;
+  const dots=[...document.querySelectorAll('.dot')], msg=document.getElementById('msg'), pad=document.getElementById('pad');
+  const paint=()=>dots.forEach((d,i)=>d.classList.toggle('on',i<entered.length));
+  pad.addEventListener('click',e=>{
+    const k=e.target.closest('.key')?.dataset.k; if(!k) return;
+    if(k==='del'){entered=entered.slice(0,-1)}
+    else if(k==='ok'||entered.length>=CODE.length-1&&k!=='ok'){ if(k!=='ok') entered+=k; check(); return;}
+    else entered+=k;
+    msg.textContent=''; paint();
+  });
+  function check(){
+    paint();
+    if(entered===CODE){ msg.textContent='Ochildi! 💗'; burst(); setTimeout(gifts,700); }
+    else { msg.textContent='Yo\'q, yana urinib ko\'r 🙈'; pad.classList.remove('shake'); void pad.offsetWidth; pad.classList.add('shake'); setTimeout(()=>{entered='';paint()},500); }
+  }
+}
+
+function gifts(){
+  const items=[['tulips','Lolalar','Senga gullar','#F6B4C6','#D94F78'],['songs','Qo\'shiqlar','Sen uchun pleylist','#B9D7EE','#5B8DB8'],
+               ['letter','Maktub','Yuragimdan','#FFE1A6','#D99A2B'],['jar','Kayfiyat qutisi','Bos va ol','#CDE6C6','#6E9B6A']];
+  const all=opened.size===items.length;
+  app.innerHTML=`<section class="screen">
+    <h1>Ochding! ✨</h1><p class="sub">${all?'Hamma sovg\'alarni ochding. Oxirgisi seni kutyapti.':'Seni bir nechta kichik sovg\'a kutyapti. Xohlagan qutini bos.'}</p>
+    <div class="gifts">${items.map(([id,t,s,c,r])=>`<button class="gift ${opened.has(id)?'done':''}" data-id="${id}">${box(c,r)}<b>${t}</b><small>${opened.has(id)?'✓ ochildi':s}</small></button>`).join('')}</div>
+    ${all?'<button class="btn" id="fin">Oxirgi sovg\'a 💌</button>':''}
+  </section>`;
+  app.querySelectorAll('.gift').forEach(b=>b.onclick=()=>({tulips,songs,letter,jar})[b.dataset.id]());
+  document.getElementById('fin')?.addEventListener('click',finale);
+}
+const backBtn='<button class="back" id="back">← Sovg\'alarga qaytish</button>';
+const wireBack=()=>document.getElementById('back').onclick=gifts;
+
+function tulips(){
+  opened.add('tulips');
+  const half=COMPLIMENTS.length/2;
+  const col=a=>`<div class="notes">${a.map((t,i)=>`<button class="note closed" data-t="${t}">bos 💗</button>`).join('')}</div>`;
+  app.innerHTML=`<section class="screen">${backBtn}<h2>Sening lolalaring</h2><p class="sub">Har bir yozuvni bosib och.</p>
+    <div class="bouquet">${col(COMPLIMENTS.slice(0,half))}
+    <svg viewBox="0 0 150 210" aria-hidden="true">
+      <g stroke="#6E9B6A" stroke-width="5" fill="none"><path d="M75 200V90"/><path d="M75 200C70 150 45 120 38 80"/><path d="M75 200C80 150 105 120 112 80"/><path d="M75 200C60 160 30 150 20 120"/><path d="M75 200C90 160 120 150 130 120"/></g>
+      <path d="M60 170c-20-10-30-30-28-48 14 8 24 24 28 48zm30 0c20-10 30-30 28-48-14 8-24 24-28 48z" fill="#8DBB86"/>
+      ${[[75,72,'#E8789A'],[38,72,'#F2A0B6'],[112,72,'#D94F78'],[20,112,'#F6B4C6'],[130,112,'#E8789A']].map(([x,y,c])=>`<path d="M${x-14} ${y-6}c0 18 6 26 14 26s14-8 14-26c-5 6-9 8-14-6-5 14-9 12-14 6z" fill="${c}"/>`).join('')}
+      <path d="M48 190h54l-8 18H56z" fill="#F6E3C8"/><path d="M60 186c10 6 20 6 30 0" stroke="#D94F78" stroke-width="5" fill="none"/>
+    </svg>${col(COMPLIMENTS.slice(half))}</div></section>`;
+  wireBack();
+  app.querySelectorAll('.note').forEach(n=>n.onclick=()=>{n.textContent=n.dataset.t;n.classList.remove('closed')});
+}
+
+function songs(){
+  opened.add('songs');
+  app.innerHTML=`<section class="screen">${backBtn}<h2>Sen uchun pleylist</h2><p class="sub">Qo'shiqni bos — shu yerning o'zida chalinadi.</p>
+    <div class="player"><div class="vinyl" id="vinyl"></div><div class="yt" id="yt" hidden></div>
+    <ul class="songs">${SONGS.map(([t,id],i)=>`<li><button class="song" data-i="${i}"><span>${t}</span><span>▶ Tinglash</span></button></li>`).join('')}</ul></div></section>`;
+  wireBack();
+  const v=document.getElementById('vinyl'),yt=document.getElementById('yt');
+  app.querySelectorAll('.song').forEach(b=>b.onclick=()=>{
+    const [t,id]=SONGS[b.dataset.i];
+    app.querySelectorAll('.song').forEach(x=>{x.classList.remove('now');x.lastElementChild.textContent='▶ Tinglash'});
+    b.classList.add('now');b.lastElementChild.textContent='♪ Chalinmoqda';
+    v.classList.add('spin','small');yt.hidden=false;
+    yt.innerHTML=`<iframe src="https://www.youtube-nocookie.com/embed/${id}?autoplay=1&rel=0&playsinline=1" title="${t}" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>`;
+  });
+}
+function stopTune(){}
+
+function letter(){
+  opened.add('letter'); stopTune();
+  app.innerHTML=`<section class="screen">${backBtn}<h2>Yuragimdan maktub</h2>
+    <div class="letter">${LETTER.map(l=>`<p>${l}</p>`).join('')}<p class="sign">— ${FROM} 💗</p>
+    <svg class="cat" viewBox="0 0 100 100" aria-hidden="true"><path d="M20 40 26 14 42 30h16l16-16 6 26c6 8 8 18 6 28-4 18-22 26-36 26S20 86 16 68c-2-10 0-20 4-28z" fill="#F2A65A"/><circle cx="38" cy="54" r="5" fill="#4A2333"/><circle cx="62" cy="54" r="5" fill="#4A2333"/><path d="M46 64q4 4 8 0" stroke="#4A2333" stroke-width="3" fill="none"/><circle cx="30" cy="64" r="5" fill="#F6B4C6"/><circle cx="70" cy="64" r="5" fill="#F6B4C6"/><path d="M50 88c-8-6-14-10-14-16 0-4 3-6 6-6 3 0 6 2 8 5 2-3 5-5 8-5 3 0 6 2 6 6 0 6-6 10-14 16z" fill="#D94F78"/></svg>
+    </div></section>`;
+  wireBack();
+}
+function jar(){
+  opened.add('jar'); stopTune();
+  app.innerHTML=`<section class="screen">${backBtn}<h2>Kayfiyat qutisi</h2><p class="sub">Har bosganingda yangi kichik xat chiqadi.</p>
+    <svg class="jar" viewBox="0 0 170 200" aria-hidden="true"><rect x="40" y="10" width="90" height="22" rx="6" fill="#D94F78"/><path d="M34 34h102c8 20 14 50 14 80 0 50-28 78-65 78s-65-28-65-78c0-30 6-60 14-80z" fill="#FFF9F3" stroke="#F8D6E0" stroke-width="5"/>
+    ${[[60,120,'#F2A0B6'],[95,140,'#E9B44C'],[80,95,'#B9D7EE'],[110,105,'#CDE6C6'],[70,160,'#D94F78'],[105,170,'#F6B4C6']].map(([x,y,c])=>`<rect x="${x-14}" y="${y-9}" width="28" height="18" rx="4" fill="${c}" transform="rotate(${(x%7)*6-15} ${x} ${y})"/>`).join('')}</svg>
+    <button class="btn" id="pick">Bitta xat ol 💌</button><div class="wish"><p class="hand" id="wish" aria-live="polite">Qutini bos…</p></div></section>`;
+  wireBack();
+  let last=-1;document.getElementById('pick').onclick=()=>{let i;do{i=Math.floor(Math.random()*WISHES.length)}while(i===last&&WISHES.length>1);last=i;document.getElementById('wish').textContent=WISHES[i];burst(40)};
+}
+function finale(){
+  stopTune();
+  app.innerHTML=`<section class="screen">${PHOTO?`<img class="photo" src="${PHOTO}" alt="Biz">`:`<div class="hearts">${heart('#D94F78','♥')}</div>`}<h1>Sen mening eng katta baxtimsan</h1>
+    <p class="sub">Bu sovg'a hech qanday bayram uchun emas. Shunchaki sen borliging uchun.</p>
+    <p class="hand">Bugun ham, ertaga ham — doim yoningdaman.</p><button class="btn" id="again">Yana bir bor 💗</button></section>`;
+  burst(160);document.getElementById('again').onclick=()=>{burst(120)};
+}
+
+/* confetti */
+const cv=document.getElementById('confetti'),cx=cv.getContext('2d');let parts=[],raf;
+function size(){cv.width=innerWidth;cv.height=innerHeight}addEventListener('resize',size);size();
+function burst(n=90){
+  if(matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  const cols=['#D94F78','#F2A0B6','#E9B44C','#B9D7EE','#CDE6C6'];
+  for(let i=0;i<n;i++)parts.push({x:innerWidth/2,y:innerHeight*.4,vx:(Math.random()-.5)*12,vy:-Math.random()*12-4,s:Math.random()*6+4,c:cols[i%5],r:Math.random()*6,h:Math.random()<.3,life:120});
+  if(!raf) loop();
+}
+function loop(){
+  cx.clearRect(0,0,cv.width,cv.height);
+  parts.forEach(p=>{p.vy+=.35;p.x+=p.vx;p.y+=p.vy;p.r+=.1;p.life--;cx.save();cx.translate(p.x,p.y);cx.rotate(p.r);cx.fillStyle=p.c;
+    if(p.h){cx.font=`${p.s*3}px serif`;cx.fillText('♥',0,0)}else cx.fillRect(-p.s/2,-p.s/2,p.s,p.s*.6);cx.restore()});
+  parts=parts.filter(p=>p.life>0&&p.y<cv.height+40);
+  raf=parts.length?requestAnimationFrame(loop):(cx.clearRect(0,0,cv.width,cv.height),null);
+}
+lock();
+</script>
+
+</body>
+</html>

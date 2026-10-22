@@ -745,3 +745,5 @@ assets/2026-10-22-taksi/voice/bek/p8.mp3 ok
 assets/2026-10-22-taksi/voice/bek/p9.mp3 ok
 toy-sr/m1.mp3 FAILED 22 curl: (22) The requested URL returned error: 400
 toy-sr/m2.mp3 FAILED 22 curl: (22) The requested URL returned error: 400
+toy-sr/m1.mp3 FAILED 22 curl: (22) The requested URL returned error: 400
+toy-sr/m2.mp3 FAILED 22 curl: (22) The requested URL returned error: 400

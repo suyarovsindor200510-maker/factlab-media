@@ -1,0 +1,193 @@
+{
+ "id": "2026-10-22-taksi",
+ "format": "doc",
+ "uzmusic": "lapar",
+ "music_vol": 0.15,
+ "sfx_vol": 0.8,
+ "gap": 0,
+ "cover_t": 1.2,
+ "caption": "Taksida \"bitta odam qoldi, hozir ketamiz\" 🚕😂 Toshkent–Samarqand taksi kutish\n\nYarim soat kutdi, ikki kishilik pul to'ladi... keyin yana to'rt kishi chiqdi 🙃\n\n👇 Sizni taksida eng ko'p necha daqiqa kuttirishgan? Raqam bilan yozing\n📲 Har kuni taksi kutadigan do'stingizga yuboring\n\n#taksi #ozbekcha #kulgili #samarqand #thefactlab",
+ "scenes": [
+  {
+   "img": "assets/2026-10-22-taksi/1.png",
+   "cam": "in",
+   "voice": "Singlim, o'tiring! Bitta odam qoldi, hozir ketamiz!",
+   "ov": [
+    {
+     "type": "punch",
+     "t": "\"BITTA ODAM QOLDI,\nHOZIR KETAMIZ!\" 🚕",
+     "y": 740,
+     "at": 0.0,
+     "size": 36,
+     "white": true,
+     "sfx": ""
+    }
+   ],
+   "sfx": [
+    {
+     "t": "impact",
+     "at": 0.0,
+     "g": 0.8
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-22-taksi/2.png",
+   "cam": "out",
+   "voice": "Aka, yarim soat bo'ldi-ku! Bitta odam qachon keladi?",
+   "ov": [
+    {
+     "type": "stamp",
+     "t": "⏱ 30 DAQIQA",
+     "y": 820,
+     "w": "yarim",
+     "sfx": ""
+    }
+   ],
+   "sfx": [
+    {
+     "t": "clock",
+     "w": "yarim",
+     "dt": 0.0,
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-22-taksi/3.png",
+   "cam": "in",
+   "voice": "Ana, kelyapti! E, yo'q. U nonga chiqqan ekan.",
+   "ov": [
+    {
+     "type": "tag",
+     "t": "🍞 NONGA CHIQQAN...",
+     "x": 270,
+     "y": 830,
+     "w": "nonga",
+     "dark": true,
+     "sfx": ""
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-22-taksi/4.png",
+   "cam": "in",
+   "voice": "Bo'ldi, aka! Ikki kishilik pul beraman, ketaylik! Bo'pti, ketdik!",
+   "ov": [
+    {
+     "type": "stamp",
+     "t": "💸 2 KISHILIK PUL",
+     "y": 830,
+     "w": "Ikki",
+     "sfx": ""
+    }
+   ],
+   "sfx": [
+    {
+     "t": "kaching",
+     "w": "pul",
+     "dt": 0.0,
+     "g": 0.6
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-22-taksi/5.png",
+   "cam": "out",
+   "pre_sil": 0.25,
+   "voice": "Aka, Samarqandga ketyapsizmi? Biz to'rt kishimiz!",
+   "ov": [
+    {
+     "type": "punch",
+     "t": "+4 YO'LOVCHI 😱",
+     "y": 800,
+     "w": "to'rt",
+     "size": 46,
+     "white": true,
+     "sfx": ""
+    }
+   ],
+   "sfx": [
+    {
+     "t": "scratch",
+     "w": "Aka,",
+     "dt": 0.0,
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-22-taksi/6.png",
+   "cam": "in",
+   "voice": "Sig'amiz! Singlim, sal surilib o'tiring.",
+   "ov": [
+    {
+     "type": "tag",
+     "t": "\"SIG'AMIZ!\" 🙃",
+     "x": 270,
+     "y": 840,
+     "w": "Sig'amiz!",
+     "sfx": ""
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-22-taksi/7.png",
+   "cam": "slam",
+   "camT": 0.3,
+   "pre_sil": 0.3,
+   "voice": "Aka, men ikki kishilik pul berdim-ku!",
+   "ov": [
+    {
+     "type": "punch",
+     "t": "IKKI KISHILIK PUL\nBERDIM-KU! 😤",
+     "y": 780,
+     "w": "Aka,",
+     "size": 38,
+     "white": true,
+     "sfx": ""
+    }
+   ],
+   "sfx": [
+    {
+     "t": "impact",
+     "w": "Aka,",
+     "dt": 0.0,
+     "g": 0.8
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-22-taksi/8.png",
+   "cam": "out",
+   "voice": "Sizni taksida eng ko'p necha daqiqa kuttirishgan? Raqam bilan yozing. Har kuni taksi kutadigan do'stingizga yuboring!",
+   "ov": [
+    {
+     "type": "punch",
+     "t": "NECHA DAQIQA\nKUTGANSIZ? ⏱",
+     "y": 720,
+     "w": "Sizni",
+     "size": 44,
+     "white": true,
+     "sfx": ""
+    },
+    {
+     "type": "tag",
+     "t": "👇 RAQAM BILAN YOZING",
+     "x": 270,
+     "y": 850,
+     "w": "Raqam",
+     "sfx": ""
+    }
+   ],
+   "sfx": [
+    {
+     "t": "notif",
+     "w": "yuboring!",
+     "dt": 0.3,
+     "g": 0.6
+    }
+   ]
+  }
+ ]
+}

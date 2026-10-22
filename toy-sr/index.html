@@ -98,6 +98,7 @@ p{margin:0;max-width:30ch}
 </style>
 </head>
 <body>
+<div style="position:fixed;left:-10px;bottom:0;width:1px;height:1px;opacity:0;pointer-events:none;overflow:hidden"><div id="yt"></div></div>
 <main class="card" id="card">
   <div style="height:40px"></div>
   <svg class="flower-top" viewBox="0 0 200 200" aria-hidden="true"><use href="#bloom"/></svg>
@@ -236,10 +237,26 @@ tick();setInterval(tick,1000);
 const io=('IntersectionObserver' in window)?new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.remove('wait');io.unobserve(e.target)}}),{threshold:.15}):null;
 document.querySelectorAll('.reveal').forEach(el=>io?io.observe(el):el.classList.remove('wait'));
 
-/* romantic piano & strings background music */
-const bgm=new Audio('music.mp3');bgm.loop=true;bgm.preload='auto';bgm.volume=.7;let on=false;
-function play(){bgm.play().then(()=>{on=true;musicBtn.classList.add('on')}).catch(()=>{})}
-function stop(){bgm.pause();on=false;musicBtn.classList.remove('on')}
+/* music: "Die With A Smile" via official YouTube embed; fallback = local romantic piano mp3 */
+const YT_ID='kPa7bsKwL-c';
+const bgm=new Audio('music.mp3');bgm.loop=true;bgm.preload='auto';bgm.volume=.7;
+let on=false,yt=null,ytOk=false,useMp3=false,fbTimer;
+(function(){const t=document.createElement('script');t.src='https://www.youtube.com/iframe_api';t.onerror=()=>useMp3=true;document.head.appendChild(t)})();
+window.onYouTubeIframeAPIReady=function(){
+  yt=new YT.Player('yt',{host:'https://www.youtube-nocookie.com',videoId:YT_ID,width:1,height:1,
+    playerVars:{autoplay:0,controls:0,loop:1,playlist:YT_ID,playsinline:1,rel:0,disablekb:1},
+    events:{onReady:()=>{ytOk=true;yt.setVolume(80)},
+      onStateChange:e=>{if(e.data===1){clearTimeout(fbTimer);bgm.pause();on=true;musicBtn.classList.add('on')}},
+      onError:()=>{useMp3=true;if(on||fbTimer)mp3()}}});
+};
+function mp3(){clearTimeout(fbTimer);useMp3=true;bgm.muted=false;bgm.play().then(()=>{on=true;musicBtn.classList.add('on')}).catch(()=>{})}
+function play(){
+  /* unlock the fallback audio inside the user gesture (iOS) */
+  bgm.muted=true;bgm.play().then(()=>{if(!useMp3){bgm.pause();bgm.currentTime=0}bgm.muted=false}).catch(()=>{});
+  if(!useMp3&&ytOk){yt.playVideo();clearTimeout(fbTimer);fbTimer=setTimeout(()=>{if(!yt||yt.getPlayerState()!==1){try{yt.pauseVideo()}catch(e){}mp3()}},3500)}
+  else mp3();
+}
+function stop(){clearTimeout(fbTimer);bgm.pause();try{yt&&yt.pauseVideo()}catch(e){}on=false;musicBtn.classList.remove('on')}
 const musicBtn=document.getElementById('music');
 musicBtn.onclick=()=>on?stop():play();
 

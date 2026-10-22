@@ -696,3 +696,7 @@ toy-sr/m1.mp3 ok
 toy-sr/m2.mp3 ok
 assets/toy-music/m1.mp3 ok
 assets/toy-music/m2.mp3 ok
+assets/2026-10-21-mehmon/raw/5.png ok
+assets/2026-10-21-mehmon/raw/6.png ok
+toy-sr/m1.mp3 FAILED 22 curl: (22) The requested URL returned error: 400
+toy-sr/m2.mp3 FAILED 22 curl: (22) The requested URL returned error: 400

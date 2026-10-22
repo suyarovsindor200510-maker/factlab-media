@@ -236,29 +236,10 @@ tick();setInterval(tick,1000);
 const io=('IntersectionObserver' in window)?new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.remove('wait');io.unobserve(e.target)}}),{threshold:.15}):null;
 document.querySelectorAll('.reveal').forEach(el=>io?io.observe(el):el.classList.remove('wait'));
 
-/* gentle original music-box melody (Web Audio) */
-let ac,on=false,timer,master;
-const MEL=[[67,1],[72,1],[76,1],[79,2],[77,1],[76,1],[74,2],[72,1],[74,1],[76,1],[79,2],[81,1],[79,1],[77,1],[76,2],[74,1],[72,1],[71,1],[72,3],[0,1],
-           [64,1],[67,1],[72,1],[76,2],[74,1],[72,1],[71,2],[69,1],[71,1],[72,1],[74,2],[76,1],[74,1],[72,1],[71,2],[67,1],[69,1],[71,1],[72,3],[0,1]];
-function note(m,t,len){
-  if(!m) return;
-  const f=440*Math.pow(2,(m-69)/12);
-  [1,2.01,3.98].forEach((mul,k)=>{const o=ac.createOscillator(),g=ac.createGain();o.type='sine';o.frequency.value=f*mul;
-    const a=[.16,.05,.02][k];g.gain.setValueAtTime(.0001,t);g.gain.exponentialRampToValueAtTime(a,t+.01);g.gain.exponentialRampToValueAtTime(.0001,t+len*1.8);
-    o.connect(g).connect(master);o.start(t);o.stop(t+len*2)});
-  const b=ac.createOscillator(),bg=ac.createGain();b.type='triangle';b.frequency.value=f/4;bg.gain.setValueAtTime(.0001,t);bg.gain.exponentialRampToValueAtTime(.05,t+.02);bg.gain.exponentialRampToValueAtTime(.0001,t+len*1.5);b.connect(bg).connect(master);b.start(t);b.stop(t+len*1.6);
-}
-function play(){
-  try{ac=ac||new (window.AudioContext||window.webkitAudioContext)();}catch(e){return}
-  if(ac.state==='suspended') ac.resume();
-  if(!master){master=ac.createGain();master.gain.value=.8;
-    const d=ac.createDelay();d.delayTime.value=.28;const fb=ac.createGain();fb.gain.value=.28;master.connect(d);d.connect(fb).connect(d);d.connect(ac.destination);master.connect(ac.destination)}
-  on=true;musicBtn.classList.add('on');
-  const beat=.42;let i=0,t=ac.currentTime+.05;
-  const sched=()=>{if(!on)return;while(t<ac.currentTime+1){const [m,l]=MEL[i%MEL.length];note(m,t,l*beat);t+=l*beat;i++}timer=setTimeout(sched,250)};
-  sched();
-}
-function stop(){on=false;clearTimeout(timer);musicBtn.classList.remove('on')}
+/* romantic piano & strings background music */
+const bgm=new Audio('music.mp3');bgm.loop=true;bgm.preload='auto';bgm.volume=.7;let on=false;
+function play(){bgm.play().then(()=>{on=true;musicBtn.classList.add('on')}).catch(()=>{})}
+function stop(){bgm.pause();on=false;musicBtn.classList.remove('on')}
 const musicBtn=document.getElementById('music');
 musicBtn.onclick=()=>on?stop():play();
 

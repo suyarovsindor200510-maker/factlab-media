@@ -1,0 +1,181 @@
+{
+ "id": "2026-10-21-mehmon",
+ "format": "doc",
+ "music_vol": 0.14,
+ "sfx_vol": 0.8,
+ "gap": 0,
+ "cover_t": 1.2,
+ "caption": "Mehmon kelsa uyni 9 daqiqada yig'ishtirish 😂 Har bir o'zbek uyidagi yashirin xona\n\nXola 10 daqiqada keladi, uy esa... Kiyim, dazmol, changyutgich, hatto qozon ham — hammasi yotoqxonaga! Uy yaltiraydi. Faqat u xonani ochmang… 🙈\n\n👇 Sizning uyingizda ham shunday xona bormi? HA yoki YO'Q — kommentda yozing\n📲 Mehmon kelsa shunday qiladigan onangizga yuboring\n\n#mehmon #ozbekcha #kulgili #oila #thefactlab",
+ "scenes": [
+  {
+   "img": "assets/2026-10-21-mehmon/1.png",
+   "cam": "in",
+   "voice": "Voy! Xolang o'n daqiqada yetib kelarkan!",
+   "ov": [
+    {
+     "type": "punch",
+     "t": "MEHMON 10 DAQIQADA\nKELADI! 😱",
+     "y": 730,
+     "at": 0.0,
+     "size": 44,
+     "white": true,
+     "sfx": ""
+    },
+    {
+     "type": "stamp",
+     "t": "⏱ 10:00",
+     "y": 850,
+     "w": "o'n",
+     "sfx": ""
+    }
+   ],
+   "sfx": [
+    {
+     "t": "impact",
+     "at": 0.0,
+     "g": 0.8
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-21-mehmon/2.png",
+   "cam": "out",
+   "voice": "Uy esa... mana bunday. Tez bo'l! Hammasini yotoqxonaga tiq!",
+   "ov": [
+    {
+     "type": "tag",
+     "t": "UY: 💥 TARTIBSIZLIK",
+     "x": 270,
+     "y": 820,
+     "w": "mana",
+     "dark": true,
+     "sfx": ""
+    }
+   ],
+   "sfx": [
+    {
+     "t": "whoosh",
+     "w": "Tez",
+     "dt": 0.0,
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-21-mehmon/3.png",
+   "cam": "in",
+   "voice": "Kiyimlar, dazmol, changyutgich, hatto qozon ham... hammasi bitta xonaga.",
+   "ov": [
+    {
+     "type": "tag",
+     "t": "👕 + 🧺 + 🍲 = 1 XONA",
+     "x": 270,
+     "y": 830,
+     "w": "hammasi",
+     "sfx": ""
+    }
+   ],
+   "sfx": [
+    {
+     "t": "pop",
+     "w": "qozon",
+     "dt": 0.0,
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-21-mehmon/4.png",
+   "cam": "out",
+   "voice": "To'qqiz daqiqada uy yaltirab qoldi.",
+   "ov": [
+    {
+     "type": "stamp",
+     "t": "9 DAQIQA ✨",
+     "y": 800,
+     "w": "To'qqiz",
+     "sfx": ""
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-21-mehmon/5.png",
+   "cam": "in",
+   "voice": "Voy, uyingiz muncha toza! Qani, hamma xonalarni ko'rsating-chi!",
+   "ov": [
+    {
+     "type": "punch",
+     "t": "HAMMA XONALARNI\nKO'RSATING! 👀",
+     "y": 800,
+     "w": "Qani,",
+     "size": 40,
+     "white": true,
+     "sfx": ""
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-21-mehmon/6.png",
+   "cam": "in",
+   "voice": "Yo'q-yo'q, u xonani ochmang!",
+   "ov": [
+    {
+     "type": "punch",
+     "t": "OCHMANG!!! 🙅‍♀️",
+     "y": 800,
+     "w": "Yo'q-yo'q,",
+     "size": 54,
+     "white": true,
+     "sfx": ""
+    }
+   ],
+   "sfx": [
+    {
+     "t": "scratch",
+     "w": "Yo'q-yo'q,",
+     "dt": 0.0,
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-21-mehmon/7.png",
+   "cam": "slam",
+   "camT": 0.3,
+   "voice": "Sizning uyingizda ham shunday yashirin xona bormi? Ha yoki yo'q, kommentda yozing. Mehmon kelsa shunday qiladigan onangizga yuboring!",
+   "ov": [
+    {
+     "type": "punch",
+     "t": "HA yoki YO'Q?",
+     "y": 720,
+     "w": "Ha",
+     "size": 48,
+     "white": true,
+     "sfx": ""
+    },
+    {
+     "type": "tag",
+     "t": "👇 KOMMENTDA YOZING",
+     "x": 270,
+     "y": 840,
+     "w": "kommentda",
+     "sfx": ""
+    }
+   ],
+   "sfx": [
+    {
+     "t": "boom",
+     "at": 0.0,
+     "g": 0.8
+    },
+    {
+     "t": "notif",
+     "w": "yuboring!",
+     "dt": 0.3,
+     "g": 0.6
+    }
+   ]
+  }
+ ],
+ "uzmusic": "lapar"
+}

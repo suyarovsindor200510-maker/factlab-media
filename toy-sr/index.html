@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="uz">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex">
+<title>Sindorbek & Ruhshona — To'y taklifnomasi</title>
+<meta property="og:title" content="Sindorbek & Ruhshona — To'y taklifnomasi">
+<meta property="og:description" content="Nikoh to'yimizga marhamat qiling!">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Montserrat:wght@500;600&display=swap">
+<style>
+/* Layout: phone-width invitation card; a sealed double door covers it until opened */
+:root{
+  --wine:#7A1730; --wine-2:#9E2A44; --blush:#F8EAEA; --blush-2:#EFD3D5; --cream:#FFFBF7; --ink:#4A1424; --muted:#8E5B66; --gold:#C79A5B;
+  --script:"Great Vibes","Segoe Script",cursive;
+  --serif:"Cormorant Garamond",Georgia,"Times New Roman",serif;
+  --label:"Montserrat","Segoe UI",system-ui,sans-serif;
+  color-scheme:light;
+}
+*{box-sizing:border-box}
+html,body{margin:0;min-height:100%}
+body{background:var(--blush);color:var(--ink);font-family:var(--serif);font-size:19px;line-height:1.55;-webkit-font-smoothing:antialiased}
+.card{max-width:460px;margin:0 auto;background:var(--cream);min-height:100vh;position:relative;overflow:hidden;
+  padding-left:max(22px,env(safe-area-inset-left,0px));padding-right:max(22px,env(safe-area-inset-right,0px));padding-block:0 60px;
+  background-image:radial-gradient(circle at 50% 0,rgba(239,211,213,.55),transparent 60%)}
+section{padding-block:34px;position:relative;z-index:1;text-align:center;display:flex;flex-direction:column;align-items:center;gap:14px}
+.label{max-width:none;font-family:var(--label);font-size:.7rem;letter-spacing:.28em;text-transform:uppercase;color:var(--wine-2);margin:0}
+.names{font-family:var(--script);font-weight:400;color:var(--wine);font-size:3.4rem;line-height:1.05;margin:6px 0 0}
+.amp{display:block;font-size:2.2rem;color:var(--gold)}
+h2{font-family:var(--script);font-weight:400;color:var(--wine);font-size:2.5rem;margin:0;line-height:1.1}
+p{margin:0;max-width:30ch}
+.lead{font-size:1.15rem;font-style:italic;color:var(--muted)}
+.chip{display:inline-flex;gap:14px;align-items:center;border:1.5px solid var(--wine);border-radius:999px;padding:9px 20px;font-family:var(--label);font-size:.82rem;letter-spacing:.14em;color:var(--wine);font-weight:600}
+.chip i{width:5px;height:5px;border-radius:50%;background:var(--gold)}
+.divider{width:140px;height:24px}
+.flower-top,.flower-bot{position:absolute;width:150px;height:150px;pointer-events:none;opacity:.85}
+.flower-top{top:-50px;right:-55px}
+.flower-bot{bottom:-30px;left:-40px;transform:rotate(180deg)}
+
+/* countdown */
+.count{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;width:100%;max-width:340px}
+.count div{background:var(--blush);border-radius:14px;padding:10px 4px}
+.count b{display:block;font-family:var(--serif);font-size:1.9rem;font-weight:700;color:var(--wine);font-variant-numeric:tabular-nums;line-height:1.1}
+.count span{font-family:var(--label);font-size:.6rem;letter-spacing:.16em;text-transform:uppercase;color:var(--muted)}
+
+/* calendar */
+.cal{width:100%;max-width:320px}
+.cal .month{font-family:var(--label);letter-spacing:.24em;font-size:.78rem;color:var(--wine);font-weight:600;margin-bottom:8px}
+.grid{display:grid;grid-template-columns:repeat(7,1fr);gap:4px;font-family:var(--label);font-size:.8rem;font-variant-numeric:tabular-nums}
+.grid .h{color:var(--muted);font-size:.66rem;letter-spacing:.08em;padding-bottom:4px}
+.grid .d{aspect-ratio:1;display:flex;align-items:center;justify-content:center;border-radius:50%;color:var(--ink)}
+.grid .d.on{position:relative;color:var(--cream);font-weight:600}
+.grid .d.on::before{content:"";position:absolute;inset:-2px;background:var(--wine);z-index:0;
+  clip-path:path("M20 36C8 27 2 21 2 13 2 7 6 3 11.5 3 15 3 18 5 20 8 22 5 25 3 28.5 3 34 3 38 7 38 13 38 21 32 27 20 36Z");transform:scale(.95)}
+.grid .d.on span{position:relative;z-index:1}
+
+/* program */
+.prog{list-style:none;margin:0;padding:0;width:100%;max-width:330px;display:flex;flex-direction:column;gap:2px;text-align:left}
+.prog li{display:grid;grid-template-columns:70px 1fr;gap:14px;padding:10px 0;border-bottom:1px solid var(--blush-2)}
+.prog li:last-child{border-bottom:0}
+.prog time{font-family:var(--label);font-weight:600;color:var(--wine);font-size:.9rem;font-variant-numeric:tabular-nums}
+
+/* venue */
+.venue svg{width:230px;height:120px;max-width:100%}
+.btn{display:inline-flex;align-items:center;gap:8px;background:var(--wine);color:var(--cream);text-decoration:none;font-family:var(--label);font-size:.8rem;letter-spacing:.16em;text-transform:uppercase;font-weight:600;padding:13px 24px;border-radius:999px;border:0;cursor:pointer}
+.btn:focus-visible,.seal:focus-visible,.music:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+.addr{color:var(--muted);font-size:1rem}
+
+/* doors */
+.doors{position:fixed;inset:0;z-index:30;display:flex;justify-content:center;pointer-events:none}
+.doors .wrap{position:relative;width:100%;max-width:460px;height:100%;pointer-events:auto}
+.door{position:absolute;top:0;bottom:0;width:50%;background:var(--blush);transition:transform 1.4s cubic-bezier(.7,0,.2,1);overflow:hidden;
+  background-image:radial-gradient(circle at 50% 50%,var(--cream),var(--blush) 70%)}
+.door.l{left:0;border-right:1px solid var(--blush-2)}
+.door.r{right:0}
+.door svg{position:absolute;top:0;height:100%;width:200%}
+.door.l svg{left:0}.door.r svg{right:0}
+.opened .door.l{transform:translateX(-102%)}
+.opened .door.r{transform:translateX(102%)}
+.opened{pointer-events:none}
+.seal{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:104px;height:104px;border-radius:50%;border:0;cursor:pointer;z-index:2;
+  background:radial-gradient(circle at 35% 30%,#B23A55,var(--wine) 60%,#5A0F22);box-shadow:0 6px 18px rgba(74,20,36,.45),inset 0 0 0 6px rgba(255,255,255,.08);
+  color:var(--cream);font-family:var(--script);font-size:2rem;transition:opacity .5s,transform .5s}
+.seal small{display:block;font-family:var(--label);font-size:.55rem;letter-spacing:.2em;margin-top:-4px}
+.opened .seal{opacity:0;transform:translate(-50%,-50%) scale(.6)}
+.tap{position:absolute;left:0;right:0;top:calc(50% + 70px);text-align:center;font-family:var(--label);font-size:.7rem;letter-spacing:.24em;color:var(--wine);text-transform:uppercase;z-index:2;animation:pulse 1.8s ease-in-out infinite}
+.opened .tap{opacity:0}
+@keyframes pulse{50%{opacity:.4}}
+
+.music{position:fixed;right:max(16px,env(safe-area-inset-right,0px));bottom:max(16px,env(safe-area-inset-bottom,0px));z-index:20;width:48px;height:48px;border-radius:50%;border:0;background:var(--wine);color:var(--cream);font-size:1.2rem;cursor:pointer;box-shadow:0 4px 12px rgba(74,20,36,.3)}
+.music.on{animation:spin 4s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+#petals{position:fixed;inset:0;pointer-events:none;z-index:25}
+.reveal{opacity:1;transform:none;transition:opacity .8s,transform .8s}
+.js .reveal.wait{opacity:0;transform:translateY(16px)}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<main class="card" id="card">
+  <div style="height:40px"></div>
+  <svg class="flower-top" viewBox="0 0 200 200" aria-hidden="true"><use href="#bloom"/></svg>
+
+  <section>
+    <p class="label">Nikoh to'yi taklifnomasi</p>
+    <h1 class="names">Sindorbek<span class="amp">&amp;</span>Ruhshona</h1>
+    <div class="chip"><span>21 NOYABR 2026</span><i></i><span>18:00</span></div>
+  </section>
+
+  <section class="reveal wait">
+    <svg class="divider" viewBox="0 0 140 24" aria-hidden="true"><path d="M0 12h52M88 12h52" stroke="#C79A5B" stroke-width="1.2"/><path d="M70 21C62 15 58 11 58 7c0-3 2.5-5 5.5-5 2.8 0 5 1.6 6.5 4 1.5-2.4 3.7-4 6.5-4 3 0 5.5 2 5.5 5 0 4-4 8-12 14z" fill="#7A1730"/></svg>
+    <h2>Aziz mehmonimiz!</h2>
+    <p>Hayotimizdagi eng quvonchli va unutilmas kun — nikoh to'yimizga Sizni taklif etishdan baxtiyormiz.</p>
+    <p>Ikki qalb va ikki oila birlashadigan bu kunni Siz bilan birga nishonlashni chin dildan istaymiz. Tashrifingiz biz uchun eng qimmatli sovg'a bo'ladi.</p>
+    <p class="lead">Hurmat bilan, Sindorbek va Ruhshona hamda ularning oilalari</p>
+  </section>
+
+  <section class="reveal wait">
+    <p class="label">To'ygacha qoldi</p>
+    <div class="count" id="count" aria-live="off">
+      <div><b id="cd">–</b><span>kun</span></div><div><b id="ch">–</b><span>soat</span></div><div><b id="cm">–</b><span>daqiqa</span></div><div><b id="cs">–</b><span>soniya</span></div>
+    </div>
+  </section>
+
+  <section class="reveal wait">
+    <div class="cal">
+      <div class="month">NOYABR 2026</div>
+      <div class="grid" id="grid"></div>
+    </div>
+  </section>
+
+  <section class="reveal wait">
+    <h2>Kun tartibi</h2>
+    <ul class="prog">
+      <li><time>17:30</time><span>Mehmonlarni kutib olish</span></li>
+      <li><time>18:00</time><span>Kelin-kuyovning kirib kelishi</span></li>
+      <li><time>18:30</time><span>Bayram dasturxoni</span></li>
+      <li><time>20:00</time><span>Birinchi raqs va tabriklar</span></li>
+      <li><time>22:00</time><span>To'y torti</span></li>
+    </ul>
+  </section>
+
+  <section class="reveal wait venue">
+    <h2>Manzil</h2>
+    <svg viewBox="0 0 230 120" aria-hidden="true">
+      <g fill="none" stroke="#7A1730" stroke-width="1.6">
+        <path d="M20 112h190"/><rect x="40" y="52" width="150" height="60"/><path d="M30 52 115 18l85 34"/>
+        <path d="M100 112V80a15 15 0 0 1 30 0v32"/>
+        <path d="M55 70h22v24H55zM153 70h22v24h-22z"/><path d="M66 70v24M164 70v24"/>
+        <path d="M115 18V6"/><path d="M110 9h10"/>
+        <circle cx="115" cy="38" r="6"/>
+      </g>
+      <g fill="#EFD3D5"><circle cx="18" cy="100" r="10"/><circle cx="212" cy="100" r="10"/></g>
+    </svg>
+    <p style="font-weight:700;font-size:1.25rem">«Bahor» to'yxonasi</p>
+    <p class="addr">Toshkent shahri</p>
+    <a class="btn" href="https://www.google.com/maps/search/?api=1&query=Bahor%20to%27yxonasi%20Toshkent" target="_blank" rel="noopener">📍 Xaritada ochish</a>
+  </section>
+
+  <section class="reveal wait">
+    <h2>Sizni kutib qolamiz!</h2>
+    <p class="lead">Sindorbek &amp; Ruhshona</p>
+  </section>
+
+  <svg class="flower-bot" viewBox="0 0 200 200" aria-hidden="true"><use href="#bloom"/></svg>
+</main>
+
+<div class="doors" id="doors">
+  <div class="wrap">
+    <div class="door l"><svg viewBox="0 0 400 800" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><use href="#doorart"/></svg></div>
+    <div class="door r"><svg viewBox="0 0 400 800" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><use href="#doorart"/></svg></div>
+    <button class="seal" id="seal" aria-label="Taklifnomani ochish">S&amp;R<small>OCHISH</small></button>
+    <div class="tap">Muhrni bosing</div>
+  </div>
+</div>
+
+<button class="music" id="music" aria-label="Musiqani yoqish yoki o'chirish" hidden>♪</button>
+<canvas id="petals"></canvas>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <g id="petal5"><path d="M0-16c6-6 13-3 12 4 6 1 8 9 2 12 3 6-2 12-8 9-3 6-11 6-12-1-7 1-10-6-5-11-5-5-1-12 6-11 0-6 3-8 5-2z"/></g>
+    <g id="bloom">
+      <g stroke="#7A1730" stroke-width="2" fill="none" opacity=".7"><path d="M20 190C60 150 90 120 120 60"/><path d="M80 130c-20-6-34-2-44 10"/><path d="M104 92c10-20 28-28 48-26"/></g>
+      <g fill="#7A1730"><use href="#petal5" transform="translate(120 60) scale(1.6)"/><use href="#petal5" transform="translate(150 110) scale(1.2)"/><use href="#petal5" transform="translate(70 120) scale(1.1)"/></g>
+      <g fill="#EFD3D5"><circle cx="120" cy="60" r="7"/><circle cx="150" cy="110" r="5"/><circle cx="70" cy="120" r="5"/></g>
+      <g fill="#C79A5B"><circle cx="40" cy="150" r="3"/><circle cx="170" cy="70" r="3"/><circle cx="95" cy="160" r="2.5"/></g>
+    </g>
+    <g id="doorart">
+      <g fill="none" stroke="#7A1730" stroke-width="2.2" opacity=".85">
+        <path d="M200 40C90 40 40 150 40 260v500M200 40c110 0 160 110 160 220v500"/>
+        <path d="M200 70C108 70 70 160 70 262v498M200 70c92 0 130 90 130 192v498" opacity=".5"/>
+      </g>
+      <g fill="#7A1730" opacity=".9">
+        <use href="#petal5" transform="translate(60 230) scale(1.8)"/><use href="#petal5" transform="translate(100 150) scale(1.3)"/>
+        <use href="#petal5" transform="translate(150 95) scale(1.1)"/><use href="#petal5" transform="translate(250 95) scale(1.1)"/>
+        <use href="#petal5" transform="translate(300 150) scale(1.3)"/><use href="#petal5" transform="translate(340 230) scale(1.8)"/>
+        <use href="#petal5" transform="translate(70 690) scale(2)"/><use href="#petal5" transform="translate(330 690) scale(2)"/>
+      </g>
+      <g fill="#C79A5B"><circle cx="80" cy="190" r="3"/><circle cx="320" cy="190" r="3"/><circle cx="125" cy="120" r="2.5"/><circle cx="275" cy="120" r="2.5"/></g>
+      <g stroke="#7A1730" stroke-width="1.6" fill="none" opacity=".7">
+        <path d="M120 300v40m-10 0h20l-4 30h-12z"/><path d="M280 300v40m-10 0h20l-4 30h-12z"/>
+      </g>
+    </g>
+  </defs>
+</svg>
+
+<script>
+document.documentElement.classList.add('js');
+const WEDDING = new Date('2026-11-21T18:00:00+05:00');   // to'y vaqti (O'zbekiston vaqti)
+
+/* calendar */
+(function(){
+  const g=document.getElementById('grid');
+  const heads=['Du','Se','Ch','Pa','Ju','Sh','Ya'];
+  let html=heads.map(h=>`<div class="h">${h}</div>`).join('');
+  const first=new Date(2026,10,1).getDay();           // 0=Ya
+  const offset=(first+6)%7;
+  for(let i=0;i<offset;i++) html+='<div></div>';
+  for(let d=1;d<=30;d++) html+=`<div class="d ${d===21?'on':''}"><span>${d}</span></div>`;
+  g.innerHTML=html;
+})();
+
+/* countdown */
+function tick(){
+  let s=Math.max(0,Math.floor((WEDDING-Date.now())/1000));
+  const d=Math.floor(s/86400);s%=86400;const h=Math.floor(s/3600);s%=3600;const m=Math.floor(s/60);s%=60;
+  const pad=n=>String(n).padStart(2,'0');
+  cd.textContent=d;ch.textContent=pad(h);cm.textContent=pad(m);cs.textContent=pad(s);
+}
+const [cd,ch,cm,cs]=['cd','ch','cm','cs'].map(id=>document.getElementById(id));
+tick();setInterval(tick,1000);
+
+/* reveal on scroll (content is visible without JS) */
+const io=('IntersectionObserver' in window)?new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.remove('wait');io.unobserve(e.target)}}),{threshold:.15}):null;
+document.querySelectorAll('.reveal').forEach(el=>io?io.observe(el):el.classList.remove('wait'));
+
+/* gentle original music-box melody (Web Audio) */
+let ac,on=false,timer,master;
+const MEL=[[67,1],[72,1],[76,1],[79,2],[77,1],[76,1],[74,2],[72,1],[74,1],[76,1],[79,2],[81,1],[79,1],[77,1],[76,2],[74,1],[72,1],[71,1],[72,3],[0,1],
+           [64,1],[67,1],[72,1],[76,2],[74,1],[72,1],[71,2],[69,1],[71,1],[72,1],[74,2],[76,1],[74,1],[72,1],[71,2],[67,1],[69,1],[71,1],[72,3],[0,1]];
+function note(m,t,len){
+  if(!m) return;
+  const f=440*Math.pow(2,(m-69)/12);
+  [1,2.01,3.98].forEach((mul,k)=>{const o=ac.createOscillator(),g=ac.createGain();o.type='sine';o.frequency.value=f*mul;
+    const a=[.16,.05,.02][k];g.gain.setValueAtTime(.0001,t);g.gain.exponentialRampToValueAtTime(a,t+.01);g.gain.exponentialRampToValueAtTime(.0001,t+len*1.8);
+    o.connect(g).connect(master);o.start(t);o.stop(t+len*2)});
+  const b=ac.createOscillator(),bg=ac.createGain();b.type='triangle';b.frequency.value=f/4;bg.gain.setValueAtTime(.0001,t);bg.gain.exponentialRampToValueAtTime(.05,t+.02);bg.gain.exponentialRampToValueAtTime(.0001,t+len*1.5);b.connect(bg).connect(master);b.start(t);b.stop(t+len*1.6);
+}
+function play(){
+  try{ac=ac||new (window.AudioContext||window.webkitAudioContext)();}catch(e){return}
+  if(ac.state==='suspended') ac.resume();
+  if(!master){master=ac.createGain();master.gain.value=.8;
+    const d=ac.createDelay();d.delayTime.value=.28;const fb=ac.createGain();fb.gain.value=.28;master.connect(d);d.connect(fb).connect(d);d.connect(ac.destination);master.connect(ac.destination)}
+  on=true;musicBtn.classList.add('on');
+  const beat=.42;let i=0,t=ac.currentTime+.05;
+  const sched=()=>{if(!on)return;while(t<ac.currentTime+1){const [m,l]=MEL[i%MEL.length];note(m,t,l*beat);t+=l*beat;i++}timer=setTimeout(sched,250)};
+  sched();
+}
+function stop(){on=false;clearTimeout(timer);musicBtn.classList.remove('on')}
+const musicBtn=document.getElementById('music');
+musicBtn.onclick=()=>on?stop():play();
+
+/* petals */
+const cv=document.getElementById('petals'),cx=cv.getContext('2d');let P=[],raf;
+function size(){cv.width=innerWidth;cv.height=innerHeight}addEventListener('resize',size);size();
+function petals(n){
+  if(matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  for(let i=0;i<n;i++)P.push({x:Math.random()*innerWidth,y:-20-Math.random()*innerHeight*.6,vx:(Math.random()-.5)*.8,vy:1+Math.random()*1.6,r:Math.random()*6,vr:(Math.random()-.5)*.05,s:6+Math.random()*7,c:Math.random()<.7?'#9E2A44':'#EFC2C8'});
+  if(!raf)loop();
+}
+function loop(){cx.clearRect(0,0,cv.width,cv.height);
+  P.forEach(p=>{p.x+=p.vx+Math.sin(p.y/40)*.6;p.y+=p.vy;p.r+=p.vr;cx.save();cx.translate(p.x,p.y);cx.rotate(p.r);cx.fillStyle=p.c;cx.beginPath();cx.ellipse(0,0,p.s,p.s*.55,0,0,Math.PI*2);cx.fill();cx.restore()});
+  P=P.filter(p=>p.y<cv.height+30);raf=P.length?requestAnimationFrame(loop):(cx.clearRect(0,0,cv.width,cv.height),null)}
+
+/* open the doors */
+document.getElementById('seal').onclick=()=>{
+  document.getElementById('doors').classList.add('opened');
+  musicBtn.hidden=false;play();setTimeout(()=>petals(70),500);
+  setTimeout(()=>document.getElementById('doors').style.display='none',1600);
+};
+</script>
+</body>
+</html>

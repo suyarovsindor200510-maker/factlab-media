@@ -303,5 +303,17 @@
   "format": "doc",
   "music": "lapar",
   "prepared": "2026-10-22 16:53 KST"
+ },
+ {
+  "id": "2026-10-22-fargoniy",
+  "topic": "Ahmad al-Farg'oniy (Alfraganus): Kolumb uning 56⅔ mil/gradus hisobidan foydalangan (arab milini Rim mili deb o'qigan), 861 Qohira Nilometri, lotincha tarjima, Oydagi krater",
+  "category": "tarix",
+  "type": "fakt",
+  "title": "Kolumb farg'onalikka ishongan",
+  "format": "doc",
+  "music": "gen:dark",
+  "voice": "Bekzod",
+  "status": "prepared, awaiting owner approval",
+  "prepared": "2026-10-22 20:22 KST"
  }
 ]

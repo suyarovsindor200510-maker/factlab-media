@@ -1,0 +1,213 @@
+{
+ "id": "2026-10-22-fargoniy",
+ "format": "doc",
+ "music": "gen:dark",
+ "music_bpm": 70,
+ "music_vol": 0.12,
+ "sfx_vol": 0.5,
+ "tempo": 1.05,
+ "gap": 0,
+ "cover_t": 1.0,
+ "caption": "Al-Farg'oniy va Kolumb: farg'onalik olimning hisobi Amerikaga qanday yo'l ochgan? 🌍\n\nAhmad al-Farg'oniy (Alfraganus) IX asrda Bag'dodda, xalifa saroyida astronom bo'lgan. Xalifa Ma'mun davrida Yer o'lchamini hisoblashda qatnashgan: uning kitobida ekvatorda bir gradus — 56⅔ mil. 861-yilda Qohiradagi Ravza orolida Nil suvini o'lchaydigan inshoot (Nilometr) qurilishini boshqargan — u bugun ham saqlanib qolgan. Kitobi XII asrda lotinchaga tarjima qilinib, Yevropada uzoq vaqt astronomiya darsligi bo'lgan.\n\nKolumb o'z kitobi hoshiyasiga \"Alfragan bilan birga har bir gradus 56⅔ mil ekanini topdim\" deb yozgan. Lekin u uzunroq arab milini qisqa Rim mili deb hisoblagan — Yer kichik, Osiyo esa yaqin bo'lib chiqqan. Bugun Oydagi Alfraganus krateri uning nomi bilan atalgan.\n\n👇 Al-Farg'oniyni bilarmidingiz? HA yoki YO'Q deb yozing\n📲 Farg'onalik do'stingizga yuboring\n\n#alfargoniy #tarix #ozbekiston #fargona #thefactlab",
+ "scenes": [
+  {
+   "img": "assets/2026-10-22-fargoniy/1.png",
+   "cam": "in",
+   "camT": 6.5,
+   "voice": "Kolumb Amerikaga suzganda, bir farg'onalik olimning hisobiga ishongan edi.",
+   "ov": [
+    {
+     "type": "punch",
+     "t": "KOLUMB\nFARG'ONALIKKA\nISHONGAN",
+     "y": 300,
+     "at": 0.0,
+     "size": 46,
+     "white": true,
+     "sfx": ""
+    }
+   ],
+   "sfx": [
+    {
+     "t": "impact",
+     "at": 0.05,
+     "g": 0.8
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-22-fargoniy/2.png",
+   "cam": "in",
+   "voice": "Ahmad al-Farg'oniy to'qqizinchi asrda Bag'dodda, xalifa saroyida astronom bo'lgan.",
+   "ov": [
+    {
+     "type": "stamp",
+     "t": "IX ASR",
+     "y": 230,
+     "w": "to'qqizinchi",
+     "sfx": ""
+    },
+    {
+     "type": "lower",
+     "small": "Ahmad",
+     "t": "AL-FARG'ONIY · BAG'DOD",
+     "y": 800,
+     "w": "al-Farg'oniy",
+     "sfx": ""
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-22-fargoniy/3.png",
+   "cam": "out",
+   "voice": "U Yerning o'lchamini hisoblashda qatnashgan: bir gradus ellik olti va uchdan ikki mil.",
+   "ov": [
+    {
+     "type": "tag",
+     "t": "YER O'LCHAMI",
+     "x": 270,
+     "y": 200,
+     "w": "Yerning",
+     "dark": true,
+     "sfx": ""
+    },
+    {
+     "type": "big",
+     "t": "1° = 56⅔ MIL",
+     "sub": "al-Farg'oniy hisobi",
+     "y": 780,
+     "w": "bir",
+     "sfx": ""
+    }
+   ],
+   "sfx": [
+    {
+     "t": "whoosh",
+     "at": 0.0,
+     "g": 0.35
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-22-fargoniy/4.png",
+   "cam": "in",
+   "voice": "Sakkiz yuz oltmish birinchi yili Qohirada Nil suvini o'lchaydigan inshoot qurilishini boshqargan. U bugun ham turibdi.",
+   "ov": [
+    {
+     "type": "stamp",
+     "t": "861",
+     "y": 230,
+     "w": "Sakkiz",
+     "sfx": ""
+    },
+    {
+     "type": "lower",
+     "small": "Qohira, Ravza oroli",
+     "t": "NILOMETR · HOZIR HAM TURIBDI",
+     "y": 800,
+     "w": "Qohirada",
+     "sfx": ""
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-22-fargoniy/5.png",
+   "cam": "out",
+   "voice": "Uning kitobi lotinchaga tarjima qilinib, Yevropada asrlar davomida darslik bo'lgan.",
+   "ov": [
+    {
+     "type": "tag",
+     "t": "LOTINCHA: ALFRAGANUS",
+     "x": 270,
+     "y": 200,
+     "w": "lotinchaga",
+     "dark": true,
+     "sfx": ""
+    },
+    {
+     "type": "punch",
+     "t": "YEVROPA DARSLIGI",
+     "y": 790,
+     "w": "darslik",
+     "size": 42,
+     "white": true,
+     "sfx": ""
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-22-fargoniy/6.png",
+   "cam": "slam",
+   "camT": 0.5,
+   "pre_sil": 0.3,
+   "voice": "Kolumb esa arab milini qisqaroq Rim mili deb o'qidi. Yer kichik chiqdi, Osiyo esa yaqin tuyuldi.",
+   "ov": [
+    {
+     "type": "tag",
+     "t": "ARAB MILI ≠ RIM MILI",
+     "x": 270,
+     "y": 220,
+     "w": "arab",
+     "dark": true,
+     "sfx": ""
+    },
+    {
+     "type": "stamp",
+     "t": "XATO HISOB",
+     "y": 560,
+     "w": "kichik",
+     "sfx": ""
+    },
+    {
+     "type": "lower",
+     "small": "Kolumb o'ylagani",
+     "t": "OSIYO YAQIN",
+     "y": 800,
+     "w": "Osiyo",
+     "sfx": ""
+    }
+   ],
+   "sfx": [
+    {
+     "t": "boom",
+     "w": "kichik",
+     "dt": -0.05,
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-22-fargoniy/7.png",
+   "cam": "in",
+   "mv": 0.9,
+   "voice": "Bugun Oydagi bir krater uning nomi bilan atalgan. Al-Farg'oniyni bilarmidingiz? Farg'onalik do'stingizga yuboring.",
+   "ov": [
+    {
+     "type": "tag",
+     "t": "OYDA: ALFRAGANUS KRATERI",
+     "x": 270,
+     "y": 230,
+     "w": "krater",
+     "dark": true,
+     "sfx": ""
+    },
+    {
+     "type": "punch",
+     "t": "BILARMIDINGIZ?",
+     "y": 330,
+     "w": "bilarmidingiz?",
+     "size": 48,
+     "white": true,
+     "sfx": ""
+    },
+    {
+     "type": "tag",
+     "t": "👇 HA yoki YO'Q — yozing",
+     "x": 270,
+     "y": 440,
+     "w": "bilarmidingiz?",
+     "sfx": ""
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,205 @@
+{
+ "id": "2026-10-23-ibnsino",
+ "format": "doc",
+ "music": "gen:dark",
+ "music_bpm": 70,
+ "music_vol": 0.12,
+ "sfx_vol": 0.5,
+ "tempo": 1.05,
+ "gap": 0,
+ "cover_t": 1.0,
+ "caption": "Ibn Sino: Yevropa 500 yil buxorolikning kitobidan o'qigan 📖\n\nAbu Ali ibn Sino taxminan 980-yilda Buxoro yaqinidagi Afshona qishlog'ida tug'ilgan. O'n yoshida Qur'onni yod olgan, 17 yoshida Somoniy amir Nuh ibn Mansurni davolab, saroy kutubxonasidan foydalanish huquqini olgan.\n\nUning «Tib qonunlari» (Al-Qonun fit-tib) kitobi XII asrda Toledoda kremonalik Gerard tomonidan lotin tiliga tarjima qilingan va Yevropa universitetlarida XVII asrgacha asosiy tibbiyot darsligi bo'lib qolgan. 1472-yildan boshlab o'nlab marta chop etilgan.\n\nIbn Sino 450 ga yaqin asar yozgan, ulardan 240 ga yaqini bizgacha yetib kelgan. 1037-yilda Hamadonda vafot etgan.\n\n👇 Yana qaysi allomamiz haqida eshitmoqchisiz? Bir ism yozing\n📲 Shifokor do'stingizga yuboring\n\n#ibnsino #tarix #buxoro #ozbekiston #thefactlab",
+ "scenes": [
+  {
+   "img": "assets/2026-10-23-ibnsino/1.png",
+   "cam": "in",
+   "camT": 6.5,
+   "ov": [
+    {
+     "type": "punch",
+     "t": "~500 YIL DARSLIK —\nBIR BUXOROLIKNING\nKITOBI",
+     "y": 300,
+     "at": 0.0,
+     "size": 44,
+     "white": true,
+     "sfx": ""
+    }
+   ],
+   "sfx": [
+    {
+     "t": "impact",
+     "at": 0.05,
+     "g": 0.8
+    }
+   ],
+   "voice": "Yevropa shifokorlari qariyb besh asr davomida bir buxorolikning kitobidan dars olgan."
+  },
+  {
+   "img": "assets/2026-10-23-ibnsino/2.png",
+   "cam": "out",
+   "ov": [
+    {
+     "type": "stamp",
+     "t": "~980",
+     "y": 230,
+     "w": "to'qqiz",
+     "sfx": ""
+    },
+    {
+     "type": "lower",
+     "small": "Abu Ali",
+     "t": "IBN SINO · AFSHONA, BUXORO",
+     "y": 800,
+     "w": "Ibn",
+     "sfx": ""
+    }
+   ],
+   "sfx": [
+    {
+     "t": "whoosh",
+     "at": 0.0,
+     "g": 0.3
+    }
+   ],
+   "voice": "Ibn Sino taxminan to'qqiz yuz saksoninchi yili Buxoro yaqinidagi Afshona qishlog'ida tug'ilgan."
+  },
+  {
+   "img": "assets/2026-10-23-ibnsino/3.png",
+   "cam": "in",
+   "ov": [
+    {
+     "type": "stamp",
+     "t": "10 YOSH",
+     "y": 230,
+     "w": "O'n",
+     "sfx": ""
+    }
+   ],
+   "voice": "O'n yoshida Qur'onni yod olgan."
+  },
+  {
+   "img": "assets/2026-10-23-ibnsino/4.png",
+   "cam": "in",
+   "ov": [
+    {
+     "type": "stamp",
+     "t": "17 YOSH",
+     "y": 230,
+     "w": "yetti",
+     "sfx": ""
+    },
+    {
+     "type": "lower",
+     "small": "Somoniylar saroyi",
+     "t": "SAROY KUTUBXONASI",
+     "y": 800,
+     "w": "kutubxonasiga",
+     "sfx": ""
+    }
+   ],
+   "voice": "O'n yetti yoshida amir Nuh ibn Mansurni davolab, saroy kutubxonasiga kirish huquqini olgan."
+  },
+  {
+   "img": "assets/2026-10-23-ibnsino/5.png",
+   "cam": "out",
+   "ov": [
+    {
+     "type": "tag",
+     "t": "«TIB QONUNLARI» → CANON MEDICINAE",
+     "x": 270,
+     "y": 210,
+     "w": "Tib",
+     "dark": true,
+     "sfx": ""
+    },
+    {
+     "type": "stamp",
+     "t": "XII ASR",
+     "y": 560,
+     "w": "ikkinchi",
+     "sfx": ""
+    }
+   ],
+   "sfx": [
+    {
+     "t": "whoosh",
+     "at": 0.0,
+     "g": 0.3
+    }
+   ],
+   "voice": "Uning Tib qonunlari kitobi o'n ikkinchi asrda lotin tiliga tarjima qilindi."
+  },
+  {
+   "img": "assets/2026-10-23-ibnsino/6.png",
+   "cam": "slam",
+   "camT": 0.5,
+   "pre_sil": 0.3,
+   "ov": [
+    {
+     "type": "stamp",
+     "t": "XVII ASRGACHA",
+     "y": 560,
+     "w": "o'n",
+     "sfx": ""
+    },
+    {
+     "type": "lower",
+     "small": "Yevropa universitetlarida",
+     "t": "ASOSIY DARSLIK",
+     "y": 800,
+     "w": "darslik",
+     "sfx": ""
+    }
+   ],
+   "sfx": [
+    {
+     "t": "boom",
+     "w": "universitetlarida",
+     "dt": -0.05,
+     "g": 0.5
+    }
+   ],
+   "voice": "Va Yevropa universitetlarida o'n yettinchi asrgacha asosiy darslik bo'lib qoldi."
+  },
+  {
+   "img": "assets/2026-10-23-ibnsino/7.png",
+   "cam": "in",
+   "ov": [
+    {
+     "type": "big",
+     "t": "~450 ASAR",
+     "sub": "240 ga yaqini saqlangan",
+     "y": 780,
+     "w": "to'rt",
+     "sfx": ""
+    }
+   ],
+   "voice": "U taxminan to'rt yuz ellikta asar yozgan, ikki yuz qirqqa yaqini bizgacha yetib kelgan."
+  },
+  {
+   "img": "assets/2026-10-23-ibnsino/8.png",
+   "cam": "in",
+   "mv": 0.9,
+   "ov": [
+    {
+     "type": "punch",
+     "t": "QAYSI ALLOMA?",
+     "y": 330,
+     "w": "allomamiz",
+     "size": 48,
+     "white": true,
+     "sfx": ""
+    },
+    {
+     "type": "tag",
+     "t": "👇 Bir ism yozing",
+     "x": 270,
+     "y": 440,
+     "w": "ism",
+     "sfx": ""
+    }
+   ],
+   "voice": "Yana qaysi allomamiz haqida eshitmoqchisiz? Bir ism yozing va shifokor do'stingizga yuboring."
+  }
+ ]
+}

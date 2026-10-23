@@ -340,5 +340,17 @@
   "status": "prepared, awaiting owner approval",
   "voice": "Bekzod + Malika + Dilnoza",
   "prepared": "2026-10-23 17:46 KST"
+ },
+ {
+  "id": "2026-10-23-ibnsino",
+  "topic": "Ibn Sino: ~980 Afshona; 10 yoshida Qur'on; 17 yoshida amir Nuh ibn Mansurni davolab saroy kutubxonasi; Tib qonunlari XII asrda lotinchaga (kremonalik Gerard), Yevropada XVII asrgacha darslik; ~450 asar, ~240 saqlangan",
+  "category": "tarix",
+  "type": "fakt",
+  "title": "Yevropa buxorolikdan o'qigan",
+  "format": "doc",
+  "music": "gen:dark",
+  "voice": "Bekzod",
+  "status": "prepared, awaiting approval",
+  "prepared": "2026-10-23 20:45 KST"
  }
 ]

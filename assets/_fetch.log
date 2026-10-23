@@ -835,3 +835,7 @@ assets/2026-10-23-piyoz/raw/el4.png ok
 assets/2026-10-23-piyoz/raw/el6.png ok
 toy-sr/m1.mp3 FAILED 22 curl: (22) The requested URL returned error: 400
 toy-sr/m2.mp3 FAILED 22 curl: (22) The requested URL returned error: 400
+assets/2026-10-23-piyoz/raw/g7.png ok
+assets/2026-10-23-piyoz/raw/g8.png ok
+toy-sr/m1.mp3 FAILED 22 curl: (22) The requested URL returned error: 400
+toy-sr/m2.mp3 FAILED 22 curl: (22) The requested URL returned error: 400

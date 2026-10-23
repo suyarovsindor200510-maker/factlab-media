@@ -328,5 +328,17 @@
   "voice": "Bekzod + Dilnoza + Malika",
   "status": "prepared, awaiting owner approval",
   "prepared": "2026-10-22 22:28 KST"
+ },
+ {
+  "id": "2026-10-23-pult",
+  "topic": "Dadam pultni qidiradi: futbol boshlanyapti, divan/gilam tagi, muzlatgich — pult esa qo'lida edi; bu orada 1-taym tugadi",
+  "category": "oila",
+  "type": "dialog",
+  "title": "Pult qani?!",
+  "format": "doc",
+  "music": "uzmusic:modern",
+  "status": "prepared, awaiting owner approval",
+  "voice": "Bekzod + Malika + Dilnoza",
+  "prepared": "2026-10-23 17:46 KST"
  }
 ]

@@ -1,0 +1,221 @@
+{
+ "id": "2026-10-23-pult",
+ "format": "doc",
+ "uzmusic": "modern",
+ "music_vol": 0.15,
+ "sfx_vol": 0.8,
+ "gap": 0,
+ "cover_t": 1.2,
+ "caption": "Dadam pultni qidiryapti 📺😂 Pult qani? Uydagi eng katta sir — oilaviy kulgili video\n\nFutbol boshlanyapti, butun uy tintuv qilindi: divan tagi, gilam tagi, hatto muzlatgich... pult esa doim qo'lida edi 🙃\n\n👇 Sizning uyda pultni kim ko'p yo'qotadi? 1 — dadam, 2 — onam, 3 — men. Raqam bilan yozing!\n📲 Doim pult qidiradigan odamga yuboring\n\n#pult #oila #kulgili #ozbekcha #thefactlab",
+ "scenes": [
+  {
+   "img": "assets/2026-10-23-pult/1.png",
+   "cam": "in",
+   "voice": "Pult qani?! Hozir futbol boshlanadi!",
+   "ov": [
+    {
+     "type": "punch",
+     "t": "PULT QANI?! 📺",
+     "y": 760,
+     "at": 0.0,
+     "size": 52,
+     "white": true,
+     "sfx": ""
+    }
+   ],
+   "sfx": [
+    {
+     "t": "impact",
+     "at": 0.0,
+     "g": 0.8
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-23-pult/2.png",
+   "cam": "out",
+   "voice": "Kim oldi pultni? Hammangiz javob berasiz!",
+   "ov": [
+    {
+     "type": "stamp",
+     "t": "🔍 TERGOV BOSHLANDI",
+     "y": 830,
+     "w": "Hammangiz",
+     "sfx": ""
+    }
+   ],
+   "sfx": [
+    {
+     "t": "stamp",
+     "w": "Hammangiz",
+     "dt": 0.0,
+     "g": 0.6
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-23-pult/3.png",
+   "cam": "in",
+   "voice": "Dada, men olmadim. Men telefondaman.",
+   "ov": [
+    {
+     "type": "tag",
+     "t": "📱 \"MEN TELEFONDAMAN\"",
+     "x": 270,
+     "y": 840,
+     "w": "telefondaman.",
+     "dark": true,
+     "sfx": ""
+    }
+   ],
+   "sfx": [
+    {
+     "t": "notif",
+     "w": "telefondaman.",
+     "dt": 0.0,
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-23-pult/4.png",
+   "cam": "out",
+   "voice": "Divan tagini qaradim, gilam tagini qaradim...",
+   "ov": [
+    {
+     "type": "tag",
+     "t": "🛋 DIVAN TAGI ❌",
+     "x": 270,
+     "y": 780,
+     "w": "Divan",
+     "sfx": ""
+    },
+    {
+     "type": "tag",
+     "t": "🧶 GILAM TAGI ❌",
+     "x": 270,
+     "y": 850,
+     "w": "gilam",
+     "sfx": ""
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-23-pult/5.png",
+   "cam": "in",
+   "voice": "muzlatgichni ham qaradim! Bu uyda hech narsa joyida turmaydi!",
+   "ov": [
+    {
+     "type": "punch",
+     "t": "MUZLATGICHDA\nHAM YO'Q! 🧊",
+     "y": 800,
+     "w": "muzlatgichni",
+     "size": 40,
+     "white": true,
+     "sfx": ""
+    }
+   ],
+   "sfx": [
+    {
+     "t": "boing",
+     "w": "muzlatgichni",
+     "dt": 0.0,
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-23-pult/6.png",
+   "cam": "slam",
+   "camT": 0.3,
+   "pre_sil": 0.35,
+   "mcut": {
+    "w": "Dadasi...",
+    "dur": 0.6,
+    "pre": 0.35
+   },
+   "voice": "Dadasi... pult qo'lingizda-ku!",
+   "ov": [
+    {
+     "type": "punch",
+     "t": "PULT QO'LINGIZDA-KU! 😳",
+     "y": 800,
+     "w": "pult",
+     "size": 38,
+     "white": true,
+     "sfx": ""
+    }
+   ],
+   "sfx": [
+    {
+     "t": "impact",
+     "w": "pult",
+     "dt": 0.0,
+     "g": 0.8
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-23-pult/7.png",
+   "cam": "out",
+   "voice": "Ha... men shunchaki tekshirib turgandim. Bu orada birinchi taym tugadi.",
+   "ov": [
+    {
+     "type": "tag",
+     "t": "\"TEKSHIRIB TURGANDIM\" 🙃",
+     "x": 270,
+     "y": 730,
+     "w": "Ha...",
+     "sfx": ""
+    },
+    {
+     "type": "stamp",
+     "t": "⏱ 1-TAYM TUGADI",
+     "y": 845,
+     "w": "birinchi",
+     "sfx": ""
+    }
+   ],
+   "sfx": [
+    {
+     "t": "clock",
+     "w": "birinchi",
+     "dt": 0.0,
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-23-pult/8.png",
+   "cam": "in",
+   "voice": "Sizning uyda pultni kim ko'p yo'qotadi? Bir, dadam, ikki, onam, uch, men. Doim pult qidiradigan odamga yuboring!",
+   "ov": [
+    {
+     "type": "punch",
+     "t": "PULTNI KIM\nYO'QOTADI? 📺",
+     "y": 720,
+     "w": "Sizning",
+     "size": 44,
+     "white": true,
+     "sfx": ""
+    },
+    {
+     "type": "tag",
+     "t": "1 DADAM · 2 ONAM · 3 MEN 👇",
+     "x": 270,
+     "y": 850,
+     "w": "Bir,",
+     "sfx": ""
+    }
+   ],
+   "sfx": [
+    {
+     "t": "notif",
+     "w": "yuboring!",
+     "dt": 0.3,
+     "g": 0.6
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,233 @@
+{
+ "id": "2026-10-23-piyoz",
+ "format": "doc",
+ "uzmusic": "lapar",
+ "music_vol": 0.14,
+ "sfx_vol": 0.8,
+ "gap": 0,
+ "tempo": 1.03,
+ "cover_t": 1.2,
+ "caption": "Nega piyoz to'g'raganda yig'laymiz? 🧅😢 Oshga piyoz to'g'rash siri — oilaviy kulgili video\n\nPichoq piyoz hujayralarini kesganda havoga achchiq gaz chiqadi. U ko'zdagi nervlarni qitiqlaydi, miya esa ko'zni yuvish uchun yosh chiqaradi.\n\n💡 Sir: piyozni yarim soat muzlatgichda sovuting va o'tkir pichoq ishlating — yosh ancha kam bo'ladi.\n\n👇 Sizning uyda piyozni kim to'g'raydi? 1 — oyim, 2 — men. Raqam bilan yozing!\n📲 Oshxonaga hech kirmaydigan odamga yuboring\n\n#piyoz #osh #oila #ozbekcha #thefactlab",
+ "scenes": [
+  {
+   "img": "assets/2026-10-23-piyoz/1.png",
+   "cam": "in",
+   "voice": "Oyi, nega yig'layapsiz?! Kim xafa qildi?",
+   "ov": [
+    {
+     "type": "punch",
+     "t": "OYI, NEGA\nYIG'LAYAPSIZ?! 😢",
+     "y": 790,
+     "at": 0.0,
+     "size": 48,
+     "white": true,
+     "sfx": ""
+    }
+   ],
+   "sfx": [
+    {
+     "t": "impact",
+     "at": 0.0,
+     "g": 0.8
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-23-piyoz/2.png",
+   "cam": "out",
+   "voice": "Hech kim, bolam... Osh qilyapman. Ikki kilo piyoz to'g'radim!",
+   "ov": [
+    {
+     "type": "stamp",
+     "t": "🧅 2 KG PIYOZ",
+     "y": 830,
+     "w": "Ikki",
+     "sfx": ""
+    }
+   ],
+   "sfx": [
+    {
+     "t": "stamp",
+     "w": "Ikki",
+     "dt": 0.0,
+     "g": 0.6
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-23-piyoz/3.png",
+   "cam": "in",
+   "voice": "Aslida bu, piyozning himoyasi. Pichoq hujayralarni kesganda, piyoz havoga achchiq gaz chiqaradi.",
+   "ov": [
+    {
+     "type": "tag",
+     "t": "🛡 PIYOZNING HIMOYASI",
+     "x": 270,
+     "y": 760,
+     "w": "himoyasi.",
+     "dark": true,
+     "sfx": ""
+    },
+    {
+     "type": "punch",
+     "t": "ACHCHIQ GAZ! 💨",
+     "y": 850,
+     "w": "achchiq",
+     "size": 44,
+     "white": true,
+     "sfx": ""
+    }
+   ],
+   "sfx": [
+    {
+     "t": "whoosh",
+     "w": "achchiq",
+     "dt": 0.0,
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-23-piyoz/4.png",
+   "cam": "out",
+   "voice": "Gaz ko'zga yetib, nervlarni qitiqlaydi. Miya esa ko'zni yuvish uchun yosh chiqaradi.",
+   "ov": [
+    {
+     "type": "tag",
+     "t": "👁 NERVLAR QITIQLANADI",
+     "x": 270,
+     "y": 760,
+     "w": "nervlarni",
+     "dark": true,
+     "sfx": ""
+    },
+    {
+     "type": "punch",
+     "t": "MIYA: \"KO'ZNI YUV!\" 💧",
+     "y": 850,
+     "w": "Miya",
+     "size": 40,
+     "white": true,
+     "sfx": ""
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-23-piyoz/5.png",
+   "cam": "in",
+   "voice": "Sir oddiy: piyozni yarim soat muzlatgichda sovuting va o'tkir pichoq ishlating.",
+   "ov": [
+    {
+     "type": "tag",
+     "t": "❄️ 30 DAQIQA MUZLATGICHDA",
+     "x": 270,
+     "y": 770,
+     "w": "yarim",
+     "sfx": ""
+    },
+    {
+     "type": "tag",
+     "t": "🔪 O'TKIR PICHOQ",
+     "x": 270,
+     "y": 845,
+     "w": "o'tkir",
+     "sfx": ""
+    }
+   ],
+   "sfx": [
+    {
+     "t": "ding",
+     "w": "Sir",
+     "dt": 0.0,
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-23-piyoz/6.png",
+   "cam": "in",
+   "voice": "Oyi, bugun piyozni men to'g'rayman!",
+   "ov": [
+    {
+     "type": "punch",
+     "t": "BUGUN MEN! 🥽",
+     "y": 820,
+     "w": "bugun",
+     "size": 50,
+     "white": true,
+     "sfx": ""
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-23-piyoz/7.png",
+   "cam": "slam",
+   "camT": 0.3,
+   "pre_sil": 0.35,
+   "mcut": {
+    "w": "Voy,",
+    "dur": 0.6,
+    "pre": 0.35
+   },
+   "voice": "Voy, bolam... Endi rostdan yig'layapman. Birinchi marta oshxonaga kirding-ku!",
+   "ov": [
+    {
+     "type": "punch",
+     "t": "ENDI ROSTDAN\nYIG'LAYAPMAN 😭",
+     "y": 790,
+     "w": "Endi",
+     "size": 42,
+     "white": true,
+     "sfx": ""
+    },
+    {
+     "type": "stamp",
+     "t": "1-MARTA OSHXONADA",
+     "y": 870,
+     "w": "Birinchi",
+     "sfx": ""
+    }
+   ],
+   "sfx": [
+    {
+     "t": "impact",
+     "w": "Endi",
+     "dt": 0.0,
+     "g": 0.7
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-23-piyoz/8.png",
+   "cam": "out",
+   "voice": "Sizning uyda piyozni kim to'g'raydi? Bir, oyim. Ikki, men. Oshxonaga hech kirmaydigan odamga yuboring!",
+   "ov": [
+    {
+     "type": "punch",
+     "t": "PIYOZNI KIM\nTO'G'RAYDI? 🧅",
+     "y": 720,
+     "w": "Sizning",
+     "size": 44,
+     "white": true,
+     "sfx": ""
+    },
+    {
+     "type": "tag",
+     "t": "1 OYIM · 2 MEN 👇",
+     "x": 270,
+     "y": 850,
+     "w": "Bir,",
+     "sfx": ""
+    }
+   ],
+   "sfx": [
+    {
+     "t": "notif",
+     "w": "yuboring!",
+     "dt": 0.3,
+     "g": 0.6
+    }
+   ]
+  }
+ ]
+}

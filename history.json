@@ -379,5 +379,17 @@
   "status": "prepared, awaiting owner approval",
   "prepared": "2026-10-24 17:20 KST",
   "images": "1-8 Canva (3D Pixar, character sheet MAHY52mB1HU)"
+ },
+ {
+  "id": "2026-10-24-orol",
+  "topic": "Orol dengizi: bir paytlar dunyodagi 4-katta ko'l (1960, ~67 500 km²); Mo'ynoq port va konserva sanoati; 1960-yillardan Amudaryo/Sirdaryo suvi paxtaga burildi; 2014 Janubiy Orolning sharqiy havzasi qurib qoldi; bugun ~10%; Mo'ynoqdan suvgacha 100+ km",
+  "category": "tarix",
+  "type": "fakt",
+  "title": "Bu kemalar cho'lda turibdi",
+  "format": "doc",
+  "music": "gen:dark",
+  "voice": "Bekzod",
+  "status": "prepared, awaiting owner approval",
+  "prepared": "2026-10-24 20:35 KST"
  }
 ]

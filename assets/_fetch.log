@@ -862,3 +862,6 @@ assets/2026-10-24-kurtka/raw/4.png ok
 assets/2026-10-24-kurtka/raw/5.png ok
 assets/2026-10-24-kurtka/raw/6.png ok
 assets/2026-10-24-kurtka/raw/7.png ok
+assets/2026-10-24-kurtka/raw/8.png ok
+toy-sr/m1.mp3 FAILED 22 curl: (22) The requested URL returned error: 400
+toy-sr/m2.mp3 FAILED 22 curl: (22) The requested URL returned error: 400

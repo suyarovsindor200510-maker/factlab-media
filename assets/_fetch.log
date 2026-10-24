@@ -905,3 +905,8 @@ assets/2026-10-24-imtihon/raw/2.png ok
 assets/2026-10-24-imtihon/raw/4.png ok
 toy-sr/m1.mp3 FAILED 22 curl: (22) The requested URL returned error: 400
 toy-sr/m2.mp3 FAILED 22 curl: (22) The requested URL returned error: 400
+toy-sr/m1.mp3 FAILED 22 curl: (22) The requested URL returned error: 400
+toy-sr/m2.mp3 FAILED 22 curl: (22) The requested URL returned error: 400
+assets/2026-10-24-imtihon/raw/el5.png ok
+assets/2026-10-24-imtihon/raw/el6.png ok
+assets/2026-10-24-imtihon/raw/el7.png ok

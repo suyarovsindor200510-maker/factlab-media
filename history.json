@@ -391,5 +391,18 @@
   "voice": "Bekzod",
   "status": "prepared, awaiting owner approval",
   "prepared": "2026-10-24 20:35 KST"
+ },
+ {
+  "id": "2026-10-24-imtihon",
+  "topic": "Imtihon kechasi: sentyabrda 'hali vaqt ko'p', imtihondan oldin guruhda 'konspekt kimda bor?', soat 3 da oyi 'uxla', 2 choy 4 kofe 150 bet, imtihonda 1-savol — o'qilmagan yagona mavzu",
+  "category": "talaba hayoti",
+  "type": "dialog",
+  "title": "Imtihon kechasi",
+  "format": "doc",
+  "music": "uzmusic:modern",
+  "voice": "Bekzod + Dilnoza",
+  "status": "prepared, awaiting owner approval",
+  "prepared": "2026-10-24 23:05 KST",
+  "images": "1,2,4 Canva (3D Pixar, char sheet MAHY7CeBDi8); 3 chatgen; 5-7 ElevenLabs gemini-3-pro-image (16:9 -> 9:16 crop)"
  }
 ]

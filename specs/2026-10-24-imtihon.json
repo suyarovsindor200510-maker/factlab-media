@@ -16,10 +16,10 @@
    "ov": [
     {
      "type": "punch",
-     "t": "ERTAGA IMTIHON! 😱",
-     "y": 150,
+     "t": "ERTAGA\nIMTIHON! 😱",
+     "y": 170,
      "at": 0.0,
-     "size": 50,
+     "size": 52,
      "white": true
     },
     {
@@ -58,7 +58,7 @@
     },
     {
      "type": "punch",
-     "t": "\"HALI VAQT KO'P\" 😎",
+     "t": "\"HALI VAQT\nKO'P\" 😎",
      "y": 820,
      "w": "hali",
      "size": 44,
@@ -225,10 +225,10 @@
    "ov": [
     {
      "type": "punch",
-     "t": "NECHA KUN OLDIN? 🤔",
+     "t": "NECHA KUN\nOLDIN? 🤔",
      "y": 720,
      "w": "Siz",
-     "size": 44,
+     "size": 46,
      "white": true
     },
     {

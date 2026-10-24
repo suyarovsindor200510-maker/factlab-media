@@ -1,0 +1,252 @@
+{
+ "id": "2026-10-24-imtihon",
+ "format": "doc",
+ "uzmusic": "modern",
+ "music_vol": 0.14,
+ "sfx_vol": 0.8,
+ "gap": 0,
+ "tempo": 1.03,
+ "cover_t": 1.2,
+ "caption": "Imtihon kechasi: talabaning eng mashhur odati 📚😅 Imtihonga bir kecha qolganda tayyorlanish — o'zbek talabalari hayoti\n\nSentyabrda: \"Hali vaqt ko'p\" 😎\nImtihondan oldin: \"Konspekt kimda bor?\" 📲\nSoat 3: oyim \"Uxla, bolam!\" 🌙\nImtihonda: birinchi savol — o'qimagan yagona mavzu 😱\n\n👇 Siz imtihonga necha kun oldin tayyorlanasiz? Raqam yozing!\n📲 Kursdoshingizga yuboring\n\n#imtihon #talaba #student #ozbekcha #thefactlab",
+ "scenes": [
+  {
+   "img": "assets/2026-10-24-imtihon/1.png",
+   "cam": "in",
+   "voice": "Ertaga imtihon. Men esa... hali bitta sahifa ham o'qimaganman!",
+   "ov": [
+    {
+     "type": "punch",
+     "t": "ERTAGA IMTIHON! 😱",
+     "y": 150,
+     "at": 0.0,
+     "size": 50,
+     "white": true
+    },
+    {
+     "type": "stamp",
+     "t": "0 / 300 BET",
+     "y": 800,
+     "w": "sahifa"
+    }
+   ],
+   "sfx": [
+    {
+     "t": "impact",
+     "at": 0.0,
+     "g": 0.8
+    },
+    {
+     "t": "stamp",
+     "w": "sahifa",
+     "dt": 0.0,
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-24-imtihon/2.png",
+   "cam": "out",
+   "voice": "Sentyabrda o'zimga aytgandim: hali vaqt ko'p, ertaga boshlayman.",
+   "ov": [
+    {
+     "type": "tag",
+     "t": "📅 SENTYABR",
+     "x": 270,
+     "y": 120,
+     "w": "Sentyabrda",
+     "dark": true
+    },
+    {
+     "type": "punch",
+     "t": "\"HALI VAQT KO'P\" 😎",
+     "y": 820,
+     "w": "hali",
+     "size": 44,
+     "white": true
+    }
+   ],
+   "sfx": [
+    {
+     "t": "swish",
+     "at": 0.0,
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-24-imtihon/3.png",
+   "cam": "in",
+   "voice": "Imtihondan bir kun oldin guruhda hamma bitta savol beradi: konspekt kimda bor?",
+   "ov": [
+    {
+     "type": "punch",
+     "t": "KONSPEKT\nKIMDA BOR?! 📲",
+     "y": 380,
+     "w": "konspekt",
+     "size": 48,
+     "white": true
+    }
+   ],
+   "sfx": [
+    {
+     "t": "notif",
+     "at": 0.1,
+     "g": 0.6
+    },
+    {
+     "t": "typing",
+     "w": "guruhda",
+     "dt": 0.0,
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-24-imtihon/4.png",
+   "cam": "out",
+   "voice": "Bolam, soat uch bo'ldi! Uxla, ertaga boshing og'riydi!",
+   "ov": [
+    {
+     "type": "tag",
+     "t": "🕒 03:00",
+     "x": 270,
+     "y": 120,
+     "w": "soat",
+     "dark": true
+    },
+    {
+     "type": "punch",
+     "t": "UXLA, BOLAM! 🌙",
+     "y": 830,
+     "w": "Uxla,",
+     "size": 46,
+     "white": true
+    }
+   ],
+   "sfx": [
+    {
+     "t": "clock",
+     "at": 0.0,
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-24-imtihon/5.png",
+   "cam": "in",
+   "voice": "Ikkinchi choy... to'rtinchi kofe... va bir kechada yuz ellik bet!",
+   "ov": [
+    {
+     "type": "tag",
+     "t": "🍵 ×2",
+     "x": 150,
+     "y": 740,
+     "w": "choy...",
+     "dark": true
+    },
+    {
+     "type": "tag",
+     "t": "☕ ×4",
+     "x": 390,
+     "y": 740,
+     "w": "kofe...",
+     "dark": true
+    },
+    {
+     "type": "stamp",
+     "t": "150 BET / 1 KECHA",
+     "y": 840,
+     "w": "yuz"
+    }
+   ],
+   "sfx": [
+    {
+     "t": "pop",
+     "w": "choy...",
+     "dt": 0.0,
+     "g": 0.4
+    },
+    {
+     "t": "pop",
+     "w": "kofe...",
+     "dt": 0.0,
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-24-imtihon/6.png",
+   "cam": "slam",
+   "camT": 0.3,
+   "pre_sil": 0.35,
+   "mcut": {
+    "w": "birinchi",
+    "dur": 0.6,
+    "pre": 0.35
+   },
+   "voice": "Imtihonda birinchi savol... aynan men o'qimagan yagona mavzu!",
+   "ov": [
+    {
+     "type": "tag",
+     "t": "📝 1-SAVOL",
+     "x": 270,
+     "y": 120,
+     "w": "birinchi",
+     "dark": true
+    },
+    {
+     "type": "punch",
+     "t": "O'QIMAGAN\nYAGONA MAVZU! 💀",
+     "y": 820,
+     "w": "o'qimagan",
+     "size": 46,
+     "white": true
+    }
+   ],
+   "sfx": [
+    {
+     "t": "impact",
+     "w": "birinchi",
+     "dt": 0.0,
+     "g": 0.7
+    },
+    {
+     "t": "fail",
+     "w": "mavzu!",
+     "dt": 0.1,
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-24-imtihon/7.png",
+   "cam": "out",
+   "voice": "Siz imtihonga necha kun oldin tayyorlanasiz? Raqam yozing. Kursdoshingizga yuboring!",
+   "ov": [
+    {
+     "type": "punch",
+     "t": "NECHA KUN OLDIN? 🤔",
+     "y": 720,
+     "w": "Siz",
+     "size": 44,
+     "white": true
+    },
+    {
+     "type": "tag",
+     "t": "RAQAM YOZING 👇",
+     "x": 270,
+     "y": 850,
+     "w": "Raqam"
+    }
+   ],
+   "sfx": [
+    {
+     "t": "notif",
+     "w": "yuboring!",
+     "dt": 0.3,
+     "g": 0.6
+    }
+   ]
+  }
+ ]
+}

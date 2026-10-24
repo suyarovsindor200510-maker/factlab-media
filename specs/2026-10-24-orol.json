@@ -1,0 +1,197 @@
+{
+ "id": "2026-10-24-orol",
+ "format": "doc",
+ "music": "gen:dark",
+ "music_bpm": 70,
+ "music_vol": 0.12,
+ "sfx_vol": 0.5,
+ "tempo": 1.05,
+ "gap": 0,
+ "cover_t": 1.0,
+ "caption": "Orol dengizi: Mo'ynoqdagi kemalar nega cho'lda qolgan? 🚢\n\nOrol dengizi bir paytlar dunyodagi to'rtinchi eng katta ko'l edi — 1960-yilda maydoni qariyb 67 500 km² bo'lgan. Mo'ynoq (Qoraqalpog'iston) esa gavjum port shahar edi: baliq ovlash va konserva sanoati markazi.\n\n1960-yillardan boshlab Amudaryo va Sirdaryo suvi paxta dalalarini sug'orishga burib yuborildi. Dengiz yildan-yilga chekindi, 1980-yillar oxirida Shimoliy va Janubiy Orolga bo'linib ketdi, 2014-yilda esa janubiy qismining sharqiy havzasi butunlay qurib qoldi. Qurigan tubida Orolqum cho'li paydo bo'ldi.\n\nBugun Orol asl hajmining taxminan 10 foizicha qolgan, Mo'ynoqdan suvgacha esa 100 km dan ortiq masofa bor.\n\n👇 Orolni o'z ko'zingiz bilan ko'rganmisiz? Ha yoki yo'q deb yozing\n📲 Bu tarixni do'stingizga yuboring\n\n#oroldengizi #moynoq #tarix #ozbekiston #thefactlab",
+ "scenes": [
+  {
+   "img": "assets/2026-10-24-orol/1.png",
+   "cam": "in",
+   "camT": 6.5,
+   "ov": [
+    {
+     "type": "punch",
+     "t": "BU KEMALAR\nCHO'LDA\nTURIBDI",
+     "y": 640,
+     "at": 0.0,
+     "size": 50,
+     "white": true,
+     "sfx": ""
+    }
+   ],
+   "sfx": [
+    {
+     "t": "impact",
+     "at": 0.05,
+     "g": 0.8
+    }
+   ],
+   "voice": "Bu kemalar cho'l o'rtasida turibdi. Lekin bir vaqtlar bu yerda dengiz bo'lgan."
+  },
+  {
+   "img": "assets/2026-10-24-orol/2.png",
+   "cam": "out",
+   "ov": [
+    {
+     "type": "stamp",
+     "t": "4-O'RIN",
+     "y": 600,
+     "w": "to'rtinchi",
+     "sfx": ""
+    },
+    {
+     "type": "lower",
+     "small": "1960-yil · ~67 500 km²",
+     "t": "OROL DENGIZI",
+     "y": 800,
+     "w": "Orol",
+     "sfx": ""
+    }
+   ],
+   "sfx": [
+    {
+     "t": "whoosh",
+     "at": 0.0,
+     "g": 0.3
+    }
+   ],
+   "voice": "Orol dengizi bir paytlar dunyodagi to'rtinchi eng katta ko'l edi."
+  },
+  {
+   "img": "assets/2026-10-24-orol/3.png",
+   "cam": "in",
+   "ov": [
+    {
+     "type": "lower",
+     "small": "Qoraqalpog'iston",
+     "t": "MO'YNOQ · PORT SHAHAR",
+     "y": 800,
+     "w": "Mo'ynoq",
+     "sfx": ""
+    }
+   ],
+   "voice": "Mo'ynoq esa gavjum port shahar edi: baliq ovlanardi, konserva zavodi ishlardi."
+  },
+  {
+   "img": "assets/2026-10-24-orol/4.png",
+   "cam": "in",
+   "ov": [
+    {
+     "type": "stamp",
+     "t": "1960-YILLAR",
+     "y": 600,
+     "w": "oltmishinchi",
+     "sfx": ""
+    },
+    {
+     "type": "tag",
+     "t": "AMUDARYO + SIRDARYO → PAXTA",
+     "x": 270,
+     "y": 800,
+     "w": "Amudaryo",
+     "dark": true,
+     "sfx": ""
+    }
+   ],
+   "sfx": [
+    {
+     "t": "whoosh",
+     "at": 0.0,
+     "g": 0.3
+    }
+   ],
+   "voice": "Ammo oltmishinchi yillardan boshlab Amudaryo va Sirdaryo suvi paxta dalalariga burib yuborildi."
+  },
+  {
+   "img": "assets/2026-10-24-orol/5.png",
+   "cam": "out",
+   "voice": "Dengiz yildan-yilga orqaga chekindi."
+  },
+  {
+   "img": "assets/2026-10-24-orol/6.png",
+   "cam": "slam",
+   "camT": 0.5,
+   "pre_sil": 0.3,
+   "ov": [
+    {
+     "type": "stamp",
+     "t": "2014",
+     "y": 600,
+     "w": "Ikki",
+     "sfx": ""
+    },
+    {
+     "type": "lower",
+     "small": "Janubiy Orol",
+     "t": "SHARQIY HAVZA QURIDI",
+     "y": 800,
+     "w": "sharqiy",
+     "sfx": ""
+    }
+   ],
+   "sfx": [
+    {
+     "t": "boom",
+     "w": "butunlay",
+     "dt": -0.05,
+     "g": 0.5
+    }
+   ],
+   "voice": "Ikki ming o'n to'rtinchi yili uning sharqiy qismi butunlay qurib qoldi."
+  },
+  {
+   "img": "assets/2026-10-24-orol/7.png",
+   "cam": "in",
+   "ov": [
+    {
+     "type": "big",
+     "t": "~10%",
+     "sub": "asl hajmidan qoldi",
+     "y": 620,
+     "w": "o'n",
+     "sfx": ""
+    },
+    {
+     "type": "lower",
+     "small": "Mo'ynoqdan suvgacha",
+     "t": "100+ KM",
+     "y": 820,
+     "w": "Mo'ynoqdan",
+     "sfx": ""
+    }
+   ],
+   "voice": "Bugun Orol asl hajmining taxminan o'n foizicha qoldi. Mo'ynoqdan suvgacha esa yuz kilometrdan ortiq."
+  },
+  {
+   "img": "assets/2026-10-24-orol/8.png",
+   "cam": "in",
+   "mv": 0.9,
+   "ov": [
+    {
+     "type": "punch",
+     "t": "KO'RGANMISIZ?",
+     "y": 620,
+     "w": "ko'rganmisiz",
+     "size": 48,
+     "white": true,
+     "sfx": ""
+    },
+    {
+     "type": "tag",
+     "t": "👇 Ha / Yo'q",
+     "x": 270,
+     "y": 730,
+     "w": "Ha",
+     "sfx": ""
+    }
+   ],
+   "voice": "Orolni o'z ko'zingiz bilan ko'rganmisiz? Ha yoki yo'q deb yozing va bu tarixni do'stingizga yuboring."
+  }
+ ]
+}

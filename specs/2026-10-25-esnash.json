@@ -1,0 +1,268 @@
+{
+ "id": "2026-10-25-esnash",
+ "format": "doc",
+ "uzmusic": "lapar",
+ "music_vol": 0.14,
+ "sfx_vol": 0.8,
+ "gap": 0,
+ "tempo": 1.03,
+ "cover_t": 1.2,
+ "caption": "Esnash yuqumlimi? 🥱 Nega birov esnasa, biz ham esnaymiz — oilaviy kulgili video va qiziq fakt\n\nDadam esnadi → oyim → men → singlim... 5 daqiqada butun uy esnadi 😂\n🧠 Olimlar: har ikki odamdan biri boshqa odam esnaganini ko'rsa, o'zi ham esnaydi. Hatto esnash haqida o'qish ham yetadi!\n🐶 Itlar ham egasidan yuqtirishi mumkin, kichkina bolalarga esa deyarli yuqmaydi.\n\n👇 Rostini ayting: hozir esnadingizmi? HA yoki YO'Q deb yozing!\n📲 Kechasi uxlamaydigan do'stingizga yuboring\n\n#esnash #qiziqfaktlar #oila #ozbekcha #thefactlab",
+ "scenes": [
+  {
+   "img": "assets/2026-10-25-esnash/1.png",
+   "cam": "in",
+   "voice": "Ogohlantiraman: bu videoni oxirigacha ko'rsangiz, albatta esnaysiz.",
+   "ov": [
+    {
+     "type": "punch",
+     "t": "BU VIDEO SIZNI\nESNATADI 🥱",
+     "y": 800,
+     "at": 0.0,
+     "size": 50,
+     "white": true,
+     "sfx": ""
+    }
+   ],
+   "sfx": [
+    {
+     "t": "impact",
+     "at": 0.0,
+     "g": 0.8
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-25-esnash/2.png",
+   "cam": "in",
+   "voice": "Kechqurun dadam televizor oldida bir esnadi...",
+   "ov": [
+    {
+     "type": "tag",
+     "t": "📺 21:47 · DADAM",
+     "x": 270,
+     "y": 120,
+     "w": "Kechqurun",
+     "dark": true,
+     "sfx": ""
+    },
+    {
+     "type": "punch",
+     "t": "1-ESNASH 🥱",
+     "y": 820,
+     "w": "esnadi...",
+     "size": 52,
+     "white": true,
+     "sfx": ""
+    }
+   ],
+   "sfx": [
+    {
+     "t": "pop",
+     "w": "esnadi...",
+     "dt": 0.0,
+     "g": 0.6
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-25-esnash/3.png",
+   "cam": "out",
+   "voice": "Voy, menga ham yuqdi-ku!",
+   "ov": [
+    {
+     "type": "punch",
+     "t": "MENGA HAM\nYUQDI-KU! 😅",
+     "y": 820,
+     "w": "Voy,",
+     "size": 48,
+     "white": true,
+     "sfx": ""
+    },
+    {
+     "type": "stamp",
+     "t": "2-ESNASH",
+     "y": 120,
+     "w": "yuqdi-ku!",
+     "sfx": ""
+    }
+   ],
+   "sfx": [
+    {
+     "t": "stamp",
+     "w": "yuqdi-ku!",
+     "dt": 0.0,
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-25-esnash/4.png",
+   "cam": "in",
+   "voice": "Keyin men, keyin singlim... Bir daqiqada butun uy esnay boshladi.",
+   "ov": [
+    {
+     "type": "stamp",
+     "t": "3 · 4 · 5... 🥱🥱🥱",
+     "y": 120,
+     "w": "singlim...",
+     "sfx": ""
+    },
+    {
+     "type": "punch",
+     "t": "BUTUN UY\nESNAYAPTI! 😂",
+     "y": 820,
+     "w": "butun",
+     "size": 48,
+     "white": true,
+     "sfx": ""
+    }
+   ],
+   "sfx": [
+    {
+     "t": "boing",
+     "w": "men,",
+     "dt": 0.0,
+     "g": 0.5
+    },
+    {
+     "t": "boing",
+     "w": "singlim...",
+     "dt": 0.0,
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-25-esnash/5.png",
+   "cam": "in",
+   "voice": "Olimlar aytishicha, esnash rostdan yuqumli. Har ikki odamdan biri, birov esnaganini ko'rsa, o'zi ham esnab yuboradi.",
+   "ov": [
+    {
+     "type": "tag",
+     "t": "🧠 OLIMLAR: ESNASH YUQUMLI",
+     "x": 270,
+     "y": 120,
+     "w": "Olimlar",
+     "dark": true,
+     "sfx": ""
+    },
+    {
+     "type": "big",
+     "v": 50,
+     "unit": "%",
+     "sub": "odam birovni ko'rib esnaydi",
+     "y": 790,
+     "w": "ikki",
+     "sfx": "",
+     "pre": "~"
+    }
+   ],
+   "sfx": [
+    {
+     "t": "ding",
+     "w": "Olimlar",
+     "dt": 0.0,
+     "g": 0.5
+    },
+    {
+     "t": "hit",
+     "w": "ikki",
+     "dt": 0.0,
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-25-esnash/6.png",
+   "cam": "out",
+   "voice": "Hatto esnash haqida o'qish ham yetadi. Itlar ham egasidan yuqtirib olishi mumkin.",
+   "ov": [
+    {
+     "type": "tag",
+     "t": "📖 O'QISH HAM YETADI",
+     "x": 270,
+     "y": 120,
+     "w": "o'qish",
+     "dark": true,
+     "sfx": ""
+    },
+    {
+     "type": "punch",
+     "t": "ITLARGA HAM\nYUQADI! 🐶",
+     "y": 820,
+     "w": "Itlar",
+     "size": 48,
+     "white": true,
+     "sfx": ""
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-25-esnash/7.png",
+   "cam": "slam",
+   "camT": 0.3,
+   "pre_sil": 0.3,
+   "voice": "Faqat ukam esnamadi. Kichkina bolalarga esnash deyarli yuqmaydi.",
+   "ov": [
+    {
+     "type": "punch",
+     "t": "FAQAT UKAM\nESNAMADI 😎",
+     "y": 820,
+     "w": "Faqat",
+     "size": 48,
+     "white": true,
+     "sfx": ""
+    },
+    {
+     "type": "tag",
+     "t": "👶 KICHKINA BOLALARGA YUQMAYDI",
+     "x": 270,
+     "y": 120,
+     "w": "Kichkina",
+     "sfx": ""
+    }
+   ],
+   "sfx": [
+    {
+     "t": "scratch",
+     "w": "Faqat",
+     "dt": 0.0,
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-25-esnash/8.png",
+   "cam": "in",
+   "voice": "Rostini ayting, hozir esnadingizmi? Ha yoki yo'q, izohda yozing! Kechasi uxlamaydigan do'stingizga yuboring!",
+   "ov": [
+    {
+     "type": "punch",
+     "t": "HOZIR\nESNADINGIZMI? 🥱",
+     "y": 760,
+     "w": "Rostini",
+     "size": 48,
+     "white": true,
+     "sfx": ""
+    },
+    {
+     "type": "tag",
+     "t": "HA yoki YO'Q 👇 IZOHDA",
+     "x": 270,
+     "y": 870,
+     "w": "Ha",
+     "sfx": ""
+    }
+   ],
+   "sfx": [
+    {
+     "t": "notif",
+     "w": "yuboring!",
+     "dt": 0.3,
+     "g": 0.6
+    }
+   ]
+  }
+ ]
+}

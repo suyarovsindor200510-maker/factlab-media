@@ -425,5 +425,15 @@
   "music": "gen:dark",
   "status": "posted 2026-10-25 21:03 KST",
   "buffer_id": "6addf0128b3d437ddc071395"
+ },
+ {
+  "id": "2026-10-25-esnash",
+  "topic": "Esnash yuqumli: dadam esnadi → oyim → men, singlim; har ikki odamdan biri birov esnaganini ko'rib esnaydi; o'qish ham yetadi; itlarga ham yuqishi mumkin; kichkina bolalarga deyarli yuqmaydi",
+  "category": "oila",
+  "type": "dialog",
+  "title": "Bu video sizni esnatadi",
+  "format": "doc",
+  "music": "lapar",
+  "status": "images 4-8 pending (Canva quota_cooldown); voice + images 1-3 + spec ready"
  }
 ]

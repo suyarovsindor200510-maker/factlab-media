@@ -404,5 +404,15 @@
   "status": "prepared, awaiting owner approval",
   "prepared": "2026-10-24 23:05 KST",
   "images": "1,2,4 Canva (3D Pixar, char sheet MAHY7CeBDi8); 3 chatgen; 5-7 ElevenLabs gemini-3-pro-image (16:9 -> 9:16 crop)"
+ },
+ {
+  "id": "2026-10-25-shkaf",
+  "topic": "To'yga kiyadigan hech narsam yo'q: shkaf to'la; qizili xolaning to'yida kiyilgan, ko'k/yashil Instagramda; yangi ko'ylak 3 mln so'm; to'yda boshqa ayol ham xuddi shu ko'ylakda",
+  "category": "oila",
+  "type": "dialog",
+  "title": "Kiyadigan hech narsam yo'q!",
+  "format": "doc",
+  "music": "modern",
+  "status": "prepared, awaiting approval"
  }
 ]

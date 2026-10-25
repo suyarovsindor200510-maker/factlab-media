@@ -1,0 +1,238 @@
+{
+ "id": "2026-10-25-shkaf",
+ "format": "doc",
+ "uzmusic": "modern",
+ "music_vol": 0.14,
+ "sfx_vol": 0.8,
+ "gap": 0,
+ "tempo": 1.03,
+ "cover_t": 1.2,
+ "caption": "To'yga kiyadigan hech narsam yo'q! 👗😅 Shkaf to'la ko'ylak, lekin kiyadigan narsa yo'q — er-xotin dialogi, o'zbek oilasi hayoti\n\n\"Qizili-chi?\" — xolamning to'yida kiyganman 📸\n\"Ko'k-chi? Yashil-chi?\" — Instagramda bor 📱\nNatija: yangi ko'ylak, 3 million so'm 💸\nTo'yda esa... yana bir ayol xuddi shu ko'ylakda 😱\n\n👇 Sizning shkafingizda nechta ko'ylak bor? Raqam yozing!\n📲 Ayolingizga yoki opangizga yuboring\n\n#toy #oila #ozbekcha #kulgili #thefactlab",
+ "scenes": [
+  {
+   "img": "assets/2026-10-25-shkaf/1.png",
+   "cam": "in",
+   "voice": "Shanba kuni to'y... Kiyadigan hech narsam yo'q!",
+   "ov": [
+    {
+     "type": "punch",
+     "t": "KIYADIGAN HECH\nNARSAM YO'Q! 😱",
+     "y": 820,
+     "at": -0.45,
+     "size": 48,
+     "white": true
+    },
+    {
+     "type": "tag",
+     "t": "💍 SHANBA: TO'Y",
+     "x": 270,
+     "y": 110,
+     "at": -0.2,
+     "dark": true
+    }
+   ],
+   "sfx": [
+    {
+     "t": "impact",
+     "at": -0.43,
+     "g": 0.8
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-25-shkaf/2.png",
+   "cam": "out",
+   "voice": "Shkaf to'la-ku! Mana bu qizil ko'ylak-chi?",
+   "ov": [
+    {
+     "type": "tag",
+     "t": "SHKAF: 100% TO'LA",
+     "x": 400,
+     "y": 640,
+     "w": "Shkaf",
+     "dark": true
+    },
+    {
+     "type": "punch",
+     "t": "QIZILI-CHI? ❤️",
+     "y": 840,
+     "w": "qizil",
+     "size": 46,
+     "white": true
+    }
+   ],
+   "sfx": [
+    {
+     "t": "swish",
+     "at": 0.0,
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-25-shkaf/3.png",
+   "cam": "in",
+   "voice": "Uni xolamning to'yida kiyganman! Hamma rasmda ko'rgan!",
+   "ov": [
+    {
+     "type": "stamp",
+     "t": "KIYILGAN ✗",
+     "y": 800,
+     "w": "kiyganman!"
+    },
+    {
+     "type": "tag",
+     "t": "📸 HAMMA KO'RGAN",
+     "x": 270,
+     "y": 880,
+     "w": "Hamma",
+     "dark": true
+    }
+   ],
+   "sfx": [
+    {
+     "t": "stamp",
+     "w": "kiyganman!",
+     "dt": 0.0,
+     "g": 0.55
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-25-shkaf/4.png",
+   "cam": "out",
+   "voice": "Ko'k-chi? Yashil-chi? Ikkalasi ham Instagramda bor-ku!",
+   "ov": [
+    {
+     "type": "tag",
+     "t": "💙 KO'K?",
+     "x": 330,
+     "y": 700,
+     "w": "Ko'k-chi?",
+     "dark": true
+    },
+    {
+     "type": "tag",
+     "t": "💚 YASHIL?",
+     "x": 440,
+     "y": 760,
+     "w": "Yashil-chi?",
+     "dark": true
+    },
+    {
+     "type": "stamp",
+     "t": "INSTAGRAMDA BOR ✗",
+     "y": 860,
+     "w": "Instagramda"
+    }
+   ],
+   "sfx": [
+    {
+     "t": "pop",
+     "w": "Ko'k-chi?",
+     "dt": 0.0,
+     "g": 0.4
+    },
+    {
+     "t": "pop",
+     "w": "Yashil-chi?",
+     "dt": 0.0,
+     "g": 0.4
+    },
+    {
+     "t": "notif",
+     "w": "Instagramda",
+     "dt": 0.0,
+     "g": 0.6
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-25-shkaf/5.png",
+   "cam": "in",
+   "voice": "Xullas... yangi ko'ylak. Uch million so'm.",
+   "ov": [
+    {
+     "type": "stamp",
+     "t": "-3 000 000 SO'M",
+     "y": 830,
+     "w": "Uch"
+    }
+   ],
+   "sfx": [
+    {
+     "t": "kaching",
+     "w": "Uch",
+     "dt": 0.0,
+     "g": 0.6
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-25-shkaf/6.png",
+   "cam": "slam",
+   "camT": 0.3,
+   "pre_sil": 0.35,
+   "mcut": {
+    "w": "Voy...",
+    "dur": 0.6,
+    "pre": 0.35
+   },
+   "voice": "Voy... anavi ayol ham xuddi shu ko'ylakda!",
+   "ov": [
+    {
+     "type": "punch",
+     "t": "XUDDI SHU\nKO'YLAK! 💀",
+     "y": 800,
+     "w": "xuddi",
+     "size": 48,
+     "white": true
+    }
+   ],
+   "sfx": [
+    {
+     "t": "impact",
+     "w": "Voy...",
+     "dt": 0.0,
+     "g": 0.75
+    },
+    {
+     "t": "glitch",
+     "w": "xuddi",
+     "dt": 0.0,
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "img": "assets/2026-10-25-shkaf/7.png",
+   "cam": "out",
+   "voice": "Sizning shkafingizda nechta ko'ylak bor? Raqam yozing. Ayolingizga yoki opangizga yuboring!",
+   "ov": [
+    {
+     "type": "punch",
+     "t": "SHKAFINGIZDA\nNECHTA? 🤔",
+     "y": 600,
+     "w": "Sizning",
+     "size": 44,
+     "white": true
+    },
+    {
+     "type": "tag",
+     "t": "RAQAM YOZING 👇",
+     "x": 270,
+     "y": 860,
+     "w": "Raqam"
+    }
+   ],
+   "sfx": [
+    {
+     "t": "notif",
+     "w": "yuboring!",
+     "dt": 0.3,
+     "g": 0.6
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,225 @@
+{
+ "id": "2026-10-25-bibixonim",
+ "format": "doc",
+ "music": "gen:dark",
+ "music_bpm": 70,
+ "music_vol": 0.12,
+ "sfx_vol": 0.5,
+ "tempo": 1.05,
+ "gap": 0,
+ "cover_t": 1.0,
+ "caption": "Bibixonim masjidi: Samarqanddagi ulkan masjid qanday qurilgan va nega qulagan? 🕌\n\nAmir Temur Hindiston yurishidan so'ng, 1399-yilda Samarqandda ulkan jome masjidini qurdira boshlagan. O'sha davr tarixchilarining yozishicha, qurilish materiallarini tashish uchun 95 ta fil ishlatilgan; Eron va Hindistondan ustalar keltirilgan.\n\nMasjid majmuasi 167 × 109 metr, kirish darvozasi 35 metr, asosiy gumbazi taxminan 40 metr balandlikda bo'lgan — XV asrda islom olamidagi eng ulkan masjidlardan biri.\n\nRivoyatga ko'ra, me'mor malika Bibixonimga oshiq bo'lib qolgan. Haqiqatda esa bino o'z davri texnologiyasi uchun juda ulkan edi: bir necha yil o'tib gumbazdan g'ishtlar tusha boshlagan. 1897-yilgi zilzilada darvozaning ichki ravog'i qulab tushgan. Bugungi ko'rinishi asosan 1974-yildan boshlangan ta'mir natijasi.\n\n👇 Bibixonimga borganmisiz? Ha yoki yo'q deb yozing\n📲 Bu tarixni Samarqandni sevadigan do'stingizga yuboring\n\n#bibixonim #samarqand #amirtemur #tarix #thefactlab",
+ "scenes": [
+  {
+   "img": "assets/2026-10-25-bibixonim/1.png",
+   "cam": "in",
+   "camT": 6.0,
+   "ov": [
+    {
+     "type": "punch",
+     "t": "95 TA FIL",
+     "y": 640,
+     "at": -0.42,
+     "size": 64,
+     "white": true,
+     "sfx": ""
+    },
+    {
+     "type": "tag",
+     "t": "HINDISTONDAN → SAMARQAND",
+     "x": 270,
+     "y": 740,
+     "w": "Hindistondan",
+     "dark": true,
+     "sfx": ""
+    }
+   ],
+   "sfx": [
+    {
+     "t": "impact",
+     "at": -0.4,
+     "g": 0.8
+    }
+   ],
+   "voice": "Bu masjidni qurish uchun Hindistondan to'qson beshta fil keltirilgan."
+  },
+  {
+   "img": "assets/2026-10-25-bibixonim/2.png",
+   "cam": "out",
+   "ov": [
+    {
+     "type": "lower",
+     "small": "Samarqand",
+     "t": "BIBIXONIM MASJIDI",
+     "y": 800,
+     "w": "Bibixonim",
+     "sfx": ""
+    }
+   ],
+   "sfx": [
+    {
+     "t": "whoosh",
+     "at": 0.0,
+     "g": 0.3
+    }
+   ],
+   "voice": "Bu Samarqanddagi Bibixonim masjidi."
+  },
+  {
+   "img": "assets/2026-10-25-bibixonim/3.png",
+   "cam": "in",
+   "ov": [
+    {
+     "type": "stamp",
+     "t": "1399",
+     "y": 620,
+     "w": "ming",
+     "sfx": ""
+    }
+   ],
+   "voice": "Temur uni bir ming uch yuz to'qson to'qqizinchi yilda qurdira boshlagan."
+  },
+  {
+   "img": "assets/2026-10-25-bibixonim/4.png",
+   "cam": "out",
+   "ov": [
+    {
+     "type": "big",
+     "t": "35 m",
+     "sub": "darvoza balandligi",
+     "y": 250,
+     "w": "o'ttiz",
+     "sfx": ""
+    },
+    {
+     "type": "lower",
+     "small": "167 × 109 metr",
+     "t": "ENG ULKAN MASJIDLARDAN BIRI",
+     "y": 820,
+     "w": "eng",
+     "sfx": ""
+    }
+   ],
+   "voice": "Darvozasi o'ttiz besh metr baland, o'z davrining eng ulkan masjidlaridan biri edi."
+  },
+  {
+   "img": "assets/2026-10-25-bibixonim/5.png",
+   "cam": "in",
+   "ov": [
+    {
+     "type": "tag",
+     "t": "RIVOYAT",
+     "x": 270,
+     "y": 820,
+     "w": "Rivoyatga",
+     "dark": true,
+     "sfx": ""
+    }
+   ],
+   "voice": "Rivoyatga ko'ra, me'mor malika Bibixonimga oshiq bo'lib qolgan."
+  },
+  {
+   "img": "assets/2026-10-25-bibixonim/6.png",
+   "cam": "in",
+   "ov": [
+    {
+     "type": "punch",
+     "t": "GUMBAZ YORILDI",
+     "y": 660,
+     "w": "gumbazdan",
+     "size": 48,
+     "white": true,
+     "sfx": ""
+    }
+   ],
+   "sfx": [
+    {
+     "t": "boom",
+     "w": "gumbazdan",
+     "dt": -0.05,
+     "g": 0.45
+    }
+   ],
+   "voice": "Ammo bino juda ulkan edi: bir necha yil o'tib, gumbazdan g'ishtlar tusha boshlagan."
+  },
+  {
+   "img": "assets/2026-10-25-bibixonim/7.png",
+   "cam": "slam",
+   "camT": 0.5,
+   "pre_sil": 0.3,
+   "ov": [
+    {
+     "type": "stamp",
+     "t": "1897",
+     "y": 600,
+     "w": "Ming",
+     "sfx": ""
+    },
+    {
+     "type": "lower",
+     "small": "Zilzila",
+     "t": "DARVOZA RAVOG'I QULADI",
+     "y": 800,
+     "w": "darvoza",
+     "sfx": ""
+    }
+   ],
+   "sfx": [
+    {
+     "t": "impact",
+     "w": "qulab",
+     "dt": -0.05,
+     "g": 0.6
+    }
+   ],
+   "voice": "Ming sakkiz yuz to'qson yettinchi yilda zilziladan darvoza ravog'i qulab tushdi."
+  },
+  {
+   "img": "assets/2026-10-25-bibixonim/8.png",
+   "cam": "out",
+   "ov": [
+    {
+     "type": "stamp",
+     "t": "1974",
+     "y": 600,
+     "w": "ming",
+     "sfx": ""
+    },
+    {
+     "type": "lower",
+     "small": "Qayta tiklash",
+     "t": "TA'MIR BOSHLANDI",
+     "y": 800,
+     "w": "ta'mir",
+     "sfx": ""
+    }
+   ],
+   "voice": "Bugungi ko'rinishi esa ming to'qqiz yuz yetmish to'rtinchi yildan boshlangan ta'mir natijasi."
+  },
+  {
+   "img": "assets/2026-10-25-bibixonim/9.png",
+   "cam": "in",
+   "mv": 0.9,
+   "ov": [
+    {
+     "type": "punch",
+     "t": "BORGANMISIZ?",
+     "y": 620,
+     "w": "borganmisiz",
+     "size": 48,
+     "white": true,
+     "sfx": ""
+    },
+    {
+     "type": "tag",
+     "t": "👇 Ha / Yo'q",
+     "x": 270,
+     "y": 730,
+     "w": "Ha",
+     "sfx": ""
+    }
+   ],
+   "voice": "Bibixonimga borganmisiz? Ha yoki yo'q deb yozing va do'stingizga yuboring."
+  }
+ ]
+}

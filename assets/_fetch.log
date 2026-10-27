@@ -1161,6 +1161,19 @@ assets/vt/B.mp3 ok
 assets/vt/C.mp3 ok
 assets/vt/D.mp3 ok
 assets/tr3/l01.mp3 FAILED 22 curl: (22) The requested URL returned error: 400
+assets/tr4/as01.mp3 ok
+assets/tr4/as02.mp3 ok
+assets/tr4/as03.mp3 ok
+assets/tr4/as04.mp3 ok
+assets/tr4/as05.mp3 ok
+assets/tr4/as06.mp3 ok
+assets/tr4/as07.mp3 ok
+assets/tr4/as08.mp3 ok
+assets/tr4/as09.mp3 ok
+assets/tr4/as10.mp3 ok
+assets/tr4/as11.mp3 ok
+assets/tr4/as12.mp3 ok
+assets/tr4/as13.mp3 ok
 assets/tr3/l01.mp3 FAILED 22 curl: (22) The requested URL returned error: 400
 assets/tr3/l02.mp3 FAILED 22 curl: (22) The requested URL returned error: 400
 assets/tr3/l03.mp3 FAILED 22 curl: (22) The requested URL returned error: 400

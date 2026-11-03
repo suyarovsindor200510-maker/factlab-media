@@ -1,0 +1,155 @@
+asal-2026-11-04-v2.mp4: 0:00.00-1:09.50 (69.5 s). Loudness -14.1 LUFS integrated, true peak 1.5 dBTP, LRA 2.1 LU; loudest 0:16.00-0:19.00 (-12.7 LUFS short-term). True peak +1.5 dBTP on decoded lossy audio: above 0 dBTP it clips on playback (the master should leave the mixer at <= -1 dBTP before encoding). Quiet tail 0.4 s (drop). No steady beat grid (pulse clarity 0.15 < 0.15). 5 section(s): 0:00.00-0:04.25 trap beat?, vocal chop | also: oink (AST) | voice: voice-over narration; 0:04.25-0:15.50 glitch hop music?, vocal chop | also: ding, jingle, tinkle (AST) | voice: voice-over narration; 0:15.50-0:42.50 glitch hop music?, vocal chop | also: plop (AST) | voice: voice-over narration; 0:42.50-1:02.65 glitch hop music?, vocal chop | voice: voice-over narration; 1:02.65-1:09.50 trap beat?, glockenspiel | also: ringtone (AST). 530 events (7.6/s); 96 tagged (24 note, 20 voice, 16 foley, 11 ui, 10 hit, 5 whoosh, 4 key, 2 riser, 2 step, 2 drum; tags are hints). Strongest accents over a running bed: 0:13.53 +44 dB (speech (AST 0.75)), 0:42.67 +41 dB (spoken word), 0:57.97 +30 dB. Sync to 32 cuts: 50% have an onset within 1 frame (chance 49%), 100% within 100 ms, median |offset| 35 ms; 9% land on a strong accent (>= 8 dB over the bed) within 1 frame (chance 10%). Sync to 70 cues: 80% have an onset within 40 ms (chance 56%), 93% within 100 ms, median |offset| 18 ms; 31% land on a strong accent (>= 8 dB over the bed) within 40 ms (chance 12%); 1 met by a whoosh / riser peak; 3 only by a level peak (soft whoosh / swell?); 1 without a hit: 0:38.35.
+
+SECTIONS
+  0:00.00-0:04.25  trap beat?, vocal chop | also: oink (AST) | voice: voice-over narration  -14 LUFS  [AST music 0.46, speech 0.65]
+  0:04.25-0:15.50  glitch hop music?, vocal chop | also: ding, jingle, tinkle (AST) | voice: voice-over narration  -14 LUFS  [AST music 0.44, speech 0.40]
+  0:15.50-0:42.50  glitch hop music?, vocal chop | also: plop (AST) | voice: voice-over narration  -14 LUFS  [AST music 0.85, speech 0.64]
+  0:42.50-1:02.65  glitch hop music?, vocal chop | voice: voice-over narration  -14 LUFS  [AST music 0.70, speech 0.64]
+  1:02.65-1:09.50  trap beat?, glockenspiel | also: ringtone (AST)  -18 LUFS  [AST music 0.67, speech 0.01]
+
+TRANSCRIPT   time  kind   what (CLAP tag / runner-up)                     peak  over bed  length  centroid  | sync
+== 0:00.00-0:04.25  trap beat?, vocal chop | also: oink (AST) | voice: voice-over narration  (+27 untagged onsets, 6.4/s)
+ 0:00.04  RISER? reverse cymbal swell / punchy impact hit         -8.4 dBFS  +7.6 dB    54 ms   242 Hz  | cut -31 ms OK; whoosh +36 ms OK
+ 0:00.17  VOICE? spoken word / chat message pop                   -2.5 dBFS +10.3 dB  1345 ms   488 Hz  [AST Speech 0.44]  | cut -29 ms OK
+ 0:00.75  VOICE  spoken word / glockenspiel note                  -6.2 dBFS   silent   110 ms   426 Hz
+ 0:01.06  UI?    chat message pop / spoken word                   -4.1 dBFS +11.5 dB   880 ms   372 Hz
+ 0:01.84  NOTE?  plucked string note / bubble pop                 -2.5 dBFS  +5.5 dB   142 ms   373 Hz  | pop -12 ms OK
+ 0:02.06  UI?    chat message pop / glockenspiel note             -2.5 dBFS  +0.2 dB   839 ms   400 Hz  | cut +98 ms near
+ 0:03.06  KEY?   mechanical keyboard key press / plucked string   -4.3 dBFS  +9.9 dB   233 ms  7.5 kHz
+== 0:04.25-0:15.50  glitch hop music?, vocal chop | also: ding, jingle, tinkle (AST) | voice: voice-over narration  (+56 untagged onsets, 5.0/s)
+ 0:04.67  WHOOSH whip pan whoosh transition / glockenspiel note   -2.5 dBFS +23.8 dB  1000 ms   377 Hz  [AST Speech 0.37]  | whoosh -30 ms OK
+ 0:04.88  -      high onset                                       -3.7 dBFS  +4.0 dB  1204 ms  5.2 kHz  | cut +46 ms near
+ 0:05.47  NOTE?  glockenspiel note / spoken word                  -1.5 dBFS  +8.0 dB   613 ms   693 Hz
+ 0:05.54  -      high onset                                       -1.5 dBFS  +6.7 dB   174 ms   528 Hz  | stamp -14 ms OK
+ 0:05.64  -      high onset                                       -2.2 dBFS  +4.3 dB    69 ms  4.0 kHz  | cut +38 ms near
+ 0:05.91  VOICE? spoken word / glockenspiel note                  -4.9 dBFS +11.3 dB   190 ms   762 Hz
+ 0:06.64  -      low onset                                        -1.5 dBFS  +7.8 dB   497 ms   308 Hz  | whoosh -62 ms near
+ 0:06.85  HIT?   sub bass drop / plucked string note              -1.5 dBFS  +8.2 dB    29 ms   247 Hz  | cut +14 ms OK; pop -3 ms OK
+ 0:07.06  NOTE?  glockenspiel note / notification ding            -5.0 dBFS +11.6 dB   260 ms   614 Hz
+ 0:07.49  VOICE  spoken word                                      -3.7 dBFS +13.1 dB  1743 ms   480 Hz  [AST Speech 0.68]  | count -9 ms OK
+ 0:08.17  HIT?   sub bass drop / plucked string note              -1.5 dBFS  +6.1 dB   280 ms   451 Hz
+ 0:08.24  -      high onset                                       -1.5 dBFS  +5.4 dB   212 ms   500 Hz  | cut -63 ms near; stamp -13 ms OK
+ 0:08.96  NOTE?  glockenspiel note / notification ding            -1.5 dBFS  +7.8 dB   198 ms   230 Hz
+ 0:08.99  -      low onset                                        -1.5 dBFS  +7.6 dB   164 ms   461 Hz  | whoosh -5 ms OK
+ 0:09.08  FOLEY? cork pop / breath                                -1.5 dBFS  +8.5 dB    52 ms   245 Hz  | cut -88 ms near; pop -21 ms OK
+ 0:09.47  UI     notification ding / glockenspiel note            -5.8 dBFS +13.8 dB   250 ms   356 Hz  [AST Speech 0.43]
+ 0:09.56  -      low onset                                        -7.2 dBFS  +0.0 dB    15 ms   141 Hz  | count +8 ms OK
+ 0:09.60  FOLEY? cork pop / toggle switch click                  -11.7 dBFS  +0.3 dB    26 ms  2.5 kHz
+ 0:10.05  UI?    chat message pop                                 -1.4 dBFS  +4.8 dB   964 ms   292 Hz
+ 0:10.14  NOTE?  plucked string note / spoken word                -1.4 dBFS  +6.1 dB   202 ms   413 Hz  | stamp -13 ms OK
+ 0:10.22  -      high onset                                       -5.5 dBFS  +0.5 dB   121 ms   871 Hz  | cut -16 ms OK
+ 0:10.80  -      low onset                                        -1.5 dBFS  +5.5 dB   181 ms   702 Hz  | whoosh +3 ms OK
+ 0:10.95  STEP?  footsteps on grass / plucked string note         -4.6 dBFS  +6.7 dB    21 ms   228 Hz  | cut -16 ms OK; pop +1 ms OK
+ 0:11.06  NOTE?  glockenspiel note / notification ding            -1.8 dBFS  +4.2 dB   610 ms  1.2 kHz
+ 0:11.54  NOTE?  plucked string note / punchy impact hit          -2.4 dBFS  +3.3 dB    38 ms   232 Hz  | pop -9 ms OK
+ 0:12.06  VOICE  speech (AST 0.51) / glockenspiel note            -4.3 dBFS +25.5 dB   460 ms   381 Hz  [AST Speech 0.51]  | riser -40 ms OK
+ 0:13.26  KEY?   spacebar press / punchy impact hit               -1.7 dBFS  +6.7 dB    98 ms  3.1 kHz  | cut -40 ms near; whoosh -40 ms near
+ 0:13.38  CUE    pop pop@13.38  no onset; level peak -70 ms, rising 19 dB (a soft whoosh / swell, or just the bed?)  <- CHECK
+ 0:13.53  VOICE  speech (AST 0.75) / glockenspiel note            -6.1 dBFS +44.4 dB   390 ms   401 Hz  [AST Speech 0.75]  | cut +58 ms near; strong accent (summary)
+ 0:14.08  VOICE  speech (AST 0.52) / glockenspiel note            -2.3 dBFS +28.2 dB  1708 ms   167 Hz  [AST Ding 0.55]  | boom -3 ms OK
+ 0:14.89  VOICE  spoken word / punchy impact hit                  -2.5 dBFS +12.2 dB   346 ms  7.9 kHz
+ 0:15.00  VOICE? spoken word / chat message pop                   -2.5 dBFS +11.2 dB   486 ms   253 Hz
+== 0:15.50-0:42.50  glitch hop music?, vocal chop | also: plop (AST) | voice: voice-over narration  (+154 untagged onsets, 5.7/s)
+ 0:15.61  DRUM   hi-hat / breath                                  -5.3 dBFS +12.7 dB   170 ms  7.3 kHz
+ 0:15.98  -      full onset                                       -1.5 dBFS   silent  2000 ms   209 Hz  | cut +44 ms near; whoosh +27 ms OK
+ 0:16.02  VOICE  speech (AST 0.66) / glockenspiel note            -1.5 dBFS   silent  2000 ms   151 Hz  [AST Speech 0.66]
+ 0:16.14  -      low onset                                        -1.5 dBFS  +9.4 dB  1276 ms   133 Hz  | gong -15 ms OK
+ 0:16.21  UI?    chat message pop / glockenspiel note             -1.5 dBFS +10.6 dB   536 ms   129 Hz  [AST Speech 0.44]
+ 0:17.19  FOLEY? cork pop                                         -3.3 dBFS  +6.3 dB    87 ms   303 Hz  | pop -60 ms near
+ 0:17.97  VOICE? spoken word / chat message pop                   -1.5 dBFS  +8.6 dB  1195 ms   205 Hz  | whoosh +18 ms OK
+ 0:18.03  -      high onset                                       -1.5 dBFS  +7.4 dB    24 ms   191 Hz  | pop -18 ms OK
+ 0:18.12  -      high onset                                       -4.1 dBFS  +6.2 dB   160 ms   767 Hz  | cut -8 ms OK
+ 0:19.25  FOLEY? bubble pop / short vocal sound                   -1.5 dBFS  +3.9 dB    52 ms   226 Hz  | pop -3 ms OK
+ 0:19.31  -      high onset                                       -4.6 dBFS  +3.2 dB   230 ms  3.3 kHz  | cut -26 ms OK
+ 0:19.61  NOTE?  glockenspiel note / laptop key click             -4.6 dBFS  +4.4 dB   158 ms  8.6 kHz  | cut +76 ms near
+ 0:20.31  FOLEY? cork pop                                         -2.2 dBFS  +6.8 dB    27 ms  1.3 kHz  | whoosh -88 ms near
+ 0:21.64  WHOOSH? fast air whoosh / punchy impact hit              -5.5 dBFS  +3.1 dB    45 ms   995 Hz
+ 0:21.71  FOLEY? bubble pop / whip pan whoosh transition          -1.5 dBFS  +6.5 dB  1107 ms   556 Hz  | fill +15 ms OK
+ 0:22.00  CUE    pop pop@22.00  no onset; level peak -140 ms, rising 26 dB (a soft whoosh / swell, or just the bed?)  <- CHECK
+ 0:22.99  FOLEY? cork pop / chat message pop                      -5.5 dBFS +10.3 dB   169 ms  7.3 kHz
+ 0:24.19  -      high onset                                       -2.6 dBFS  +6.2 dB   189 ms   391 Hz  | fill -8 ms OK
+ 0:24.24  FOLEY? bubble pop / toggle switch click                 -2.6 dBFS  +6.2 dB   194 ms   808 Hz
+ 0:24.56  -      high onset                                       -1.7 dBFS  +5.5 dB   484 ms   837 Hz  | pop -36 ms OK
+ 0:25.72  RISER? uplifter sweep / whip pan whoosh transition      -1.4 dBFS  +5.0 dB   300 ms  3.7 kHz  | whoosh -34 ms OK
+ 0:26.00  CUE    pop pop@26.00  no onset; level peak -40 ms, rising 9 dB (a soft whoosh / swell, or just the bed?)  <- CHECK
+ 0:26.98  HIT?   sub bass drop / breath                           -4.5 dBFS  +5.1 dB   239 ms  9.6 kHz  | cut -15 ms OK
+ 0:27.50  NOTE?  glockenspiel note / chat message pop             -1.8 dBFS +11.9 dB   422 ms    77 Hz
+ 0:28.05  UI?    chat message pop / water drop                    -4.4 dBFS +11.1 dB   248 ms  7.2 kHz
+ 0:28.88  -      low onset                                        -4.7 dBFS  +3.2 dB    11 ms   599 Hz  | drain -23 ms OK
+ 0:29.00  VOICE? breath                                           -1.5 dBFS  +6.7 dB    25 ms   269 Hz  | pop -3 ms OK
+ 0:29.03  HIT?   sub bass drop / short vocal sound                -4.4 dBFS  +4.1 dB   129 ms  9.2 kHz
+ 0:29.93  VOICE  spoken word / glockenspiel note                  -2.0 dBFS +13.2 dB   903 ms   565 Hz
+ 0:29.98  FOLEY  wooden block hit / chat message pop              -2.0 dBFS +15.0 dB   113 ms   524 Hz
+ 0:31.25  NOTE?  glockenspiel note / chat message pop             -1.0 dBFS +10.9 dB   324 ms    94 Hz
+ 0:31.75  HIT?   punchy impact hit / whip pan whoosh transition   -1.5 dBFS  +4.2 dB   313 ms   517 Hz
+ 0:31.84  FOLEY? bubble pop / plucked string note                 -1.5 dBFS  +8.7 dB   108 ms   325 Hz  | stamp -13 ms OK
+ 0:32.50  FOLEY  wooden block hit / plucked string note           -4.1 dBFS +12.3 dB    84 ms   143 Hz
+ 0:32.81  -      high onset                                       -2.5 dBFS  +6.2 dB   251 ms   214 Hz  | cut -88 ms near; whoosh -88 ms near
+ 0:33.12  -      high onset                                       -3.0 dBFS  +7.2 dB   172 ms   136 Hz  | cut +92 ms near
+ 0:33.24  KEY?   spacebar press / chat message pop                -3.0 dBFS  +8.8 dB    53 ms   984 Hz  | gong -60 ms near
+ 0:33.37  VOICE? spoken word / glockenspiel note                  -1.6 dBFS  +4.5 dB   854 ms  1.1 kHz
+ 0:34.18  UI?    chat message pop / bubble pop                    -1.9 dBFS  +7.4 dB    69 ms   191 Hz
+ 0:34.22  -      high onset                                       -2.8 dBFS  +3.4 dB    28 ms   809 Hz  | pop +17 ms OK
+ 0:34.33  -      high onset                                       -2.9 dBFS  +4.2 dB   316 ms  1.1 kHz  | cut +31 ms OK
+ 0:34.99  DRUM   kick drum / cork pop                             -1.5 dBFS +14.6 dB   237 ms    70 Hz
+ 0:35.07  VOICE  speech (AST 0.57) / notification ding            -1.6 dBFS +10.6 dB  1082 ms   232 Hz  [AST Speech 0.57]  | whoosh -31 ms OK
+ 0:35.30  -      high onset                                       -1.6 dBFS  +7.7 dB   683 ms  1.1 kHz  | cut +62 ms near; pop -5 ms OK
+ 0:36.28  NOTE?  plucked string note / notification ding          -1.5 dBFS +11.8 dB   164 ms   576 Hz  [AST Speech 0.39]  | pop -19 ms OK
+ 0:38.06  WHOOSH? whip pan whoosh transition / bubble pop          -0.8 dBFS  +9.7 dB   498 ms   376 Hz
+ 0:38.12  -      high onset                                       -0.8 dBFS  +9.6 dB   436 ms   155 Hz  | whoosh +23 ms OK
+ 0:38.23  -      high onset                                       -3.9 dBFS  +6.7 dB    11 ms   210 Hz  | cut -1 ms OK; pop -18 ms OK
+ 0:38.35  CUE    swipe swipe@38.35  no onset within 100 ms (strong sound at -118 ms)  <- NO HIT
+ 0:39.23  WHOOSH whip pan whoosh transition / bubble pop          -1.6 dBFS +12.2 dB   190 ms  2.0 kHz  [AST Speech 0.38]
+ 0:39.30  -      high onset                                       -1.6 dBFS +10.9 dB   185 ms  1.8 kHz  | slide +2 ms OK
+ 0:40.18  -      high onset                                       -3.5 dBFS  +4.9 dB    72 ms   258 Hz  | pop -18 ms OK
+ 0:40.30  NOTE?  plucked string note / whip pan whoosh transiti   -5.7 dBFS  +7.3 dB    48 ms  5.4 kHz
+ 0:41.98  FOLEY? bubble pop / orchestral stab                     -1.5 dBFS  +8.4 dB    16 ms   204 Hz  | pop -18 ms OK
+ 0:42.50  VOICE  spoken word / glockenspiel note                  -2.8 dBFS +12.6 dB   545 ms   199 Hz
+== 0:42.50-1:02.65  glitch hop music?, vocal chop | voice: voice-over narration  (+124 untagged onsets, 6.2/s)
+ 0:42.67  VOICE  spoken word / chat message pop                   -3.1 dBFS +41.0 dB    80 ms  7.7 kHz  | strong accent (summary)
+ 0:43.75  HIT    heavy thud / kick drum                           -1.3 dBFS +13.9 dB   276 ms    96 Hz
+ 0:43.91  -      high onset                                       -5.0 dBFS  +2.9 dB    27 ms   379 Hz  | whoosh +56 ms near
+ 0:43.98  FOLEY? bubble pop / spacebar press                      -1.5 dBFS  +5.2 dB    13 ms   211 Hz  | pop -18 ms OK
+ 0:44.13  -      high onset                                       -5.8 dBFS  +5.1 dB   112 ms   406 Hz  | cut +32 ms OK
+ 0:45.77  HIT?   punchy impact hit / plucked string note          -1.6 dBFS  +8.0 dB   112 ms   499 Hz
+ 0:45.84  -      high onset                                       -1.6 dBFS  +5.2 dB    56 ms   247 Hz  | stamp -13 ms OK
+ 0:45.88  KEY?   spacebar press / chat message pop                -7.4 dBFS  +0.0 dB    60 ms    76 Hz  | cut -20 ms OK
+ 0:47.03  -      high onset                                       -6.2 dBFS  +0.8 dB    19 ms  1.3 kHz  | cut +29 ms OK; whoosh +29 ms OK
+ 0:47.19  -      high onset                                       -2.5 dBFS  +4.5 dB    70 ms   589 Hz  | cut +54 ms near
+ 0:47.46  NOTE?  glockenspiel note / notification ding            -1.5 dBFS +11.5 dB   890 ms   565 Hz  [AST Speech 0.36]  | gong +7 ms OK
+ 0:47.54  NOTE   glockenspiel note / notification ding            -1.9 dBFS +12.1 dB   850 ms   232 Hz  [AST Speech 0.42]
+ 0:48.44  NOTE?  plucked string note / notification ding          -2.4 dBFS  +4.7 dB   170 ms  1.0 kHz  | pop -9 ms OK
+ 0:48.48  UI?    notification ding / plucked string note          -1.7 dBFS  +1.2 dB   402 ms   935 Hz
+ 0:49.37  FOLEY? cork pop                                         -2.2 dBFS +10.1 dB   197 ms   140 Hz  [AST Sound effect 0.10]  | whoosh -76 ms near
+ 0:49.66  -      high onset                                       -4.2 dBFS  +4.7 dB   371 ms  1.1 kHz  | cut +57 ms near
+ 0:50.85  HIT?   punchy impact hit / plucked string note          -2.4 dBFS  +5.1 dB   125 ms  5.5 kHz  | pop -3 ms OK
+ 0:52.03  -      high onset                                       -4.6 dBFS  +1.5 dB    13 ms   589 Hz  | whoosh +31 ms OK
+ 0:52.23  STEP?  footsteps on grass / spoken word                 -4.5 dBFS  +5.2 dB   381 ms  3.4 kHz  | cut +96 ms near
+ 0:52.95  HIT?   sub bass drop / uplifter sweep                   -1.4 dBFS  +6.4 dB   176 ms   393 Hz  | pop -2 ms OK
+ 0:54.55  FOLEY? cork pop                                         -5.4 dBFS  +1.8 dB    25 ms   301 Hz  | pop +1 ms OK
+ 0:54.63  UI?    chat message pop / spoken word                   -6.8 dBFS  +0.0 dB   145 ms   706 Hz
+ 0:56.26  NOTE?  glockenspiel note / swoosh passing by            -2.7 dBFS +10.7 dB   496 ms   121 Hz
+ 0:56.56  FOLEY? water drop / plucked string note                 -3.6 dBFS  +3.4 dB    62 ms  1.2 kHz  | whoosh +9 ms OK
+ 0:56.72  -      high onset                                      -10.0 dBFS  +0.0 dB    11 ms  1.1 kHz  | cut +18 ms OK
+ 0:57.97  -      high swell                                       -4.4 dBFS +30.4 dB   200 ms   770 Hz  | pop +120 ms swell; strong accent (summary)
+ 0:58.28  VOICE? spoken word / plucked string note                -4.5 dBFS  +1.0 dB   326 ms   558 Hz  | pop +31 ms OK
+ 0:59.40  -      high onset                                       -1.5 dBFS  +7.2 dB   151 ms   196 Hz  | whoosh -2 ms OK
+ 0:59.64  WHOOSH? whip pan whoosh transition / chat message pop    -1.3 dBFS  +9.0 dB   147 ms   549 Hz  | cut +77 ms near; pop -56 ms near
+ 1:00.65  UI?    chat message pop / punchy impact hit             -3.7 dBFS  +6.2 dB    94 ms  2.4 kHz
+ 1:00.77  VOICE? short vocal sound / chat message pop             -4.9 dBFS  +5.9 dB    64 ms   441 Hz  | pop +21 ms OK
+ 1:01.28  VOICE? short vocal sound / punchy impact hit            -2.2 dBFS  +6.9 dB   141 ms   420 Hz
+ 1:02.29  HIT?   heavy thud / footsteps on wood                   -1.3 dBFS  +5.8 dB   274 ms   159 Hz  | cut -10 ms OK; whoosh -10 ms OK
+ 1:02.43  -      high onset                                       -2.3 dBFS  +8.9 dB    13 ms   211 Hz  | cut -1 ms OK; pop -18 ms OK
+ 1:02.51  NOTE?  glockenspiel note / kick drum                    -1.7 dBFS  +8.4 dB    75 ms    73 Hz
+== 1:02.65-1:09.50  trap beat?, glockenspiel | also: ringtone (AST)  (+36 untagged onsets, 5.3/s)
+ 1:02.93  NOTE?  glockenspiel note / notification ding            -5.6 dBFS  +9.2 dB   155 ms   913 Hz  | tick -22 ms OK
+ 1:03.58  NOTE?  glockenspiel note / notification ding            -2.4 dBFS  +8.3 dB   208 ms  1.0 kHz  | tick -22 ms OK
+ 1:03.75  NOTE   glockenspiel note / notification ding            -2.4 dBFS +12.1 dB   354 ms    74 Hz
+ 1:04.22  UI?    notification ding / glockenspiel note            -4.9 dBFS  +8.1 dB   233 ms   855 Hz  | tick -32 ms OK
+ 1:05.00  NOTE   glockenspiel note / notification ding            -1.6 dBFS +16.7 dB   117 ms    66 Hz
+ 1:06.38  NOTE?  glockenspiel note / notification ding            -1.6 dBFS +10.3 dB    58 ms   186 Hz  [AST Ringtone 0.07]  | pop -18 ms OK
+ 1:07.50  NOTE   glockenspiel note / chat message pop             -1.5 dBFS +15.5 dB   220 ms    63 Hz
+ 1:08.75  NOTE   glockenspiel note / notification ding            -9.4 dBFS +12.6 dB   135 ms    78 Hz
+ 1:09.10  GAP    drop 0.40 s (-41 LUFS) = tail
+
+NOTES  times, levels, loudness and sync offsets are measurements. Event kinds / tags are CLAP guesses: '?' = the event is less than 12 dB over its bed, so its excerpt is mostly bed and the tag a weak hint (right kind about 1 in 4 on the tuning mixes, 1 in 2 for exposed events; often wrong on music and voice). Where AST ran, its speech overrides the kind with VOICE. Section genres marked ? are weak. 'over bed' = how far the event rises over the level just before it; 'silent' = that bed was below -60 (after a gap the rise means nothing). Full data: --json.

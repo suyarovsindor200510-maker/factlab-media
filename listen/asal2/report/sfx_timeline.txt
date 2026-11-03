@@ -1,0 +1,177 @@
+sfx.flac: 0:00.00-1:09.50 (69.5 s). Loudness -23.9 LUFS integrated, true peak -5.4 dBTP, LRA 9.9 LU; loudest 0:37.50-0:40.50 (-22.1 LUFS short-term). 40 stop-down(s)/gap(s): 0:01.90 2.6 s drop, 0:05.05 0.3 s drop, 0:05.95 0.7 s drop, 0:07.05 0.5 s drop, 0:11.15 0.3 s drop. Quiet lead-in 1.8 s (digital silence) and tail 3.0 s (drop). No steady beat grid (pulse clarity 0.10 < 0.15). 6 section(s): 0:00.00-0:04.45 unclear (no confident music / ambience / voice tag); 0:04.45-0:20.25 also: ding, clang, whoosh, swoosh, swish (AST); 0:20.25-0:26.25 also: plop, whoosh, swoosh, swish (AST); 0:26.25-0:36.50 minimal electronic music, plucked synth arpeggio | also: plop (AST); 0:36.50-1:02.25 also: whoosh, swoosh, swish (AST); 1:02.25-1:09.50 also: ding, clang (AST). 245 events (3.5/s); 96 tagged (36 foley, 31 whoosh, 6 drum, 6 ui, 5 hit, 5 note, 4 riser, 3 step; tags are hints). Strongest accents over a running bed: 0:09.66 +43 dB, 1:02.21 +41 dB (whip pan whoosh transition), 0:19.23 +36 dB (cork pop). Sync to 70 cues: 87% have an onset within 40 ms (chance 25%), 97% within 100 ms, median |offset| 23 ms; 33% land on a strong accent (>= 55 dB over the bed) within 40 ms (chance 5%); 1 only by a level peak (soft whoosh / swell?); 1 without a hit: 0:00.00.
+
+SECTIONS
+  0:00.00-0:04.45  unclear (no confident music / ambience / voice tag)  -26 LUFS  [AST music 0.00, speech 0.00]
+  0:04.45-0:20.25  also: ding, clang, whoosh, swoosh, swish (AST)  -24 LUFS  [AST music 0.23, speech 0.00]
+  0:20.25-0:26.25  also: plop, whoosh, swoosh, swish (AST)  -22 LUFS  [AST music 0.02, speech 0.00]
+  0:26.25-0:36.50  minimal electronic music, plucked synth arpeggio | also: plop (AST)  -24 LUFS  [AST music 0.50, speech 0.01]
+  0:36.50-1:02.25  also: whoosh, swoosh, swish (AST)  -24 LUFS  [AST music 0.22, speech 0.00]
+  1:02.25-1:09.50  also: ding, clang (AST)  -26 LUFS  [AST music 0.02, speech 0.00]
+
+TRANSCRIPT   time  kind   what (CLAP tag / runner-up)                     peak  over bed  length  centroid  | sync
+== 0:00.00-0:04.45  unclear (no confident music / ambience / voice tag)  (+1 untagged onsets, 0.2/s)
+ 0:00.00  GAP    digital silence 1.80 s (< -70 LUFS) = lead-in
+ 0:00.00  CUE    whoosh whoosh@0.00  no onset or level peak within 250 ms  <- NO HIT (a soft build-up can still be missed: look at the sheet)
+ 0:01.83  FOLEY  cork pop / drum hit                              -7.2 dBFS   silent    67 ms   209 Hz  [AST Sound effect 0.48]  | pop -23 ms OK
+ 0:01.90  GAP    drop 2.60 s (-69 LUFS)
+== 0:04.45-0:20.25  also: ding, clang, whoosh, swoosh, swish (AST)  (+58 untagged onsets, 3.7/s)
+ 0:04.52  WHOOSH fast air whoosh                                 -10.4 dBFS   silent   603 ms   534 Hz
+ 0:04.62  WHOOSH fast air whoosh                                 -10.4 dBFS +33.3 dB   259 ms   386 Hz
+ 0:04.66  -      low onset                                       -10.4 dBFS +26.3 dB   123 ms   294 Hz  | whoosh -38 ms OK
+ 0:05.05  GAP    drop 0.30 s (-62 LUFS)
+ 0:05.38  DRUM   kick drum / punchy impact hit                    -6.0 dBFS   silent   570 ms   185 Hz
+ 0:05.54  HIT    punchy impact hit / whip pan whoosh transition   -6.0 dBFS +16.5 dB    59 ms   168 Hz  | stamp -7 ms OK
+ 0:05.95  GAP    drop 0.65 s (-67 LUFS)
+ 0:06.64  WHOOSH whip pan whoosh transition                       -7.2 dBFS   silent   382 ms   319 Hz  | whoosh -62 ms near
+ 0:06.84  FOLEY  cork pop / celesta note                          -7.2 dBFS +22.2 dB    58 ms   234 Hz  | pop -14 ms OK
+ 0:07.05  GAP    drop 0.45 s (-65 LUFS)
+ 0:07.50  DRUM   kick drum                                       -14.3 dBFS   silent    25 ms   141 Hz  | count +2 ms OK
+ 0:08.05  HIT    sub bass drop / kick drum                        -6.0 dBFS   silent   601 ms   131 Hz
+ 0:08.18  WHOOSH whip pan whoosh transition / punchy impact hit  -14.0 dBFS +24.4 dB    13 ms   164 Hz
+ 0:08.24  -      high onset                                       -6.0 dBFS +11.7 dB    55 ms   172 Hz  | stamp -7 ms OK
+ 0:08.91  WHOOSH whip pan whoosh transition                       -5.4 dBFS +33.1 dB   507 ms   410 Hz
+ 0:08.96  WHOOSH whip pan whoosh transition                       -5.4 dBFS +33.2 dB   226 ms   264 Hz  | whoosh -40 ms OK
+ 0:09.10  -      low onset                                        -5.4 dBFS +20.8 dB    41 ms   336 Hz  | pop -5 ms OK
+ 0:09.55  DRUM   kick drum / cork pop                            -14.3 dBFS +30.3 dB    25 ms   141 Hz  | count +2 ms OK
+ 0:09.66  -      low onset                                       -14.3 dBFS +42.9 dB    25 ms   141 Hz  | strong accent (summary)
+ 0:10.12  HIT    punchy impact hit / whip pan whoosh transition   -6.0 dBFS +18.1 dB   421 ms   208 Hz  | stamp -34 ms OK
+ 0:10.77  WHOOSH whip pan whoosh transition                       -6.9 dBFS +26.7 dB   243 ms   447 Hz  | whoosh -26 ms OK
+ 0:10.94  FOLEY  cork pop                                         -6.9 dBFS +22.2 dB    57 ms   217 Hz  | pop -13 ms OK
+ 0:11.15  GAP    drop 0.35 s (-62 LUFS)
+ 0:11.53  FOLEY  cork pop / celesta note                          -6.9 dBFS   silent    67 ms   200 Hz  | pop -23 ms OK
+ 0:11.60  GAP    drop 0.35 s (-63 LUFS)
+ 0:11.96  RISER  uplifter sweep / short swish                    -30.0 dBFS   silent  1399 ms   416 Hz
+ 0:12.10  CUE    riser riser@12.10  no onset; level peak +30 ms, rising 40 dB (a soft whoosh / swell, or just the bed?)  <- CHECK
+ 0:12.49  RISER? uplifter sweep / whip pan whoosh transition     -24.4 dBFS  +6.4 dB   872 ms   561 Hz
+ 0:12.53  RISER? uplifter sweep                                  -23.5 dBFS  +6.2 dB   835 ms   792 Hz
+ 0:12.94  RISER  uplifter sweep / whip pan whoosh transition     -10.5 dBFS +12.5 dB   420 ms  2.0 kHz
+ 0:13.23  DRUM?  hi-hat / uplifter sweep                          -6.4 dBFS +10.5 dB   124 ms  3.0 kHz
+ 0:13.29  -      low onset                                        -6.4 dBFS  +9.0 dB    73 ms  5.3 kHz  | whoosh -12 ms OK; pop -92 ms near
+ 0:13.40  GAP    digital silence 0.65 s (< -70 LUFS)
+ 0:14.08  NOTE   glockenspiel note / notification ding            -9.4 dBFS   silent   729 ms   142 Hz  [AST Ding 0.45]  | boom -3 ms OK
+ 0:14.34  NOTE?  glockenspiel note / notification ding           -12.2 dBFS  +3.3 dB   343 ms  3.5 kHz
+ 0:15.10  GAP    drop 0.85 s (-59 LUFS)
+ 0:15.98  -      full onset                                       -9.0 dBFS   silent  2000 ms   277 Hz  | whoosh +27 ms OK
+ 0:16.02  FOLEY  water drop / chat message pop                    -9.0 dBFS   silent  2000 ms   150 Hz
+ 0:16.22  -      full onset                                       -9.7 dBFS +11.3 dB   629 ms   191 Hz  | gong +66 ms near
+ 0:16.29  UI?    soft UI button tap / kick drum                   -9.7 dBFS  +7.6 dB    57 ms   198 Hz
+ 0:17.24  FOLEY  wooden block hit / celesta note                  -7.5 dBFS +14.8 dB    66 ms   244 Hz  | pop -13 ms OK
+ 0:17.87  WHOOSH whip pan whoosh transition                       -6.0 dBFS +18.5 dB   510 ms   362 Hz
+ 0:17.92  -      high onset                                       -6.0 dBFS +18.5 dB   208 ms   243 Hz  | whoosh -31 ms OK
+ 0:18.05  FOLEY  cork pop                                         -6.0 dBFS +18.4 dB    43 ms   433 Hz  | pop -5 ms OK
+ 0:18.50  GAP    drop 0.70 s (-47 LUFS)
+ 0:18.57  FOLEY? small object dropping on a table / small soft   -40.5 dBFS  +0.0 dB     5 ms   107 Hz
+ 0:19.23  FOLEY  cork pop / drum hit                              -7.1 dBFS +35.7 dB    67 ms   206 Hz  | pop -23 ms OK; strong accent (summary)
+ 0:19.30  GAP    drop 1.00 s (-67 LUFS)
+ 0:20.25  WHOOSH fast air whoosh                                 -10.9 dBFS   silent   714 ms   404 Hz
+== 0:20.25-0:26.25  also: plop, whoosh, swoosh, swish (AST)  (+9 untagged onsets, 1.5/s)
+ 0:20.37  WHOOSH fast air whoosh                                 -10.9 dBFS   silent   134 ms   448 Hz  [AST Knock 0.32]  | whoosh -26 ms OK
+ 0:20.75  GAP    drop 0.95 s (-67 LUFS)
+ 0:21.71  WHOOSH whip pan whoosh transition / bubble pop         -12.8 dBFS   silent   165 ms   427 Hz  [AST Plop 0.44]  | fill +13 ms OK
+ 0:21.78  FOLEY  bubble pop / whip pan whoosh transition         -12.8 dBFS   silent    98 ms  1.4 kHz  [AST Plop 0.28]
+ 0:21.98  FOLEY? wooden block hit / snare drum hit                -7.3 dBFS  +1.8 dB   102 ms   288 Hz  | pop -15 ms OK
+ 0:22.29  FOLEY  lego bricks clicking / hi-hat                   -12.8 dBFS +15.7 dB    27 ms  3.7 kHz
+ 0:22.40  GAP    drop 1.80 s (-69 LUFS)
+ 0:24.21  WHOOSH whip pan whoosh transition / bubble pop         -12.8 dBFS   silent   165 ms   427 Hz  [AST Plop 0.37]  | fill +13 ms OK
+ 0:24.28  FOLEY  bubble pop / whip pan whoosh transition         -12.8 dBFS   silent    98 ms  1.4 kHz  [AST Sound effect 0.20]
+ 0:24.58  FOLEY  wooden block hit / whip pan whoosh transition    -7.4 dBFS +29.8 dB    75 ms   236 Hz  | pop -23 ms OK
+ 0:24.79  FOLEY  lego bricks clicking / hi-hat                   -12.8 dBFS +14.5 dB    27 ms  3.7 kHz
+ 0:24.90  GAP    drop 0.65 s (-65 LUFS)
+ 0:25.57  WHOOSH whip pan whoosh transition                      -10.4 dBFS   silent   603 ms   534 Hz
+ 0:25.71  WHOOSH fast air whoosh                                 -10.4 dBFS +26.3 dB   123 ms   294 Hz  | whoosh -38 ms OK
+ 0:25.99  -      low onset                                        -6.9 dBFS +20.4 dB    58 ms   213 Hz  | pop -14 ms OK
+ 0:26.10  GAP    drop 2.85 s (-69 LUFS)
+== 0:26.25-0:36.50  minimal electronic music, plucked synth arpeggio | also: plop (AST)  (+24 untagged onsets, 2.3/s)
+ 0:28.98  FOLEY  cork pop / drum hit                              -6.8 dBFS   silent    67 ms   196 Hz  [AST Sound effect 0.47]  | drain +77 ms near; pop -23 ms OK
+ 0:29.05  GAP    drop 0.30 s (-61 LUFS)
+ 0:29.51  FOLEY  wooden block hit / snare drum hit               -13.6 dBFS   silent    29 ms  1.5 kHz
+ 0:29.93  UI     chat message pop / cork pop                     -11.4 dBFS   silent   185 ms   849 Hz
+ 0:30.10  GAP    drop 0.30 s (-61 LUFS)
+ 0:30.43  WHOOSH whip pan whoosh transition / cork pop           -12.2 dBFS   silent   105 ms   986 Hz
+ 0:30.55  GAP    drop 0.40 s (-66 LUFS)
+ 0:30.99  FOLEY  wooden block hit / snare drum hit               -13.2 dBFS   silent    46 ms  1.5 kHz
+ 0:31.20  GAP    drop 0.45 s (-69 LUFS)
+ 0:31.68  DRUM   kick drum / punchy impact hit                    -6.0 dBFS   silent   570 ms   185 Hz
+ 0:31.84  HIT    punchy impact hit / whip pan whoosh transition   -6.0 dBFS +16.5 dB    59 ms   168 Hz  | stamp -7 ms OK
+ 0:32.25  GAP    drop 0.55 s (-66 LUFS)
+ 0:32.84  FOLEY  water drop                                      -11.7 dBFS   silent  2000 ms   319 Hz  | whoosh -62 ms near
+ 0:33.21  FOLEY  water drop / glockenspiel note                   -9.2 dBFS +12.7 dB  1506 ms    63 Hz
+ 0:33.31  -      full onset                                       -9.2 dBFS +15.8 dB   685 ms   152 Hz  | gong +14 ms OK
+ 0:33.44  NOTE?  plucked string note / chat message pop           -9.6 dBFS  +7.7 dB    67 ms   235 Hz
+ 0:34.19  UI     chat message pop / sub bass drop                 -7.5 dBFS +12.2 dB    57 ms   214 Hz  | pop -14 ms OK
+ 0:35.02  WHOOSH whip pan whoosh transition                       -7.2 dBFS +18.5 dB   510 ms   361 Hz
+ 0:35.07  -      high onset                                       -7.2 dBFS +18.5 dB   285 ms   245 Hz  | whoosh -31 ms OK
+ 0:35.20  FOLEY? wooden block hit                                -18.8 dBFS +10.9 dB    28 ms   677 Hz
+ 0:35.30  FOLEY  water drop                                       -7.2 dBFS +16.0 dB    38 ms   240 Hz  | pop -5 ms OK
+ 0:35.65  GAP    drop 0.60 s (-47 LUFS)
+ 0:35.72  FOLEY? small object dropping on a table / small soft   -40.5 dBFS  +0.0 dB     5 ms   107 Hz
+ 0:36.28  FOLEY  cork pop / drum hit                              -6.9 dBFS +35.0 dB    67 ms   197 Hz  | pop -23 ms OK
+ 0:36.35  GAP    drop 1.65 s (-68 LUFS)
+== 0:36.50-1:02.25  also: whoosh, swoosh, swish (AST)  (+38 untagged onsets, 1.5/s)
+ 0:37.95  WHOOSH whip pan whoosh transition                      -11.0 dBFS   silent   862 ms   404 Hz
+ 0:38.07  WHOOSH whip pan whoosh transition                       -7.1 dBFS   silent   376 ms   448 Hz  | whoosh -26 ms OK
+ 0:38.24  WHOOSH whip pan whoosh transition / small soft footst   -7.1 dBFS +21.9 dB   195 ms   462 Hz  | pop -13 ms OK
+ 0:38.35  -      low onset                                       -11.8 dBFS  +7.6 dB    63 ms  1.3 kHz  | swipe -3 ms OK
+ 0:38.50  GAP    drop 0.80 s (-66 LUFS)
+ 0:38.71  STEP?  small soft footstep / soft thump                -47.1 dBFS  +0.0 dB    10 ms  3.8 kHz
+ 0:39.30  WHOOSH whip pan whoosh transition / bubble pop          -8.7 dBFS   silent   178 ms   987 Hz  [AST Sound effect 0.52]  | slide +1 ms OK
+ 0:39.50  GAP    drop 0.65 s (-67 LUFS)
+ 0:40.18  FOLEY  cork pop / drum hit                              -7.4 dBFS   silent    67 ms   214 Hz  [AST Sound effect 0.49]  | pop -23 ms OK
+ 0:40.25  GAP    drop 1.70 s (-69 LUFS)
+ 0:41.98  FOLEY  cork pop / drum hit                              -6.9 dBFS   silent    67 ms   198 Hz  [AST Sound effect 0.47]  | pop -23 ms OK
+ 0:42.05  GAP    drop 1.60 s (-68 LUFS)
+ 0:43.67  WHOOSH whip pan whoosh transition                      -10.4 dBFS   silent   603 ms   533 Hz
+ 0:43.77  WHOOSH whip pan whoosh transition                       -7.2 dBFS +33.3 dB   313 ms   386 Hz
+ 0:43.81  -      low onset                                       -10.4 dBFS +26.3 dB   123 ms   294 Hz  | whoosh -38 ms OK
+ 0:43.99  -      low onset                                        -7.2 dBFS +14.9 dB    38 ms   225 Hz  | pop -5 ms OK
+ 0:44.20  GAP    drop 1.45 s (-69 LUFS)
+ 0:45.68  DRUM   kick drum / punchy impact hit                    -6.0 dBFS   silent   570 ms   185 Hz
+ 0:45.84  HIT    punchy impact hit / whip pan whoosh transition   -6.0 dBFS +16.5 dB    59 ms   168 Hz  | stamp -7 ms OK
+ 0:46.25  GAP    drop 0.65 s (-67 LUFS)
+ 0:46.94  FOLEY  bubble pop / glockenspiel note                  -11.7 dBFS   silent  2000 ms   319 Hz  | whoosh -62 ms near
+ 0:47.35  FOLEY  water drop / chat message pop                    -9.2 dBFS +14.5 dB  1623 ms    51 Hz
+ 0:47.46  NOTE   plucked string note / drum hit                   -9.2 dBFS +16.0 dB   685 ms   152 Hz  | gong +14 ms OK
+ 0:48.44  NOTE   celesta note / sub bass drop                     -6.5 dBFS +14.3 dB    64 ms   226 Hz  | pop -13 ms OK
+ 0:49.38  WHOOSH fast air whoosh                                 -11.8 dBFS +20.7 dB   373 ms   320 Hz
+ 0:49.42  -      high onset                                      -11.8 dBFS +20.6 dB   207 ms   246 Hz  | whoosh -31 ms OK
+ 0:49.55  STEP?  footsteps on grass / breath                     -19.3 dBFS  +4.3 dB     8 ms   673 Hz
+ 0:49.85  GAP    drop 0.95 s (-55 LUFS)
+ 0:50.28  STEP?  small soft footstep / soft UI button tap        -45.2 dBFS  +0.0 dB    12 ms   109 Hz
+ 0:50.83  FOLEY  cork pop / drum hit                              -7.1 dBFS   silent    67 ms   205 Hz  [AST Sound effect 0.48]  | pop -23 ms OK
+ 0:50.90  GAP    drop 1.00 s (-67 LUFS)
+ 0:51.85  WHOOSH fast air whoosh                                 -11.0 dBFS   silent   714 ms   404 Hz
+ 0:51.97  WHOOSH fast air whoosh                                 -11.0 dBFS   silent   134 ms   448 Hz  | whoosh -26 ms OK
+ 0:52.35  GAP    drop 0.55 s (-65 LUFS)
+ 0:52.84  FOLEY  cork pop / whip pan whoosh transition            -7.3 dBFS   silent   259 ms   248 Hz
+ 0:52.93  FOLEY  cork pop / drum hit                              -7.3 dBFS   silent    67 ms   211 Hz  | pop -23 ms OK
+ 0:53.00  GAP    drop 1.50 s (-68 LUFS)
+ 0:54.53  FOLEY  cork pop / drum hit                              -7.5 dBFS   silent    67 ms   214 Hz  [AST Sound effect 0.48]  | pop -23 ms OK
+ 0:54.60  GAP    drop 1.75 s (-68 LUFS)
+ 0:56.37  WHOOSH fast air whoosh                                 -10.4 dBFS   silent   603 ms   534 Hz
+ 0:56.48  WHOOSH fast air whoosh                                 -10.4 dBFS +33.3 dB   259 ms   388 Hz
+ 0:56.53  -      low onset                                       -10.4 dBFS +23.1 dB   112 ms   633 Hz  | whoosh -15 ms OK
+ 0:56.90  GAP    drop 0.90 s (-68 LUFS)
+ 0:57.83  -      full onset                                       -7.0 dBFS   silent    67 ms   202 Hz  | pop -23 ms OK
+ 0:57.90  GAP    drop 0.30 s (-61 LUFS)
+ 0:58.23  FOLEY  cork pop / drum hit                              -7.0 dBFS   silent    67 ms   202 Hz  [AST Sound effect 0.48]  | pop -23 ms OK
+ 0:58.30  GAP    drop 1.00 s (-68 LUFS)
+ 0:59.34  WHOOSH fast air whoosh                                 -11.7 dBFS   silent   452 ms   319 Hz  | whoosh -62 ms near
+ 0:59.69  FOLEY  cork pop / whip pan whoosh transition            -6.8 dBFS +24.9 dB    58 ms   205 Hz  | pop -14 ms OK
+ 0:59.80  GAP    drop 0.90 s (-69 LUFS)
+ 1:00.73  FOLEY  cork pop / drum hit                              -7.5 dBFS   silent    67 ms   216 Hz  [AST Sound effect 0.48]  | pop -23 ms OK
+ 1:00.80  GAP    drop 1.40 s (-66 LUFS)
+ 1:02.08  WHOOSH whip pan whoosh transition                      -12.1 dBFS   silent   662 ms   697 Hz
+ 1:02.21  WHOOSH whip pan whoosh transition                       -6.6 dBFS +41.4 dB   507 ms   410 Hz  | strong accent (summary)
+== 1:02.25-1:09.50  also: ding, clang (AST)  (+1 untagged onsets, 0.1/s)
+ 1:02.26  WHOOSH whip pan whoosh transition                       -6.6 dBFS +34.2 dB   278 ms   264 Hz  | whoosh -40 ms OK
+ 1:02.45  -      full onset                                       -6.6 dBFS +16.6 dB    29 ms   217 Hz  | pop -5 ms OK
+ 1:02.93  UI     chat message pop / celesta note                 -14.9 dBFS   silent   158 ms  1.1 kHz  | tick -22 ms OK
+ 1:03.10  GAP    drop 0.45 s (-65 LUFS)
+ 1:03.58  UI     chat message pop / glockenspiel note            -14.9 dBFS   silent   158 ms  1.1 kHz  | tick -22 ms OK
+ 1:03.75  GAP    drop 0.45 s (-65 LUFS)
+ 1:04.23  UI     chat message pop / glockenspiel note            -14.9 dBFS   silent   158 ms  1.1 kHz  | tick -22 ms OK
+ 1:04.40  GAP    drop 1.95 s (-69 LUFS)
+ 1:06.38  FOLEY  cork pop / fast air whoosh                       -7.4 dBFS   silent    67 ms   213 Hz  [AST Sound effect 0.49]  | pop -23 ms OK
+ 1:06.45  GAP    drop 3.05 s (-69 LUFS) = tail
+
+NOTES  times, levels, loudness and sync offsets are measurements. Event kinds / tags are CLAP guesses: '?' = the event is less than 12 dB over its bed, so its excerpt is mostly bed and the tag a weak hint (right kind about 1 in 4 on the tuning mixes, 1 in 2 for exposed events; often wrong on music and voice). Where AST ran, its speech overrides the kind with VOICE. Section genres marked ? are weak. 'over bed' = how far the event rises over the level just before it; 'silent' = that bed was below -60 (after a gap the rise means nothing). Full data: --json.

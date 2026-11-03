@@ -15,7 +15,12 @@ for jf in sorted(glob.glob('listen/*/job.json')):
     if j.get('voice'):
         from faster_whisper import WhisperModel
         m = WhisperModel(j.get('stt_model', 'deepdml/faster-whisper-large-v3-turbo-ct2'), device='cpu', compute_type='int8')
-        segs, info = m.transcribe(j['voice'], language=j.get('lang', 'uz'), word_timestamps=True,
+        import soundfile as sf, numpy as np
+        a, sr = sf.read(j['voice'], dtype='float32')
+        if a.ndim > 1: a = a.mean(1)
+        if sr != 16000:
+            import soxr; a = soxr.resample(a, sr, 16000)
+        segs, info = m.transcribe(a.astype(np.float32), language=j.get('lang', 'uz'), word_timestamps=True,
                                   initial_prompt=j.get('prompt'), vad_filter=False, beam_size=5)
         words = []; lines = []
         for s in segs:

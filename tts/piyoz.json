@@ -1,0 +1,31 @@
+{
+ "voice": "uz-UZ-SardorNeural",
+ "rate": "+8%",
+ "items": [
+  {
+   "text": "Har bir oshxonada, har kuni bir xil manzara: piyoz to'g'raysiz va yig'laysiz. Holbuki piyoz ichida achchiq suv yo'q. Unda ko'zimizni nima yondiradi? Keling, sirini ochamiz.",
+   "out": "assets/piyoz/sardor/c1.mp3"
+  },
+  {
+   "text": "Birinchi sir: himoya. Piyoz yer ostida o'sadi va o'zini hayvonlardan himoya qilishi kerak. Butun piyozda xavfli hech narsa yo'q. Lekin pichoq hujayrani yorgan zahoti, ichidagi moddalar bir-biri bilan aralashib ketadi. Bu piyozning hujumga javobi.",
+   "out": "assets/piyoz/sardor/c2.mp3"
+  },
+  {
+   "text": "Ikkinchi sir: gaz. Maxsus ferment oltingugurtli moddani uchuvchan gazga aylantiradi. Bu gaz havoga ko'tariladi va to'g'ri ko'zingizga boradi. Ko'z uni xavf deb sezadi va yosh bezlari ishga tushadi. Ko'z yoshi aslida shunchaki ko'zni yuvish.",
+   "out": "assets/piyoz/sardor/c3.mp3"
+  },
+  {
+   "text": "Uchinchi sir: pichoq. Olimlar piyoz kesilganda qancha tomchi sachrashini o'lchashdi. O'tmas pichoq o'tkir pichoqqa qaraganda qirq barobargacha ko'p tomchi sachratadi. Tez kesish esa to'rt barobargacha ko'p. Demak, o'tkir pichoq bilan, shoshmasdan kesing.",
+   "out": "assets/piyoz/sardor/c4.mp3"
+  },
+  {
+   "text": "Eng qizig'i: yaponlar yig'latmaydigan piyoz yaratishgan. Ular yigirma yilga yaqin ishlashdi va bu ferment kashfiyoti uchun hatto Shnobel mukofotini olishdi. Piyozning nomi Smayl Bol, ya'ni tabassum. Siz piyoz to'g'raganda yig'laysizmi? Izohlarda yozing.",
+   "out": "assets/piyoz/sardor/c5.mp3"
+  },
+  {
+   "text": "Har bir oshxonada, har kuni bir xil manzara: piyoz to'g'raysiz va yig'laysiz. Holbuki piyoz ichida achchiq suv yo'q. Unda ko'zimizni nima yondiradi? Keling, sirini ochamiz.",
+   "out": "assets/piyoz/madina/c1.mp3",
+   "voice": "uz-UZ-MadinaNeural"
+  }
+ ]
+}

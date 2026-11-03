@@ -2,7 +2,7 @@ name: STT
 on:
   push:
     branches: [stt-tmp]
-    paths: ["stt/*.mp3"]
+    paths: ["stt/*.mp3", ".github/workflows/stt.yml"]
 permissions:
   contents: write
 jobs:

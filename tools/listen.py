@@ -8,7 +8,7 @@ def sh(args, out=None):
     print(txt[:3000], flush=True)
     return r.returncode
 for jf in sorted(glob.glob('listen/*/job.json')):
-    d = os.path.dirname(jf); o = os.path.join(d, 'out')
+    d = os.path.dirname(jf); o = os.path.join(d, 'report')
     if os.path.exists(os.path.join(o, 'DONE')): continue
     os.makedirs(o, exist_ok=True); j = json.load(open(jf))
     v = j.get('video'); cues = j.get('cues')

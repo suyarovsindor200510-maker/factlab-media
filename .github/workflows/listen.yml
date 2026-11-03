@@ -43,7 +43,7 @@ jobs:
         run: |
           git config user.name "factlab-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add -A listen
+          git add -A -f listen
           if git diff --cached --quiet; then echo "nothing"; exit 0; fi
           git commit -q -m "listen results"
           for i in 1 2 3 4 5; do git pull -q --rebase -X theirs origin main && git push -q origin HEAD:main && exit 0; sleep 5; done

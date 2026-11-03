@@ -13,6 +13,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          sparse-checkout: |
+            tts
+            assets/piyoz
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
@@ -24,7 +29,9 @@ jobs:
           async def go():
               for f in sorted(glob.glob('tts/*.json')):
                   j = json.load(open(f))
+                  if 'items' not in j: continue
                   for it in j['items']:
+                      if 'out' not in it or 'text' not in it: continue
                       out = it['out']
                       if os.path.exists(out): continue
                       os.makedirs(os.path.dirname(out), exist_ok=True)

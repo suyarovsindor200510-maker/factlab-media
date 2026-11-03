@@ -1,0 +1,15 @@
+69.50 s long recording, loudness range 10 LU. Music (AudioSet Music 0.66). Unvalidated hints - genre: ; mood (wrong for ~1 in 5 tracks in a test): sad and melancholic music (z +2.3), uplifting and hopeful music (z +2.2). Sounds most like: a music box melody (z +3.5), a success chime (z +2.7), a glockenspiel run (z +2.5) [clear reading]. AudioSet: Music 0.66, Glockenspiel 0.26, Marimba, xylophone 0.22. peak -6.2 dBFS, -28.2 LUFS, brightness 606 Hz, bandwidth 20.5 kHz, mono. Uniform: all 6 analysed 10 s windows read as a music box melody.
+
+top tags (z calibrated: >= 3 clear, 2.5-3 plausible, 2-2.5 weak, < 2 tentative):
+   +3.5  a music box melody  [chimes]  cos 0.330
+   +2.7  a success chime  [ui]  cos 0.292
+   +2.5  a glockenspiel run  [chimes]  cos 0.286
+   +2.4  wind chimes  [chimes]  cos 0.231
+   +2.1  a glissando on bar chimes  [chimes]  cos 0.219
+   +1.9  a singing bowl  [chimes]  cos 0.122
+   +1.9  a magic sparkle chime  [chimes]  cos 0.227
+   +1.9  a small bell  [chimes]  cos 0.191
+unvalidated hints (music genre / mood, instruments, voice): a music box (+3.1), a glockenspiel (+2.7), a warm analog synth pad (+2.5), a marimba (+2.3), sad and melancholic music (+2.3)
+best per category: transitions: an uplifter sweep (-0.6); impacts: a sub bass drop (+0.9); ui: a success chime (+2.7); keyboard: a soft key release click (+0.5); foley: glass clinking (+0.8); water: being underwater (+0.8); nature: footsteps on grass (+0.4); chimes: a music box melody (+3.5); ambience: a crowd cheering (+0.7); everyday: an alarm clock beeping (+1.6); music_genre: trap beat (+1.9); music_mood: sad and melancholic music (+2.3); instruments: a music box (+3.1); voice: a voice-over narration (+0.9); quality: a warm sound (+1.0); production: a computer-generated electronic tone (+1.4)
+audioset: Music 0.66, Glockenspiel 0.26, Marimba, xylophone 0.22, Chime 0.18, Mallet percussion 0.14
+measurements: duration 69.5, peak_dbfs -6.2, true_peak_dbtp -6.0, rms_dbfs -27.2, lufs -28.2, lra_lu 10.1, attack_ms 4.0, decay_ms 2979.0, brightness_hz 606, bandwidth_hz 20480, noise_floor_dbfs -37.3, flatness 0.0169, width mono, digital_silence_frac 0.0107

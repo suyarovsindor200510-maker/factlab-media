@@ -1,0 +1,1 @@
+asal-2026-11-04.mp4: 69.504 s, peak -0.6 dBFS (true peak -0.6 dBTP); -14.2 LUFS, LRA 2.8 LU; noise floor -24.1 dBFS, attack 212 ms, decay 55136 ms, brightness 2582 Hz, bandwidth 20480 Hz; bands sub -6.0 low -8.4 lowmid -3.5 mid -11.3 presence -13.2 air -14.8 top -31.3 dB.

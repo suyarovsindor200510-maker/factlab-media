@@ -1,0 +1,48 @@
+earshot critique: asal-2026-11-04.mp4 (69.5 s) vs 7 reference films (bundled launch films)
+VERDICT: launch-grade - 21 of 23 scored metrics in range (weighted 95%), 0 critical and 0 major issues.
+FIX FIRST (most important first):
+  1. [minor] nearly mono (side -17.1 dB vs mid; refs -14.5 dB .. -5.0 dB): use stereo music and ambience, pan SFX with the motion
+  2. [minor] weak low end: the music has no body; choose a fuller track or add a low layer (bass, low hits) (-8.4 dB share, refs -6.7 dB .. -2.1 dB)
+  tip: 1 of 32 visual events get no sound at all (no onset within 100 ms, no whoosh / riser peak within 300 ms, no level peak within 150 ms; the matcher earshot timeline uses): 0:09.17; give the ones that matter a whoosh into the cut, a hit or a UI click, or keep one as a deliberate stop-down; 3 more are met only by a level peak (a soft swell, or just the bed: check 0:38.23, 0:47.00, 0:56.70 on the sheet)
+  tip: no stop-downs: 4 of 7 references drop the sound out for 0.2-1 s right before a big hit; try one before the biggest visual change at 0:15.93
+  tip: voice detected in 86% of windows: duck music 3-6 dB under the voice and keep SFX out of 1-4 kHz while it speaks
+SCORECARD                                      value   ok range                        ref median  status
+  loudness integrated loudness             -14.2 LUFS   -16.0 LUFS .. -9.0 LUFS (web)   -14.8 LUFS  ok
+  loudness true peak                        -0.6 dBTP   <= 0.0 dBTP (decoded lossy)       0.6 dBTP  ok
+  realness realness (p_real)                     0.79   >= 0.77 (realness model)                    ok
+  music    music presence                        100%   >= 62%                                100%  ok
+  sync     onset on visual events +-100ms         50%   >= 45%                                 81%  ok
+  loudness loudness range                      2.8 LU   0.7 LU .. 13.2 LU                   5.5 LU  ok
+  loudness loudest 3 s above integrated        1.4 LU   0.6 LU .. 4.0 LU                    2.3 LU  ok
+  arc      time to first sound                 0.00 s   <= 0.58 s                           0.13 s  ok
+  ending   dead air at the end                 0.02 s   <= 2.15 s                           0.04 s  ok
+  arc      longest silent gap inside           0.08 s   <= 1.91 s                           0.02 s  ok
+  ending   final moment vs integrated         -1.7 LU   -3.7 LU .. 7.1 LU                   0.2 LU  ok
+  density  onset density                      4.81 /s   2.16 /s .. 8.52 /s                 5.66 /s  ok
+  density  salient hit density                1.44 /s   0.05 /s .. 1.86 /s                 1.25 /s  ok
+  arc      opening level (first 10%)          -0.2 LU   -19.0 LU .. 3.7 LU                 -1.1 LU  ok
+  arc      closing level (last 10%)           -3.4 LU   -15.8 LU .. 1.2 LU                 -3.0 LU  ok
+  ending   final fade / ring-out length        1.58 s   <= 3.04 s                           0.27 s  ok
+  spectrum sub 20-60 Hz share                 -6.0 dB   -17.7 dB .. -2.6 dB                -6.6 dB  ok
+  spectrum low 60-250 Hz share                -8.4 dB   -8.2 dB .. -0.6 dB                 -4.2 dB  low (minor)
+  spectrum low-mid 250-1k share               -3.5 dB   -18.3 dB .. -0.2 dB                -5.3 dB  ok
+  spectrum mid 1-4 kHz share                 -11.3 dB   -20.6 dB .. -9.0 dB               -12.4 dB  ok
+  spectrum presence 4-8 kHz share            -13.2 dB   -31.8 dB .. -11.6 dB              -17.8 dB  ok
+  spectrum air 8-16 kHz share                -14.8 dB   -35.7 dB .. -9.7 dB               -23.6 dB  ok
+  stereo   stereo width (side vs mid)        -17.1 dB   -15.5 dB .. -4.0 dB                -8.5 dB  low (minor)
+LOUDNESS ARC (LU vs integrated at 0%, 10% .. 100% of the film; not scored):
+  this film      +0.3   -0.1   +0.8   +0.6   -0.2   -0.2   +0.2   +0.5   +0.3   -1.4   -4.3
+  refs median    -1.3   -0.8   +0.3   -0.3   -0.2   +0.2   +0.0   -0.4   +0.9   -0.3   -7.4
+NOT SCORED (style choices, shown for context):
+  voice / speech presence                                           86%   refs p10-p90 0% .. 100%
+  tempo                                                          96 BPM   refs p10-p90 115 BPM .. 136 BPM
+  position of the loudest 3 s                                      0.70   refs p10-p90 0.10 .. 0.83
+  final hit ring-out                                             3.98 s   refs p10-p90 1.06 s .. 3.58 s
+  stop-downs                                                   0.0 /min   refs p10-p90 0.0 /min .. 9.1 /min
+  visual events (cuts, big changes)                             0.46 /s   refs p10-p90 0.31 /s .. 1.42 /s
+  visual events with a salient hit +-100 ms            31% (chance 29%)   refs p10-p90 8% .. 49%
+  visual events with an onset +-1 frame                22% (chance 37%)   refs p10-p90 34% .. 59%
+  visual events on the beat grid +-70 ms               25% (chance 24%)   refs p10-p90 20% .. 45%
+  brightness (median spectral centroid)                         2582 Hz   refs p10-p90 1183 Hz .. 3030 Hz
+  L/R correlation                                                  0.96   refs p10-p90 0.58 .. 0.86
+realness: asal-2026-11-04.mp4: real or pro-produced (p_real 0.79, mean of 18 4 s windows; file thresholds lo 0.4 / hi 0.77, weak calibration): 2 of 18 windows lean synthesized (p_real < 0.5); mean CLAP head score +1.4. Leaning synthesized: 1:04.00-1:09.50; 2 at or below the 4 s-window threshold 0.17 (code-synthesized): 1:04.00-1:09.50.

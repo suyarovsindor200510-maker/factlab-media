@@ -1,0 +1,174 @@
+sfx.flac: 0:00.00-1:09.50 (69.5 s). Loudness -25.7 LUFS integrated, true peak -5.5 dBTP, LRA 11.3 LU; loudest 0:12.50-0:15.50 (-22.2 LUFS short-term). 38 stop-down(s)/gap(s): 0:02.10 2.5 s drop, 0:05.00 0.6 s digital silence, 0:05.75 0.8 s drop, 0:06.95 0.6 s drop, 0:07.90 0.3 s drop. Quiet lead-in 2.0 s (digital silence) and tail 3.0 s (drop). No steady beat grid (pulse clarity 0.07 < 0.15). 6 section(s): 0:00.00-0:04.55 also: plop (AST); 0:04.55-0:20.25 minimal electronic music?, punchy kick drum pattern | also: drum machine, synthesizer, plop (AST); 0:20.25-0:27.95 also: whoosh, swoosh, swish, plop (AST); 0:27.95-0:32.75 glitch hop music, synthesizer lead | also: drum machine, plop, synthesizer (AST); 0:32.75-1:02.65 trap beat?, synthesizer lead | also: plop (AST); 1:02.65-1:09.50 also: beep, bleep, plop, sine wave (AST). 113 events (1.6/s); 96 tagged (40 foley, 19 whoosh, 12 riser, 11 drum, 9 hit, 5 ui; tags are hints). Strongest accents over a running bed: 0:19.25 +35 dB (bubble pop), 0:07.70 +29 dB, 0:09.75 +29 dB. Sync to 70 cues: 61% have an onset within 40 ms (chance 13%), 74% within 100 ms, median |offset| 0 ms; 31% land on a strong accent (>= 60 dB over the bed) within 40 ms (chance 3%); 1 met by a whoosh / riser peak; 11 only by a level peak (soft whoosh / swell?); 6 without a hit: 0:00.00, 0:12.10, 0:21.70, 0:23.35, 0:27.85, 0:39.30.
+
+SECTIONS
+  0:00.00-0:04.55  also: plop (AST)  -29 LUFS  [AST music 0.07, speech 0.01]
+  0:04.55-0:20.25  minimal electronic music?, punchy kick drum pattern | also: drum machine, synthesizer, plop (AST)  -24 LUFS  [AST music 0.63, speech 0.01]
+  0:20.25-0:27.95  also: whoosh, swoosh, swish, plop (AST)  -26 LUFS  [AST music 0.06, speech 0.01]
+  0:27.95-0:32.75  glitch hop music, synthesizer lead | also: drum machine, plop, synthesizer (AST)  -28 LUFS  [AST music 0.34, speech 0.01]
+  0:32.75-1:02.65  trap beat?, synthesizer lead | also: plop (AST)  -26 LUFS  [AST music 0.49, speech 0.01]
+  1:02.65-1:09.50  also: beep, bleep, plop, sine wave (AST)  -31 LUFS  [AST music 0.07, speech 0.01]
+
+TRANSCRIPT   time  kind   what (CLAP tag / runner-up)                     peak  over bed  length  centroid  | sync
+== 0:00.00-0:04.55  also: plop (AST)
+ 0:00.00  GAP    digital silence 2.05 s (-70 LUFS) = lead-in
+ 0:00.00  CUE    whoosh whoosh@0.00  no onset or level peak within 250 ms  <- NO HIT (a soft build-up can still be missed: look at the sheet)
+ 0:02.05  FOLEY  bubble pop / chat message pop                   -14.4 dBFS   silent    59 ms   815 Hz  [AST Sound effect 0.14]  | pop -1 ms OK
+ 0:02.10  GAP    drop 2.50 s (-69 LUFS)
+ 0:02.17  WHOOSH short swish / small soft footstep               -56.3 dBFS   silent     2 ms  1.5 kHz
+== 0:04.55-0:20.25  minimal electronic music?, punchy kick drum pattern | also: drum machine, synthesizer, plop (AST)  (+5 untagged onsets, 0.3/s)
+ 0:04.59  RISER  uplifter sweep / fast air whoosh                -15.8 dBFS   silent   389 ms  1.7 kHz
+ 0:04.70  CUE    whoosh whoosh@4.70  no onset; level peak +100 ms, rising 52 dB (a soft whoosh / swell, or just the bed?)  <- CHECK
+ 0:05.00  GAP    digital silence 0.55 s (< -70 LUFS)
+ 0:05.55  DRUM   drum hit / punchy impact hit                     -6.0 dBFS   silent   133 ms    70 Hz  [AST Sound effect 0.19]  | stamp +0 ms OK
+ 0:05.75  GAP    drop 0.85 s (-64 LUFS)
+ 0:06.60  WHOOSH whip pan whoosh transition                      -12.0 dBFS   silent   386 ms  1.8 kHz
+ 0:06.70  CUE    whoosh whoosh@6.70  no onset; level peak +140 ms, rising 54 dB (a soft whoosh / swell, or just the bed?)  <- CHECK
+ 0:06.85  DRUM   snare drum hit / cork pop                       -12.0 dBFS +13.4 dB     4 ms  1.3 kHz  | pop +0 ms OK
+ 0:06.95  GAP    drop 0.55 s (-68 LUFS)
+ 0:07.50  UI     chat message pop / bubble pop                   -20.2 dBFS   silent    26 ms  2.4 kHz  | count +0 ms OK
+ 0:07.57  FOLEY  bubble pop / chat message pop                   -20.2 dBFS   silent    27 ms  2.4 kHz
+ 0:07.64  FOLEY  bubble pop / chat message pop                   -20.2 dBFS   silent    26 ms  2.4 kHz
+ 0:07.70  -      full onset                                      -19.8 dBFS +28.9 dB   201 ms  2.4 kHz  | strong accent (summary)
+ 0:07.90  GAP    drop 0.35 s (-67 LUFS)
+ 0:08.25  DRUM   drum hit / punchy impact hit                     -7.6 dBFS   silent   151 ms    68 Hz  [AST Sound effect 0.17]  | stamp +0 ms OK
+ 0:08.45  GAP    drop 0.45 s (-59 LUFS)
+ 0:08.89  WHOOSH whip pan whoosh transition                      -11.5 dBFS   silent   395 ms  1.7 kHz
+ 0:09.10  DRUM   snare drum hit / cork pop                       -11.5 dBFS +22.4 dB   118 ms  2.7 kHz  | whoosh +95 ms near; pop -5 ms OK
+ 0:09.55  UI     chat message pop / bubble pop                   -20.2 dBFS   silent    26 ms  2.4 kHz  | count +0 ms OK
+ 0:09.62  FOLEY  bubble pop / chat message pop                   -20.2 dBFS   silent    27 ms  2.4 kHz
+ 0:09.69  FOLEY  bubble pop / chat message pop                   -20.2 dBFS   silent    26 ms  2.4 kHz
+ 0:09.75  -      full onset                                      -19.8 dBFS +28.9 dB   201 ms  2.4 kHz  | strong accent (summary)
+ 0:10.15  DRUM   drum hit / punchy impact hit                     -6.1 dBFS   silent   133 ms    69 Hz  [AST Sound effect 0.18]  | stamp +0 ms OK
+ 0:10.35  GAP    drop 0.35 s (-55 LUFS)
+ 0:10.68  WHOOSH whip pan whoosh transition                      -12.4 dBFS +26.0 dB   404 ms  1.5 kHz
+ 0:10.80  CUE    whoosh whoosh@10.80  no onset; level peak +140 ms, rising 54 dB (a soft whoosh / swell, or just the bed?)  <- CHECK
+ 0:10.95  DRUM   snare drum hit / cork pop                       -12.4 dBFS +13.9 dB     6 ms  1.2 kHz  | pop +0 ms OK
+ 0:11.10  GAP    digital silence 0.45 s (< -70 LUFS)
+ 0:11.55  FOLEY  bubble pop / chat message pop                   -14.4 dBFS   silent    58 ms   806 Hz  [AST Sound effect 0.15]  | pop +0 ms OK
+ 0:11.60  GAP    drop 0.80 s (-64 LUFS)
+ 0:11.67  WHOOSH? short swish / bubble pop                       -240.0 dBFS   silent     1 ms        -
+ 0:12.10  CUE    riser riser@12.10  no onset within 100 ms (strong sound at +197 ms)  <- NO HIT (a soft build-up can still be missed: look at the sheet)
+ 0:12.30  RISER  uplifter sweep / short swish                    -29.3 dBFS   silent  1063 ms  2.5 kHz
+ 0:13.10  DRUM?  hi-hat / uplifter sweep                         -12.8 dBFS  +5.2 dB     6 ms  9.2 kHz
+ 0:13.25  RISER  uplifter sweep / short swish                     -8.9 dBFS   silent    70 ms  8.2 kHz  | whoosh -50 ms near; pop -130 ms swell
+ 0:13.40  GAP    digital silence 0.65 s (< -70 LUFS)
+ 0:14.08  HIT    sub bass drop / kick drum                        -7.8 dBFS   silent   890 ms    64 Hz  [AST Bang 0.41]  | boom +0 ms OK
+ 0:15.50  GAP    drop 0.35 s (-54 LUFS)
+ 0:15.84  HIT    sub bass drop / short swish                     -16.2 dBFS +21.2 dB  2000 ms  1.8 kHz
+ 0:15.95  CUE    whoosh whoosh@15.95  no onset; level peak +100 ms, rising 51 dB (a soft whoosh / swell, or just the bed?)  <- CHECK
+ 0:16.15  HIT?   sub bass drop / water drop                      -11.4 dBFS  +8.2 dB  1717 ms   153 Hz  | gong +2 ms OK
+ 0:17.25  HIT    sub bass drop / plucked string note             -13.1 dBFS +13.5 dB   108 ms   678 Hz  | pop +0 ms OK
+ 0:17.86  WHOOSH? whip pan whoosh transition / uplifter sweep     -10.8 dBFS  +6.9 dB   379 ms  1.9 kHz  | whoosh -94 ms near
+ 0:18.05  RISER  uplifter sweep / snare drum hit                 -10.8 dBFS +18.4 dB   125 ms  3.1 kHz  | pop +0 ms OK
+ 0:18.60  GAP    drop 0.65 s (-50 LUFS)
+ 0:19.25  FOLEY  bubble pop / chat message pop                   -14.4 dBFS +35.0 dB    58 ms   806 Hz  | pop +0 ms OK; strong accent (summary)
+ 0:19.30  GAP    drop 1.00 s (-67 LUFS)
+ 0:19.37  WHOOSH? short swish / bubble pop                       -240.0 dBFS  +0.0 dB     1 ms        -
+== 0:20.25-0:27.95  also: whoosh, swoosh, swish, plop (AST)
+ 0:20.29  RISER  uplifter sweep / fast air whoosh                -15.9 dBFS   silent   391 ms  2.0 kHz
+ 0:20.40  CUE    whoosh whoosh@20.40  no onset; level peak +100 ms, rising 52 dB (a soft whoosh / swell, or just the bed?)  <- CHECK
+ 0:20.70  GAP    drop 1.05 s (-69 LUFS)
+ 0:21.70  CUE    fill fill@21.70  no onset or level peak within 250 ms  <- NO HIT
+ 0:22.00  FOLEY  bubble pop / chat message pop                   -12.0 dBFS +14.6 dB   130 ms   549 Hz  | pop +0 ms OK
+ 0:22.45  GAP    drop 0.95 s (-67 LUFS)
+ 0:23.35  CUE    fill fill@23.35  no onset or level peak within 250 ms  <- NO HIT
+ 0:23.75  FOLEY? bubble pop / glockenspiel note                  -12.3 dBFS +11.0 dB    18 ms   845 Hz  | pop +0 ms OK
+ 0:24.10  GAP    drop 1.10 s (-68 LUFS)
+ 0:25.19  FOLEY  bubble pop / whip pan whoosh transition         -15.8 dBFS   silent   518 ms  1.8 kHz
+ 0:25.25  RISER  uplifter sweep / short swish                    -15.8 dBFS   silent   321 ms  2.6 kHz  | whoosh -55 ms near
+ 0:25.60  FOLEY? bubble pop                                      -14.4 dBFS  +8.5 dB    27 ms   944 Hz  | pop +0 ms OK
+ 0:25.70  GAP    drop 2.30 s (-70 LUFS)
+ 0:27.85  CUE    drain drain@27.85  no onset within 100 ms (strong sound at +174 ms)  <- NO HIT
+== 0:27.95-0:32.75  glitch hop music, synthesizer lead | also: drum machine, plop, synthesizer (AST)  (+6 untagged onsets, 1.2/s)
+ 0:28.02  FOLEY  bubble pop / chat message pop                   -21.2 dBFS   silent    59 ms  1.0 kHz
+ 0:28.13  FOLEY  bubble pop / chat message pop                   -21.2 dBFS   silent   127 ms  1.4 kHz
+ 0:28.20  FOLEY  bubble pop                                      -21.7 dBFS +23.2 dB    33 ms  1.0 kHz
+ 0:28.30  FOLEY  bubble pop                                      -11.5 dBFS +18.7 dB    52 ms   890 Hz  | pop -2 ms OK
+ 0:28.35  FOLEY? bubble pop / chat message pop                   -29.4 dBFS  +0.0 dB    72 ms   432 Hz
+ 0:28.67  FOLEY  bubble pop / chat message pop                   -21.2 dBFS   silent    59 ms  1.5 kHz
+ 0:28.77  FOLEY  bubble pop / chat message pop                   -21.2 dBFS   silent    58 ms  1.5 kHz
+ 0:28.86  FOLEY? bubble pop                                     -240.0 dBFS  +0.0 dB     3 ms        -
+ 0:29.13  FOLEY  bubble pop / chat message pop                   -21.2 dBFS   silent    58 ms  1.3 kHz
+ 0:29.31  FOLEY  bubble pop / chat message pop                   -21.2 dBFS   silent    59 ms  1.1 kHz
+ 0:29.62  FOLEY  bubble pop / chat message pop                   -20.4 dBFS   silent   192 ms  1.1 kHz
+ 0:29.71  FOLEY  bubble pop / chat message pop                   -20.4 dBFS   silent   102 ms  1.2 kHz
+ 0:29.76  FOLEY  bubble pop / chat message pop                   -20.4 dBFS   silent    47 ms  1.2 kHz
+ 0:29.95  FOLEY  bubble pop / chat message pop                   -21.2 dBFS +20.0 dB    59 ms  1.3 kHz
+ 0:30.15  FOLEY  bubble pop / chat message pop                   -21.2 dBFS   silent    59 ms  1.6 kHz
+ 0:30.20  GAP    drop 1.10 s (-69 LUFS)
+ 0:31.30  DRUM   drum hit / punchy impact hit                     -5.8 dBFS   silent   133 ms    71 Hz  [AST Sound effect 0.18]  | stamp +0 ms OK
+ 0:31.50  GAP    drop 1.30 s (-66 LUFS)
+== 0:32.75-1:02.65  trap beat?, synthesizer lead | also: plop (AST)  (+4 untagged onsets, 0.1/s)
+ 0:32.80  RISER  uplifter sweep / fast air whoosh                -16.2 dBFS   silent   388 ms  2.2 kHz
+ 0:32.90  CUE    whoosh whoosh@32.90  no onset; level peak +90 ms, rising 52 dB (a soft whoosh / swell, or just the bed?)  <- CHECK
+ 0:33.31  HIT    sub bass drop / plucked string note             -12.4 dBFS +22.1 dB  1579 ms   153 Hz  | gong +11 ms OK
+ 0:34.20  HIT?   sub bass drop / kick drum                       -13.6 dBFS +11.3 dB    80 ms   712 Hz  | pop +0 ms OK
+ 0:35.06  WHOOSH? short swish / uplifter sweep                    -12.8 dBFS +11.6 dB   324 ms  2.7 kHz  | whoosh -44 ms near
+ 0:35.30  FOLEY? cork pop / kick drum                            -12.8 dBFS  +9.1 dB    18 ms   975 Hz  | pop +0 ms OK
+ 0:35.75  GAP    drop 0.80 s (-54 LUFS)
+ 0:36.55  FOLEY  bubble pop / chat message pop                   -14.4 dBFS   silent    59 ms   815 Hz  [AST Sound effect 0.14]  | pop -1 ms OK
+ 0:36.60  GAP    drop 1.40 s (-68 LUFS)
+ 0:36.67  WHOOSH short swish / small soft footstep               -56.3 dBFS   silent     2 ms  1.5 kHz
+ 0:37.99  WHOOSH fast air whoosh                                 -12.5 dBFS   silent   842 ms  1.5 kHz
+ 0:38.02  RISER  uplifter sweep / short swish                    -12.5 dBFS   silent   348 ms  2.2 kHz  | whoosh -79 ms near
+ 0:38.25  WHOOSH whip pan whoosh transition / uplifter sweep     -12.5 dBFS +13.2 dB     4 ms  1.3 kHz  | pop +0 ms OK
+ 0:38.35  CUE    swipe swipe@38.35  no onset; level peak -110 ms, rising 54 dB (a soft whoosh / swell, or just the bed?)  <- CHECK
+ 0:38.80  GAP    drop 0.55 s (-66 LUFS)
+ 0:39.30  CUE    slide slide@39.30  no onset or level peak within 250 ms  <- NO HIT
+ 0:39.85  HIT    sub bass drop / fast air whoosh                 -25.2 dBFS   silent   450 ms   534 Hz
+ 0:40.20  FOLEY? bubble pop / glockenspiel note                  -13.4 dBFS +11.7 dB    40 ms   859 Hz  | pop +0 ms OK
+ 0:40.35  GAP    drop 1.65 s (-69 LUFS)
+ 0:42.00  FOLEY  bubble pop / chat message pop                   -14.4 dBFS   silent    58 ms   806 Hz  [AST Sound effect 0.15]  | pop +0 ms OK
+ 0:42.05  GAP    drop 1.70 s (-68 LUFS)
+ 0:42.12  WHOOSH? short swish / bubble pop                        -56.3 dBFS   silent     1 ms        -
+ 0:43.74  WHOOSH whip pan whoosh transition                      -12.3 dBFS   silent   397 ms  1.9 kHz
+ 0:43.85  CUE    whoosh whoosh@43.85  no onset; level peak +140 ms, rising 54 dB (a soft whoosh / swell, or just the bed?)  <- CHECK
+ 0:44.00  DRUM   snare drum hit / cork pop                       -12.3 dBFS +14.3 dB     6 ms  1.2 kHz  | pop +0 ms OK
+ 0:44.15  GAP    digital silence 1.45 s (< -70 LUFS)
+ 0:45.60  DRUM   drum hit / punchy impact hit                     -5.6 dBFS   silent   133 ms    72 Hz  [AST Sound effect 0.20]  | stamp +0 ms OK
+ 0:45.80  GAP    drop 1.10 s (-66 LUFS)
+ 0:46.90  RISER  uplifter sweep / fast air whoosh                -16.3 dBFS   silent   380 ms  1.8 kHz
+ 0:47.00  CUE    whoosh whoosh@47.00  no onset; level peak +110 ms, rising 52 dB (a soft whoosh / swell, or just the bed?)  <- CHECK
+ 0:47.45  HIT    sub bass drop / glockenspiel note               -12.4 dBFS   silent  1590 ms   157 Hz  | gong +0 ms OK
+ 0:48.45  HIT    sub bass drop / kick drum                       -12.9 dBFS +12.4 dB    71 ms   735 Hz  | pop +0 ms OK
+ 0:49.40  RISER  uplifter sweep / short swish                    -16.0 dBFS +13.8 dB   324 ms  2.7 kHz  | whoosh -54 ms near
+ 0:49.90  GAP    drop 0.95 s (-57 LUFS)
+ 0:50.85  FOLEY  bubble pop / chat message pop                   -14.4 dBFS   silent    58 ms   806 Hz  [AST Sound effect 0.15]  | pop +0 ms OK
+ 0:50.90  GAP    drop 1.00 s (-67 LUFS)
+ 0:50.97  WHOOSH? short swish / bubble pop                       -240.0 dBFS   silent     1 ms        -
+ 0:51.91  RISER  uplifter sweep / fast air whoosh                -16.5 dBFS   silent   367 ms  2.0 kHz  | whoosh -89 ms near
+ 0:52.55  FOLEY  bubble pop / chat message pop                   -14.4 dBFS   silent    58 ms   806 Hz  [AST Sound effect 0.15]  | pop +0 ms OK
+ 0:52.60  GAP    drop 1.95 s (-69 LUFS)
+ 0:52.67  WHOOSH? short swish / bubble pop                       -240.0 dBFS   silent     1 ms        -
+ 0:54.55  FOLEY  bubble pop / chat message pop                   -14.4 dBFS   silent    58 ms   806 Hz  [AST Sound effect 0.15]  | pop +0 ms OK
+ 0:54.60  GAP    drop 1.85 s (-68 LUFS)
+ 0:54.67  WHOOSH? short swish / bubble pop                       -240.0 dBFS   silent     1 ms        -
+ 0:56.45  RISER  uplifter sweep / fast air whoosh                -16.8 dBFS   silent   383 ms  2.0 kHz
+ 0:56.55  CUE    whoosh whoosh@56.55  no onset; level peak +110 ms, rising 52 dB (a soft whoosh / swell, or just the bed?)  <- CHECK
+ 0:57.05  FOLEY  bubble pop / chat message pop                   -14.4 dBFS   silent    58 ms   806 Hz  [AST Sound effect 0.15]  | pop +0 ms OK
+ 0:57.10  GAP    drop 0.40 s (-64 LUFS)
+ 0:57.17  WHOOSH? short swish / bubble pop                       -240.0 dBFS   silent     1 ms        -
+ 0:57.50  FOLEY  bubble pop / chat message pop                   -14.4 dBFS   silent    58 ms   806 Hz  | pop +0 ms OK
+ 0:57.55  GAP    drop 1.75 s (-68 LUFS)
+ 0:59.31  FOLEY  bubble pop / whip pan whoosh transition         -16.4 dBFS   silent   477 ms  2.1 kHz  | whoosh -88 ms near
+ 0:59.70  FOLEY? bubble pop                                      -14.4 dBFS  +8.7 dB     7 ms   944 Hz  | pop +0 ms OK
+ 0:59.80  GAP    drop 0.95 s (-69 LUFS)
+ 1:00.75  FOLEY  bubble pop / chat message pop                   -14.4 dBFS   silent    58 ms   806 Hz  [AST Sound effect 0.15]  | pop +0 ms OK
+ 1:00.80  GAP    drop 1.40 s (-68 LUFS)
+ 1:00.87  WHOOSH? short swish / bubble pop                       -240.0 dBFS   silent     1 ms        -
+ 1:02.19  WHOOSH whip pan whoosh transition                      -10.5 dBFS   silent   387 ms  1.6 kHz
+ 1:02.30  CUE    whoosh whoosh@62.30  no onset; level peak +140 ms, rising 54 dB (a soft whoosh / swell, or just the bed?)  <- CHECK
+ 1:02.45  DRUM   snare drum hit / whip pan whoosh transition     -10.5 dBFS +13.4 dB    59 ms  1.4 kHz  | pop -2 ms OK
+ 1:02.55  GAP    drop 0.40 s (-66 LUFS)
+== 1:02.65-1:09.50  also: beep, bleep, plop, sine wave (AST)
+ 1:02.95  UI     chat message pop / bubble pop                   -15.7 dBFS   silent    26 ms  2.4 kHz  | tick +0 ms OK
+ 1:03.00  GAP    near silence 0.60 s (-70 LUFS)
+ 1:03.60  UI     chat message pop / bubble pop                   -15.7 dBFS   silent    26 ms  2.4 kHz  | tick +0 ms OK
+ 1:03.65  GAP    near silence 0.60 s (-70 LUFS)
+ 1:04.25  UI     chat message pop / bubble pop                   -15.7 dBFS   silent    26 ms  2.4 kHz  | tick +0 ms OK
+ 1:04.30  GAP    near silence 2.10 s (-70 LUFS)
+ 1:06.40  FOLEY  bubble pop / chat message pop                   -14.4 dBFS   silent    58 ms   806 Hz  [AST Sound effect 0.15]  | pop +0 ms OK
+ 1:06.45  GAP    drop 3.05 s (-69 LUFS) = tail
+ 1:06.52  FOLEY? bubble pop / short swish                       -240.0 dBFS   silent     1 ms        -
+
+NOTES  times, levels, loudness and sync offsets are measurements. Event kinds / tags are CLAP guesses: '?' = the event is less than 12 dB over its bed, so its excerpt is mostly bed and the tag a weak hint (right kind about 1 in 4 on the tuning mixes, 1 in 2 for exposed events; often wrong on music and voice). Where AST ran, its speech overrides the kind with VOICE. Section genres marked ? are weak. 'over bed' = how far the event rises over the level just before it; 'silent' = that bed was below -60 (after a gap the rise means nothing). Full data: --json.

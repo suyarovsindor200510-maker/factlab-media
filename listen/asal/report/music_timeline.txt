@@ -1,0 +1,116 @@
+music.flac: 0:00.00-1:09.50 (69.5 s). Loudness -28.2 LUFS integrated, true peak -6.0 dBTP, LRA 10.1 LU; loudest 1:03.50-1:06.50 (-22.4 LUFS short-term). 1 stop-down(s)/gap(s): 0:13.35 0.7 s drop. Beat grid: ~193 BPM (clear pulse, clarity 0.78, 222 beats). 6 section(s): 0:00.00-0:14.10 also: glockenspiel, chime, marimba, xylophone (AST); 0:14.10-0:25.65 inspirational corporate background music?, glockenspiel, uplifting and hopeful | also: glockenspiel, marimba, xylophone, synthesizer (AST); 0:25.65-0:53.15 trap beat?, glockenspiel | also: glockenspiel, marimba, xylophone, mallet percussion (AST); 0:53.15-0:55.65 trap beat?, glockenspiel | also: ringtone (AST); 0:55.65-1:01.90 trap beat?, glockenspiel | also: sine wave, chirp tone (AST); 1:01.90-1:09.50 trap beat?, glockenspiel | also: ringtone (AST). 395 events (5.7/s); 96 tagged (73 note, 21 ui, 2 foley; tags are hints). Strongest accents over a running bed: 0:35.00 +23 dB (notification ding), 0:15.00 +21 dB (glockenspiel note), 0:31.25 +19 dB (glockenspiel note).
+
+SECTIONS
+  0:00.00-0:14.10  also: glockenspiel, chime, marimba, xylophone (AST)  -34 LUFS  [AST music 0.25, speech 0.00]
+  0:14.10-0:25.65  inspirational corporate background music?, glockenspiel, uplifting and hopeful | also: glockenspiel, marimba, xylophone, synthesizer (AST)  -29 LUFS  [AST music 0.57, speech 0.00]
+  0:25.65-0:53.15  trap beat?, glockenspiel | also: glockenspiel, marimba, xylophone, mallet percussion (AST)  -28 LUFS  [AST music 0.65, speech 0.00]
+  0:53.15-0:55.65  trap beat?, glockenspiel | also: ringtone (AST)  -30 LUFS  [AST music 0.50, speech 0.01]
+  0:55.65-1:01.90  trap beat?, glockenspiel | also: sine wave, chirp tone (AST)  -29 LUFS  [AST music 0.32, speech 0.00]
+  1:01.90-1:09.50  trap beat?, glockenspiel | also: ringtone (AST)  -23 LUFS  [AST music 0.56, speech 0.00]
+
+TRANSCRIPT   time  kind   what (CLAP tag / runner-up)                     peak  over bed  length  centroid  | sync
+== 0:00.00-0:14.10  also: glockenspiel, chime, marimba, xylophone (AST)  (+30 untagged onsets, 2.1/s)
+ 0:00.00  NOTE   glockenspiel note / notification ding           -17.8 dBFS   silent  2000 ms   372 Hz  [AST Chime 0.28]
+ 0:00.62  NOTE?  glockenspiel note / notification ding           -24.1 dBFS  +7.2 dB   139 ms   618 Hz
+ 0:02.50  NOTE?  glockenspiel note / notification ding           -25.8 dBFS  +8.9 dB  2000 ms   360 Hz
+ 0:03.75  NOTE?  glockenspiel note / notification ding           -20.2 dBFS  +7.8 dB  1110 ms   536 Hz
+ 0:04.69  NOTE?  glockenspiel note / notification ding           -22.2 dBFS  +7.3 dB   162 ms   549 Hz
+ 0:06.56  NOTE?  glockenspiel note / notification ding           -19.8 dBFS  +6.8 dB   273 ms   670 Hz
+ 0:07.50  NOTE?  glockenspiel note / notification ding           -25.8 dBFS  +9.3 dB    72 ms   459 Hz
+ 0:08.12  NOTE?  glockenspiel note / notification ding           -24.0 dBFS  +7.6 dB   180 ms   693 Hz
+ 0:08.75  NOTE?  glockenspiel note / notification ding           -21.4 dBFS  +7.5 dB   130 ms   605 Hz
+ 0:10.00  NOTE?  glockenspiel note / notification ding           -25.5 dBFS +10.5 dB  2000 ms   387 Hz
+ 0:10.62  NOTE?  glockenspiel note / notification ding           -19.2 dBFS +11.4 dB   554 ms   547 Hz
+ 0:12.50  NOTE?  glockenspiel note / notification ding           -25.8 dBFS  +8.9 dB   848 ms   360 Hz
+ 0:13.12  NOTE?  glockenspiel note / chat message pop            -18.4 dBFS +11.8 dB   210 ms   535 Hz
+ 0:13.35  GAP    drop 0.70 s (-69 LUFS)
+ 0:14.08  NOTE   glockenspiel note / notification ding           -19.2 dBFS   silent  2000 ms   496 Hz  [AST Ringtone 0.12]
+== 0:14.10-0:25.65  inspirational corporate background music?, glockenspiel, uplifting and hopeful | also: glockenspiel, marimba, xylophone, synthesizer (AST)  (+55 untagged onsets, 4.8/s)
+ 0:15.00  NOTE   glockenspiel note / notification ding           -14.9 dBFS +20.8 dB  2000 ms    93 Hz  [AST Marimba, xylophone 0.06]  | strong accent (summary)
+ 0:15.62  NOTE?  glockenspiel note / notification ding           -19.0 dBFS  +8.4 dB    72 ms   422 Hz
+ 0:16.25  NOTE?  glockenspiel note / notification ding           -10.0 dBFS +10.0 dB    30 ms   153 Hz
+ 0:16.88  UI?    notification ding / glockenspiel note           -18.1 dBFS  +7.7 dB    95 ms   255 Hz
+ 0:17.50  NOTE   glockenspiel note / notification ding           -14.1 dBFS +14.4 dB  2000 ms    83 Hz
+ 0:18.75  NOTE   glockenspiel note / notification ding           -13.9 dBFS +15.6 dB  1023 ms   111 Hz
+ 0:19.38  UI?    chat message pop / glockenspiel note            -18.2 dBFS  +8.2 dB    66 ms   413 Hz
+ 0:20.00  UI     chat message pop / sub bass drop                -14.6 dBFS +18.2 dB   103 ms    81 Hz  [AST Ding 0.13]
+ 0:21.25  UI     notification ding / glockenspiel note           -13.8 dBFS +14.7 dB   198 ms   142 Hz
+ 0:21.88  UI?    chat message pop / cork pop                     -19.4 dBFS  +7.5 dB    69 ms   373 Hz
+ 0:22.50  NOTE   glockenspiel note / notification ding           -14.8 dBFS +14.8 dB  2000 ms    79 Hz
+ 0:23.12  UI?    notification ding / glockenspiel note           -16.6 dBFS  +9.4 dB   110 ms   245 Hz
+ 0:23.75  NOTE   glockenspiel note / notification ding           -14.4 dBFS +15.1 dB  1021 ms   100 Hz
+ 0:24.38  UI?    chat message pop / plucked string note          -18.6 dBFS  +8.3 dB    76 ms   300 Hz
+ 0:25.00  NOTE   glockenspiel note / notification ding           -14.3 dBFS +17.4 dB  2000 ms    99 Hz  [AST Sine wave 0.10]
+ 0:25.62  NOTE?  glockenspiel note / notification ding           -18.9 dBFS  +7.7 dB    73 ms   402 Hz
+== 0:25.65-0:53.15  trap beat?, glockenspiel | also: glockenspiel, marimba, xylophone, mallet percussion (AST)  (+134 untagged onsets, 4.9/s)
+ 0:26.25  NOTE   glockenspiel note / notification ding           -14.0 dBFS +14.2 dB   190 ms   125 Hz
+ 0:26.88  UI?    chat message pop / glockenspiel note            -18.6 dBFS  +8.0 dB    78 ms   333 Hz
+ 0:27.50  NOTE   glockenspiel note / notification ding           -12.1 dBFS +18.2 dB  2000 ms    79 Hz  [AST Chime 0.07]
+ 0:28.12  NOTE?  glockenspiel note / notification ding           -17.7 dBFS  +9.1 dB    81 ms   380 Hz
+ 0:28.75  NOTE   glockenspiel note / notification ding           -14.1 dBFS +15.6 dB   510 ms   111 Hz
+ 0:29.38  NOTE?  glockenspiel note / notification ding           -17.7 dBFS  +8.3 dB   398 ms   267 Hz
+ 0:30.00  NOTE   glockenspiel note / notification ding           -14.3 dBFS +18.3 dB  2000 ms    78 Hz  [AST Ringtone 0.07]
+ 0:31.25  NOTE   glockenspiel note / notification ding            -7.9 dBFS +19.2 dB   175 ms   132 Hz  [AST Ding 0.18]  | strong accent (summary)
+ 0:31.88  UI?    chat message pop / glockenspiel note            -18.8 dBFS  +7.2 dB    77 ms   349 Hz
+ 0:32.50  NOTE   glockenspiel note / notification ding           -14.9 dBFS +14.8 dB  2000 ms    82 Hz
+ 0:33.12  NOTE?  glockenspiel note / cork pop                    -11.7 dBFS  +8.0 dB    48 ms   803 Hz
+ 0:33.75  NOTE   glockenspiel note / notification ding           -14.4 dBFS +15.1 dB  1021 ms   100 Hz
+ 0:35.00  UI     notification ding / glockenspiel note            -7.4 dBFS +22.8 dB   279 ms    94 Hz  [AST Ding 0.11]  | strong accent (summary)
+ 0:35.62  NOTE?  glockenspiel note / notification ding           -18.9 dBFS  +8.4 dB    73 ms   409 Hz
+ 0:36.25  NOTE?  glockenspiel note / notification ding           -14.3 dBFS  +8.9 dB    28 ms   157 Hz
+ 0:36.88  NOTE?  glockenspiel note / notification ding           -17.5 dBFS  +7.1 dB   414 ms   235 Hz
+ 0:37.50  NOTE   glockenspiel note / notification ding           -14.6 dBFS +15.8 dB  2000 ms    83 Hz
+ 0:38.12  NOTE?  glockenspiel note / cork pop                    -10.8 dBFS +11.2 dB    75 ms   409 Hz
+ 0:38.75  NOTE   glockenspiel note / notification ding           -14.0 dBFS +15.5 dB   510 ms   111 Hz
+ 0:39.38  NOTE?  glockenspiel note / notification ding           -17.6 dBFS  +8.3 dB   401 ms   267 Hz
+ 0:40.00  NOTE   glockenspiel note / notification ding           -14.6 dBFS +18.3 dB   103 ms    82 Hz  [AST Ding 0.13]
+ 0:40.62  NOTE?  glockenspiel note / chat message pop            -19.0 dBFS  +8.3 dB    68 ms   419 Hz
+ 0:41.25  UI     notification ding / glockenspiel note           -13.2 dBFS +15.1 dB   198 ms   155 Hz
+ 0:41.88  FOLEY? cork pop / chat message pop                     -10.5 dBFS  +7.9 dB    57 ms   505 Hz
+ 0:42.50  NOTE   glockenspiel note / notification ding           -14.2 dBFS +14.8 dB  2000 ms    82 Hz
+ 0:43.12  NOTE?  glockenspiel note / notification ding           -18.5 dBFS  +9.1 dB  1663 ms   290 Hz
+ 0:43.75  NOTE   glockenspiel note / notification ding            -6.8 dBFS +17.6 dB   256 ms    99 Hz  [AST Ding 0.15]
+ 0:44.38  UI?    chat message pop / glockenspiel note            -18.6 dBFS  +8.7 dB    70 ms   337 Hz
+ 0:45.00  NOTE   glockenspiel note / notification ding           -13.4 dBFS +19.1 dB  2000 ms    92 Hz  [AST Sine wave 0.09]
+ 0:45.62  NOTE?  glockenspiel note / notification ding           -18.5 dBFS  +7.6 dB    72 ms   411 Hz
+ 0:46.26  NOTE   glockenspiel note / notification ding           -14.1 dBFS +14.2 dB   190 ms   125 Hz
+ 0:46.87  NOTE?  glockenspiel note / notification ding           -13.1 dBFS +10.8 dB   410 ms   237 Hz
+ 0:47.50  NOTE   glockenspiel note / notification ding           -14.4 dBFS +14.2 dB  2000 ms    83 Hz
+ 0:48.12  NOTE?  glockenspiel note / notification ding           -18.0 dBFS  +9.9 dB    58 ms   528 Hz
+ 0:48.75  NOTE   glockenspiel note / sub bass drop               -13.9 dBFS +15.6 dB   888 ms   111 Hz
+ 0:49.38  NOTE   glockenspiel note / chat message pop            -10.6 dBFS +13.9 dB   213 ms   233 Hz
+ 0:50.00  NOTE   glockenspiel note / notification ding           -14.2 dBFS +18.3 dB   103 ms    81 Hz  [AST Ding 0.12]
+ 0:50.62  UI?    chat message pop / glockenspiel note            -18.8 dBFS  +8.4 dB    74 ms   379 Hz
+ 0:51.25  NOTE   glockenspiel note / notification ding           -14.2 dBFS +14.7 dB   198 ms   142 Hz
+ 0:51.87  UI?    chat message pop / glockenspiel note            -12.7 dBFS +11.6 dB   278 ms   234 Hz
+ 0:52.50  NOTE   glockenspiel note / notification ding           -14.8 dBFS +14.8 dB  2000 ms    82 Hz
+ 0:53.12  NOTE?  glockenspiel note / notification ding           -18.5 dBFS  +8.9 dB  1659 ms   288 Hz
+== 0:53.15-0:55.65  trap beat?, glockenspiel | also: ringtone (AST)  (+12 untagged onsets, 4.8/s)
+ 0:53.75  NOTE   glockenspiel note / notification ding           -13.5 dBFS +15.1 dB  1021 ms    93 Hz
+ 0:54.38  UI?    chat message pop / glockenspiel note            -18.9 dBFS  +8.8 dB    67 ms   351 Hz
+ 0:55.00  NOTE   glockenspiel note / notification ding           -14.9 dBFS +17.1 dB  2000 ms    97 Hz  [AST Sine wave 0.06]
+ 0:55.62  NOTE?  glockenspiel note / notification ding           -18.2 dBFS  +7.9 dB    79 ms   386 Hz
+== 0:55.65-1:01.90  trap beat?, glockenspiel | also: sine wave, chirp tone (AST)  (+31 untagged onsets, 5.0/s)
+ 0:56.26  NOTE   glockenspiel note / notification ding           -12.4 dBFS +14.8 dB   497 ms   126 Hz
+ 0:57.18  UI?    notification ding / glockenspiel note           -15.3 dBFS  +9.5 dB   194 ms   309 Hz
+ 0:58.12  NOTE?  glockenspiel note / notification ding           -19.0 dBFS  +9.2 dB    74 ms   408 Hz
+ 0:58.75  NOTE   glockenspiel note / sub bass drop               -13.9 dBFS +15.6 dB   888 ms   111 Hz
+ 0:59.38  FOLEY? cork pop / glockenspiel note                     -9.5 dBFS +11.7 dB   161 ms   247 Hz
+ 1:00.00  UI     notification ding / glockenspiel note           -14.6 dBFS +18.3 dB   103 ms    82 Hz  [AST Ding 0.12]
+ 1:00.62  UI?    chat message pop / glockenspiel note            -19.0 dBFS  +8.4 dB    75 ms   380 Hz
+ 1:01.25  NOTE   glockenspiel note / notification ding           -13.9 dBFS +14.7 dB   198 ms   142 Hz
+ 1:01.88  UI?    chat message pop / cork pop                     -19.4 dBFS  +7.6 dB    73 ms   353 Hz
+== 1:01.90-1:09.50  trap beat?, glockenspiel | also: ringtone (AST)  (+37 untagged onsets, 4.9/s)
+ 1:02.50  NOTE   glockenspiel note / notification ding            -6.3 dBFS +14.8 dB  2000 ms    82 Hz
+ 1:03.12  NOTE?  glockenspiel note / notification ding           -10.9 dBFS  +8.5 dB    83 ms   360 Hz
+ 1:03.75  NOTE   glockenspiel note / notification ding            -6.2 dBFS +15.1 dB  1038 ms   100 Hz
+ 1:04.38  UI?    chat message pop / glockenspiel note            -10.3 dBFS  +8.4 dB    58 ms   439 Hz
+ 1:05.00  NOTE   glockenspiel note / notification ding            -6.6 dBFS +17.1 dB  2000 ms    97 Hz  [AST Sine wave 0.08]
+ 1:05.62  NOTE?  glockenspiel note / notification ding           -10.6 dBFS  +8.2 dB    75 ms   405 Hz
+ 1:06.25  NOTE   glockenspiel note / notification ding            -6.2 dBFS +14.2 dB   195 ms   124 Hz
+ 1:06.88  UI?    chat message pop / glockenspiel note            -10.7 dBFS  +7.8 dB    71 ms   363 Hz
+ 1:07.50  NOTE   glockenspiel note / notification ding            -6.4 dBFS +15.7 dB   217 ms    83 Hz
+ 1:08.12  NOTE?  glockenspiel note / notification ding           -12.5 dBFS  +8.5 dB    82 ms   389 Hz
+ 1:08.75  NOTE   glockenspiel note / notification ding           -14.5 dBFS +13.8 dB   134 ms   113 Hz
+
+NOTES  times, levels, loudness and sync offsets are measurements. Event kinds / tags are CLAP guesses: '?' = the event is less than 12 dB over its bed, so its excerpt is mostly bed and the tag a weak hint (right kind about 1 in 4 on the tuning mixes, 1 in 2 for exposed events; often wrong on music and voice). Where AST ran, its speech overrides the kind with VOICE. Section genres marked ? are weak. 'over bed' = how far the event rises over the level just before it; 'silent' = that bed was below -60 (after a gap the rise means nothing). Full data: --json.

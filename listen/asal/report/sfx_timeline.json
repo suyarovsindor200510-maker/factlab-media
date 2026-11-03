@@ -1,0 +1,6370 @@
+{
+ "file": "listen/asal/sfx.flac",
+ "video": null,
+ "start": 0.0,
+ "end": 69.5,
+ "duration": 69.5,
+ "file_duration": 69.5,
+ "context": [
+  0.0,
+  69.5
+ ],
+ "has_audio": true,
+ "lossy": false,
+ "loudness": {
+  "integrated_lufs": -25.7,
+  "true_peak_dbtp": -5.5,
+  "digital_silence": false,
+  "max_momentary": {
+   "t": 14.2,
+   "lufs": -16.7
+  },
+  "momentary": {
+   "t0": 0.2,
+   "dt": 0.1,
+   "lufs": [
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -29.4,
+    -29.3,
+    -29.3,
+    -29.3,
+    -47.4,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -61.6,
+    -38.5,
+    -29.0,
+    -26.1,
+    -25.8,
+    -26.1,
+    -28.7,
+    -38.6,
+    -70.0,
+    -70.0,
+    -23.5,
+    -22.7,
+    -22.6,
+    -22.6,
+    -30.1,
+    -41.6,
+    -53.9,
+    -67.2,
+    -70.0,
+    -70.0,
+    -63.3,
+    -38.8,
+    -29.4,
+    -24.3,
+    -24.1,
+    -24.2,
+    -25.6,
+    -37.6,
+    -70.0,
+    -70.0,
+    -32.9,
+    -30.7,
+    -28.3,
+    -26.4,
+    -27.5,
+    -28.4,
+    -30.9,
+    -23.6,
+    -22.8,
+    -22.7,
+    -22.7,
+    -30.1,
+    -41.6,
+    -53.4,
+    -39.3,
+    -29.2,
+    -24.3,
+    -24.1,
+    -24.3,
+    -25.7,
+    -33.8,
+    -31.3,
+    -29.7,
+    -27.4,
+    -26.9,
+    -28.1,
+    -22.4,
+    -22.3,
+    -22.6,
+    -22.6,
+    -30.1,
+    -41.6,
+    -39.0,
+    -29.2,
+    -24.3,
+    -24.2,
+    -24.3,
+    -25.8,
+    -37.9,
+    -70.0,
+    -29.4,
+    -29.3,
+    -29.3,
+    -29.3,
+    -47.4,
+    -70.0,
+    -70.0,
+    -69.6,
+    -53.5,
+    -46.9,
+    -39.8,
+    -35.5,
+    -31.3,
+    -27.8,
+    -24.4,
+    -21.9,
+    -19.5,
+    -17.3,
+    -17.7,
+    -18.5,
+    -20.6,
+    -33.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -24.2,
+    -18.1,
+    -17.1,
+    -16.7,
+    -17.3,
+    -21.4,
+    -24.2,
+    -26.4,
+    -28.2,
+    -30.0,
+    -32.0,
+    -34.0,
+    -36.1,
+    -38.2,
+    -40.3,
+    -42.4,
+    -44.6,
+    -47.3,
+    -45.9,
+    -32.6,
+    -26.7,
+    -23.3,
+    -21.0,
+    -20.0,
+    -19.9,
+    -20.4,
+    -21.7,
+    -22.9,
+    -24.1,
+    -25.3,
+    -26.5,
+    -27.6,
+    -26.0,
+    -26.6,
+    -27.1,
+    -27.5,
+    -33.0,
+    -34.3,
+    -35.1,
+    -31.5,
+    -24.7,
+    -24.0,
+    -24.1,
+    -24.6,
+    -31.6,
+    -42.4,
+    -44.0,
+    -45.1,
+    -46.1,
+    -47.2,
+    -48.2,
+    -49.7,
+    -29.4,
+    -29.3,
+    -29.3,
+    -29.3,
+    -47.4,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -60.8,
+    -39.2,
+    -29.2,
+    -25.9,
+    -25.7,
+    -25.9,
+    -28.2,
+    -38.6,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -43.4,
+    -34.7,
+    -30.1,
+    -25.2,
+    -24.1,
+    -23.8,
+    -24.1,
+    -27.2,
+    -29.9,
+    -34.5,
+    -43.1,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -52.3,
+    -38.3,
+    -32.1,
+    -28.5,
+    -24.6,
+    -23.9,
+    -23.8,
+    -24.6,
+    -28.3,
+    -31.9,
+    -38.0,
+    -52.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -62.4,
+    -39.1,
+    -29.3,
+    -26.0,
+    -25.7,
+    -24.3,
+    -25.7,
+    -28.9,
+    -29.3,
+    -65.7,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -35.9,
+    -31.9,
+    -30.3,
+    -26.2,
+    -26.6,
+    -27.5,
+    -27.4,
+    -31.6,
+    -31.4,
+    -31.4,
+    -34.1,
+    -34.5,
+    -35.0,
+    -32.4,
+    -32.4,
+    -35.8,
+    -32.5,
+    -30.9,
+    -30.8,
+    -29.5,
+    -30.8,
+    -31.7,
+    -31.7,
+    -34.2,
+    -34.2,
+    -54.1,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -22.8,
+    -22.6,
+    -22.6,
+    -22.6,
+    -35.7,
+    -47.5,
+    -59.9,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -63.9,
+    -39.5,
+    -29.3,
+    -26.0,
+    -25.8,
+    -26.0,
+    -23.0,
+    -21.7,
+    -20.6,
+    -19.9,
+    -21.0,
+    -22.3,
+    -23.5,
+    -24.7,
+    -25.9,
+    -25.1,
+    -25.7,
+    -26.3,
+    -26.8,
+    -31.6,
+    -32.6,
+    -33.7,
+    -34.9,
+    -34.2,
+    -28.6,
+    -25.8,
+    -24.1,
+    -24.2,
+    -25.7,
+    -28.6,
+    -43.5,
+    -44.5,
+    -45.6,
+    -46.7,
+    -47.7,
+    -48.8,
+    -50.6,
+    -53.0,
+    -29.4,
+    -29.3,
+    -29.3,
+    -29.3,
+    -47.4,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -60.9,
+    -38.8,
+    -29.3,
+    -24.4,
+    -24.2,
+    -24.4,
+    -25.2,
+    -28.7,
+    -28.5,
+    -28.6,
+    -30.1,
+    -36.3,
+    -57.0,
+    -70.0,
+    -47.5,
+    -38.7,
+    -33.7,
+    -30.5,
+    -28.3,
+    -27.0,
+    -26.3,
+    -26.4,
+    -27.0,
+    -25.8,
+    -26.9,
+    -28.0,
+    -28.8,
+    -47.5,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -29.3,
+    -29.3,
+    -29.3,
+    -29.3,
+    -65.7,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -47.9,
+    -33.3,
+    -26.9,
+    -24.2,
+    -24.2,
+    -24.8,
+    -27.5,
+    -51.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -22.7,
+    -22.5,
+    -22.5,
+    -22.5,
+    -35.7,
+    -47.5,
+    -59.9,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -63.8,
+    -38.8,
+    -29.4,
+    -26.0,
+    -25.8,
+    -26.0,
+    -24.8,
+    -22.7,
+    -21.1,
+    -20.2,
+    -20.4,
+    -21.7,
+    -22.9,
+    -24.1,
+    -25.3,
+    -26.5,
+    -25.4,
+    -26.0,
+    -26.6,
+    -27.1,
+    -32.0,
+    -33.2,
+    -34.3,
+    -35.4,
+    -36.5,
+    -37.2,
+    -31.8,
+    -26.4,
+    -25.4,
+    -25.4,
+    -26.3,
+    -31.7,
+    -44.2,
+    -46.1,
+    -47.2,
+    -48.2,
+    -49.7,
+    -51.7,
+    -54.5,
+    -59.7,
+    -29.4,
+    -29.3,
+    -29.3,
+    -29.3,
+    -47.4,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -63.5,
+    -38.9,
+    -29.1,
+    -26.0,
+    -25.8,
+    -26.0,
+    -28.5,
+    -28.9,
+    -29.3,
+    -29.3,
+    -29.3,
+    -47.4,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -29.4,
+    -29.3,
+    -29.3,
+    -29.3,
+    -47.4,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -47.7,
+    -33.0,
+    -27.0,
+    -25.8,
+    -25.8,
+    -26.7,
+    -27.5,
+    -29.3,
+    -29.3,
+    -29.3,
+    -47.4,
+    -29.3,
+    -29.3,
+    -29.3,
+    -29.3,
+    -65.7,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -61.4,
+    -38.8,
+    -29.2,
+    -26.1,
+    -25.8,
+    -24.4,
+    -25.9,
+    -28.7,
+    -29.3,
+    -65.7,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -29.4,
+    -29.3,
+    -29.3,
+    -29.3,
+    -47.4,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -63.5,
+    -38.7,
+    -29.2,
+    -24.5,
+    -24.3,
+    -24.4,
+    -26.0,
+    -37.8,
+    -31.4,
+    -31.4,
+    -31.4,
+    -31.4,
+    -70.0,
+    -70.0,
+    -70.0,
+    -31.4,
+    -31.4,
+    -31.4,
+    -31.4,
+    -70.0,
+    -70.0,
+    -31.4,
+    -31.4,
+    -31.4,
+    -31.4,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -29.3,
+    -29.3,
+    -29.3,
+    -29.3,
+    -65.7,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0,
+    -70.0
+   ]
+  },
+  "max_short_term": {
+   "start": 12.5,
+   "end": 15.5,
+   "lufs": -22.2
+  },
+  "short_term": {
+   "t0": 1.5,
+   "dt": 0.5,
+   "lufs": [
+    -38.1,
+    -38.1,
+    -38.1,
+    -38.1,
+    -33.0,
+    -34.6,
+    -29.7,
+    -29.7,
+    -28.0,
+    -28.0,
+    -28.1,
+    -26.5,
+    -28.1,
+    -26.9,
+    -27.4,
+    -25.9,
+    -25.6,
+    -26.8,
+    -26.6,
+    -27.7,
+    -27.2,
+    -24.6,
+    -25.3,
+    -22.3,
+    -22.3,
+    -22.2,
+    -22.6,
+    -23.1,
+    -22.6,
+    -25.6,
+    -25.7,
+    -25.1,
+    -25.2,
+    -27.9,
+    -29.8,
+    -30.5,
+    -30.1,
+    -32.8,
+    -31.9,
+    -29.9,
+    -29.9,
+    -30.6,
+    -28.9,
+    -28.8,
+    -29.3,
+    -30.0,
+    -29.3,
+    -29.4,
+    -32.7,
+    -32.9,
+    -32.9,
+    -33.0,
+    -33.8,
+    -33.0,
+    -31.9,
+    -31.6,
+    -31.6,
+    -29.6,
+    -30.0,
+    -30.3,
+    -30.3,
+    -27.1,
+    -25.5,
+    -26.0,
+    -25.9,
+    -25.1,
+    -25.3,
+    -27.3,
+    -29.5,
+    -31.2,
+    -31.6,
+    -31.7,
+    -30.7,
+    -30.6,
+    -29.8,
+    -28.8,
+    -28.8,
+    -30.9,
+    -31.9,
+    -31.1,
+    -33.7,
+    -38.1,
+    -33.7,
+    -31.8,
+    -31.8,
+    -32.9,
+    -29.0,
+    -29.0,
+    -30.0,
+    -28.7,
+    -25.7,
+    -25.0,
+    -26.0,
+    -25.8,
+    -25.3,
+    -26.3,
+    -29.4,
+    -31.8,
+    -32.3,
+    -30.8,
+    -31.8,
+    -31.8,
+    -32.9,
+    -32.9,
+    -31.9,
+    -35.1,
+    -38.1,
+    -38.0,
+    -32.9,
+    -31.8,
+    -31.8,
+    -31.8,
+    -31.8,
+    -30.9,
+    -30.9,
+    -31.8,
+    -31.8,
+    -31.8,
+    -31.8,
+    -30.1,
+    -31.3,
+    -31.3,
+    -31.6,
+    -31.1,
+    -31.1,
+    -35.1,
+    -37.2,
+    -34.6,
+    -36.0,
+    -38.1,
+    -38.1,
+    -38.1,
+    -38.1,
+    -70.0
+   ]
+  },
+  "lra_lu": 11.3,
+  "silences": [
+   {
+    "start": 0.0,
+    "end": 2.05,
+    "dur": 2.05,
+    "kind": "digital silence",
+    "level_lufs": -69.8,
+    "where": "lead-in"
+   },
+   {
+    "start": 2.1,
+    "end": 4.6,
+    "dur": 2.5,
+    "kind": "drop",
+    "level_lufs": -68.9
+   },
+   {
+    "start": 5.0,
+    "end": 5.55,
+    "dur": 0.55,
+    "kind": "digital silence",
+    "level_lufs": -70.0
+   },
+   {
+    "start": 5.75,
+    "end": 6.6,
+    "dur": 0.85,
+    "kind": "drop",
+    "level_lufs": -64.5
+   },
+   {
+    "start": 6.95,
+    "end": 7.5,
+    "dur": 0.55,
+    "kind": "drop",
+    "level_lufs": -67.6
+   },
+   {
+    "start": 7.9,
+    "end": 8.25,
+    "dur": 0.35,
+    "kind": "drop",
+    "level_lufs": -66.8
+   },
+   {
+    "start": 8.45,
+    "end": 8.9,
+    "dur": 0.45,
+    "kind": "drop",
+    "level_lufs": -59.0
+   },
+   {
+    "start": 10.35,
+    "end": 10.7,
+    "dur": 0.35,
+    "kind": "drop",
+    "level_lufs": -55.3
+   },
+   {
+    "start": 11.1,
+    "end": 11.55,
+    "dur": 0.45,
+    "kind": "digital silence",
+    "level_lufs": -70.0
+   },
+   {
+    "start": 11.6,
+    "end": 12.4,
+    "dur": 0.8,
+    "kind": "drop",
+    "level_lufs": -64.3
+   },
+   {
+    "start": 13.4,
+    "end": 14.05,
+    "dur": 0.65,
+    "kind": "digital silence",
+    "level_lufs": -70.0
+   },
+   {
+    "start": 15.5,
+    "end": 15.85,
+    "dur": 0.35,
+    "kind": "drop",
+    "level_lufs": -53.9
+   },
+   {
+    "start": 18.6,
+    "end": 19.25,
+    "dur": 0.65,
+    "kind": "drop",
+    "level_lufs": -50.4
+   },
+   {
+    "start": 19.3,
+    "end": 20.3,
+    "dur": 1.0,
+    "kind": "drop",
+    "level_lufs": -67.1
+   },
+   {
+    "start": 20.7,
+    "end": 21.75,
+    "dur": 1.05,
+    "kind": "drop",
+    "level_lufs": -68.8
+   },
+   {
+    "start": 22.45,
+    "end": 23.4,
+    "dur": 0.95,
+    "kind": "drop",
+    "level_lufs": -67.3
+   },
+   {
+    "start": 24.1,
+    "end": 25.2,
+    "dur": 1.1,
+    "kind": "drop",
+    "level_lufs": -68.2
+   },
+   {
+    "start": 25.7,
+    "end": 28.0,
+    "dur": 2.3,
+    "kind": "drop",
+    "level_lufs": -69.8
+   },
+   {
+    "start": 30.2,
+    "end": 31.3,
+    "dur": 1.1,
+    "kind": "drop",
+    "level_lufs": -69.0
+   },
+   {
+    "start": 31.5,
+    "end": 32.8,
+    "dur": 1.3,
+    "kind": "drop",
+    "level_lufs": -66.5
+   },
+   {
+    "start": 35.75,
+    "end": 36.55,
+    "dur": 0.8,
+    "kind": "drop",
+    "level_lufs": -53.8
+   },
+   {
+    "start": 36.6,
+    "end": 38.0,
+    "dur": 1.4,
+    "kind": "drop",
+    "level_lufs": -68.0
+   },
+   {
+    "start": 38.8,
+    "end": 39.35,
+    "dur": 0.55,
+    "kind": "drop",
+    "level_lufs": -66.1
+   },
+   {
+    "start": 40.35,
+    "end": 42.0,
+    "dur": 1.65,
+    "kind": "drop",
+    "level_lufs": -69.4
+   },
+   {
+    "start": 42.05,
+    "end": 43.75,
+    "dur": 1.7,
+    "kind": "drop",
+    "level_lufs": -68.4
+   },
+   {
+    "start": 44.15,
+    "end": 45.6,
+    "dur": 1.45,
+    "kind": "digital silence",
+    "level_lufs": -70.0
+   },
+   {
+    "start": 45.8,
+    "end": 46.9,
+    "dur": 1.1,
+    "kind": "drop",
+    "level_lufs": -65.8
+   },
+   {
+    "start": 49.9,
+    "end": 50.85,
+    "dur": 0.95,
+    "kind": "drop",
+    "level_lufs": -57.0
+   },
+   {
+    "start": 50.9,
+    "end": 51.9,
+    "dur": 1.0,
+    "kind": "drop",
+    "level_lufs": -67.3
+   },
+   {
+    "start": 52.6,
+    "end": 54.55,
+    "dur": 1.95,
+    "kind": "drop",
+    "level_lufs": -69.0
+   },
+   {
+    "start": 54.6,
+    "end": 56.45,
+    "dur": 1.85,
+    "kind": "drop",
+    "level_lufs": -68.5
+   },
+   {
+    "start": 57.1,
+    "end": 57.5,
+    "dur": 0.4,
+    "kind": "drop",
+    "level_lufs": -64.4
+   },
+   {
+    "start": 57.55,
+    "end": 59.3,
+    "dur": 1.75,
+    "kind": "drop",
+    "level_lufs": -68.4
+   },
+   {
+    "start": 59.8,
+    "end": 60.75,
+    "dur": 0.95,
+    "kind": "drop",
+    "level_lufs": -69.4
+   },
+   {
+    "start": 60.8,
+    "end": 62.2,
+    "dur": 1.4,
+    "kind": "drop",
+    "level_lufs": -68.1
+   },
+   {
+    "start": 62.55,
+    "end": 62.95,
+    "dur": 0.4,
+    "kind": "drop",
+    "level_lufs": -66.5
+   },
+   {
+    "start": 63.0,
+    "end": 63.6,
+    "dur": 0.6,
+    "kind": "near silence",
+    "level_lufs": -69.6
+   },
+   {
+    "start": 63.65,
+    "end": 64.25,
+    "dur": 0.6,
+    "kind": "near silence",
+    "level_lufs": -69.6
+   },
+   {
+    "start": 64.3,
+    "end": 66.4,
+    "dur": 2.1,
+    "kind": "near silence",
+    "level_lufs": -69.9
+   },
+   {
+    "start": 66.45,
+    "end": 69.5,
+    "dur": 3.05,
+    "kind": "drop",
+    "level_lufs": -69.4,
+    "where": "tail"
+   }
+  ],
+  "clipping": {
+   "samples": 0,
+   "runs": 0,
+   "times": []
+  }
+ },
+ "music": {
+  "tempo": 92.5,
+  "tempo_alt": null,
+  "beats": [
+   2.04,
+   2.73,
+   3.43,
+   4.13,
+   4.83,
+   5.54,
+   6.19,
+   6.84,
+   7.49,
+   8.24,
+   8.89,
+   9.54,
+   10.14,
+   10.83,
+   11.54,
+   12.18,
+   12.81,
+   13.44,
+   14.07,
+   14.7,
+   15.33,
+   15.96,
+   16.6,
+   17.24,
+   17.9,
+   18.57,
+   19.24,
+   19.93,
+   20.62,
+   21.31,
+   21.99,
+   22.58,
+   23.16,
+   23.74,
+   24.35,
+   24.97,
+   25.59,
+   26.2,
+   26.81,
+   27.41,
+   28.01,
+   28.66,
+   29.3,
+   29.94,
+   30.61,
+   31.29,
+   31.96,
+   32.63,
+   33.29,
+   33.96,
+   34.63,
+   35.29,
+   35.91,
+   36.54,
+   37.16,
+   37.78,
+   38.41,
+   39.0,
+   39.59,
+   40.19,
+   40.79,
+   41.39,
+   41.99,
+   42.58,
+   43.16,
+   43.74,
+   44.35,
+   44.97,
+   45.59,
+   46.3,
+   47.0,
+   47.72,
+   48.44,
+   49.04,
+   49.64,
+   50.24,
+   50.84,
+   51.41,
+   51.98,
+   52.54,
+   53.2,
+   53.87,
+   54.54,
+   55.17,
+   55.8,
+   56.43,
+   57.04,
+   57.49,
+   58.13,
+   58.77,
+   59.42,
+   60.08,
+   60.74,
+   61.46,
+   62.19,
+   62.94,
+   63.59,
+   64.24,
+   64.95,
+   65.67,
+   66.39,
+   67.04,
+   67.69,
+   68.34,
+   68.99
+  ],
+  "downbeats": [
+   3.43,
+   6.19,
+   8.89,
+   11.54,
+   14.07,
+   16.6,
+   19.24,
+   21.99,
+   24.35,
+   26.81,
+   29.3,
+   31.96,
+   34.63,
+   37.16,
+   39.59,
+   41.99,
+   44.35,
+   47.0,
+   49.64,
+   51.98,
+   54.54,
+   57.04,
+   59.42,
+   62.19,
+   64.95,
+   67.69
+  ],
+  "pulse_clarity": 0.065,
+  "beat_regularity": 0.073,
+  "confidence": "none",
+  "note": "beats at 10 ms resolution; downbeats are a guess (4/4 assumed); tempo may be half/double the felt tempo"
+ },
+ "events": [
+  {
+   "t": 2.049,
+   "shape": "hit",
+   "band": "full",
+   "contrast_db": 60.0,
+   "z": 56.7,
+   "length_ms": 59,
+   "prominence_db": 65.0,
+   "bed_db": -80.0,
+   "peak_dbfs": -14.4,
+   "local_lufs": -29.3,
+   "centroid_hz": 815,
+   "tags": [
+    {
+     "tag": "a bubble pop",
+     "kind": "FOLEY",
+     "z": 3.12
+    },
+    {
+     "tag": "a cork pop",
+     "kind": "FOLEY",
+     "z": 2.04
+    },
+    {
+     "tag": "a chat message pop",
+     "kind": "UI",
+     "z": 1.52
+    }
+   ],
+   "kind": "FOLEY",
+   "label": "bubble pop",
+   "exposed": true,
+   "ast": [
+    [
+     "Music",
+     0.186
+    ],
+    [
+     "Sound effect",
+     0.145
+    ],
+    [
+     "Speech",
+     0.05
+    ]
+   ]
+  },
+  {
+   "t": 2.169,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 20.8,
+   "z": 3.5,
+   "length_ms": 2,
+   "prominence_db": 13.5,
+   "bed_db": -80.0,
+   "peak_dbfs": -56.3,
+   "local_lufs": -29.3,
+   "centroid_hz": 1519,
+   "tags": [
+    {
+     "tag": "a short swish",
+     "kind": "WHOOSH",
+     "z": 1.71
+    },
+    {
+     "tag": "a small soft footstep",
+     "kind": "STEP",
+     "z": 1.66
+    },
+    {
+     "tag": "a soft UI button tap",
+     "kind": "UI",
+     "z": 1.59
+    }
+   ],
+   "kind": "WHOOSH",
+   "label": "short swish",
+   "exposed": true
+  },
+  {
+   "t": 4.592,
+   "shape": "hit",
+   "band": "full",
+   "contrast_db": 48.4,
+   "z": 6.6,
+   "length_ms": 389,
+   "prominence_db": 50.0,
+   "bed_db": -80.0,
+   "peak_dbfs": -15.8,
+   "local_lufs": -29.6,
+   "centroid_hz": 1678,
+   "tags": [
+    {
+     "tag": "an uplifter sweep",
+     "kind": "RISER",
+     "z": 2.16
+    },
+    {
+     "tag": "a fast air whoosh",
+     "kind": "WHOOSH",
+     "z": 2.13
+    },
+    {
+     "tag": "a short swish",
+     "kind": "WHOOSH",
+     "z": 1.92
+    }
+   ],
+   "kind": "RISER",
+   "label": "uplifter sweep",
+   "exposed": true
+  },
+  {
+   "t": 5.55,
+   "shape": "hit",
+   "band": "full",
+   "contrast_db": 60.0,
+   "z": 80.8,
+   "length_ms": 133,
+   "prominence_db": 69.6,
+   "bed_db": -80.0,
+   "peak_dbfs": -6.0,
+   "local_lufs": -22.6,
+   "centroid_hz": 70,
+   "tags": [
+    {
+     "tag": "a drum hit",
+     "kind": "DRUM",
+     "z": 2.47
+    },
+    {
+     "tag": "a kick drum",
+     "kind": "DRUM",
+     "z": 2.26
+    },
+    {
+     "tag": "a punchy impact hit",
+     "kind": "HIT",
+     "z": 2.1
+    }
+   ],
+   "kind": "DRUM",
+   "label": "drum hit",
+   "exposed": true,
+   "ast": [
+    [
+     "Sound effect",
+     0.187
+    ],
+    [
+     "Music",
+     0.152
+    ],
+    [
+     "Drum machine",
+     0.096
+    ],
+    [
+     "Bang",
+     0.078
+    ]
+   ]
+  },
+  {
+   "t": 6.597,
+   "shape": "hit",
+   "band": "full",
+   "contrast_db": 46.2,
+   "z": 6.2,
+   "length_ms": 386,
+   "prominence_db": 51.0,
+   "bed_db": -80.0,
+   "peak_dbfs": -12.0,
+   "local_lufs": -29.6,
+   "centroid_hz": 1781,
+   "tags": [
+    {
+     "tag": "a whip pan whoosh transition",
+     "kind": "WHOOSH",
+     "z": 2.32
+    },
+    {
+     "tag": "a short swish",
+     "kind": "WHOOSH",
+     "z": 2.17
+    },
+    {
+     "tag": "a fast air whoosh",
+     "kind": "WHOOSH",
+     "z": 2.13
+    }
+   ],
+   "kind": "WHOOSH",
+   "label": "whip pan whoosh transition",
+   "exposed": true
+  },
+  {
+   "t": 6.85,
+   "shape": "hit",
+   "band": "low",
+   "contrast_db": 17.5,
+   "z": 7.6,
+   "length_ms": 4,
+   "prominence_db": 13.4,
+   "bed_db": -27.6,
+   "peak_dbfs": -12.0,
+   "local_lufs": -24.1,
+   "centroid_hz": 1301,
+   "tags": [
+    {
+     "tag": "a snare drum hit",
+     "kind": "DRUM",
+     "z": 2.64
+    },
+    {
+     "tag": "a hi-hat",
+     "kind": "DRUM",
+     "z": 1.77
+    },
+    {
+     "tag": "a cork pop",
+     "kind": "FOLEY",
+     "z": 1.56
+    }
+   ],
+   "kind": "DRUM",
+   "label": "snare drum hit",
+   "exposed": true
+  },
+  {
+   "t": 7.5,
+   "shape": "hit",
+   "band": "full",
+   "contrast_db": 59.8,
+   "z": 53.4,
+   "length_ms": 26,
+   "prominence_db": 60.1,
+   "bed_db": -80.0,
+   "peak_dbfs": -20.2,
+   "local_lufs": -30.7,
+   "centroid_hz": 2400,
+   "tags": [
+    {
+     "tag": "a chat message pop",
+     "kind": "UI",
+     "z": 2.61
+    },
+    {
+     "tag": "a bubble pop",
+     "kind": "FOLEY",
+     "z": 2.08
+    },
+    {
+     "tag": "a glockenspiel note",
+     "kind": "NOTE",
+     "z": 1.62
+    }
+   ],
+   "kind": "UI",
+   "label": "chat message pop",
+   "exposed": true
+  },
+  {
+   "t": 7.573,
+   "shape": "hit",
+   "band": "full",
+   "contrast_db": 59.8,
+   "z": 46.0,
+   "length_ms": 27,
+   "prominence_db": 60.1,
+   "bed_db": -80.0,
+   "peak_dbfs": -20.2,
+   "local_lufs": -29.0,
+   "centroid_hz": 2399,
+   "tags": [
+    {
+     "tag": "a bubble pop",
+     "kind": "FOLEY",
+     "z": 2.42
+    },
+    {
+     "tag": "a chat message pop",
+     "kind": "UI",
+     "z": 2.32
+    },
+    {
+     "tag": "a cork pop",
+     "kind": "FOLEY",
+     "z": 1.56
+    }
+   ],
+   "kind": "FOLEY",
+   "label": "bubble pop",
+   "exposed": true
+  },
+  {
+   "t": 7.64,
+   "shape": "hit",
+   "band": "low",
+   "contrast_db": 29.9,
+   "z": 51.0,
+   "length_ms": 26,
+   "prominence_db": 60.1,
+   "bed_db": -80.0,
+   "peak_dbfs": -20.2,
+   "local_lufs": -27.6,
+   "centroid_hz": 2400,
+   "tags": [
+    {
+     "tag": "a bubble pop",
+     "kind": "FOLEY",
+     "z": 2.61
+    },
+    {
+     "tag": "a chat message pop",
+     "kind": "UI",
+     "z": 2.46
+    },
+    {
+     "tag": "a glockenspiel note",
+     "kind": "NOTE",
+     "z": 1.65
+    }
+   ],
+   "kind": "FOLEY",
+   "label": "bubble pop",
+   "exposed": true
+  },
+  {
+   "t": 7.698,
+   "shape": "hit",
+   "band": "full",
+   "contrast_db": 30.6,
+   "z": 46.6,
+   "length_ms": 201,
+   "prominence_db": 28.9,
+   "bed_db": -48.8,
+   "peak_dbfs": -19.8,
+   "local_lufs": -26.4,
+   "centroid_hz": 2391
+  },
+  {
+   "t": 7.748,
+   "shape": "hit",
+   "band": "low",
+   "contrast_db": 29.9,
+   "z": 44.4,
+   "length_ms": 151,
+   "prominence_db": 19.8,
+   "bed_db": -39.5,
+   "peak_dbfs": -19.8,
+   "local_lufs": -26.9,
+   "centroid_hz": 2387
+  },
+  {
+   "t": 7.826,
+   "shape": "hit",
+   "band": "low",
+   "contrast_db": 29.9,
+   "z": 48.1,
+   "length_ms": 72,
+   "prominence_db": 15.4,
+   "bed_db": -35.1,
+   "peak_dbfs": -19.8,
+   "local_lufs": -27.8,
+   "centroid_hz": 2391
+  },
+  {
+   "t": 8.25,
+   "shape": "hit",
+   "band": "full",
+   "contrast_db": 60.0,
+   "z": 80.2,
+   "length_ms": 151,
+   "prominence_db": 69.6,
+   "bed_db": -80.0,
+   "peak_dbfs": -7.6,
+   "local_lufs": -22.8,
+   "centroid_hz": 68,
+   "tags": [
+    {
+     "tag": "a drum hit",
+     "kind": "DRUM",
+     "z": 2.41
+    },
+    {
+     "tag": "a kick drum",
+     "kind": "DRUM",
+     "z": 2.35
+    },
+    {
+     "tag": "a punchy impact hit",
+     "kind": "HIT",
+     "z": 2.03
+    }
+   ],
+   "kind": "DRUM",
+   "label": "drum hit",
+   "exposed": true,
+   "ast": [
+    [
+     "Sound effect",
+     0.173
+    ],
+    [
+     "Music",
+     0.161
+    ],
+    [
+     "Drum machine",
+     0.108
+    ],
+    [
+     "Bang",
+     0.073
+    ]
+   ]
+  },
+  {
+   "t": 8.888,
+   "shape": "hit",
+   "band": "full",
+   "contrast_db": 48.1,
+   "z": 6.1,
+   "length_ms": 395,
+   "prominence_db": 48.5,
+   "bed_db": -80.0,
+   "peak_dbfs": -11.5,
+   "local_lufs": -30.2,
+   "centroid_hz": 1732,
+   "tags": [
+    {
+     "tag": "a whip pan whoosh transition",
+     "kind": "WHOOSH",
+     "z": 2.46
+    },
+    {
+     "tag": "a short swish",
+     "kind": "WHOOSH",
+     "z": 2.37
+    },
+    {
+     "tag": "a fast air whoosh",
+     "kind": "WHOOSH",
+     "z": 2.35
+    }
+   ],
+   "kind": "WHOOSH",
+   "label": "whip pan whoosh transition",
+   "exposed": true
+  },
+  {
+   "t": 9.095,
+   "shape": "hit",
+   "band": "low",
+   "contrast_db": 17.3,
+   "z": 6.3,
+   "length_ms": 118,
+   "prominence_db": 22.4,
+   "bed_db": -36.4,
+   "peak_dbfs": -11.5,
+   "local_lufs": -24.1,
+   "centroid_hz": 2668,
+   "tags": [
+    {
+     "tag": "a snare drum hit",
+     "kind": "DRUM",
+     "z": 2.84
+    },
+    {
+     "tag": "a hi-hat",
+     "kind": "DRUM",
+     "z": 1.97
+    },
+    {
+     "tag": "a cork pop",
+     "kind": "FOLEY",
+     "z": 1.61
+    }
+   ],
+   "kind": "DRUM",
+   "label": "snare drum hit",
+   "exposed": true
+  },
+  {
+   "t": 9.55,
+   "shape": "hit",
+   "band": "full",
+   "contrast_db": 59.8,
+   "z": 53.4,
+   "length_ms": 26,
+   "prominence_db": 60.1,
+   "bed_db": -80.0,
+   "peak_dbfs": -20.2,
+   "local_lufs": -30.7,
+   "centroid_hz": 2400,
+   "tags": [
+    {
+     "tag": "a chat message pop",
+     "kind": "UI",
+     "z": 2.61
+    },
+    {
+     "tag": "a bubble pop",
+     "kind": "FOLEY",
+     "z": 2.07
+    },
+    {
+     "tag": "a notification ding",
+     "kind": "UI",
+     "z": 1.6
+    }
+   ],
+   "kind": "UI",
+   "label": "chat message pop",
+   "exposed": true
+  },
+  {
+   "t": 9.623,
+   "shape": "hit",
+   "band": "full",
+   "contrast_db": 59.8,
+   "z": 46.0,
+   "length_ms": 27,
+   "prominence_db": 60.1,
+   "bed_db": -80.0,
+   "peak_dbfs": -20.2,
+   "local_lufs": -29.0,
+   "centroid_hz": 2399,
+   "tags": [
+    {
+     "tag": "a bubble pop",
+     "kind": "FOLEY",
+     "z": 2.42
+    },
+    {
+     "tag": "a chat message pop",
+     "kind": "UI",
+     "z": 2.32
+    },
+    {
+     "tag": "a cork pop",
+     "kind": "FOLEY",
+     "z": 1.56
+    }
+   ],
+   "kind": "FOLEY",
+   "label": "bubble pop",
+   "exposed": true
+  },
+  {
+   "t": 9.69,
+   "shape": "hit",
+   "band": "low",
+   "contrast_db": 29.9,
+   "z": 51.0,
+   "length_ms": 26,
+   "prominence_db": 60.1,
+   "bed_db": -80.0,
+   "peak_dbfs": -20.2,
+   "local_lufs": -27.6,
+   "centroid_hz": 2400,
+   "tags": [
+    {
+     "tag": "a bubble pop",
+     "kind": "FOLEY",
+     "z": 2.61
+    },
+    {
+     "tag": "a chat message pop",
+     "kind": "UI",
+     "z": 2.46
+    },
+    {
+     "tag": "a glockenspiel note",
+     "kind": "NOTE",
+     "z": 1.65
+    }
+   ],
+   "kind": "FOLEY",
+   "label": "bubble pop",
+   "exposed": true
+  },
+  {
+   "t": 9.748,
+   "shape": "hit",
+   "band": "full",
+   "contrast_db": 30.6,
+   "z": 46.6,
+   "length_ms": 201,
+   "prominence_db": 28.9,
+   "bed_db": -48.8,
+   "peak_dbfs": -19.8,
+   "local_lufs": -26.4,
+   "centroid_hz": 2391
+  },
+  {
+   "t": 9.798,
+   "shape": "hit",
+   "band": "low",
+   "contrast_db": 29.9,
+   "z": 44.4,
+   "length_ms": 151,
+   "prominence_db": 19.8,
+   "bed_db": -39.5,
+   "peak_dbfs": -19.8,
+   "local_lufs": -26.9,
+   "centroid_hz": 2387
+  },
+  {
+   "t": 9.876,
+   "shape": "hit",
+   "band": "low",
+   "contrast_db": 29.9,
+   "z": 48.1,
+   "length_ms": 72,
+   "prominence_db": 15.4,
+   "bed_db": -35.1,
+   "peak_dbfs": -19.8,
+   "local_lufs": -27.8,
+   "centroid_hz": 2391
+  },
+  {
+   "t": 10.15,
+   "shape": "hit",
+   "band": "full",
+   "contrast_db": 60.0,
+   "z": 80.9,
+   "length_ms": 133,
+   "prominence_db": 69.7,
+   "bed_db": -80.0,
+   "peak_dbfs": -6.1,
+   "local_lufs": -22.6,
+   "centroid_hz": 69,
+   "tags": [
+    {
+     "tag": "a drum hit",
+     "kind": "DRUM",
+     "z": 2.38
+    },
+    {
+     "tag": "a punchy impact hit",
+     "kind": "HIT",
+     "z": 2.19
+    },
+    {
+     "tag": "a kick drum",
+     "kind": "DRUM",
+     "z": 2.16
+    }
+   ],
+   "kind": "DRUM",
+   "label": "drum hit",
+   "exposed": true,
+   "ast": [
+    [
+     "Music",
+     0.202
+    ],
+    [
+     "Sound effect",
+     0.183
+    ],
+    [
+     "Drum machine",
+     0.167
+    ],
+    [
+     "Bang",
+     0.064
+    ]
+   ]
+  },
+  {
+   "t": 10.682,
+   "shape": "hit",
+   "band": "full",
+   "contrast_db": 45.4,
+   "z": 6.7,
+   "length_ms": 404,
+   "prominence_db": 26.0,
+   "bed_db": -57.8,
+   "peak_dbfs": -12.4,
+   "local_lufs": -30.7,
+   "centroid_hz": 1489,
+   "tags": [
+    {
+     "tag": "a whip pan whoosh transition",
+     "kind": "WHOOSH",
+     "z": 2.37
+    },
+    {
+     "tag": "a short swish",
+     "kind": "WHOOSH",
+     "z": 2.33
+    },
+    {
+     "tag": "a fast air whoosh",
+     "kind": "WHOOSH",
+     "z": 2.23
+    }
+   ],
+   "kind": "WHOOSH",
+   "label": "whip pan whoosh transition",
+   "exposed": true
+  },
+  {
+   "t": 10.95,
+   "shape": "hit",
+   "band": "low",
+   "contrast_db": 16.7,
+   "z": 8.1,
+   "length_ms": 6,
+   "prominence_db": 13.9,
+   "bed_db": -28.1,
+   "peak_dbfs": -12.4,
+   "local_lufs": -24.2,
+   "centroid_hz": 1175,
+   "tags": [
+    {
+     "tag": "a snare drum hit",
+     "kind": "DRUM",
+     "z": 2.68
+    },
+    {
+     "tag": "a hi-hat",
+     "kind": "DRUM",
+     "z": 1.73
+    },
+    {
+     "tag": "a cork pop",
+     "kind": "FOLEY",
+     "z": 1.67
+    }
+   ],
+   "kind": "DRUM",
+   "label": "snare drum hit",
+   "exposed": true
+  },
+  {
+   "t": 11.55,
+   "shape": "hit",
+   "band": "full",
+   "contrast_db": 60.0,
+   "z": 51.1,
+   "length_ms": 58,
+   "prominence_db": 65.0,
+   "bed_db": -80.0,
+   "peak_dbfs": -14.4,
+   "local_lufs": -29.3,
+   "centroid_hz": 806,
+   "tags": [
+    {
+     "tag": "a bubble pop",
+     "kind": "FOLEY",
+     "z": 3.19
+    },
+    {
+     "tag": "a cork pop",
+     "kind": "FOLEY",
+     "z": 2.0
+    },
+    {
+     "tag": "a chat message pop",
+     "kind": "UI",
+     "z": 1.59
+    }
+   ],
+   "kind": "FOLEY",
+   "label": "bubble pop",
+   "exposed": true,
+   "ast": [
+    [
+     "Music",
+     0.187
+    ],
+    [
+     "Sound effect",
+     0.146
+    ],
+    [
+     "Speech",
+     0.053
+    ]
+   ]
+  },
+  {
+   "t": 11.67,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 20.8,
+   "z": 3.0,
+   "length_ms": 1,
+   "prominence_db": 0.0,
+   "bed_db": -80.0,
+   "peak_dbfs": -240.0,
+   "local_lufs": -29.3,
+   "centroid_hz": 0,
+   "tags": [
+    {
+     "tag": "a short swish",
+     "kind": "WHOOSH",
+     "z": 1.71
+    },
+    {
+     "tag": "a bubble pop",
+     "kind": "FOLEY",
+     "z": 1.66
+    },
+    {
+     "tag": "a sub bass drop",
+     "kind": "HIT",
+     "z": 1.64
+    }
+   ],
+   "kind": "WHOOSH",
+   "label": "short swish",
+   "exposed": false
+  },
+  {
+   "t": 12.297,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 33.5,
+   "z": 7.5,
+   "length_ms": 1063,
+   "prominence_db": 35.4,
+   "bed_db": -80.0,
+   "peak_dbfs": -29.3,
+   "local_lufs": -47.1,
+   "centroid_hz": 2535,
+   "tags": [
+    {
+     "tag": "an uplifter sweep",
+     "kind": "RISER",
+     "z": 2.58
+    },
+    {
+     "tag": "a reverse cymbal swell",
+     "kind": "RISER",
+     "z": 2.51
+    },
+    {
+     "tag": "a short swish",
+     "kind": "WHOOSH",
+     "z": 2.0
+    }
+   ],
+   "kind": "RISER",
+   "label": "uplifter sweep",
+   "exposed": true
+  },
+  {
+   "t": 12.496,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 15.6,
+   "z": 3.8,
+   "length_ms": 864,
+   "prominence_db": 16.3,
+   "bed_db": -48.2,
+   "peak_dbfs": -22.4,
+   "local_lufs": -35.7,
+   "centroid_hz": 4291
+  },
+  {
+   "t": 13.1,
+   "shape": "hit",
+   "band": "low",
+   "contrast_db": 18.9,
+   "z": 4.8,
+   "length_ms": 6,
+   "prominence_db": 5.2,
+   "bed_db": -20.4,
+   "peak_dbfs": -12.8,
+   "local_lufs": -17.3,
+   "centroid_hz": 9201,
+   "tags": [
+    {
+     "tag": "a hi-hat",
+     "kind": "DRUM",
+     "z": 2.69
+    },
+    {
+     "tag": "an uplifter sweep",
+     "kind": "RISER",
+     "z": 1.84
+    },
+    {
+     "tag": "a reverse cymbal swell",
+     "kind": "RISER",
+     "z": 1.65
+    }
+   ],
+   "kind": "DRUM",
+   "label": "hi-hat",
+   "exposed": false
+  },
+  {
+   "t": 13.25,
+   "shape": "swell",
+   "band": "full",
+   "contrast_db": 58.9,
+   "prominence_db": 58.9,
+   "bed_db": -80.0,
+   "z": 0.0,
+   "rise_ms": 1540,
+   "length_ms": 70,
+   "peak_dbfs": -8.9,
+   "local_lufs": -18.1,
+   "centroid_hz": 8191,
+   "tags": [
+    {
+     "tag": "an uplifter sweep",
+     "kind": "RISER",
+     "z": 2.87
+    },
+    {
+     "tag": "a reverse cymbal swell",
+     "kind": "RISER",
+     "z": 2.48
+    },
+    {
+     "tag": "a short swish",
+     "kind": "WHOOSH",
+     "z": 2.24
+    }
+   ],
+   "kind": "RISER",
+   "label": "uplifter sweep",
+   "exposed": true
+  },
+  {
+   "t": 14.08,
+   "shape": "hit",
+   "band": "full",
+   "contrast_db": 60.0,
+   "z": 23.7,
+   "length_ms": 890,
+   "prominence_db": 70.5,
+   "bed_db": -80.0,
+   "peak_dbfs": -7.8,
+   "local_lufs": -17.2,
+   "centroid_hz": 64,
+   "tags": [
+    {
+     "tag": "a sub bass drop",
+     "kind": "HIT",
+     "z": 2.57
+    },
+    {
+     "tag": "a kick drum",
+     "kind": "DRUM",
+     "z": 2.54
+    },
+    {
+     "tag": "a drum hit",
+     "kind": "DRUM",
+     "z": 2.13
+    }
+   ],
+   "kind": "HIT",
+   "label": "sub bass drop",
+   "exposed": true,
+   "ast": [
+    [
+     "Bang",
+     0.414
+    ],
+    [
+     "Music",
+     0.212
+    ],
+    [
+     "Sound effect",
+     0.198
+    ],
+    [
+     "Explosion",
+     0.072
+    ]
+   ]
+  },
+  {
+   "t": 15.839,
+   "shape": "hit",
+   "band": "full",
+   "contrast_db": 46.4,
+   "z": 4.8,
+   "length_ms": 2000,
+   "prominence_db": 21.2,
+   "bed_db": -52.0,
+   "peak_dbfs": -16.2,
+   "local_lufs": -29.8,
+   "centroid_hz": 1809,
+   "tags": [
+    {
+     "tag": "a sub bass drop",
+     "kind": "HIT",
+     "z": 2.23
+    },
+    {
+     "tag": "a short swish",
+     "kind": "WHOOSH",
+     "z": 2.1
+    },
+    {
+     "tag": "an uplifter sweep",
+     "kind": "RISER",
+     "z": 1.89
+    }
+   ],
+   "kind": "HIT",
+   "label": "sub bass drop",
+   "exposed": true
+  },
+  {
+   "t": 16.152,
+   "shape": "hit",
+   "band": "low",
+   "contrast_db": 41.8,
+   "z": 5.8,
+   "length_ms": 1717,
+   "prominence_db": 8.2,
+   "bed_db": -23.1,
+   "peak_dbfs": -11.4,
+   "local_lufs": -20.3,
+   "centroid_hz": 153,
+   "tags": [
+    {
+     "tag": "a sub bass drop",
+     "kind": "HIT",
+     "z": 2.9
+    },
+    {
+     "tag": "a water drop",
+     "kind": "FOLEY",
+     "z": 1.94
+    },
+    {
+     "tag": "a kick drum",
+     "kind": "DRUM",
+     "z": 1.86
+    }
+   ],
+   "kind": "HIT",
+   "label": "sub bass drop",
+   "exposed": false
+  },
+  {
+   "t": 17.25,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 51.4,
+   "z": 42.2,
+   "length_ms": 108,
+   "prominence_db": 13.5,
+   "bed_db": -28.3,
+   "peak_dbfs": -13.1,
+   "local_lufs": -26.8,
+   "centroid_hz": 678,
+   "tags": [
+    {
+     "tag": "a sub bass drop",
+     "kind": "HIT",
+     "z": 2.03
+    },
+    {
+     "tag": "a plucked string note",
+     "kind": "NOTE",
+     "z": 1.49
+    },
+    {
+     "tag": "a kick drum",
+     "kind": "DRUM",
+     "z": 1.48
+    }
+   ],
+   "kind": "HIT",
+   "label": "sub bass drop",
+   "exposed": true
+  },
+  {
+   "t": 17.856,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 44.7,
+   "z": 5.8,
+   "length_ms": 379,
+   "prominence_db": 6.9,
+   "bed_db": -35.1,
+   "peak_dbfs": -10.8,
+   "local_lufs": -28.0,
+   "centroid_hz": 1946,
+   "tags": [
+    {
+     "tag": "a whip pan whoosh transition",
+     "kind": "WHOOSH",
+     "z": 2.39
+    },
+    {
+     "tag": "a fast air whoosh",
+     "kind": "WHOOSH",
+     "z": 2.21
+    },
+    {
+     "tag": "an uplifter sweep",
+     "kind": "RISER",
+     "z": 2.19
+    }
+   ],
+   "kind": "WHOOSH",
+   "label": "whip pan whoosh transition",
+   "exposed": false
+  },
+  {
+   "t": 18.05,
+   "shape": "hit",
+   "band": "full",
+   "contrast_db": 14.5,
+   "z": 4.4,
+   "length_ms": 125,
+   "prominence_db": 18.4,
+   "bed_db": -32.3,
+   "peak_dbfs": -10.8,
+   "local_lufs": -24.0,
+   "centroid_hz": 3090,
+   "tags": [
+    {
+     "tag": "an uplifter sweep",
+     "kind": "RISER",
+     "z": 2.57
+    },
+    {
+     "tag": "a snare drum hit",
+     "kind": "DRUM",
+     "z": 1.82
+    },
+    {
+     "tag": "a hi-hat",
+     "kind": "DRUM",
+     "z": 1.59
+    }
+   ],
+   "kind": "RISER",
+   "label": "uplifter sweep",
+   "exposed": true
+  },
+  {
+   "t": 19.25,
+   "shape": "hit",
+   "band": "full",
+   "contrast_db": 52.1,
+   "z": 57.3,
+   "length_ms": 58,
+   "prominence_db": 35.0,
+   "bed_db": -50.0,
+   "peak_dbfs": -14.4,
+   "local_lufs": -29.3,
+   "centroid_hz": 806,
+   "tags": [
+    {
+     "tag": "a bubble pop",
+     "kind": "FOLEY",
+     "z": 3.19
+    },
+    {
+     "tag": "a cork pop",
+     "kind": "FOLEY",
+     "z": 2.0
+    },
+    {
+     "tag": "a chat message pop",
+     "kind": "UI",
+     "z": 1.59
+    }
+   ],
+   "kind": "FOLEY",
+   "label": "bubble pop",
+   "exposed": true
+  },
+  {
+   "t": 19.37,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 20.8,
+   "z": 3.5,
+   "length_ms": 1,
+   "prominence_db": 0.0,
+   "bed_db": -49.8,
+   "peak_dbfs": -240.0,
+   "local_lufs": -29.3,
+   "centroid_hz": 0,
+   "tags": [
+    {
+     "tag": "a short swish",
+     "kind": "WHOOSH",
+     "z": 1.71
+    },
+    {
+     "tag": "a bubble pop",
+     "kind": "FOLEY",
+     "z": 1.66
+    },
+    {
+     "tag": "a sub bass drop",
+     "kind": "HIT",
+     "z": 1.64
+    }
+   ],
+   "kind": "WHOOSH",
+   "label": "short swish",
+   "exposed": false
+  },
+  {
+   "t": 20.293,
+   "shape": "hit",
+   "band": "full",
+   "contrast_db": 49.0,
+   "z": 8.1,
+   "length_ms": 391,
+   "prominence_db": 50.1,
+   "bed_db": -80.0,
+   "peak_dbfs": -15.9,
+   "local_lufs": -29.8,
+   "centroid_hz": 1993,
+   "tags": [
+    {
+     "tag": "an uplifter sweep",
+     "kind": "RISER",
+     "z": 2.22
+    },
+    {
+     "tag": "a fast air whoosh",
+     "kind": "WHOOSH",
+     "z": 2.02
+    },
+    {
+     "tag": "a short swish",
+     "kind": "WHOOSH",
+     "z": 1.92
+    }
+   ],
+   "kind": "RISER",
+   "label": "uplifter sweep",
+   "exposed": true
+  },
+  {
+   "t": 22.0,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 50.8,
+   "z": 50.1,
+   "length_ms": 130,
+   "prominence_db": 14.6,
+   "bed_db": -29.0,
+   "peak_dbfs": -12.0,
+   "local_lufs": -24.1,
+   "centroid_hz": 549,
+   "tags": [
+    {
+     "tag": "a bubble pop",
+     "kind": "FOLEY",
+     "z": 2.65
+    },
+    {
+     "tag": "a chat message pop",
+     "kind": "UI",
+     "z": 1.85
+    },
+    {
+     "tag": "a glockenspiel note",
+     "kind": "NOTE",
+     "z": 1.74
+    }
+   ],
+   "kind": "FOLEY",
+   "label": "bubble pop",
+   "exposed": true
+  },
+  {
+   "t": 23.75,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 44.5,
+   "z": 48.4,
+   "length_ms": 18,
+   "prominence_db": 11.0,
+   "bed_db": -25.3,
+   "peak_dbfs": -12.3,
+   "local_lufs": -23.7,
+   "centroid_hz": 845,
+   "tags": [
+    {
+     "tag": "a bubble pop",
+     "kind": "FOLEY",
+     "z": 2.58
+    },
+    {
+     "tag": "a glockenspiel note",
+     "kind": "NOTE",
+     "z": 1.61
+    },
+    {
+     "tag": "a sub bass drop",
+     "kind": "HIT",
+     "z": 1.48
+    }
+   ],
+   "kind": "FOLEY",
+   "label": "bubble pop",
+   "exposed": false
+  },
+  {
+   "t": 25.191,
+   "shape": "hit",
+   "band": "full",
+   "contrast_db": 47.6,
+   "z": 6.2,
+   "length_ms": 518,
+   "prominence_db": 48.3,
+   "bed_db": -80.0,
+   "peak_dbfs": -15.8,
+   "local_lufs": -30.0,
+   "centroid_hz": 1750,
+   "tags": [
+    {
+     "tag": "a bubble pop",
+     "kind": "FOLEY",
+     "z": 2.09
+    },
+    {
+     "tag": "a whip pan whoosh transition",
+     "kind": "WHOOSH",
+     "z": 1.95
+    },
+    {
+     "tag": "a fast air whoosh",
+     "kind": "WHOOSH",
+     "z": 1.92
+    }
+   ],
+   "kind": "FOLEY",
+   "label": "bubble pop",
+   "exposed": true
+  },
+  {
+   "t": 25.245,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 42.0,
+   "z": 3.5,
+   "length_ms": 321,
+   "prominence_db": 55.9,
+   "bed_db": -80.0,
+   "peak_dbfs": -15.8,
+   "local_lufs": -27.1,
+   "centroid_hz": 2564,
+   "tags": [
+    {
+     "tag": "an uplifter sweep",
+     "kind": "RISER",
+     "z": 2.34
+    },
+    {
+     "tag": "a short swish",
+     "kind": "WHOOSH",
+     "z": 1.86
+    },
+    {
+     "tag": "leaves rustling",
+     "kind": "FOLEY",
+     "z": 1.62
+    }
+   ],
+   "kind": "RISER",
+   "label": "uplifter sweep",
+   "exposed": true
+  },
+  {
+   "t": 25.6,
+   "shape": "hit",
+   "band": "low",
+   "contrast_db": 32.5,
+   "z": 46.6,
+   "length_ms": 27,
+   "prominence_db": 8.5,
+   "bed_db": -23.4,
+   "peak_dbfs": -14.4,
+   "local_lufs": -25.7,
+   "centroid_hz": 944,
+   "tags": [
+    {
+     "tag": "a bubble pop",
+     "kind": "FOLEY",
+     "z": 3.19
+    },
+    {
+     "tag": "a cork pop",
+     "kind": "FOLEY",
+     "z": 2.05
+    },
+    {
+     "tag": "a water drop",
+     "kind": "FOLEY",
+     "z": 1.69
+    }
+   ],
+   "kind": "FOLEY",
+   "label": "bubble pop",
+   "exposed": false
+  },
+  {
+   "t": 28.024,
+   "shape": "hit",
+   "band": "full",
+   "contrast_db": 58.8,
+   "z": 45.7,
+   "length_ms": 59,
+   "prominence_db": 58.2,
+   "bed_db": -80.0,
+   "peak_dbfs": -21.2,
+   "local_lufs": -31.2,
+   "centroid_hz": 1014,
+   "tags": [
+    {
+     "tag": "a bubble pop",
+     "kind": "FOLEY",
+     "z": 3.12
+    },
+    {
+     "tag": "a cork pop",
+     "kind": "FOLEY",
+     "z": 1.91
+    },
+    {
+     "tag": "a chat message pop",
+     "kind": "UI",
+     "z": 1.83
+    }
+   ],
+   "kind": "FOLEY",
+   "label": "bubble pop",
+   "exposed": true
+  },
+  {
+   "t": 28.126,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 48.8,
+   "z": 40.8,
+   "length_ms": 127,
+   "prominence_db": 59.9,
+   "bed_db": -80.0,
+   "peak_dbfs": -21.2,
+   "local_lufs": -28.2,
+   "centroid_hz": 1368,
+   "tags": [
+    {
+     "tag": "a bubble pop",
+     "kind": "FOLEY",
+     "z": 2.9
+    },
+    {
+     "tag": "a water drop",
+     "kind": "FOLEY",
+     "z": 1.73
+    },
+    {
+     "tag": "a chat message pop",
+     "kind": "UI",
+     "z": 1.58
+    }
+   ],
+   "kind": "FOLEY",
+   "label": "bubble pop",
+   "exposed": true
+  },
+  {
+   "t": 28.202,
+   "shape": "hit",
+   "band": "low",
+   "contrast_db": 35.4,
+   "z": 37.9,
+   "length_ms": 33,
+   "prominence_db": 23.2,
+   "bed_db": -45.1,
+   "peak_dbfs": -21.7,
+   "local_lufs": -26.2,
+   "centroid_hz": 1045,
+   "tags": [
+    {
+     "tag": "a bubble pop",
+     "kind": "FOLEY",
+     "z": 3.01
+    },
+    {
+     "tag": "a water drop",
+     "kind": "FOLEY",
+     "z": 2.01
+    },
+    {
+     "tag": "a cork pop",
+     "kind": "FOLEY",
+     "z": 1.62
+    }
+   ],
+   "kind": "FOLEY",
+   "label": "bubble pop",
+   "exposed": true
+  },
+  {
+   "t": 28.298,
+   "shape": "hit",
+   "band": "low",
+   "contrast_db": 43.5,
+   "z": 46.7,
+   "length_ms": 52,
+   "prominence_db": 18.7,
+   "bed_db": -32.3,
+   "peak_dbfs": -11.5,
+   "local_lufs": -26.6,
+   "centroid_hz": 890,
+   "tags": [
+    {
+     "tag": "a bubble pop",
+     "kind": "FOLEY",
+     "z": 2.98
+    },
+    {
+     "tag": "a cork pop",
+     "kind": "FOLEY",
+     "z": 1.95
+    },
+    {
+     "tag": "a water drop",
+     "kind": "FOLEY",
+     "z": 1.81
+    }
+   ],
+   "kind": "FOLEY",
+   "label": "bubble pop",
+   "exposed": true
+  },
+  {
+   "t": 28.35,
+   "shape": "hit",
+   "band": "low",
+   "contrast_db": 12.7,
+   "z": 3.7,
+   "length_ms": 72,
+   "prominence_db": 0.0,
+   "bed_db": -31.6,
+   "peak_dbfs": -29.4,
+   "local_lufs": -27.3,
+   "centroid_hz": 432,
+   "tags": [
+    {
+     "tag": "a bubble pop",
+     "kind": "FOLEY",
+     "z": 2.64
+    },
+    {
+     "tag": "a water drop",
+     "kind": "FOLEY",
+     "z": 2.07
+    },
+    {
+     "tag": "a chat message pop",
+     "kind": "UI",
+     "z": 1.91
+    }
+   ],
+   "kind": "FOLEY",
+   "label": "bubble pop",
+   "exposed": false
+  },
+  {
+   "t": 28.42,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 9.2,
+   "z": 3.5,
+   "length_ms": 1,
+   "prominence_db": 0.0,
+   "bed_db": -30.9,
+   "peak_dbfs": -240.0,
+   "local_lufs": -27.8,
+   "centroid_hz": 0
+  },
+  {
+   "t": 28.671,
+   "shape": "hit",
+   "band": "full",
+   "contrast_db": 58.8,
+   "z": 49.8,
+   "length_ms": 59,
+   "prominence_db": 59.7,
+   "bed_db": -80.0,
+   "peak_dbfs": -21.2,
+   "local_lufs": -31.4,
+   "centroid_hz": 1540,
+   "tags": [
+    {
+     "tag": "a bubble pop",
+     "kind": "FOLEY",
+     "z": 2.62
+    },
+    {
+     "tag": "a chat message pop",
+     "kind": "UI",
+     "z": 2.1
+    },
+    {
+     "tag": "a cork pop",
+     "kind": "FOLEY",
+     "z": 1.58
+    }
+   ],
+   "kind": "FOLEY",
+   "label": "bubble pop",
+   "exposed": true
+  },
+  {
+   "t": 28.772,
+   "shape": "hit",
+   "band": "full",
+   "contrast_db": 58.8,
+   "z": 37.1,
+   "length_ms": 58,
+   "prominence_db": 59.8,
+   "bed_db": -80.0,
+   "peak_dbfs": -21.2,
+   "local_lufs": -31.4,
+   "centroid_hz": 1498,
+   "tags": [
+    {
+     "tag": "a bubble pop",
+     "kind": "FOLEY",
+     "z": 2.79
+    },
+    {
+     "tag": "a chat message pop",
+     "kind": "UI",
+     "z": 2.05
+    },
+    {
+     "tag": "a cork pop",
+     "kind": "FOLEY",
+     "z": 1.84
+    }
+   ],
+   "kind": "FOLEY",
+   "label": "bubble pop",
+   "exposed": true
+  },
+  {
+   "t": 28.863,
+   "shape": "hit",
+   "band": "low",
+   "contrast_db": 7.1,
+   "z": 4.0,
+   "length_ms": 3,
+   "prominence_db": 0.0,
+   "bed_db": -42.7,
+   "peak_dbfs": -240.0,
+   "local_lufs": -32.1,
+   "centroid_hz": 0,
+   "tags": [
+    {
+     "tag": "a bubble pop",
+     "kind": "FOLEY",
+     "z": 2.99
+    },
+    {
+     "tag": "a water drop",
+     "kind": "FOLEY",
+     "z": 2.47
+    },
+    {
+     "tag": "a cork pop",
+     "kind": "FOLEY",
+     "z": 2.26
+    }
+   ],
+   "kind": "FOLEY",
+   "label": "bubble pop",
+   "exposed": false
+  },
+  {
+   "t": 29.126,
+   "shape": "hit",
+   "band": "full",
+   "contrast_db": 58.8,
+   "z": 45.4,
+   "length_ms": 58,
+   "prominence_db": 59.4,
+   "bed_db": -80.0,
+   "peak_dbfs": -21.2,
+   "local_lufs": -33.6,
+   "centroid_hz": 1345,
+   "tags": [
+    {
+     "tag": "a bubble pop",
+     "kind": "FOLEY",
+     "z": 3.48
+    },
+    {
+     "tag": "a cork pop",
+     "kind": "FOLEY",
+     "z": 2.02
+    },
+    {
+     "tag": "a chat message pop",
+     "kind": "UI",
+     "z": 1.85
+    }
+   ],
+   "kind": "FOLEY",
+   "label": "bubble pop",
+   "exposed": true
+  },
+  {
+   "t": 29.175,
+   "shape": "hit",
+   "band": "full",
+   "contrast_db": 33.0,
+   "z": 4.4,
+   "length_ms": 41,
+   "prominence_db": 41.1,
+   "bed_db": -80.0,
+   "peak_dbfs": -38.2,
+   "local_lufs": -32.4,
+   "centroid_hz": 939
+  },
+  {
+   "t": 29.312,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 44.8,
+   "z": 42.8,
+   "length_ms": 59,
+   "prominence_db": 58.5,
+   "bed_db": -80.0,
+   "peak_dbfs": -21.2,
+   "local_lufs": -33.0,
+   "centroid_hz": 1054,
+   "tags": [
+    {
+     "tag": "a bubble pop",
+     "kind": "FOLEY",
+     "z": 3.26
+    },
+    {
+     "tag": "a cork pop",
+     "kind": "FOLEY",
+     "z": 2.21
+    },
+    {
+     "tag": "a chat message pop",
+     "kind": "UI",
+     "z": 1.73
+    }
+   ],
+   "kind": "FOLEY",
+   "label": "bubble pop",
+   "exposed": true
+  },
+  {
+   "t": 29.365,
+   "shape": "hit",
+   "band": "full",
+   "contrast_db": 32.0,
+   "z": 3.9,
+   "length_ms": 38,
+   "prominence_db": 20.4,
+   "bed_db": -60.9,
+   "peak_dbfs": -39.2,
+   "local_lufs": -35.4,
+   "centroid_hz": 718
+  },
+  {
+   "t": 29.623,
+   "shape": "hit",
+   "band": "full",
+   "contrast_db": 58.8,
+   "z": 45.4,
+   "length_ms": 192,
+   "prominence_db": 58.9,
+   "bed_db": -80.0,
+   "peak_dbfs": -20.4,
+   "local_lufs": -30.9,
+   "centroid_hz": 1108,
+   "tags": [
+    {
+     "tag": "a bubble pop",
+     "kind": "FOLEY",
+     "z": 3.0
+    },
+    {
+     "tag": "a chat message pop",
+     "kind": "UI",
+     "z": 1.81
+    },
+    {
+     "tag": "a water drop",
+     "kind": "FOLEY",
+     "z": 1.78
+    }
+   ],
+   "kind": "FOLEY",
+   "label": "bubble pop",
+   "exposed": true
+  },
+  {
+   "t": 29.71,
+   "shape": "hit",
+   "band": "full",
+   "contrast_db": 59.6,
+   "z": 42.0,
+   "length_ms": 102,
+   "prominence_db": 58.7,
+   "bed_db": -80.0,
+   "peak_dbfs": -20.4,
+   "local_lufs": -30.8,
+   "centroid_hz": 1198,
+   "tags": [
+    {
+     "tag": "a bubble pop",
+     "kind": "FOLEY",
+     "z": 3.01
+    },
+    {
+     "tag": "a chat message pop",
+     "kind": "UI",
+     "z": 1.85
+    },
+    {
+     "tag": "a cork pop",
+     "kind": "FOLEY",
+     "z": 1.85
+    }
+   ],
+   "kind": "FOLEY",
+   "label": "bubble pop",
+   "exposed": true
+  },
+  {
+   "t": 29.756,
+   "shape": "hit",
+   "band": "low",
+   "contrast_db": 34.1,
+   "z": 41.1,
+   "length_ms": 47,
+   "prominence_db": 58.7,
+   "bed_db": -80.0,
+   "peak_dbfs": -20.4,
+   "local_lufs": -30.5,
+   "centroid_hz": 1169,
+   "tags": [
+    {
+     "tag": "a bubble pop",
+     "kind": "FOLEY",
+     "z": 3.0
+    },
+    {
+     "tag": "a chat message pop",
+     "kind": "UI",
+     "z": 1.83
+    },
+    {
+     "tag": "a cork pop",
+     "kind": "FOLEY",
+     "z": 1.71
+    }
+   ],
+   "kind": "FOLEY",
+   "label": "bubble pop",
+   "exposed": true
+  },
+  {
+   "t": 29.847,
+   "shape": "hit",
+   "band": "low",
+   "contrast_db": 7.9,
+   "z": 3.7,
+   "length_ms": 3,
+   "prominence_db": 0.0,
+   "bed_db": -34.8,
+   "peak_dbfs": -240.0,
+   "local_lufs": -30.6,
+   "centroid_hz": 0
+  },
+  {
+   "t": 29.948,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 48.2,
+   "z": 44.6,
+   "length_ms": 59,
+   "prominence_db": 20.0,
+   "bed_db": -41.0,
+   "peak_dbfs": -21.2,
+   "local_lufs": -31.8,
+   "centroid_hz": 1262,
+   "tags": [
+    {
+     "tag": "a bubble pop",
+     "kind": "FOLEY",
+     "z": 3.21
+    },
+    {
+     "tag": "a chat message pop",
+     "kind": "UI",
+     "z": 1.99
+    },
+    {
+     "tag": "a cork pop",
+     "kind": "FOLEY",
+     "z": 1.76
+    }
+   ],
+   "kind": "FOLEY",
+   "label": "bubble pop",
+   "exposed": true
+  },
+  {
+   "t": 30.0,
+   "shape": "hit",
+   "band": "full",
+   "contrast_db": 32.2,
+   "z": 4.4,
+   "length_ms": 39,
+   "prominence_db": 0.0,
+   "bed_db": -36.9,
+   "peak_dbfs": -38.9,
+   "local_lufs": -31.7,
+   "centroid_hz": 866
+  },
+  {
+   "t": 30.147,
+   "shape": "hit",
+   "band": "full",
+   "contrast_db": 58.8,
+   "z": 48.4,
+   "length_ms": 59,
+   "prominence_db": 60.0,
+   "bed_db": -80.0,
+   "peak_dbfs": -21.2,
+   "local_lufs": -31.9,
+   "centroid_hz": 1631,
+   "tags": [
+    {
+     "tag": "a bubble pop",
+     "kind": "FOLEY",
+     "z": 2.64
+    },
+    {
+     "tag": "a chat message pop",
+     "kind": "UI",
+     "z": 2.02
+    },
+    {
+     "tag": "a cork pop",
+     "kind": "FOLEY",
+     "z": 1.67
+    }
+   ],
+   "kind": "FOLEY",
+   "label": "bubble pop",
+   "exposed": true
+  },
+  {
+   "t": 30.195,
+   "shape": "hit",
+   "band": "full",
+   "contrast_db": 33.7,
+   "z": 3.9,
+   "length_ms": 43,
+   "prominence_db": 42.4,
+   "bed_db": -80.0,
+   "peak_dbfs": -37.6,
+   "local_lufs": -34.0,
+   "centroid_hz": 1147
+  },
+  {
+   "t": 31.3,
+   "shape": "hit",
+   "band": "full",
+   "contrast_db": 60.0,
+   "z": 81.9,
+   "length_ms": 133,
+   "prominence_db": 69.6,
+   "bed_db": -80.0,
+   "peak_dbfs": -5.8,
+   "local_lufs": -22.6,
+   "centroid_hz": 71,
+   "tags": [
+    {
+     "tag": "a drum hit",
+     "kind": "DRUM",
+     "z": 2.47
+    },
+    {
+     "tag": "a kick drum",
+     "kind": "DRUM",
+     "z": 2.35
+    },
+    {
+     "tag": "a punchy impact hit",
+     "kind": "HIT",
+     "z": 2.12
+    }
+   ],
+   "kind": "DRUM",
+   "label": "drum hit",
+   "exposed": true,
+   "ast": [
+    [
+     "Sound effect",
+     0.177
+    ],
+    [
+     "Music",
+     0.171
+    ],
+    [
+     "Drum machine",
+     0.127
+    ],
+    [
+     "Bang",
+     0.056
+    ]
+   ]
+  },
+  {
+   "t": 32.795,
+   "shape": "hit",
+   "band": "full",
+   "contrast_db": 47.3,
+   "z": 6.4,
+   "length_ms": 388,
+   "prominence_db": 50.0,
+   "bed_db": -80.0,
+   "peak_dbfs": -16.2,
+   "local_lufs": -29.7,
+   "centroid_hz": 2161,
+   "tags": [
+    {
+     "tag": "an uplifter sweep",
+     "kind": "RISER",
+     "z": 2.1
+    },
+    {
+     "tag": "a fast air whoosh",
+     "kind": "WHOOSH",
+     "z": 1.93
+    },
+    {
+     "tag": "a short swish",
+     "kind": "WHOOSH",
+     "z": 1.89
+    }
+   ],
+   "kind": "RISER",
+   "label": "uplifter sweep",
+   "exposed": true
+  },
+  {
+   "t": 33.311,
+   "shape": "hit",
+   "band": "full",
+   "contrast_db": 60.0,
+   "z": 19.7,
+   "length_ms": 1579,
+   "prominence_db": 22.1,
+   "bed_db": -37.3,
+   "peak_dbfs": -12.4,
+   "local_lufs": -21.6,
+   "centroid_hz": 153,
+   "tags": [
+    {
+     "tag": "a sub bass drop",
+     "kind": "HIT",
+     "z": 3.17
+    },
+    {
+     "tag": "a plucked string note",
+     "kind": "NOTE",
+     "z": 1.75
+    },
+    {
+     "tag": "a glockenspiel note",
+     "kind": "NOTE",
+     "z": 1.71
+    }
+   ],
+   "kind": "HIT",
+   "label": "sub bass drop",
+   "exposed": true
+  },
+  {
+   "t": 34.2,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 51.4,
+   "z": 42.2,
+   "length_ms": 80,
+   "prominence_db": 11.3,
+   "bed_db": -26.1,
+   "peak_dbfs": -13.6,
+   "local_lufs": -25.7,
+   "centroid_hz": 712,
+   "tags": [
+    {
+     "tag": "a sub bass drop",
+     "kind": "HIT",
+     "z": 2.04
+    },
+    {
+     "tag": "a kick drum",
+     "kind": "DRUM",
+     "z": 1.65
+    },
+    {
+     "tag": "a bubble pop",
+     "kind": "FOLEY",
+     "z": 1.46
+    }
+   ],
+   "kind": "HIT",
+   "label": "sub bass drop",
+   "exposed": false
+  },
+  {
+   "t": 34.995,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 40.6,
+   "z": 5.3,
+   "length_ms": 393,
+   "prominence_db": 6.1,
+   "bed_db": -34.9,
+   "peak_dbfs": -16.1,
+   "local_lufs": -28.9,
+   "centroid_hz": 1814
+  },
+  {
+   "t": 35.056,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 49.0,
+   "z": 4.6,
+   "length_ms": 324,
+   "prominence_db": 11.6,
+   "bed_db": -35.3,
+   "peak_dbfs": -12.8,
+   "local_lufs": -26.5,
+   "centroid_hz": 2698,
+   "tags": [
+    {
+     "tag": "a short swish",
+     "kind": "WHOOSH",
+     "z": 1.9
+    },
+    {
+     "tag": "an uplifter sweep",
+     "kind": "RISER",
+     "z": 1.78
+    },
+    {
+     "tag": "a cork pop",
+     "kind": "FOLEY",
+     "z": 1.73
+    }
+   ],
+   "kind": "WHOOSH",
+   "label": "short swish",
+   "exposed": false
+  },
+  {
+   "t": 35.3,
+   "shape": "hit",
+   "band": "full",
+   "contrast_db": 8.8,
+   "z": 8.0,
+   "length_ms": 18,
+   "prominence_db": 9.1,
+   "bed_db": -23.7,
+   "peak_dbfs": -12.8,
+   "local_lufs": -24.2,
+   "centroid_hz": 975,
+   "tags": [
+    {
+     "tag": "a cork pop",
+     "kind": "FOLEY",
+     "z": 1.66
+    },
+    {
+     "tag": "a kick drum",
+     "kind": "DRUM",
+     "z": 1.58
+    },
+    {
+     "tag": "a bubble pop",
+     "kind": "FOLEY",
+     "z": 1.52
+    }
+   ],
+   "kind": "FOLEY",
+   "label": "cork pop",
+   "exposed": false
+  },
+  {
+   "t": 36.549,
+   "shape": "hit",
+   "band": "full",
+   "contrast_db": 60.0,
+   "z": 56.7,
+   "length_ms": 59,
+   "prominence_db": 65.0,
+   "bed_db": -80.0,
+   "peak_dbfs": -14.4,
+   "local_lufs": -29.3,
+   "centroid_hz": 815,
+   "tags": [
+    {
+     "tag": "a bubble pop",
+     "kind": "FOLEY",
+     "z": 3.14
+    },
+    {
+     "tag": "a cork pop",
+     "kind": "FOLEY",
+     "z": 2.04
+    },
+    {
+     "tag": "a chat message pop",
+     "kind": "UI",
+     "z": 1.56
+    }
+   ],
+   "kind": "FOLEY",
+   "label": "bubble pop",
+   "exposed": true,
+   "ast": [
+    [
+     "Music",
+     0.186
+    ],
+    [
+     "Sound effect",
+     0.145
+    ],
+    [
+     "Speech",
+     0.05
+    ]
+   ]
+  },
+  {
+   "t": 36.669,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 20.8,
+   "z": 3.5,
+   "length_ms": 2,
+   "prominence_db": 13.5,
+   "bed_db": -80.0,
+   "peak_dbfs": -56.3,
+   "local_lufs": -29.3,
+   "centroid_hz": 1506,
+   "tags": [
+    {
+     "tag": "a short swish",
+     "kind": "WHOOSH",
+     "z": 1.71
+    },
+    {
+     "tag": "a small soft footstep",
+     "kind": "STEP",
+     "z": 1.66
+    },
+    {
+     "tag": "a soft UI button tap",
+     "kind": "UI",
+     "z": 1.59
+    }
+   ],
+   "kind": "WHOOSH",
+   "label": "short swish",
+   "exposed": true
+  },
+  {
+   "t": 37.986,
+   "shape": "hit",
+   "band": "full",
+   "contrast_db": 46.8,
+   "z": 5.5,
+   "length_ms": 842,
+   "prominence_db": 49.8,
+   "bed_db": -80.0,
+   "peak_dbfs": -12.5,
+   "local_lufs": -30.2,
+   "centroid_hz": 1549,
+   "tags": [
+    {
+     "tag": "a fast air whoosh",
+     "kind": "WHOOSH",
+     "z": 2.4
+    },
+    {
+     "tag": "a short swish",
+     "kind": "WHOOSH",
+     "z": 2.38
+    },
+    {
+     "tag": "a whip pan whoosh transition",
+     "kind": "WHOOSH",
+     "z": 2.36
+    }
+   ],
+   "kind": "WHOOSH",
+   "label": "fast air whoosh",
+   "exposed": true
+  },
+  {
+   "t": 38.021,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 56.0,
+   "z": 3.0,
+   "length_ms": 348,
+   "prominence_db": 54.0,
+   "bed_db": -80.0,
+   "peak_dbfs": -12.5,
+   "local_lufs": -28.4,
+   "centroid_hz": 2244,
+   "tags": [
+    {
+     "tag": "an uplifter sweep",
+     "kind": "RISER",
+     "z": 2.16
+    },
+    {
+     "tag": "a short swish",
+     "kind": "WHOOSH",
+     "z": 2.06
+    },
+    {
+     "tag": "a whip pan whoosh transition",
+     "kind": "WHOOSH",
+     "z": 2.05
+    }
+   ],
+   "kind": "RISER",
+   "label": "uplifter sweep",
+   "exposed": true
+  },
+  {
+   "t": 38.25,
+   "shape": "hit",
+   "band": "low",
+   "contrast_db": 16.3,
+   "z": 6.7,
+   "length_ms": 4,
+   "prominence_db": 13.2,
+   "bed_db": -27.4,
+   "peak_dbfs": -12.5,
+   "local_lufs": -24.3,
+   "centroid_hz": 1252,
+   "tags": [
+    {
+     "tag": "a whip pan whoosh transition",
+     "kind": "WHOOSH",
+     "z": 2.72
+    },
+    {
+     "tag": "a short swish",
+     "kind": "WHOOSH",
+     "z": 2.19
+    },
+    {
+     "tag": "an uplifter sweep",
+     "kind": "RISER",
+     "z": 2.15
+    }
+   ],
+   "kind": "WHOOSH",
+   "label": "whip pan whoosh transition",
+   "exposed": true
+  },
+  {
+   "t": 38.459,
+   "shape": "hit",
+   "band": "low",
+   "contrast_db": 14.5,
+   "z": 3.3,
+   "length_ms": 336,
+   "prominence_db": 0.0,
+   "bed_db": -25.3,
+   "peak_dbfs": -20.6,
+   "local_lufs": -26.3,
+   "centroid_hz": 2518
+  },
+  {
+   "t": 39.85,
+   "shape": "swell",
+   "band": "full",
+   "contrast_db": 51.8,
+   "prominence_db": 51.8,
+   "bed_db": -80.0,
+   "z": 0.0,
+   "rise_ms": 960,
+   "length_ms": 450,
+   "peak_dbfs": -25.2,
+   "local_lufs": -26.3,
+   "centroid_hz": 534,
+   "tags": [
+    {
+     "tag": "a sub bass drop",
+     "kind": "HIT",
+     "z": 3.24
+    },
+    {
+     "tag": "a deep cinematic boom",
+     "kind": "HIT",
+     "z": 1.77
+    },
+    {
+     "tag": "a fast air whoosh",
+     "kind": "WHOOSH",
+     "z": 1.65
+    }
+   ],
+   "kind": "HIT",
+   "label": "sub bass drop",
+   "exposed": true
+  },
+  {
+   "t": 40.2,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 47.9,
+   "z": 50.5,
+   "length_ms": 40,
+   "prominence_db": 11.7,
+   "bed_db": -26.6,
+   "peak_dbfs": -13.4,
+   "local_lufs": -26.9,
+   "centroid_hz": 859,
+   "tags": [
+    {
+     "tag": "a bubble pop",
+     "kind": "FOLEY",
+     "z": 2.44
+    },
+    {
+     "tag": "a glockenspiel note",
+     "kind": "NOTE",
+     "z": 1.75
+    },
+    {
+     "tag": "a water drop",
+     "kind": "FOLEY",
+     "z": 1.72
+    }
+   ],
+   "kind": "FOLEY",
+   "label": "bubble pop",
+   "exposed": false
+  },
+  {
+   "t": 40.32,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 19.9,
+   "z": 3.2,
+   "length_ms": 1,
+   "prominence_db": 0.0,
+   "bed_db": -27.9,
+   "peak_dbfs": -38.1,
+   "local_lufs": -28.2,
+   "centroid_hz": 407
+  },
+  {
+   "t": 42.0,
+   "shape": "hit",
+   "band": "full",
+   "contrast_db": 60.0,
+   "z": 57.3,
+   "length_ms": 58,
+   "prominence_db": 65.0,
+   "bed_db": -80.0,
+   "peak_dbfs": -14.4,
+   "local_lufs": -29.3,
+   "centroid_hz": 806,
+   "tags": [
+    {
+     "tag": "a bubble pop",
+     "kind": "FOLEY",
+     "z": 3.19
+    },
+    {
+     "tag": "a cork pop",
+     "kind": "FOLEY",
+     "z": 2.0
+    },
+    {
+     "tag": "a chat message pop",
+     "kind": "UI",
+     "z": 1.59
+    }
+   ],
+   "kind": "FOLEY",
+   "label": "bubble pop",
+   "exposed": true,
+   "ast": [
+    [
+     "Music",
+     0.187
+    ],
+    [
+     "Sound effect",
+     0.146
+    ],
+    [
+     "Speech",
+     0.053
+    ]
+   ]
+  },
+  {
+   "t": 42.12,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 20.8,
+   "z": 3.5,
+   "length_ms": 1,
+   "prominence_db": 0.0,
+   "bed_db": -80.0,
+   "peak_dbfs": -56.3,
+   "local_lufs": -29.3,
+   "centroid_hz": 0,
+   "tags": [
+    {
+     "tag": "a short swish",
+     "kind": "WHOOSH",
+     "z": 1.71
+    },
+    {
+     "tag": "a bubble pop",
+     "kind": "FOLEY",
+     "z": 1.66
+    },
+    {
+     "tag": "a sub bass drop",
+     "kind": "HIT",
+     "z": 1.64
+    }
+   ],
+   "kind": "WHOOSH",
+   "label": "short swish",
+   "exposed": false
+  },
+  {
+   "t": 43.739,
+   "shape": "hit",
+   "band": "full",
+   "contrast_db": 48.6,
+   "z": 5.9,
+   "length_ms": 397,
+   "prominence_db": 49.5,
+   "bed_db": -80.0,
+   "peak_dbfs": -12.3,
+   "local_lufs": -30.2,
+   "centroid_hz": 1859,
+   "tags": [
+    {
+     "tag": "a whip pan whoosh transition",
+     "kind": "WHOOSH",
+     "z": 2.39
+    },
+    {
+     "tag": "a short swish",
+     "kind": "WHOOSH",
+     "z": 2.37
+    },
+    {
+     "tag": "a fast air whoosh",
+     "kind": "WHOOSH",
+     "z": 2.3
+    }
+   ],
+   "kind": "WHOOSH",
+   "label": "whip pan whoosh transition",
+   "exposed": true
+  },
+  {
+   "t": 44.0,
+   "shape": "hit",
+   "band": "low",
+   "contrast_db": 15.9,
+   "z": 6.6,
+   "length_ms": 6,
+   "prominence_db": 14.3,
+   "bed_db": -28.5,
+   "peak_dbfs": -12.3,
+   "local_lufs": -24.2,
+   "centroid_hz": 1201,
+   "tags": [
+    {
+     "tag": "a snare drum hit",
+     "kind": "DRUM",
+     "z": 2.81
+    },
+    {
+     "tag": "a hi-hat",
+     "kind": "DRUM",
+     "z": 1.69
+    },
+    {
+     "tag": "a cork pop",
+     "kind": "FOLEY",
+     "z": 1.59
+    }
+   ],
+   "kind": "DRUM",
+   "label": "snare drum hit",
+   "exposed": true
+  },
+  {
+   "t": 45.6,
+   "shape": "hit",
+   "band": "full",
+   "contrast_db": 60.0,
+   "z": 82.4,
+   "length_ms": 133,
+   "prominence_db": 69.7,
+   "bed_db": -80.0,
+   "peak_dbfs": -5.6,
+   "local_lufs": -22.5,
+   "centroid_hz": 72,
+   "tags": [
+    {
+     "tag": "a drum hit",
+     "kind": "DRUM",
+     "z": 2.43
+    },
+    {
+     "tag": "a punchy impact hit",
+     "kind": "HIT",
+     "z": 2.22
+    },
+    {
+     "tag": "a kick drum",
+     "kind": "DRUM",
+     "z": 2.19
+    }
+   ],
+   "kind": "DRUM",
+   "label": "drum hit",
+   "exposed": true,
+   "ast": [
+    [
+     "Sound effect",
+     0.197
+    ],
+    [
+     "Music",
+     0.183
+    ],
+    [
+     "Drum machine",
+     0.105
+    ],
+    [
+     "Bang",
+     0.069
+    ]
+   ]
+  },
+  {
+   "t": 46.897,
+   "shape": "hit",
+   "band": "full",
+   "contrast_db": 50.0,
+   "z": 6.2,
+   "length_ms": 380,
+   "prominence_db": 50.7,
+   "bed_db": -80.0,
+   "peak_dbfs": -16.3,
+   "local_lufs": -29.6,
+   "centroid_hz": 1797,
+   "tags": [
+    {
+     "tag": "an uplifter sweep",
+     "kind": "RISER",
+     "z": 2.66
+    },
+    {
+     "tag": "a fast air whoosh",
+     "kind": "WHOOSH",
+     "z": 1.86
+    },
+    {
+     "tag": "a breath",
+     "kind": "VOICE",
+     "z": 1.83
+    }
+   ],
+   "kind": "RISER",
+   "label": "uplifter sweep",
+   "exposed": true
+  },
+  {
+   "t": 47.45,
+   "shape": "hit",
+   "band": "full",
+   "contrast_db": 60.0,
+   "z": 19.9,
+   "length_ms": 1590,
+   "prominence_db": 52.3,
+   "bed_db": -67.4,
+   "peak_dbfs": -12.4,
+   "local_lufs": -21.8,
+   "centroid_hz": 157,
+   "tags": [
+    {
+     "tag": "a sub bass drop",
+     "kind": "HIT",
+     "z": 3.28
+    },
+    {
+     "tag": "a glockenspiel note",
+     "kind": "NOTE",
+     "z": 1.84
+    },
+    {
+     "tag": "a plucked string note",
+     "kind": "NOTE",
+     "z": 1.56
+    }
+   ],
+   "kind": "HIT",
+   "label": "sub bass drop",
+   "exposed": true
+  },
+  {
+   "t": 48.45,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 51.4,
+   "z": 43.5,
+   "length_ms": 71,
+   "prominence_db": 12.4,
+   "bed_db": -27.2,
+   "peak_dbfs": -12.9,
+   "local_lufs": -26.3,
+   "centroid_hz": 735,
+   "tags": [
+    {
+     "tag": "a sub bass drop",
+     "kind": "HIT",
+     "z": 2.09
+    },
+    {
+     "tag": "a kick drum",
+     "kind": "DRUM",
+     "z": 1.61
+    },
+    {
+     "tag": "a plucked string note",
+     "kind": "NOTE",
+     "z": 1.45
+    }
+   ],
+   "kind": "HIT",
+   "label": "sub bass drop",
+   "exposed": true
+  },
+  {
+   "t": 49.396,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 55.3,
+   "z": 3.1,
+   "length_ms": 324,
+   "prominence_db": 13.8,
+   "bed_db": -37.3,
+   "peak_dbfs": -16.0,
+   "local_lufs": -26.6,
+   "centroid_hz": 2725,
+   "tags": [
+    {
+     "tag": "an uplifter sweep",
+     "kind": "RISER",
+     "z": 2.55
+    },
+    {
+     "tag": "a short swish",
+     "kind": "WHOOSH",
+     "z": 2.05
+    },
+    {
+     "tag": "a whip pan whoosh transition",
+     "kind": "WHOOSH",
+     "z": 1.87
+    }
+   ],
+   "kind": "RISER",
+   "label": "uplifter sweep",
+   "exposed": true
+  },
+  {
+   "t": 50.85,
+   "shape": "hit",
+   "band": "full",
+   "contrast_db": 60.0,
+   "z": 57.3,
+   "length_ms": 58,
+   "prominence_db": 65.0,
+   "bed_db": -80.0,
+   "peak_dbfs": -14.4,
+   "local_lufs": -29.3,
+   "centroid_hz": 806,
+   "tags": [
+    {
+     "tag": "a bubble pop",
+     "kind": "FOLEY",
+     "z": 3.19
+    },
+    {
+     "tag": "a cork pop",
+     "kind": "FOLEY",
+     "z": 2.0
+    },
+    {
+     "tag": "a chat message pop",
+     "kind": "UI",
+     "z": 1.59
+    }
+   ],
+   "kind": "FOLEY",
+   "label": "bubble pop",
+   "exposed": true,
+   "ast": [
+    [
+     "Music",
+     0.187
+    ],
+    [
+     "Sound effect",
+     0.146
+    ],
+    [
+     "Speech",
+     0.053
+    ]
+   ]
+  },
+  {
+   "t": 50.97,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 20.8,
+   "z": 3.5,
+   "length_ms": 1,
+   "prominence_db": 0.0,
+   "bed_db": -80.0,
+   "peak_dbfs": -240.0,
+   "local_lufs": -29.3,
+   "centroid_hz": 0,
+   "tags": [
+    {
+     "tag": "a short swish",
+     "kind": "WHOOSH",
+     "z": 1.71
+    },
+    {
+     "tag": "a bubble pop",
+     "kind": "FOLEY",
+     "z": 1.66
+    },
+    {
+     "tag": "a sub bass drop",
+     "kind": "HIT",
+     "z": 1.64
+    }
+   ],
+   "kind": "WHOOSH",
+   "label": "short swish",
+   "exposed": false
+  },
+  {
+   "t": 51.911,
+   "shape": "hit",
+   "band": "full",
+   "contrast_db": 52.8,
+   "z": 6.6,
+   "length_ms": 367,
+   "prominence_db": 52.3,
+   "bed_db": -80.0,
+   "peak_dbfs": -16.5,
+   "local_lufs": -28.7,
+   "centroid_hz": 2037,
+   "tags": [
+    {
+     "tag": "an uplifter sweep",
+     "kind": "RISER",
+     "z": 2.22
+    },
+    {
+     "tag": "a fast air whoosh",
+     "kind": "WHOOSH",
+     "z": 1.99
+    },
+    {
+     "tag": "a short swish",
+     "kind": "WHOOSH",
+     "z": 1.98
+    }
+   ],
+   "kind": "RISER",
+   "label": "uplifter sweep",
+   "exposed": true
+  },
+  {
+   "t": 52.55,
+   "shape": "hit",
+   "band": "full",
+   "contrast_db": 60.0,
+   "z": 57.3,
+   "length_ms": 58,
+   "prominence_db": 65.0,
+   "bed_db": -80.0,
+   "peak_dbfs": -14.4,
+   "local_lufs": -29.3,
+   "centroid_hz": 806,
+   "tags": [
+    {
+     "tag": "a bubble pop",
+     "kind": "FOLEY",
+     "z": 3.19
+    },
+    {
+     "tag": "a cork pop",
+     "kind": "FOLEY",
+     "z": 2.0
+    },
+    {
+     "tag": "a chat message pop",
+     "kind": "UI",
+     "z": 1.59
+    }
+   ],
+   "kind": "FOLEY",
+   "label": "bubble pop",
+   "exposed": true,
+   "ast": [
+    [
+     "Music",
+     0.187
+    ],
+    [
+     "Sound effect",
+     0.146
+    ],
+    [
+     "Speech",
+     0.053
+    ]
+   ]
+  },
+  {
+   "t": 52.67,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 20.8,
+   "z": 3.5,
+   "length_ms": 1,
+   "prominence_db": 0.0,
+   "bed_db": -80.0,
+   "peak_dbfs": -240.0,
+   "local_lufs": -29.3,
+   "centroid_hz": 0,
+   "tags": [
+    {
+     "tag": "a short swish",
+     "kind": "WHOOSH",
+     "z": 1.71
+    },
+    {
+     "tag": "a bubble pop",
+     "kind": "FOLEY",
+     "z": 1.66
+    },
+    {
+     "tag": "a sub bass drop",
+     "kind": "HIT",
+     "z": 1.64
+    }
+   ],
+   "kind": "WHOOSH",
+   "label": "short swish",
+   "exposed": false
+  },
+  {
+   "t": 54.55,
+   "shape": "hit",
+   "band": "full",
+   "contrast_db": 60.0,
+   "z": 57.3,
+   "length_ms": 58,
+   "prominence_db": 65.0,
+   "bed_db": -80.0,
+   "peak_dbfs": -14.4,
+   "local_lufs": -29.3,
+   "centroid_hz": 806,
+   "tags": [
+    {
+     "tag": "a bubble pop",
+     "kind": "FOLEY",
+     "z": 3.19
+    },
+    {
+     "tag": "a cork pop",
+     "kind": "FOLEY",
+     "z": 2.0
+    },
+    {
+     "tag": "a chat message pop",
+     "kind": "UI",
+     "z": 1.59
+    }
+   ],
+   "kind": "FOLEY",
+   "label": "bubble pop",
+   "exposed": true,
+   "ast": [
+    [
+     "Music",
+     0.187
+    ],
+    [
+     "Sound effect",
+     0.146
+    ],
+    [
+     "Speech",
+     0.053
+    ]
+   ]
+  },
+  {
+   "t": 54.67,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 20.8,
+   "z": 3.5,
+   "length_ms": 1,
+   "prominence_db": 0.0,
+   "bed_db": -80.0,
+   "peak_dbfs": -240.0,
+   "local_lufs": -29.3,
+   "centroid_hz": 0,
+   "tags": [
+    {
+     "tag": "a short swish",
+     "kind": "WHOOSH",
+     "z": 1.71
+    },
+    {
+     "tag": "a bubble pop",
+     "kind": "FOLEY",
+     "z": 1.66
+    },
+    {
+     "tag": "a sub bass drop",
+     "kind": "HIT",
+     "z": 1.64
+    }
+   ],
+   "kind": "WHOOSH",
+   "label": "short swish",
+   "exposed": false
+  },
+  {
+   "t": 56.448,
+   "shape": "hit",
+   "band": "full",
+   "contrast_db": 50.2,
+   "z": 6.5,
+   "length_ms": 383,
+   "prominence_db": 50.9,
+   "bed_db": -80.0,
+   "peak_dbfs": -16.8,
+   "local_lufs": -29.2,
+   "centroid_hz": 1998,
+   "tags": [
+    {
+     "tag": "an uplifter sweep",
+     "kind": "RISER",
+     "z": 2.17
+    },
+    {
+     "tag": "a fast air whoosh",
+     "kind": "WHOOSH",
+     "z": 1.96
+    },
+    {
+     "tag": "a short swish",
+     "kind": "WHOOSH",
+     "z": 1.91
+    }
+   ],
+   "kind": "RISER",
+   "label": "uplifter sweep",
+   "exposed": true
+  },
+  {
+   "t": 57.05,
+   "shape": "hit",
+   "band": "full",
+   "contrast_db": 60.0,
+   "z": 57.3,
+   "length_ms": 58,
+   "prominence_db": 65.0,
+   "bed_db": -80.0,
+   "peak_dbfs": -14.4,
+   "local_lufs": -29.3,
+   "centroid_hz": 806,
+   "tags": [
+    {
+     "tag": "a bubble pop",
+     "kind": "FOLEY",
+     "z": 3.19
+    },
+    {
+     "tag": "a cork pop",
+     "kind": "FOLEY",
+     "z": 2.0
+    },
+    {
+     "tag": "a chat message pop",
+     "kind": "UI",
+     "z": 1.59
+    }
+   ],
+   "kind": "FOLEY",
+   "label": "bubble pop",
+   "exposed": true,
+   "ast": [
+    [
+     "Music",
+     0.187
+    ],
+    [
+     "Sound effect",
+     0.146
+    ],
+    [
+     "Speech",
+     0.053
+    ]
+   ]
+  },
+  {
+   "t": 57.17,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 20.8,
+   "z": 3.5,
+   "length_ms": 1,
+   "prominence_db": 0.0,
+   "bed_db": -80.0,
+   "peak_dbfs": -240.0,
+   "local_lufs": -29.3,
+   "centroid_hz": 0,
+   "tags": [
+    {
+     "tag": "a short swish",
+     "kind": "WHOOSH",
+     "z": 1.71
+    },
+    {
+     "tag": "a bubble pop",
+     "kind": "FOLEY",
+     "z": 1.66
+    },
+    {
+     "tag": "a sub bass drop",
+     "kind": "HIT",
+     "z": 1.64
+    }
+   ],
+   "kind": "WHOOSH",
+   "label": "short swish",
+   "exposed": false
+  },
+  {
+   "t": 57.5,
+   "shape": "hit",
+   "band": "full",
+   "contrast_db": 60.0,
+   "z": 57.3,
+   "length_ms": 58,
+   "prominence_db": 65.0,
+   "bed_db": -80.0,
+   "peak_dbfs": -14.4,
+   "local_lufs": -29.3,
+   "centroid_hz": 806,
+   "tags": [
+    {
+     "tag": "a bubble pop",
+     "kind": "FOLEY",
+     "z": 3.19
+    },
+    {
+     "tag": "a cork pop",
+     "kind": "FOLEY",
+     "z": 2.0
+    },
+    {
+     "tag": "a chat message pop",
+     "kind": "UI",
+     "z": 1.59
+    }
+   ],
+   "kind": "FOLEY",
+   "label": "bubble pop",
+   "exposed": true
+  },
+  {
+   "t": 57.62,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 20.8,
+   "z": 3.5,
+   "length_ms": 1,
+   "prominence_db": 0.0,
+   "bed_db": -80.0,
+   "peak_dbfs": -240.0,
+   "local_lufs": -29.3,
+   "centroid_hz": 0
+  },
+  {
+   "t": 59.312,
+   "shape": "hit",
+   "band": "full",
+   "contrast_db": 54.5,
+   "z": 5.1,
+   "length_ms": 477,
+   "prominence_db": 53.1,
+   "bed_db": -80.0,
+   "peak_dbfs": -16.4,
+   "local_lufs": -28.7,
+   "centroid_hz": 2115,
+   "tags": [
+    {
+     "tag": "a bubble pop",
+     "kind": "FOLEY",
+     "z": 2.02
+    },
+    {
+     "tag": "a whip pan whoosh transition",
+     "kind": "WHOOSH",
+     "z": 2.0
+    },
+    {
+     "tag": "a fast air whoosh",
+     "kind": "WHOOSH",
+     "z": 1.98
+    }
+   ],
+   "kind": "FOLEY",
+   "label": "bubble pop",
+   "exposed": true
+  },
+  {
+   "t": 59.7,
+   "shape": "hit",
+   "band": "low",
+   "contrast_db": 32.6,
+   "z": 47.4,
+   "length_ms": 7,
+   "prominence_db": 8.7,
+   "bed_db": -23.7,
+   "peak_dbfs": -14.4,
+   "local_lufs": -25.9,
+   "centroid_hz": 944,
+   "tags": [
+    {
+     "tag": "a bubble pop",
+     "kind": "FOLEY",
+     "z": 3.2
+    },
+    {
+     "tag": "a cork pop",
+     "kind": "FOLEY",
+     "z": 2.06
+    },
+    {
+     "tag": "a water drop",
+     "kind": "FOLEY",
+     "z": 1.71
+    }
+   ],
+   "kind": "FOLEY",
+   "label": "bubble pop",
+   "exposed": false
+  },
+  {
+   "t": 60.75,
+   "shape": "hit",
+   "band": "full",
+   "contrast_db": 60.0,
+   "z": 57.3,
+   "length_ms": 58,
+   "prominence_db": 65.0,
+   "bed_db": -80.0,
+   "peak_dbfs": -14.4,
+   "local_lufs": -29.3,
+   "centroid_hz": 806,
+   "tags": [
+    {
+     "tag": "a bubble pop",
+     "kind": "FOLEY",
+     "z": 3.19
+    },
+    {
+     "tag": "a cork pop",
+     "kind": "FOLEY",
+     "z": 2.0
+    },
+    {
+     "tag": "a chat message pop",
+     "kind": "UI",
+     "z": 1.59
+    }
+   ],
+   "kind": "FOLEY",
+   "label": "bubble pop",
+   "exposed": true,
+   "ast": [
+    [
+     "Music",
+     0.187
+    ],
+    [
+     "Sound effect",
+     0.146
+    ],
+    [
+     "Speech",
+     0.053
+    ]
+   ]
+  },
+  {
+   "t": 60.87,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 20.8,
+   "z": 3.5,
+   "length_ms": 1,
+   "prominence_db": 0.0,
+   "bed_db": -80.0,
+   "peak_dbfs": -240.0,
+   "local_lufs": -29.3,
+   "centroid_hz": 0,
+   "tags": [
+    {
+     "tag": "a short swish",
+     "kind": "WHOOSH",
+     "z": 1.71
+    },
+    {
+     "tag": "a bubble pop",
+     "kind": "FOLEY",
+     "z": 1.66
+    },
+    {
+     "tag": "a sub bass drop",
+     "kind": "HIT",
+     "z": 1.64
+    }
+   ],
+   "kind": "WHOOSH",
+   "label": "short swish",
+   "exposed": false
+  },
+  {
+   "t": 62.194,
+   "shape": "hit",
+   "band": "full",
+   "contrast_db": 49.1,
+   "z": 6.2,
+   "length_ms": 387,
+   "prominence_db": 50.3,
+   "bed_db": -80.0,
+   "peak_dbfs": -10.5,
+   "local_lufs": -29.7,
+   "centroid_hz": 1647,
+   "tags": [
+    {
+     "tag": "a whip pan whoosh transition",
+     "kind": "WHOOSH",
+     "z": 2.3
+    },
+    {
+     "tag": "a short swish",
+     "kind": "WHOOSH",
+     "z": 2.22
+    },
+    {
+     "tag": "a fast air whoosh",
+     "kind": "WHOOSH",
+     "z": 2.19
+    }
+   ],
+   "kind": "WHOOSH",
+   "label": "whip pan whoosh transition",
+   "exposed": true
+  },
+  {
+   "t": 62.448,
+   "shape": "hit",
+   "band": "low",
+   "contrast_db": 15.7,
+   "z": 6.1,
+   "length_ms": 59,
+   "prominence_db": 13.4,
+   "bed_db": -27.4,
+   "peak_dbfs": -10.5,
+   "local_lufs": -24.3,
+   "centroid_hz": 1385,
+   "tags": [
+    {
+     "tag": "a snare drum hit",
+     "kind": "DRUM",
+     "z": 2.65
+    },
+    {
+     "tag": "a hi-hat",
+     "kind": "DRUM",
+     "z": 1.79
+    },
+    {
+     "tag": "a whip pan whoosh transition",
+     "kind": "WHOOSH",
+     "z": 1.69
+    }
+   ],
+   "kind": "DRUM",
+   "label": "snare drum hit",
+   "exposed": true
+  },
+  {
+   "t": 62.95,
+   "shape": "hit",
+   "band": "full",
+   "contrast_db": 60.0,
+   "z": 59.6,
+   "length_ms": 26,
+   "prominence_db": 64.5,
+   "bed_db": -80.0,
+   "peak_dbfs": -15.7,
+   "local_lufs": -31.4,
+   "centroid_hz": 2400,
+   "tags": [
+    {
+     "tag": "a chat message pop",
+     "kind": "UI",
+     "z": 2.34
+    },
+    {
+     "tag": "a bubble pop",
+     "kind": "FOLEY",
+     "z": 1.94
+    },
+    {
+     "tag": "a hi-hat",
+     "kind": "DRUM",
+     "z": 1.69
+    }
+   ],
+   "kind": "UI",
+   "label": "chat message pop",
+   "exposed": true
+  },
+  {
+   "t": 63.6,
+   "shape": "hit",
+   "band": "full",
+   "contrast_db": 60.0,
+   "z": 59.6,
+   "length_ms": 26,
+   "prominence_db": 64.5,
+   "bed_db": -80.0,
+   "peak_dbfs": -15.7,
+   "local_lufs": -31.4,
+   "centroid_hz": 2400,
+   "tags": [
+    {
+     "tag": "a chat message pop",
+     "kind": "UI",
+     "z": 2.34
+    },
+    {
+     "tag": "a bubble pop",
+     "kind": "FOLEY",
+     "z": 1.94
+    },
+    {
+     "tag": "a hi-hat",
+     "kind": "DRUM",
+     "z": 1.69
+    }
+   ],
+   "kind": "UI",
+   "label": "chat message pop",
+   "exposed": true
+  },
+  {
+   "t": 64.25,
+   "shape": "hit",
+   "band": "full",
+   "contrast_db": 60.0,
+   "z": 59.6,
+   "length_ms": 26,
+   "prominence_db": 64.5,
+   "bed_db": -80.0,
+   "peak_dbfs": -15.7,
+   "local_lufs": -31.4,
+   "centroid_hz": 2400,
+   "tags": [
+    {
+     "tag": "a chat message pop",
+     "kind": "UI",
+     "z": 2.34
+    },
+    {
+     "tag": "a bubble pop",
+     "kind": "FOLEY",
+     "z": 1.94
+    },
+    {
+     "tag": "a hi-hat",
+     "kind": "DRUM",
+     "z": 1.69
+    }
+   ],
+   "kind": "UI",
+   "label": "chat message pop",
+   "exposed": true
+  },
+  {
+   "t": 66.4,
+   "shape": "hit",
+   "band": "full",
+   "contrast_db": 60.0,
+   "z": 57.3,
+   "length_ms": 58,
+   "prominence_db": 65.0,
+   "bed_db": -80.0,
+   "peak_dbfs": -14.4,
+   "local_lufs": -29.3,
+   "centroid_hz": 806,
+   "tags": [
+    {
+     "tag": "a bubble pop",
+     "kind": "FOLEY",
+     "z": 3.19
+    },
+    {
+     "tag": "a cork pop",
+     "kind": "FOLEY",
+     "z": 2.0
+    },
+    {
+     "tag": "a chat message pop",
+     "kind": "UI",
+     "z": 1.59
+    }
+   ],
+   "kind": "FOLEY",
+   "label": "bubble pop",
+   "exposed": true,
+   "ast": [
+    [
+     "Music",
+     0.187
+    ],
+    [
+     "Sound effect",
+     0.146
+    ],
+    [
+     "Speech",
+     0.053
+    ]
+   ]
+  },
+  {
+   "t": 66.52,
+   "shape": "hit",
+   "band": "high",
+   "contrast_db": 20.8,
+   "z": 3.5,
+   "length_ms": 1,
+   "prominence_db": 0.0,
+   "bed_db": -80.0,
+   "peak_dbfs": -240.0,
+   "local_lufs": -29.3,
+   "centroid_hz": 0,
+   "tags": [
+    {
+     "tag": "a bubble pop",
+     "kind": "FOLEY",
+     "z": 1.76
+    },
+    {
+     "tag": "a short swish",
+     "kind": "WHOOSH",
+     "z": 1.7
+    },
+    {
+     "tag": "a sub bass drop",
+     "kind": "HIT",
+     "z": 1.69
+    }
+   ],
+   "kind": "FOLEY",
+   "label": "bubble pop",
+   "exposed": false
+  }
+ ],
+ "sections": [
+  {
+   "start": 0.0,
+   "end": 4.55,
+   "windows": 2,
+   "coherence": 0.989,
+   "music_genre": [
+    {
+     "tag": "trap beat",
+     "cat": "music_genre",
+     "z": 2.2,
+     "cos": 0.254
+    },
+    {
+     "tag": "tech house music",
+     "cat": "music_genre",
+     "z": 1.69,
+     "cos": 0.206
+    }
+   ],
+   "music_mood": [
+    {
+     "tag": "futuristic music",
+     "cat": "music_mood",
+     "z": 1.27,
+     "cos": 0.166
+    },
+    {
+     "tag": "playful and quirky music",
+     "cat": "music_mood",
+     "z": 0.63,
+     "cos": 0.105
+    }
+   ],
+   "instruments": [
+    {
+     "tag": "a plucked synth arpeggio",
+     "cat": "instruments",
+     "z": 1.75,
+     "cos": 0.211
+    },
+    {
+     "tag": "a synthesizer lead",
+     "cat": "instruments",
+     "z": 1.64,
+     "cos": 0.201
+    }
+   ],
+   "ambience": [
+    {
+     "tag": "skylarks over a meadow",
+     "cat": "ambience",
+     "z": 0.64,
+     "cos": 0.106
+    },
+    {
+     "tag": "ocean waves",
+     "cat": "ambience",
+     "z": 0.53,
+     "cos": 0.096
+    }
+   ],
+   "voice": [
+    {
+     "tag": "singing vocals",
+     "cat": "voice",
+     "z": -0.04,
+     "cos": 0.042
+    },
+    {
+     "tag": "a voice-over narration",
+     "cat": "voice",
+     "z": -0.18,
+     "cos": 0.028
+    }
+   ],
+   "lufs": -29.3,
+   "digital_silence": false,
+   "ast": {
+    "Music": 0.065,
+    "Speech": 0.011,
+    "Silence": 0.096
+   },
+   "ast_top": [
+    [
+     "Plop",
+     0.154
+    ],
+    [
+     "Sound effect",
+     0.115
+    ],
+    [
+     "Silence",
+     0.096
+    ],
+    [
+     "Music",
+     0.065
+    ]
+   ],
+   "label": "also: plop (AST)"
+  },
+  {
+   "start": 4.55,
+   "end": 20.25,
+   "windows": 11,
+   "coherence": 0.905,
+   "music_genre": [
+    {
+     "tag": "minimal electronic music",
+     "cat": "music_genre",
+     "z": 2.35,
+     "cos": 0.195
+    },
+    {
+     "tag": "glitch hop music",
+     "cat": "music_genre",
+     "z": 1.92,
+     "cos": 0.152
+    }
+   ],
+   "music_mood": [
+    {
+     "tag": "futuristic music",
+     "cat": "music_mood",
+     "z": 1.21,
+     "cos": 0.081
+    },
+    {
+     "tag": "suspenseful build-up music",
+     "cat": "music_mood",
+     "z": 0.68,
+     "cos": 0.029
+    }
+   ],
+   "instruments": [
+    {
+     "tag": "a punchy kick drum pattern",
+     "cat": "instruments",
+     "z": 1.79,
+     "cos": 0.139
+    },
+    {
+     "tag": "a synthesizer lead",
+     "cat": "instruments",
+     "z": 1.65,
+     "cos": 0.125
+    }
+   ],
+   "ambience": [
+    {
+     "tag": "ocean waves",
+     "cat": "ambience",
+     "z": 1.07,
+     "cos": 0.067
+    },
+    {
+     "tag": "a thunderstorm",
+     "cat": "ambience",
+     "z": -0.01,
+     "cos": -0.04
+    }
+   ],
+   "voice": [
+    {
+     "tag": "a person breathing",
+     "cat": "voice",
+     "z": -0.08,
+     "cos": -0.047
+    },
+    {
+     "tag": "someone whispering",
+     "cat": "voice",
+     "z": -0.48,
+     "cos": -0.087
+    }
+   ],
+   "lufs": -23.9,
+   "digital_silence": false,
+   "ast": {
+    "Music": 0.634,
+    "Speech": 0.006,
+    "Silence": 0.019
+   },
+   "ast_top": [
+    [
+     "Music",
+     0.634
+    ],
+    [
+     "Sound effect",
+     0.186
+    ],
+    [
+     "Drum machine",
+     0.132
+    ],
+    [
+     "Synthesizer",
+     0.095
+    ],
+    [
+     "Plop",
+     0.087
+    ]
+   ],
+   "label": "minimal electronic music?, punchy kick drum pattern | also: drum machine, synthesizer, plop (AST)"
+  },
+  {
+   "start": 20.25,
+   "end": 27.95,
+   "windows": 6,
+   "coherence": 0.9,
+   "music_genre": [
+    {
+     "tag": "trap beat",
+     "cat": "music_genre",
+     "z": 2.13,
+     "cos": 0.185
+    },
+    {
+     "tag": "tech house music",
+     "cat": "music_genre",
+     "z": 1.91,
+     "cos": 0.163
+    }
+   ],
+   "music_mood": [
+    {
+     "tag": "futuristic music",
+     "cat": "music_mood",
+     "z": 1.55,
+     "cos": 0.127
+    },
+    {
+     "tag": "playful and quirky music",
+     "cat": "music_mood",
+     "z": 0.46,
+     "cos": 0.018
+    }
+   ],
+   "instruments": [
+    {
+     "tag": "a synthesizer lead",
+     "cat": "instruments",
+     "z": 2.22,
+     "cos": 0.194
+    },
+    {
+     "tag": "a plucked synth arpeggio",
+     "cat": "instruments",
+     "z": 1.48,
+     "cos": 0.12
+    }
+   ],
+   "ambience": [
+    {
+     "tag": "ocean waves",
+     "cat": "ambience",
+     "z": 1.16,
+     "cos": 0.088
+    },
+    {
+     "tag": "heavy rain",
+     "cat": "ambience",
+     "z": 0.51,
+     "cos": 0.023
+    }
+   ],
+   "voice": [
+    {
+     "tag": "singing vocals",
+     "cat": "voice",
+     "z": -0.33,
+     "cos": -0.061
+    },
+    {
+     "tag": "a baby crying",
+     "cat": "voice",
+     "z": -0.36,
+     "cos": -0.065
+    }
+   ],
+   "lufs": -26.5,
+   "digital_silence": false,
+   "ast": {
+    "Music": 0.063,
+    "Speech": 0.013,
+    "Silence": 0.025
+   },
+   "ast_top": [
+    [
+     "Whoosh, swoosh, swish",
+     0.126
+    ],
+    [
+     "Sound effect",
+     0.124
+    ],
+    [
+     "Plop",
+     0.107
+    ],
+    [
+     "Music",
+     0.063
+    ]
+   ],
+   "label": "also: whoosh, swoosh, swish, plop (AST)"
+  },
+  {
+   "start": 27.95,
+   "end": 32.75,
+   "windows": 2,
+   "coherence": 0.952,
+   "music_genre": [
+    {
+     "tag": "glitch hop music",
+     "cat": "music_genre",
+     "z": 2.83,
+     "cos": 0.245
+    },
+    {
+     "tag": "minimal electronic music",
+     "cat": "music_genre",
+     "z": 2.76,
+     "cos": 0.238
+    }
+   ],
+   "music_mood": [
+    {
+     "tag": "futuristic music",
+     "cat": "music_mood",
+     "z": 1.89,
+     "cos": 0.154
+    },
+    {
+     "tag": "playful and quirky music",
+     "cat": "music_mood",
+     "z": 0.61,
+     "cos": 0.03
+    }
+   ],
+   "instruments": [
+    {
+     "tag": "a synthesizer lead",
+     "cat": "instruments",
+     "z": 2.0,
+     "cos": 0.164
+    },
+    {
+     "tag": "a punchy kick drum pattern",
+     "cat": "instruments",
+     "z": 1.94,
+     "cos": 0.159
+    }
+   ],
+   "ambience": [
+    {
+     "tag": "ocean waves",
+     "cat": "ambience",
+     "z": 1.26,
+     "cos": 0.093
+    },
+    {
+     "tag": "a thunderstorm",
+     "cat": "ambience",
+     "z": 0.18,
+     "cos": -0.013
+    }
+   ],
+   "voice": [
+    {
+     "tag": "singing vocals",
+     "cat": "voice",
+     "z": 0.22,
+     "cos": -0.008
+    },
+    {
+     "tag": "a baby crying",
+     "cat": "voice",
+     "z": -0.44,
+     "cos": -0.072
+    }
+   ],
+   "lufs": -28.3,
+   "digital_silence": false,
+   "ast": {
+    "Music": 0.344,
+    "Speech": 0.011,
+    "Silence": 0.012
+   },
+   "ast_top": [
+    [
+     "Music",
+     0.344
+    ],
+    [
+     "Sound effect",
+     0.26
+    ],
+    [
+     "Drum machine",
+     0.258
+    ],
+    [
+     "Plop",
+     0.108
+    ],
+    [
+     "Synthesizer",
+     0.081
+    ]
+   ],
+   "label": "glitch hop music, synthesizer lead | also: drum machine, plop, synthesizer (AST)"
+  },
+  {
+   "start": 32.75,
+   "end": 62.65,
+   "windows": 21,
+   "coherence": 0.902,
+   "music_genre": [
+    {
+     "tag": "trap beat",
+     "cat": "music_genre",
+     "z": 2.08,
+     "cos": 0.198
+    },
+    {
+     "tag": "tech house music",
+     "cat": "music_genre",
+     "z": 2.07,
+     "cos": 0.197
+    }
+   ],
+   "music_mood": [
+    {
+     "tag": "futuristic music",
+     "cat": "music_mood",
+     "z": 1.34,
+     "cos": 0.123
+    },
+    {
+     "tag": "playful and quirky music",
+     "cat": "music_mood",
+     "z": 0.4,
+     "cos": 0.027
+    }
+   ],
+   "instruments": [
+    {
+     "tag": "a synthesizer lead",
+     "cat": "instruments",
+     "z": 1.68,
+     "cos": 0.157
+    },
+    {
+     "tag": "a punchy kick drum pattern",
+     "cat": "instruments",
+     "z": 1.49,
+     "cos": 0.138
+    }
+   ],
+   "ambience": [
+    {
+     "tag": "ocean waves",
+     "cat": "ambience",
+     "z": 1.3,
+     "cos": 0.118
+    },
+    {
+     "tag": "a thunderstorm",
+     "cat": "ambience",
+     "z": 0.11,
+     "cos": -0.003
+    }
+   ],
+   "voice": [
+    {
+     "tag": "a person breathing",
+     "cat": "voice",
+     "z": -0.4,
+     "cos": -0.054
+    },
+    {
+     "tag": "singing vocals",
+     "cat": "voice",
+     "z": -0.51,
+     "cos": -0.065
+    }
+   ],
+   "lufs": -26.2,
+   "digital_silence": false,
+   "ast": {
+    "Music": 0.491,
+    "Speech": 0.011,
+    "Silence": 0.047
+   },
+   "ast_top": [
+    [
+     "Music",
+     0.491
+    ],
+    [
+     "Plop",
+     0.2
+    ],
+    [
+     "Musical instrument",
+     0.092
+    ],
+    [
+     "Synthesizer",
+     0.077
+    ],
+    [
+     "Sound effect",
+     0.06
+    ]
+   ],
+   "label": "trap beat?, synthesizer lead | also: plop (AST)"
+  },
+  {
+   "start": 62.65,
+   "end": 69.5,
+   "windows": 3,
+   "coherence": 0.933,
+   "music_genre": [
+    {
+     "tag": "trap beat",
+     "cat": "music_genre",
+     "z": 2.23,
+     "cos": 0.267
+    },
+    {
+     "tag": "tech house music",
+     "cat": "music_genre",
+     "z": 1.66,
+     "cos": 0.211
+    }
+   ],
+   "music_mood": [
+    {
+     "tag": "futuristic music",
+     "cat": "music_mood",
+     "z": 1.02,
+     "cos": 0.148
+    },
+    {
+     "tag": "playful and quirky music",
+     "cat": "music_mood",
+     "z": 0.27,
+     "cos": 0.074
+    }
+   ],
+   "instruments": [
+    {
+     "tag": "a plucked synth arpeggio",
+     "cat": "instruments",
+     "z": 1.97,
+     "cos": 0.241
+    },
+    {
+     "tag": "a deep sub bass",
+     "cat": "instruments",
+     "z": 1.37,
+     "cos": 0.182
+    }
+   ],
+   "ambience": [
+    {
+     "tag": "heavy rain",
+     "cat": "ambience",
+     "z": 0.45,
+     "cos": 0.091
+    },
+    {
+     "tag": "ocean waves",
+     "cat": "ambience",
+     "z": 0.3,
+     "cos": 0.077
+    }
+   ],
+   "voice": [
+    {
+     "tag": "singing vocals",
+     "cat": "voice",
+     "z": -0.19,
+     "cos": 0.029
+    },
+    {
+     "tag": "a voice-over narration",
+     "cat": "voice",
+     "z": -0.44,
+     "cos": 0.004
+    }
+   ],
+   "lufs": -30.8,
+   "digital_silence": false,
+   "ast": {
+    "Music": 0.072,
+    "Speech": 0.007,
+    "Silence": 0.067
+   },
+   "ast_top": [
+    [
+     "Beep, bleep",
+     0.27
+    ],
+    [
+     "Sound effect",
+     0.185
+    ],
+    [
+     "Plop",
+     0.13
+    ],
+    [
+     "Sine wave",
+     0.123
+    ],
+    [
+     "Music",
+     0.072
+    ]
+   ],
+   "label": "also: beep, bleep, plop, sine wave (AST)"
+  }
+ ],
+ "sync": {
+  "cues": {
+   "items": [
+    {
+     "t": 0.0,
+     "kind": "whoosh",
+     "id": "whoosh@0.00",
+     "offset_ms": null,
+     "status": "no sound",
+     "accent_offset_ms": null
+    },
+    {
+     "t": 2.05,
+     "kind": "pop",
+     "id": "pop@2.05",
+     "offset_ms": -1.0,
+     "status": "OK",
+     "event_t": 2.049,
+     "event_prominence_db": 65.0,
+     "event": "bubble pop",
+     "accent_offset_ms": -1.0
+    },
+    {
+     "t": 4.7,
+     "kind": "whoosh",
+     "id": "whoosh@4.70",
+     "offset_ms": 100.0,
+     "status": "peak",
+     "event_t": 4.8,
+     "event_prominence_db": 51.8,
+     "accent_offset_ms": null
+    },
+    {
+     "t": 5.55,
+     "kind": "stamp",
+     "id": "stamp@5.55",
+     "offset_ms": 0.0,
+     "status": "OK",
+     "event_t": 5.55,
+     "event_prominence_db": 69.6,
+     "event": "drum hit",
+     "accent_offset_ms": 0.0
+    },
+    {
+     "t": 6.7,
+     "kind": "whoosh",
+     "id": "whoosh@6.70",
+     "offset_ms": 140.0,
+     "status": "peak",
+     "event_t": 6.84,
+     "event_prominence_db": 54.5,
+     "accent_offset_ms": null
+    },
+    {
+     "t": 6.85,
+     "kind": "pop",
+     "id": "pop@6.85",
+     "offset_ms": 0.0,
+     "status": "OK",
+     "event_t": 6.85,
+     "event_prominence_db": 13.4,
+     "event": "snare drum hit",
+     "accent_offset_ms": null
+    },
+    {
+     "t": 7.5,
+     "kind": "count",
+     "id": "count@7.50",
+     "offset_ms": 0.0,
+     "status": "OK",
+     "event_t": 7.5,
+     "event_prominence_db": 60.1,
+     "event": "chat message pop",
+     "accent_offset_ms": 0.0
+    },
+    {
+     "t": 8.25,
+     "kind": "stamp",
+     "id": "stamp@8.25",
+     "offset_ms": 0.0,
+     "status": "OK",
+     "event_t": 8.25,
+     "event_prominence_db": 69.6,
+     "event": "drum hit",
+     "accent_offset_ms": 0.0
+    },
+    {
+     "t": 9.0,
+     "kind": "whoosh",
+     "id": "whoosh@9.00",
+     "offset_ms": 95.0,
+     "status": "near",
+     "event_t": 9.095,
+     "event_prominence_db": 22.4,
+     "event": "snare drum hit",
+     "accent_offset_ms": null
+    },
+    {
+     "t": 9.1,
+     "kind": "pop",
+     "id": "pop@9.10",
+     "offset_ms": -5.0,
+     "status": "OK",
+     "event_t": 9.095,
+     "event_prominence_db": 22.4,
+     "event": "snare drum hit",
+     "accent_offset_ms": null
+    },
+    {
+     "t": 9.55,
+     "kind": "count",
+     "id": "count@9.55",
+     "offset_ms": 0.0,
+     "status": "OK",
+     "event_t": 9.55,
+     "event_prominence_db": 60.1,
+     "event": "chat message pop",
+     "accent_offset_ms": 0.0
+    },
+    {
+     "t": 10.15,
+     "kind": "stamp",
+     "id": "stamp@10.15",
+     "offset_ms": 0.0,
+     "status": "OK",
+     "event_t": 10.15,
+     "event_prominence_db": 69.7,
+     "event": "drum hit",
+     "accent_offset_ms": 0.0
+    },
+    {
+     "t": 10.8,
+     "kind": "whoosh",
+     "id": "whoosh@10.80",
+     "offset_ms": 140.0,
+     "status": "peak",
+     "event_t": 10.94,
+     "event_prominence_db": 54.5,
+     "accent_offset_ms": null
+    },
+    {
+     "t": 10.95,
+     "kind": "pop",
+     "id": "pop@10.95",
+     "offset_ms": 0.0,
+     "status": "OK",
+     "event_t": 10.95,
+     "event_prominence_db": 13.9,
+     "event": "snare drum hit",
+     "accent_offset_ms": null
+    },
+    {
+     "t": 11.55,
+     "kind": "pop",
+     "id": "pop@11.55",
+     "offset_ms": 0.0,
+     "status": "OK",
+     "event_t": 11.55,
+     "event_prominence_db": 65.0,
+     "event": "bubble pop",
+     "accent_offset_ms": 0.0
+    },
+    {
+     "t": 12.1,
+     "kind": "riser",
+     "id": "riser@12.10",
+     "offset_ms": 197.0,
+     "status": "off",
+     "event_t": 12.297,
+     "event_prominence_db": 35.4,
+     "event": "uplifter sweep",
+     "accent_offset_ms": null
+    },
+    {
+     "t": 13.3,
+     "kind": "whoosh",
+     "id": "whoosh@13.30",
+     "offset_ms": -50.0,
+     "status": "near",
+     "event_t": 13.25,
+     "event_prominence_db": 58.9,
+     "event": "uplifter sweep",
+     "accent_offset_ms": null
+    },
+    {
+     "t": 13.38,
+     "kind": "pop",
+     "id": "pop@13.38",
+     "offset_ms": -130.0,
+     "status": "swell",
+     "event_t": 13.25,
+     "event_prominence_db": 58.9,
+     "event": "uplifter sweep",
+     "accent_offset_ms": null
+    },
+    {
+     "t": 14.08,
+     "kind": "boom",
+     "id": "boom@14.08",
+     "offset_ms": 0.0,
+     "status": "OK",
+     "event_t": 14.08,
+     "event_prominence_db": 70.5,
+     "event": "sub bass drop",
+     "accent_offset_ms": 0.0
+    },
+    {
+     "t": 15.95,
+     "kind": "whoosh",
+     "id": "whoosh@15.95",
+     "offset_ms": 100.0,
+     "status": "peak",
+     "event_t": 16.05,
+     "event_prominence_db": 51.4,
+     "accent_offset_ms": null
+    },
+    {
+     "t": 16.15,
+     "kind": "gong",
+     "id": "gong@16.15",
+     "offset_ms": 2.0,
+     "status": "OK",
+     "event_t": 16.152,
+     "event_prominence_db": 8.2,
+     "event": "sub bass drop",
+     "accent_offset_ms": null
+    },
+    {
+     "t": 17.25,
+     "kind": "pop",
+     "id": "pop@17.25",
+     "offset_ms": 0.0,
+     "status": "OK",
+     "event_t": 17.25,
+     "event_prominence_db": 13.5,
+     "event": "sub bass drop",
+     "accent_offset_ms": null
+    },
+    {
+     "t": 17.95,
+     "kind": "whoosh",
+     "id": "whoosh@17.95",
+     "offset_ms": -94.0,
+     "status": "near",
+     "event_t": 17.856,
+     "event_prominence_db": 6.9,
+     "event": "whip pan whoosh transition",
+     "accent_offset_ms": null
+    },
+    {
+     "t": 18.05,
+     "kind": "pop",
+     "id": "pop@18.05",
+     "offset_ms": 0.0,
+     "status": "OK",
+     "event_t": 18.05,
+     "event_prominence_db": 18.4,
+     "event": "uplifter sweep",
+     "accent_offset_ms": null
+    },
+    {
+     "t": 19.25,
+     "kind": "pop",
+     "id": "pop@19.25",
+     "offset_ms": 0.0,
+     "status": "OK",
+     "event_t": 19.25,
+     "event_prominence_db": 35.0,
+     "event": "bubble pop",
+     "accent_offset_ms": null
+    },
+    {
+     "t": 20.4,
+     "kind": "whoosh",
+     "id": "whoosh@20.40",
+     "offset_ms": 100.0,
+     "status": "peak",
+     "event_t": 20.5,
+     "event_prominence_db": 52.3,
+     "accent_offset_ms": null
+    },
+    {
+     "t": 21.7,
+     "kind": "fill",
+     "id": "fill@21.70",
+     "offset_ms": null,
+     "status": "no sound",
+     "accent_offset_ms": null
+    },
+    {
+     "t": 22.0,
+     "kind": "pop",
+     "id": "pop@22.00",
+     "offset_ms": 0.0,
+     "status": "OK",
+     "event_t": 22.0,
+     "event_prominence_db": 14.6,
+     "event": "bubble pop",
+     "accent_offset_ms": null
+    },
+    {
+     "t": 23.35,
+     "kind": "fill",
+     "id": "fill@23.35",
+     "offset_ms": null,
+     "status": "no sound",
+     "accent_offset_ms": null
+    },
+    {
+     "t": 23.75,
+     "kind": "pop",
+     "id": "pop@23.75",
+     "offset_ms": 0.0,
+     "status": "OK",
+     "event_t": 23.75,
+     "event_prominence_db": 11.0,
+     "event": "bubble pop",
+     "accent_offset_ms": null
+    },
+    {
+     "t": 25.3,
+     "kind": "whoosh",
+     "id": "whoosh@25.30",
+     "offset_ms": -55.0,
+     "status": "near",
+     "event_t": 25.245,
+     "event_prominence_db": 55.9,
+     "event": "uplifter sweep",
+     "accent_offset_ms": null
+    },
+    {
+     "t": 25.6,
+     "kind": "pop",
+     "id": "pop@25.60",
+     "offset_ms": 0.0,
+     "status": "OK",
+     "event_t": 25.6,
+     "event_prominence_db": 8.5,
+     "event": "bubble pop",
+     "accent_offset_ms": null
+    },
+    {
+     "t": 27.85,
+     "kind": "drain",
+     "id": "drain@27.85",
+     "offset_ms": 174.0,
+     "status": "off",
+     "event_t": 28.024,
+     "event_prominence_db": 58.2,
+     "event": "bubble pop",
+     "accent_offset_ms": null
+    },
+    {
+     "t": 28.3,
+     "kind": "pop",
+     "id": "pop@28.30",
+     "offset_ms": -2.0,
+     "status": "OK",
+     "event_t": 28.298,
+     "event_prominence_db": 18.7,
+     "event": "bubble pop",
+     "accent_offset_ms": null
+    },
+    {
+     "t": 31.3,
+     "kind": "stamp",
+     "id": "stamp@31.30",
+     "offset_ms": 0.0,
+     "status": "OK",
+     "event_t": 31.3,
+     "event_prominence_db": 69.6,
+     "event": "drum hit",
+     "accent_offset_ms": 0.0
+    },
+    {
+     "t": 32.9,
+     "kind": "whoosh",
+     "id": "whoosh@32.90",
+     "offset_ms": 90.0,
+     "status": "peak",
+     "event_t": 32.99,
+     "event_prominence_db": 52.2,
+     "accent_offset_ms": null
+    },
+    {
+     "t": 33.3,
+     "kind": "gong",
+     "id": "gong@33.30",
+     "offset_ms": 11.0,
+     "status": "OK",
+     "event_t": 33.311,
+     "event_prominence_db": 22.1,
+     "event": "sub bass drop",
+     "accent_offset_ms": null
+    },
+    {
+     "t": 34.2,
+     "kind": "pop",
+     "id": "pop@34.20",
+     "offset_ms": 0.0,
+     "status": "OK",
+     "event_t": 34.2,
+     "event_prominence_db": 11.3,
+     "event": "sub bass drop",
+     "accent_offset_ms": null
+    },
+    {
+     "t": 35.1,
+     "kind": "whoosh",
+     "id": "whoosh@35.10",
+     "offset_ms": -44.0,
+     "status": "near",
+     "event_t": 35.056,
+     "event_prominence_db": 11.6,
+     "event": "short swish",
+     "accent_offset_ms": null
+    },
+    {
+     "t": 35.3,
+     "kind": "pop",
+     "id": "pop@35.30",
+     "offset_ms": 0.0,
+     "status": "OK",
+     "event_t": 35.3,
+     "event_prominence_db": 9.1,
+     "event": "cork pop",
+     "accent_offset_ms": null
+    },
+    {
+     "t": 36.55,
+     "kind": "pop",
+     "id": "pop@36.55",
+     "offset_ms": -1.0,
+     "status": "OK",
+     "event_t": 36.549,
+     "event_prominence_db": 65.0,
+     "event": "bubble pop",
+     "accent_offset_ms": -1.0
+    },
+    {
+     "t": 38.1,
+     "kind": "whoosh",
+     "id": "whoosh@38.10",
+     "offset_ms": -79.0,
+     "status": "near",
+     "event_t": 38.021,
+     "event_prominence_db": 54.0,
+     "event": "uplifter sweep",
+     "accent_offset_ms": null
+    },
+    {
+     "t": 38.25,
+     "kind": "pop",
+     "id": "pop@38.25",
+     "offset_ms": 0.0,
+     "status": "OK",
+     "event_t": 38.25,
+     "event_prominence_db": 13.2,
+     "event": "whip pan whoosh transition",
+     "accent_offset_ms": null
+    },
+    {
+     "t": 38.35,
+     "kind": "swipe",
+     "id": "swipe@38.35",
+     "offset_ms": -110.0,
+     "status": "peak",
+     "event_t": 38.24,
+     "event_prominence_db": 54.2,
+     "accent_offset_ms": null
+    },
+    {
+     "t": 39.3,
+     "kind": "slide",
+     "id": "slide@39.30",
+     "offset_ms": null,
+     "status": "no sound",
+     "accent_offset_ms": null
+    },
+    {
+     "t": 40.2,
+     "kind": "pop",
+     "id": "pop@40.20",
+     "offset_ms": 0.0,
+     "status": "OK",
+     "event_t": 40.2,
+     "event_prominence_db": 11.7,
+     "event": "bubble pop",
+     "accent_offset_ms": null
+    },
+    {
+     "t": 42.0,
+     "kind": "pop",
+     "id": "pop@42.00",
+     "offset_ms": 0.0,
+     "status": "OK",
+     "event_t": 42.0,
+     "event_prominence_db": 65.0,
+     "event": "bubble pop",
+     "accent_offset_ms": 0.0
+    },
+    {
+     "t": 43.85,
+     "kind": "whoosh",
+     "id": "whoosh@43.85",
+     "offset_ms": 140.0,
+     "status": "peak",
+     "event_t": 43.99,
+     "event_prominence_db": 54.5,
+     "accent_offset_ms": null
+    },
+    {
+     "t": 44.0,
+     "kind": "pop",
+     "id": "pop@44.00",
+     "offset_ms": 0.0,
+     "status": "OK",
+     "event_t": 44.0,
+     "event_prominence_db": 14.3,
+     "event": "snare drum hit",
+     "accent_offset_ms": null
+    },
+    {
+     "t": 45.6,
+     "kind": "stamp",
+     "id": "stamp@45.60",
+     "offset_ms": 0.0,
+     "status": "OK",
+     "event_t": 45.6,
+     "event_prominence_db": 69.7,
+     "event": "drum hit",
+     "accent_offset_ms": 0.0
+    },
+    {
+     "t": 47.0,
+     "kind": "whoosh",
+     "id": "whoosh@47.00",
+     "offset_ms": 110.0,
+     "status": "peak",
+     "event_t": 47.11,
+     "event_prominence_db": 52.0,
+     "accent_offset_ms": null
+    },
+    {
+     "t": 47.45,
+     "kind": "gong",
+     "id": "gong@47.45",
+     "offset_ms": 0.0,
+     "status": "OK",
+     "event_t": 47.45,
+     "event_prominence_db": 52.3,
+     "event": "sub bass drop",
+     "accent_offset_ms": null
+    },
+    {
+     "t": 48.45,
+     "kind": "pop",
+     "id": "pop@48.45",
+     "offset_ms": 0.0,
+     "status": "OK",
+     "event_t": 48.45,
+     "event_prominence_db": 12.4,
+     "event": "sub bass drop",
+     "accent_offset_ms": null
+    },
+    {
+     "t": 49.45,
+     "kind": "whoosh",
+     "id": "whoosh@49.45",
+     "offset_ms": -54.0,
+     "status": "near",
+     "event_t": 49.396,
+     "event_prominence_db": 13.8,
+     "event": "uplifter sweep",
+     "accent_offset_ms": null
+    },
+    {
+     "t": 50.85,
+     "kind": "pop",
+     "id": "pop@50.85",
+     "offset_ms": 0.0,
+     "status": "OK",
+     "event_t": 50.85,
+     "event_prominence_db": 65.0,
+     "event": "bubble pop",
+     "accent_offset_ms": 0.0
+    },
+    {
+     "t": 52.0,
+     "kind": "whoosh",
+     "id": "whoosh@52.00",
+     "offset_ms": -89.0,
+     "status": "near",
+     "event_t": 51.911,
+     "event_prominence_db": 52.3,
+     "event": "uplifter sweep",
+     "accent_offset_ms": null
+    },
+    {
+     "t": 52.55,
+     "kind": "pop",
+     "id": "pop@52.55",
+     "offset_ms": 0.0,
+     "status": "OK",
+     "event_t": 52.55,
+     "event_prominence_db": 65.0,
+     "event": "bubble pop",
+     "accent_offset_ms": 0.0
+    },
+    {
+     "t": 54.55,
+     "kind": "pop",
+     "id": "pop@54.55",
+     "offset_ms": 0.0,
+     "status": "OK",
+     "event_t": 54.55,
+     "event_prominence_db": 65.0,
+     "event": "bubble pop",
+     "accent_offset_ms": 0.0
+    },
+    {
+     "t": 56.55,
+     "kind": "whoosh",
+     "id": "whoosh@56.55",
+     "offset_ms": 110.0,
+     "status": "peak",
+     "event_t": 56.66,
+     "event_prominence_db": 52.1,
+     "accent_offset_ms": null
+    },
+    {
+     "t": 57.05,
+     "kind": "pop",
+     "id": "pop@57.05",
+     "offset_ms": 0.0,
+     "status": "OK",
+     "event_t": 57.05,
+     "event_prominence_db": 65.0,
+     "event": "bubble pop",
+     "accent_offset_ms": 0.0
+    },
+    {
+     "t": 57.5,
+     "kind": "pop",
+     "id": "pop@57.50",
+     "offset_ms": 0.0,
+     "status": "OK",
+     "event_t": 57.5,
+     "event_prominence_db": 65.0,
+     "event": "bubble pop",
+     "accent_offset_ms": 0.0
+    },
+    {
+     "t": 59.4,
+     "kind": "whoosh",
+     "id": "whoosh@59.40",
+     "offset_ms": -88.0,
+     "status": "near",
+     "event_t": 59.312,
+     "event_prominence_db": 53.1,
+     "event": "bubble pop",
+     "accent_offset_ms": null
+    },
+    {
+     "t": 59.7,
+     "kind": "pop",
+     "id": "pop@59.70",
+     "offset_ms": 0.0,
+     "status": "OK",
+     "event_t": 59.7,
+     "event_prominence_db": 8.7,
+     "event": "bubble pop",
+     "accent_offset_ms": null
+    },
+    {
+     "t": 60.75,
+     "kind": "pop",
+     "id": "pop@60.75",
+     "offset_ms": 0.0,
+     "status": "OK",
+     "event_t": 60.75,
+     "event_prominence_db": 65.0,
+     "event": "bubble pop",
+     "accent_offset_ms": 0.0
+    },
+    {
+     "t": 62.3,
+     "kind": "whoosh",
+     "id": "whoosh@62.30",
+     "offset_ms": 140.0,
+     "status": "peak",
+     "event_t": 62.44,
+     "event_prominence_db": 54.1,
+     "accent_offset_ms": null
+    },
+    {
+     "t": 62.45,
+     "kind": "pop",
+     "id": "pop@62.45",
+     "offset_ms": -2.0,
+     "status": "OK",
+     "event_t": 62.448,
+     "event_prominence_db": 13.4,
+     "event": "snare drum hit",
+     "accent_offset_ms": null
+    },
+    {
+     "t": 62.95,
+     "kind": "tick",
+     "id": "tick@62.95",
+     "offset_ms": 0.0,
+     "status": "OK",
+     "event_t": 62.95,
+     "event_prominence_db": 64.5,
+     "event": "chat message pop",
+     "accent_offset_ms": 0.0
+    },
+    {
+     "t": 63.6,
+     "kind": "tick",
+     "id": "tick@63.60",
+     "offset_ms": 0.0,
+     "status": "OK",
+     "event_t": 63.6,
+     "event_prominence_db": 64.5,
+     "event": "chat message pop",
+     "accent_offset_ms": 0.0
+    },
+    {
+     "t": 64.25,
+     "kind": "tick",
+     "id": "tick@64.25",
+     "offset_ms": 0.0,
+     "status": "OK",
+     "event_t": 64.25,
+     "event_prominence_db": 64.5,
+     "event": "chat message pop",
+     "accent_offset_ms": 0.0
+    },
+    {
+     "t": 66.4,
+     "kind": "pop",
+     "id": "pop@66.40",
+     "offset_ms": 0.0,
+     "status": "OK",
+     "event_t": 66.4,
+     "event_prominence_db": 65.0,
+     "event": "bubble pop",
+     "accent_offset_ms": 0.0
+    }
+   ],
+   "stats": {
+    "n": 70,
+    "hit_within_40ms": 0.614,
+    "hit_within_100ms": 0.743,
+    "median_abs_offset_ms": 0.0,
+    "answered_by_swell": 1,
+    "answered_by_level_peak": 11,
+    "no_sound": [
+     0.0,
+     12.1,
+     21.7,
+     23.35,
+     27.85,
+     39.3
+    ],
+    "tolerance_ms": 40.0,
+    "chance_within_40ms": 0.126,
+    "chance_within_100ms": 0.259,
+    "accent_min_db": 60.1,
+    "accent_within_40ms": 0.314,
+    "accent_chance_within_40ms": 0.03,
+    "accent_within_100ms": 0.314,
+    "accent_chance_within_100ms": 0.068
+   }
+  }
+ },
+ "cuts": [],
+ "cut_method": null,
+ "fps": null,
+ "model_calls": {
+  "clap_event_windows": 96,
+  "ast_event_windows": 16,
+  "clap_section_windows": 45,
+  "ast_section_windows": 8
+ },
+ "timing_s": {
+  "decode_s": 0.13,
+  "loudness_s": 1.51,
+  "events_s": 1.04,
+  "beats_s": 0.43,
+  "cuts_s": 0.0,
+  "tag_events_s": 67.35,
+  "sections_s": 30.99,
+  "total_s": 101.46
+ },
+ "detail": "high",
+ "summary": "sfx.flac: 0:00.00-1:09.50 (69.5 s). Loudness -25.7 LUFS integrated, true peak -5.5 dBTP, LRA 11.3 LU; loudest 0:12.50-0:15.50 (-22.2 LUFS short-term). 38 stop-down(s)/gap(s): 0:02.10 2.5 s drop, 0:05.00 0.6 s digital silence, 0:05.75 0.8 s drop, 0:06.95 0.6 s drop, 0:07.90 0.3 s drop. Quiet lead-in 2.0 s (digital silence) and tail 3.0 s (drop). No steady beat grid (pulse clarity 0.07 < 0.15). 6 section(s): 0:00.00-0:04.55 also: plop (AST); 0:04.55-0:20.25 minimal electronic music?, punchy kick drum pattern | also: drum machine, synthesizer, plop (AST); 0:20.25-0:27.95 also: whoosh, swoosh, swish, plop (AST); 0:27.95-0:32.75 glitch hop music, synthesizer lead | also: drum machine, plop, synthesizer (AST); 0:32.75-1:02.65 trap beat?, synthesizer lead | also: plop (AST); 1:02.65-1:09.50 also: beep, bleep, plop, sine wave (AST). 113 events (1.6/s); 96 tagged (40 foley, 19 whoosh, 12 riser, 11 drum, 9 hit, 5 ui; tags are hints). Strongest accents over a running bed: 0:19.25 +35 dB (bubble pop), 0:07.70 +29 dB, 0:09.75 +29 dB. Sync to 70 cues: 61% have an onset within 40 ms (chance 13%), 74% within 100 ms, median |offset| 0 ms; 31% land on a strong accent (>= 60 dB over the bed) within 40 ms (chance 3%); 1 met by a whoosh / riser peak; 11 only by a level peak (soft whoosh / swell?); 6 without a hit: 0:00.00, 0:12.10, 0:21.70, 0:23.35, 0:27.85, 0:39.30.",
+ "text": "sfx.flac: 0:00.00-1:09.50 (69.5 s). Loudness -25.7 LUFS integrated, true peak -5.5 dBTP, LRA 11.3 LU; loudest 0:12.50-0:15.50 (-22.2 LUFS short-term). 38 stop-down(s)/gap(s): 0:02.10 2.5 s drop, 0:05.00 0.6 s digital silence, 0:05.75 0.8 s drop, 0:06.95 0.6 s drop, 0:07.90 0.3 s drop. Quiet lead-in 2.0 s (digital silence) and tail 3.0 s (drop). No steady beat grid (pulse clarity 0.07 < 0.15). 6 section(s): 0:00.00-0:04.55 also: plop (AST); 0:04.55-0:20.25 minimal electronic music?, punchy kick drum pattern | also: drum machine, synthesizer, plop (AST); 0:20.25-0:27.95 also: whoosh, swoosh, swish, plop (AST); 0:27.95-0:32.75 glitch hop music, synthesizer lead | also: drum machine, plop, synthesizer (AST); 0:32.75-1:02.65 trap beat?, synthesizer lead | also: plop (AST); 1:02.65-1:09.50 also: beep, bleep, plop, sine wave (AST). 113 events (1.6/s); 96 tagged (40 foley, 19 whoosh, 12 riser, 11 drum, 9 hit, 5 ui; tags are hints). Strongest accents over a running bed: 0:19.25 +35 dB (bubble pop), 0:07.70 +29 dB, 0:09.75 +29 dB. Sync to 70 cues: 61% have an onset within 40 ms (chance 13%), 74% within 100 ms, median |offset| 0 ms; 31% land on a strong accent (>= 60 dB over the bed) within 40 ms (chance 3%); 1 met by a whoosh / riser peak; 11 only by a level peak (soft whoosh / swell?); 6 without a hit: 0:00.00, 0:12.10, 0:21.70, 0:23.35, 0:27.85, 0:39.30.\n\nSECTIONS\n  0:00.00-0:04.55  also: plop (AST)  -29 LUFS  [AST music 0.07, speech 0.01]\n  0:04.55-0:20.25  minimal electronic music?, punchy kick drum pattern | also: drum machine, synthesizer, plop (AST)  -24 LUFS  [AST music 0.63, speech 0.01]\n  0:20.25-0:27.95  also: whoosh, swoosh, swish, plop (AST)  -26 LUFS  [AST music 0.06, speech 0.01]\n  0:27.95-0:32.75  glitch hop music, synthesizer lead | also: drum machine, plop, synthesizer (AST)  -28 LUFS  [AST music 0.34, speech 0.01]\n  0:32.75-1:02.65  trap beat?, synthesizer lead | also: plop (AST)  -26 LUFS  [AST music 0.49, speech 0.01]\n  1:02.65-1:09.50  also: beep, bleep, plop, sine wave (AST)  -31 LUFS  [AST music 0.07, speech 0.01]\n\nTRANSCRIPT   time  kind   what (CLAP tag / runner-up)                     peak  over bed  length  centroid  | sync\n== 0:00.00-0:04.55  also: plop (AST)\n 0:00.00  GAP    digital silence 2.05 s (-70 LUFS) = lead-in\n 0:00.00  CUE    whoosh whoosh@0.00  no onset or level peak within 250 ms  <- NO HIT (a soft build-up can still be missed: look at the sheet)\n 0:02.05  FOLEY  bubble pop / chat message pop                   -14.4 dBFS   silent    59 ms   815 Hz  [AST Sound effect 0.14]  | pop -1 ms OK\n 0:02.10  GAP    drop 2.50 s (-69 LUFS)\n 0:02.17  WHOOSH short swish / small soft footstep               -56.3 dBFS   silent     2 ms  1.5 kHz\n== 0:04.55-0:20.25  minimal electronic music?, punchy kick drum pattern | also: drum machine, synthesizer, plop (AST)  (+5 untagged onsets, 0.3/s)\n 0:04.59  RISER  uplifter sweep / fast air whoosh                -15.8 dBFS   silent   389 ms  1.7 kHz\n 0:04.70  CUE    whoosh whoosh@4.70  no onset; level peak +100 ms, rising 52 dB (a soft whoosh / swell, or just the bed?)  <- CHECK\n 0:05.00  GAP    digital silence 0.55 s (< -70 LUFS)\n 0:05.55  DRUM   drum hit / punchy impact hit                     -6.0 dBFS   silent   133 ms    70 Hz  [AST Sound effect 0.19]  | stamp +0 ms OK\n 0:05.75  GAP    drop 0.85 s (-64 LUFS)\n 0:06.60  WHOOSH whip pan whoosh transition                      -12.0 dBFS   silent   386 ms  1.8 kHz\n 0:06.70  CUE    whoosh whoosh@6.70  no onset; level peak +140 ms, rising 54 dB (a soft whoosh / swell, or just the bed?)  <- CHECK\n 0:06.85  DRUM   snare drum hit / cork pop                       -12.0 dBFS +13.4 dB     4 ms  1.3 kHz  | pop +0 ms OK\n 0:06.95  GAP    drop 0.55 s (-68 LUFS)\n 0:07.50  UI     chat message pop / bubble pop                   -20.2 dBFS   silent    26 ms  2.4 kHz  | count +0 ms OK\n 0:07.57  FOLEY  bubble pop / chat message pop                   -20.2 dBFS   silent    27 ms  2.4 kHz\n 0:07.64  FOLEY  bubble pop / chat message pop                   -20.2 dBFS   silent    26 ms  2.4 kHz\n 0:07.70  -      full onset                                      -19.8 dBFS +28.9 dB   201 ms  2.4 kHz  | strong accent (summary)\n 0:07.90  GAP    drop 0.35 s (-67 LUFS)\n 0:08.25  DRUM   drum hit / punchy impact hit                     -7.6 dBFS   silent   151 ms    68 Hz  [AST Sound effect 0.17]  | stamp +0 ms OK\n 0:08.45  GAP    drop 0.45 s (-59 LUFS)\n 0:08.89  WHOOSH whip pan whoosh transition                      -11.5 dBFS   silent   395 ms  1.7 kHz\n 0:09.10  DRUM   snare drum hit / cork pop                       -11.5 dBFS +22.4 dB   118 ms  2.7 kHz  | whoosh +95 ms near; pop -5 ms OK\n 0:09.55  UI     chat message pop / bubble pop                   -20.2 dBFS   silent    26 ms  2.4 kHz  | count +0 ms OK\n 0:09.62  FOLEY  bubble pop / chat message pop                   -20.2 dBFS   silent    27 ms  2.4 kHz\n 0:09.69  FOLEY  bubble pop / chat message pop                   -20.2 dBFS   silent    26 ms  2.4 kHz\n 0:09.75  -      full onset                                      -19.8 dBFS +28.9 dB   201 ms  2.4 kHz  | strong accent (summary)\n 0:10.15  DRUM   drum hit / punchy impact hit                     -6.1 dBFS   silent   133 ms    69 Hz  [AST Sound effect 0.18]  | stamp +0 ms OK\n 0:10.35  GAP    drop 0.35 s (-55 LUFS)\n 0:10.68  WHOOSH whip pan whoosh transition                      -12.4 dBFS +26.0 dB   404 ms  1.5 kHz\n 0:10.80  CUE    whoosh whoosh@10.80  no onset; level peak +140 ms, rising 54 dB (a soft whoosh / swell, or just the bed?)  <- CHECK\n 0:10.95  DRUM   snare drum hit / cork pop                       -12.4 dBFS +13.9 dB     6 ms  1.2 kHz  | pop +0 ms OK\n 0:11.10  GAP    digital silence 0.45 s (< -70 LUFS)\n 0:11.55  FOLEY  bubble pop / chat message pop                   -14.4 dBFS   silent    58 ms   806 Hz  [AST Sound effect 0.15]  | pop +0 ms OK\n 0:11.60  GAP    drop 0.80 s (-64 LUFS)\n 0:11.67  WHOOSH? short swish / bubble pop                       -240.0 dBFS   silent     1 ms        -\n 0:12.10  CUE    riser riser@12.10  no onset within 100 ms (strong sound at +197 ms)  <- NO HIT (a soft build-up can still be missed: look at the sheet)\n 0:12.30  RISER  uplifter sweep / short swish                    -29.3 dBFS   silent  1063 ms  2.5 kHz\n 0:13.10  DRUM?  hi-hat / uplifter sweep                         -12.8 dBFS  +5.2 dB     6 ms  9.2 kHz\n 0:13.25  RISER  uplifter sweep / short swish                     -8.9 dBFS   silent    70 ms  8.2 kHz  | whoosh -50 ms near; pop -130 ms swell\n 0:13.40  GAP    digital silence 0.65 s (< -70 LUFS)\n 0:14.08  HIT    sub bass drop / kick drum                        -7.8 dBFS   silent   890 ms    64 Hz  [AST Bang 0.41]  | boom +0 ms OK\n 0:15.50  GAP    drop 0.35 s (-54 LUFS)\n 0:15.84  HIT    sub bass drop / short swish                     -16.2 dBFS +21.2 dB  2000 ms  1.8 kHz\n 0:15.95  CUE    whoosh whoosh@15.95  no onset; level peak +100 ms, rising 51 dB (a soft whoosh / swell, or just the bed?)  <- CHECK\n 0:16.15  HIT?   sub bass drop / water drop                      -11.4 dBFS  +8.2 dB  1717 ms   153 Hz  | gong +2 ms OK\n 0:17.25  HIT    sub bass drop / plucked string note             -13.1 dBFS +13.5 dB   108 ms   678 Hz  | pop +0 ms OK\n 0:17.86  WHOOSH? whip pan whoosh transition / uplifter sweep     -10.8 dBFS  +6.9 dB   379 ms  1.9 kHz  | whoosh -94 ms near\n 0:18.05  RISER  uplifter sweep / snare drum hit                 -10.8 dBFS +18.4 dB   125 ms  3.1 kHz  | pop +0 ms OK\n 0:18.60  GAP    drop 0.65 s (-50 LUFS)\n 0:19.25  FOLEY  bubble pop / chat message pop                   -14.4 dBFS +35.0 dB    58 ms   806 Hz  | pop +0 ms OK; strong accent (summary)\n 0:19.30  GAP    drop 1.00 s (-67 LUFS)\n 0:19.37  WHOOSH? short swish / bubble pop                       -240.0 dBFS  +0.0 dB     1 ms        -\n== 0:20.25-0:27.95  also: whoosh, swoosh, swish, plop (AST)\n 0:20.29  RISER  uplifter sweep / fast air whoosh                -15.9 dBFS   silent   391 ms  2.0 kHz\n 0:20.40  CUE    whoosh whoosh@20.40  no onset; level peak +100 ms, rising 52 dB (a soft whoosh / swell, or just the bed?)  <- CHECK\n 0:20.70  GAP    drop 1.05 s (-69 LUFS)\n 0:21.70  CUE    fill fill@21.70  no onset or level peak within 250 ms  <- NO HIT\n 0:22.00  FOLEY  bubble pop / chat message pop                   -12.0 dBFS +14.6 dB   130 ms   549 Hz  | pop +0 ms OK\n 0:22.45  GAP    drop 0.95 s (-67 LUFS)\n 0:23.35  CUE    fill fill@23.35  no onset or level peak within 250 ms  <- NO HIT\n 0:23.75  FOLEY? bubble pop / glockenspiel note                  -12.3 dBFS +11.0 dB    18 ms   845 Hz  | pop +0 ms OK\n 0:24.10  GAP    drop 1.10 s (-68 LUFS)\n 0:25.19  FOLEY  bubble pop / whip pan whoosh transition         -15.8 dBFS   silent   518 ms  1.8 kHz\n 0:25.25  RISER  uplifter sweep / short swish                    -15.8 dBFS   silent   321 ms  2.6 kHz  | whoosh -55 ms near\n 0:25.60  FOLEY? bubble pop                                      -14.4 dBFS  +8.5 dB    27 ms   944 Hz  | pop +0 ms OK\n 0:25.70  GAP    drop 2.30 s (-70 LUFS)\n 0:27.85  CUE    drain drain@27.85  no onset within 100 ms (strong sound at +174 ms)  <- NO HIT\n== 0:27.95-0:32.75  glitch hop music, synthesizer lead | also: drum machine, plop, synthesizer (AST)  (+6 untagged onsets, 1.2/s)\n 0:28.02  FOLEY  bubble pop / chat message pop                   -21.2 dBFS   silent    59 ms  1.0 kHz\n 0:28.13  FOLEY  bubble pop / chat message pop                   -21.2 dBFS   silent   127 ms  1.4 kHz\n 0:28.20  FOLEY  bubble pop                                      -21.7 dBFS +23.2 dB    33 ms  1.0 kHz\n 0:28.30  FOLEY  bubble pop                                      -11.5 dBFS +18.7 dB    52 ms   890 Hz  | pop -2 ms OK\n 0:28.35  FOLEY? bubble pop / chat message pop                   -29.4 dBFS  +0.0 dB    72 ms   432 Hz\n 0:28.67  FOLEY  bubble pop / chat message pop                   -21.2 dBFS   silent    59 ms  1.5 kHz\n 0:28.77  FOLEY  bubble pop / chat message pop                   -21.2 dBFS   silent    58 ms  1.5 kHz\n 0:28.86  FOLEY? bubble pop                                     -240.0 dBFS  +0.0 dB     3 ms        -\n 0:29.13  FOLEY  bubble pop / chat message pop                   -21.2 dBFS   silent    58 ms  1.3 kHz\n 0:29.31  FOLEY  bubble pop / chat message pop                   -21.2 dBFS   silent    59 ms  1.1 kHz\n 0:29.62  FOLEY  bubble pop / chat message pop                   -20.4 dBFS   silent   192 ms  1.1 kHz\n 0:29.71  FOLEY  bubble pop / chat message pop                   -20.4 dBFS   silent   102 ms  1.2 kHz\n 0:29.76  FOLEY  bubble pop / chat message pop                   -20.4 dBFS   silent    47 ms  1.2 kHz\n 0:29.95  FOLEY  bubble pop / chat message pop                   -21.2 dBFS +20.0 dB    59 ms  1.3 kHz\n 0:30.15  FOLEY  bubble pop / chat message pop                   -21.2 dBFS   silent    59 ms  1.6 kHz\n 0:30.20  GAP    drop 1.10 s (-69 LUFS)\n 0:31.30  DRUM   drum hit / punchy impact hit                     -5.8 dBFS   silent   133 ms    71 Hz  [AST Sound effect 0.18]  | stamp +0 ms OK\n 0:31.50  GAP    drop 1.30 s (-66 LUFS)\n== 0:32.75-1:02.65  trap beat?, synthesizer lead | also: plop (AST)  (+4 untagged onsets, 0.1/s)\n 0:32.80  RISER  uplifter sweep / fast air whoosh                -16.2 dBFS   silent   388 ms  2.2 kHz\n 0:32.90  CUE    whoosh whoosh@32.90  no onset; level peak +90 ms, rising 52 dB (a soft whoosh / swell, or just the bed?)  <- CHECK\n 0:33.31  HIT    sub bass drop / plucked string note             -12.4 dBFS +22.1 dB  1579 ms   153 Hz  | gong +11 ms OK\n 0:34.20  HIT?   sub bass drop / kick drum                       -13.6 dBFS +11.3 dB    80 ms   712 Hz  | pop +0 ms OK\n 0:35.06  WHOOSH? short swish / uplifter sweep                    -12.8 dBFS +11.6 dB   324 ms  2.7 kHz  | whoosh -44 ms near\n 0:35.30  FOLEY? cork pop / kick drum                            -12.8 dBFS  +9.1 dB    18 ms   975 Hz  | pop +0 ms OK\n 0:35.75  GAP    drop 0.80 s (-54 LUFS)\n 0:36.55  FOLEY  bubble pop / chat message pop                   -14.4 dBFS   silent    59 ms   815 Hz  [AST Sound effect 0.14]  | pop -1 ms OK\n 0:36.60  GAP    drop 1.40 s (-68 LUFS)\n 0:36.67  WHOOSH short swish / small soft footstep               -56.3 dBFS   silent     2 ms  1.5 kHz\n 0:37.99  WHOOSH fast air whoosh                                 -12.5 dBFS   silent   842 ms  1.5 kHz\n 0:38.02  RISER  uplifter sweep / short swish                    -12.5 dBFS   silent   348 ms  2.2 kHz  | whoosh -79 ms near\n 0:38.25  WHOOSH whip pan whoosh transition / uplifter sweep     -12.5 dBFS +13.2 dB     4 ms  1.3 kHz  | pop +0 ms OK\n 0:38.35  CUE    swipe swipe@38.35  no onset; level peak -110 ms, rising 54 dB (a soft whoosh / swell, or just the bed?)  <- CHECK\n 0:38.80  GAP    drop 0.55 s (-66 LUFS)\n 0:39.30  CUE    slide slide@39.30  no onset or level peak within 250 ms  <- NO HIT\n 0:39.85  HIT    sub bass drop / fast air whoosh                 -25.2 dBFS   silent   450 ms   534 Hz\n 0:40.20  FOLEY? bubble pop / glockenspiel note                  -13.4 dBFS +11.7 dB    40 ms   859 Hz  | pop +0 ms OK\n 0:40.35  GAP    drop 1.65 s (-69 LUFS)\n 0:42.00  FOLEY  bubble pop / chat message pop                   -14.4 dBFS   silent    58 ms   806 Hz  [AST Sound effect 0.15]  | pop +0 ms OK\n 0:42.05  GAP    drop 1.70 s (-68 LUFS)\n 0:42.12  WHOOSH? short swish / bubble pop                        -56.3 dBFS   silent     1 ms        -\n 0:43.74  WHOOSH whip pan whoosh transition                      -12.3 dBFS   silent   397 ms  1.9 kHz\n 0:43.85  CUE    whoosh whoosh@43.85  no onset; level peak +140 ms, rising 54 dB (a soft whoosh / swell, or just the bed?)  <- CHECK\n 0:44.00  DRUM   snare drum hit / cork pop                       -12.3 dBFS +14.3 dB     6 ms  1.2 kHz  | pop +0 ms OK\n 0:44.15  GAP    digital silence 1.45 s (< -70 LUFS)\n 0:45.60  DRUM   drum hit / punchy impact hit                     -5.6 dBFS   silent   133 ms    72 Hz  [AST Sound effect 0.20]  | stamp +0 ms OK\n 0:45.80  GAP    drop 1.10 s (-66 LUFS)\n 0:46.90  RISER  uplifter sweep / fast air whoosh                -16.3 dBFS   silent   380 ms  1.8 kHz\n 0:47.00  CUE    whoosh whoosh@47.00  no onset; level peak +110 ms, rising 52 dB (a soft whoosh / swell, or just the bed?)  <- CHECK\n 0:47.45  HIT    sub bass drop / glockenspiel note               -12.4 dBFS   silent  1590 ms   157 Hz  | gong +0 ms OK\n 0:48.45  HIT    sub bass drop / kick drum                       -12.9 dBFS +12.4 dB    71 ms   735 Hz  | pop +0 ms OK\n 0:49.40  RISER  uplifter sweep / short swish                    -16.0 dBFS +13.8 dB   324 ms  2.7 kHz  | whoosh -54 ms near\n 0:49.90  GAP    drop 0.95 s (-57 LUFS)\n 0:50.85  FOLEY  bubble pop / chat message pop                   -14.4 dBFS   silent    58 ms   806 Hz  [AST Sound effect 0.15]  | pop +0 ms OK\n 0:50.90  GAP    drop 1.00 s (-67 LUFS)\n 0:50.97  WHOOSH? short swish / bubble pop                       -240.0 dBFS   silent     1 ms        -\n 0:51.91  RISER  uplifter sweep / fast air whoosh                -16.5 dBFS   silent   367 ms  2.0 kHz  | whoosh -89 ms near\n 0:52.55  FOLEY  bubble pop / chat message pop                   -14.4 dBFS   silent    58 ms   806 Hz  [AST Sound effect 0.15]  | pop +0 ms OK\n 0:52.60  GAP    drop 1.95 s (-69 LUFS)\n 0:52.67  WHOOSH? short swish / bubble pop                       -240.0 dBFS   silent     1 ms        -\n 0:54.55  FOLEY  bubble pop / chat message pop                   -14.4 dBFS   silent    58 ms   806 Hz  [AST Sound effect 0.15]  | pop +0 ms OK\n 0:54.60  GAP    drop 1.85 s (-68 LUFS)\n 0:54.67  WHOOSH? short swish / bubble pop                       -240.0 dBFS   silent     1 ms        -\n 0:56.45  RISER  uplifter sweep / fast air whoosh                -16.8 dBFS   silent   383 ms  2.0 kHz\n 0:56.55  CUE    whoosh whoosh@56.55  no onset; level peak +110 ms, rising 52 dB (a soft whoosh / swell, or just the bed?)  <- CHECK\n 0:57.05  FOLEY  bubble pop / chat message pop                   -14.4 dBFS   silent    58 ms   806 Hz  [AST Sound effect 0.15]  | pop +0 ms OK\n 0:57.10  GAP    drop 0.40 s (-64 LUFS)\n 0:57.17  WHOOSH? short swish / bubble pop                       -240.0 dBFS   silent     1 ms        -\n 0:57.50  FOLEY  bubble pop / chat message pop                   -14.4 dBFS   silent    58 ms   806 Hz  | pop +0 ms OK\n 0:57.55  GAP    drop 1.75 s (-68 LUFS)\n 0:59.31  FOLEY  bubble pop / whip pan whoosh transition         -16.4 dBFS   silent   477 ms  2.1 kHz  | whoosh -88 ms near\n 0:59.70  FOLEY? bubble pop                                      -14.4 dBFS  +8.7 dB     7 ms   944 Hz  | pop +0 ms OK\n 0:59.80  GAP    drop 0.95 s (-69 LUFS)\n 1:00.75  FOLEY  bubble pop / chat message pop                   -14.4 dBFS   silent    58 ms   806 Hz  [AST Sound effect 0.15]  | pop +0 ms OK\n 1:00.80  GAP    drop 1.40 s (-68 LUFS)\n 1:00.87  WHOOSH? short swish / bubble pop                       -240.0 dBFS   silent     1 ms        -\n 1:02.19  WHOOSH whip pan whoosh transition                      -10.5 dBFS   silent   387 ms  1.6 kHz\n 1:02.30  CUE    whoosh whoosh@62.30  no onset; level peak +140 ms, rising 54 dB (a soft whoosh / swell, or just the bed?)  <- CHECK\n 1:02.45  DRUM   snare drum hit / whip pan whoosh transition     -10.5 dBFS +13.4 dB    59 ms  1.4 kHz  | pop -2 ms OK\n 1:02.55  GAP    drop 0.40 s (-66 LUFS)\n== 1:02.65-1:09.50  also: beep, bleep, plop, sine wave (AST)\n 1:02.95  UI     chat message pop / bubble pop                   -15.7 dBFS   silent    26 ms  2.4 kHz  | tick +0 ms OK\n 1:03.00  GAP    near silence 0.60 s (-70 LUFS)\n 1:03.60  UI     chat message pop / bubble pop                   -15.7 dBFS   silent    26 ms  2.4 kHz  | tick +0 ms OK\n 1:03.65  GAP    near silence 0.60 s (-70 LUFS)\n 1:04.25  UI     chat message pop / bubble pop                   -15.7 dBFS   silent    26 ms  2.4 kHz  | tick +0 ms OK\n 1:04.30  GAP    near silence 2.10 s (-70 LUFS)\n 1:06.40  FOLEY  bubble pop / chat message pop                   -14.4 dBFS   silent    58 ms   806 Hz  [AST Sound effect 0.15]  | pop +0 ms OK\n 1:06.45  GAP    drop 3.05 s (-69 LUFS) = tail\n 1:06.52  FOLEY? bubble pop / short swish                       -240.0 dBFS   silent     1 ms        -\n\nNOTES  times, levels, loudness and sync offsets are measurements. Event kinds / tags are CLAP guesses: '?' = the event is less than 12 dB over its bed, so its excerpt is mostly bed and the tag a weak hint (right kind about 1 in 4 on the tuning mixes, 1 in 2 for exposed events; often wrong on music and voice). Where AST ran, its speech overrides the kind with VOICE. Section genres marked ? are weak. 'over bed' = how far the event rises over the level just before it; 'silent' = that bed was below -60 (after a gap the rise means nothing). Full data: --json.",
+ "cached": false
+}

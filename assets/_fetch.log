@@ -2903,6 +2903,13 @@ assets/tr4/uz10.mp3 FAILED 22 curl: (22) The requested URL returned error: 400
 assets/tr4/uz11.mp3 FAILED 22 curl: (22) The requested URL returned error: 400
 assets/tr4/uz12.mp3 FAILED 22 curl: (22) The requested URL returned error: 400
 assets/tr4/uz13.mp3 FAILED 22 curl: (22) The requested URL returned error: 400
+assets/ot/v01.mp3 ok
+assets/ot/v02.mp3 ok
+assets/ot/v03.mp3 ok
+assets/ot/v04.mp3 ok
+assets/ot/v05.mp3 ok
+assets/ot/v06.mp3 ok
+assets/ot/v07.mp3 ok
 assets/tr/uz01.mp3 FAILED 22 curl: (22) The requested URL returned error: 400
 assets/tr/uz02.mp3 FAILED 22 curl: (22) The requested URL returned error: 400
 assets/tr/uz03.mp3 FAILED 22 curl: (22) The requested URL returned error: 400

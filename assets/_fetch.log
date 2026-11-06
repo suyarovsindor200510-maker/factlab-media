@@ -3313,6 +3313,11 @@ assets/tr2/uz12.mp3 FAILED 22 curl: (22) The requested URL returned error: 400
 assets/tr3/l01.mp3 FAILED 22 curl: (22) The requested URL returned error: 400
 toy-sr/m1.mp3 FAILED 22 curl: (22) The requested URL returned error: 400
 toy-sr/m2.mp3 FAILED 22 curl: (22) The requested URL returned error: 400
+assets/miya/img1.jpg ok
+assets/miya/img2.jpg ok
+assets/miya/img3.jpg ok
+assets/miya/img4.jpg ok
+assets/miya/img5.jpg ok
 assets/tr4/as01.mp3 FAILED 22 curl: (22) The requested URL returned error: 400
 assets/tr4/as02.mp3 FAILED 22 curl: (22) The requested URL returned error: 400
 assets/tr4/as03.mp3 FAILED 22 curl: (22) The requested URL returned error: 400

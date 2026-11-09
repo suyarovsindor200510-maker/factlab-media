@@ -1,0 +1,3 @@
+Selected model is a bag of 4 models. You will see that many progress bars per track.
+Separated tracks will be stored in /tmp/sep/htdemucs_ft
+Separating track listen/homila/src.flac

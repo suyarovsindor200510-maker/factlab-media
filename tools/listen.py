@@ -12,6 +12,16 @@ for jf in sorted(glob.glob('listen/*/job.json')):
     if os.path.exists(os.path.join(o, 'DONE')): continue
     os.makedirs(o, exist_ok=True); j = json.load(open(jf))
     v = j.get('video'); cues = j.get('cues')
+    if j.get('separate'):
+        src = j['separate']
+        subprocess.run([sys.executable, '-m', 'pip', 'install', '-q', 'demucs'], check=False)
+        model = j.get('demucs_model', 'htdemucs_ft')
+        sh([sys.executable, '-m', 'demucs', '--two-stems=vocals', '-n', model, '-o', '/tmp/sep', src], f'{o}/demucs.txt')
+        stem = os.path.splitext(os.path.basename(src))[0]
+        for nm in ('vocals', 'no_vocals'):
+            p = f'/tmp/sep/{model}/{stem}/{nm}.wav'
+            if os.path.exists(p): subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', p, os.path.join(d, nm + '.flac')])
+        if os.path.exists(os.path.join(d, 'vocals.flac')): j['voice'] = os.path.join(d, 'vocals.flac')
     if j.get('voice'):
         from faster_whisper import WhisperModel
         m = WhisperModel(j.get('stt_model', 'deepdml/faster-whisper-large-v3-turbo-ct2'), device='cpu', compute_type='int8')

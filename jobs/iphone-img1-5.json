@@ -1,0 +1,24 @@
+{
+ "files": [
+  {
+   "url": "https://export-download.canva.com/KfiN0/DAHaJ0KfiN0/-1/0/0001-7296353122421449908.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH4R7NKVBA%2F20261109%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261109T171001Z&X-Amz-Expires=61758&X-Amz-Signature=fc9ca90378857a8ed49f5783202abef26da194f04b529328e54817ffca1b0608&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Tue%2C%2010%20Nov%202026%2010%3A19%3A19%20GMT",
+   "path": "assets/iphone/k1.png"
+  },
+  {
+   "url": "https://export-download.canva.com/KfiN0/DAHaJ0KfiN0/-1/0/0002-7296353122421449908.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH4R7NKVBA%2F20261110%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261110T033013Z&X-Amz-Expires=27252&X-Amz-Signature=8e4a292e778b80077cf1967298ef834828c68656418eaa584f85e7e18fcd40ad&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Tue%2C%2010%20Nov%202026%2011%3A04%3A25%20GMT",
+   "path": "assets/iphone/k2.png"
+  },
+  {
+   "url": "https://export-download.canva.com/KfiN0/DAHaJ0KfiN0/-1/0/0003-7296353122421449908.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH4R7NKVBA%2F20261109%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261109T141621Z&X-Amz-Expires=74638&X-Amz-Signature=b56d82a991873c171a9a013a62f02b90137c0f62629ae3bf2f15bf83a9bc4a34&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Tue%2C%2010%20Nov%202026%2011%3A00%3A19%20GMT",
+   "path": "assets/iphone/k3.png"
+  },
+  {
+   "url": "https://export-download.canva.com/KfiN0/DAHaJ0KfiN0/-1/0/0004-7296353122421449908.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH4R7NKVBA%2F20261109%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261109T094022Z&X-Amz-Expires=88956&X-Amz-Signature=1239db18695095066be54ac673bdc91c7968e69278ad1fe1194beb3784b3954b&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Tue%2C%2010%20Nov%202026%2010%3A22%3A58%20GMT",
+   "path": "assets/iphone/k4.png"
+  },
+  {
+   "url": "https://export-download.canva.com/KfiN0/DAHaJ0KfiN0/-1/0/0005-7296353122421449908.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH4R7NKVBA%2F20261110%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261110T041503Z&X-Amz-Expires=24924&X-Amz-Signature=1c0d4206ebba5457ce424db18b0868c4fa63fde845663525eb94b06295fceec4&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Tue%2C%2010%20Nov%202026%2011%3A10%3A27%20GMT",
+   "path": "assets/iphone/k5.png"
+  }
+ ]
+}

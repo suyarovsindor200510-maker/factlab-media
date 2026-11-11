@@ -1,0 +1,20 @@
+{
+ "files": [
+  {
+   "url": "https://export-download.canva.com/KfiN0/DAHaJ0KfiN0/-1/0/0001-7923479489651674876.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH4R7NKVBA%2F20261111%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261111T105442Z&X-Amz-Expires=15122&X-Amz-Signature=ace3caf9bb30b1df2a99d1cc60bd98766405004b1e77825c270508e4d4d04e4f&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Wed%2C%2011%20Nov%202026%2015%3A06%3A44%20GMT",
+   "path": "assets/kond/c1.png"
+  },
+  {
+   "url": "https://export-download.canva.com/KfiN0/DAHaJ0KfiN0/-1/0/0002-7923479489651674876.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH4R7NKVBA%2F20261111%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261111T030108Z&X-Amz-Expires=40896&X-Amz-Signature=2db58f2213ede33fd7857042ab9ca6d524db5d115eecef159cb53c3debb80dde&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Wed%2C%2011%20Nov%202026%2014%3A22%3A44%20GMT",
+   "path": "assets/kond/c2.png"
+  },
+  {
+   "url": "https://export-download.canva.com/KfiN0/DAHaJ0KfiN0/-1/0/0003-7923479489651674876.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH4R7NKVBA%2F20261110%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261110T210121Z&X-Amz-Expires=65133&X-Amz-Signature=65febd9b173328ea63994e9347b66c0b5a0a9128f0aba7d2bd883ef702e7bf4e&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Wed%2C%2011%20Nov%202026%2015%3A06%3A54%20GMT",
+   "path": "assets/kond/c3.png"
+  },
+  {
+   "url": "https://export-download.canva.com/KfiN0/DAHaJ0KfiN0/-1/0/0004-7923479489651674876.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH4R7NKVBA%2F20261111%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261111T094518Z&X-Amz-Expires=18552&X-Amz-Signature=ba30998d5d0cf606160f9fb559980570cb005ac5f71a9819fd683b6b7fb35944&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Wed%2C%2011%20Nov%202026%2014%3A54%3A30%20GMT",
+   "path": "assets/kond/c4.png"
+  }
+ ]
+}

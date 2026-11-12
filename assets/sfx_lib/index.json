@@ -1,0 +1,84 @@
+{
+ "sounds": [
+  {
+   "id": "editwithfahi.breaking",
+   "pack": "editwithfahi",
+   "name": "breaking",
+   "file": "editwithfahi/breaking.wav",
+   "dur": 0.881,
+   "rms_db": -18.2,
+   "use": "crash, glass break, myth busted, dramatic fail",
+   "source": "editwithfahi SFX showcase (user-supplied, 2026-11-13)"
+  },
+  {
+   "id": "editwithfahi.click",
+   "pack": "editwithfahi",
+   "name": "click",
+   "file": "editwithfahi/click.wav",
+   "dur": 0.232,
+   "rms_db": -27.1,
+   "use": "button press, UI tap, cursor click, toggle",
+   "source": "editwithfahi SFX showcase (user-supplied, 2026-11-13)"
+  },
+  {
+   "id": "editwithfahi.hook",
+   "pack": "editwithfahi",
+   "name": "hook",
+   "file": "editwithfahi/hook.wav",
+   "dur": 1.079,
+   "rms_db": -19.6,
+   "use": "0-1 s reel opener, attention grab before the first line",
+   "source": "editwithfahi SFX showcase (user-supplied, 2026-11-13)"
+  },
+  {
+   "id": "editwithfahi.light",
+   "pack": "editwithfahi",
+   "name": "light",
+   "file": "editwithfahi/light.wav",
+   "dur": 0.699,
+   "rms_db": -18.0,
+   "use": "soft shimmer/sparkle for a reveal, idea or 'aha' moment",
+   "source": "editwithfahi SFX showcase (user-supplied, 2026-11-13)"
+  },
+  {
+   "id": "editwithfahi.money",
+   "pack": "editwithfahi",
+   "name": "money",
+   "file": "editwithfahi/money.wav",
+   "dur": 0.647,
+   "rms_db": -24.0,
+   "use": "price, cost, cash, salary, 'qimmat' moments (cha-ching)",
+   "source": "editwithfahi SFX showcase (user-supplied, 2026-11-13)"
+  },
+  {
+   "id": "editwithfahi.pop_in",
+   "pack": "editwithfahi",
+   "name": "pop_in",
+   "file": "editwithfahi/pop_in.wav",
+   "dur": 0.743,
+   "rms_db": -20.1,
+   "use": "sticker/label/emoji/number popping onto screen",
+   "source": "editwithfahi SFX showcase (user-supplied, 2026-11-13)"
+  },
+  {
+   "id": "editwithfahi.typing",
+   "pack": "editwithfahi",
+   "name": "typing",
+   "file": "editwithfahi/typing.wav",
+   "dur": 3.106,
+   "rms_db": -34.1,
+   "use": "on-screen text being typed, chat/search UI (trim to text length)",
+   "source": "editwithfahi SFX showcase (user-supplied, 2026-11-13)"
+  },
+  {
+   "id": "editwithfahi.whoosh",
+   "pack": "editwithfahi",
+   "name": "whoosh",
+   "file": "editwithfahi/whoosh.wav",
+   "dur": 0.987,
+   "rms_db": -18.2,
+   "use": "scene cut, camera whip, text sliding in",
+   "source": "editwithfahi SFX showcase (user-supplied, 2026-11-13)"
+  }
+ ]
+}

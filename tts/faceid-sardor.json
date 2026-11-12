@@ -1,0 +1,71 @@
+{
+ "voice": "uz-UZ-SardorNeural",
+ "items": [
+  {
+   "text": "Siz telefonga qaraysiz, u ochiladi!",
+   "out": "assets/tel/faceid_sardor/a01.mp3",
+   "rate": "+10%",
+   "pitch": "+6Hz"
+  },
+  {
+   "text": "Shu soniyada u yuzingizga o'ttiz mingta ko'rinmas nuqta otadi!",
+   "out": "assets/tel/faceid_sardor/a02.mp3",
+   "rate": "+10%",
+   "pitch": "+6Hz"
+  },
+  {
+   "text": "Avval infraqizil chiroq yuzingizni yoritadi.",
+   "out": "assets/tel/faceid_sardor/a03.mp3",
+   "rate": "+10%",
+   "pitch": "+6Hz"
+  },
+  {
+   "text": "Shuning uchun qorong'ida ham ishlaydi!",
+   "out": "assets/tel/faceid_sardor/a04.mp3",
+   "rate": "+10%",
+   "pitch": "+6Hz"
+  },
+  {
+   "text": "Keyin maxsus kamera nuqtalarni o'qib, yuzingizning uch o'lchamli xaritasini chizadi.",
+   "out": "assets/tel/faceid_sardor/a05.mp3",
+   "rate": "+10%",
+   "pitch": "+6Hz"
+  },
+  {
+   "text": "Bu xarita raqamlarga aylanib, telefon ichidagi maxfiy chipda saqlanadi.",
+   "out": "assets/tel/faceid_sardor/a06.mp3",
+   "rate": "+10%",
+   "pitch": "+6Hz"
+  },
+  {
+   "text": "Shuning uchun suratingiz bilan ochib bo'lmaydi: suratda chuqurlik yo'q!",
+   "out": "assets/tel/faceid_sardor/a07.mp3",
+   "rate": "+10%",
+   "pitch": "+6Hz"
+  },
+  {
+   "text": "Begona odam ochishi ehtimoli milliondan bitta!",
+   "out": "assets/tel/faceid_sardor/a08.mp3",
+   "rate": "+10%",
+   "pitch": "+6Hz"
+  },
+  {
+   "text": "Lekin egizagingiz bo'lsa... ehtiyot bo'ling!",
+   "out": "assets/tel/faceid_sardor/a09.mp3",
+   "rate": "+10%",
+   "pitch": "+6Hz"
+  },
+  {
+   "text": "Siz Feys ay di ishlatasizmi yoki parolmi? Kommentda yozing!",
+   "out": "assets/tel/faceid_sardor/a10.mp3",
+   "rate": "+10%",
+   "pitch": "+6Hz"
+  },
+  {
+   "text": "Siz telefonga qaraysiz, u ochiladi! Shu soniyada u yuzingizga o'ttiz mingta ko'rinmas nuqta otadi! Avval infraqizil chiroq yuzingizni yoritadi. Shuning uchun qorong'ida ham ishlaydi! Keyin maxsus kamera nuqtalarni o'qib, yuzingizning uch o'lchamli xaritasini chizadi. Bu xarita raqamlarga aylanib, telefon ichidagi maxfiy chipda saqlanadi. Shuning uchun suratingiz bilan ochib bo'lmaydi: suratda chuqurlik yo'q! Begona odam ochishi ehtimoli milliondan bitta! Lekin egizagingiz bo'lsa... ehtiyot bo'ling! Siz Feys ay di ishlatasizmi yoki parolmi? Kommentda yozing!",
+   "out": "assets/tel/faceid_sardor/full_b.mp3",
+   "rate": "+12%",
+   "pitch": "+12Hz"
+  }
+ ]
+}

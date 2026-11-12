@@ -4645,6 +4645,8 @@ assets/tr3/l06.mp3 FAILED 22 curl: (22) The requested URL returned error: 400
 assets/tr3/l07.mp3 FAILED 22 curl: (22) The requested URL returned error: 400
 assets/tr3/l08.mp3 FAILED 22 curl: (22) The requested URL returned error: 400
 assets/tr3/l09.mp3 FAILED 22 curl: (22) The requested URL returned error: 400
+assets/tel2/v3.mp3 ok
+assets/tel2/v4.mp3 ok
 assets/tr/uz01.mp3 FAILED 22 curl: (22) The requested URL returned error: 400
 assets/tr/uz02.mp3 FAILED 22 curl: (22) The requested URL returned error: 400
 assets/tr/uz03.mp3 FAILED 22 curl: (22) The requested URL returned error: 400
@@ -4657,6 +4659,10 @@ assets/tr/uz09.mp3 FAILED 22 curl: (22) The requested URL returned error: 400
 assets/tr/uz10.mp3 FAILED 22 curl: (22) The requested URL returned error: 400
 assets/tr/uz11.mp3 FAILED 22 curl: (22) The requested URL returned error: 400
 assets/tel/voice.mp3 ok
+assets/sindorbek/m1.png ok
+assets/sindorbek/m2.png ok
+assets/sindorbek/m3.png ok
+assets/sindorbek/m4.png ok
 assets/tr2/uz01.mp3 FAILED 22 curl: (22) The requested URL returned error: 400
 assets/tr2/uz02.mp3 FAILED 22 curl: (22) The requested URL returned error: 400
 assets/tr2/uz03.mp3 FAILED 22 curl: (22) The requested URL returned error: 400
@@ -4685,3 +4691,7 @@ assets/tr4/as10.mp3 FAILED 22 curl: (22) The requested URL returned error: 400
 assets/tr4/as11.mp3 FAILED 22 curl: (22) The requested URL returned error: 400
 assets/tr4/as12.mp3 FAILED 22 curl: (22) The requested URL returned error: 400
 assets/tr4/as13.mp3 FAILED 22 curl: (22) The requested URL returned error: 400
+assets/sindorbek/s1.png ok
+assets/sindorbek/s2.png ok
+assets/sindorbek/s3.png ok
+assets/sindorbek/s4.png ok

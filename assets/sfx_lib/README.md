@@ -10,5 +10,6 @@ trimmed, faded, peak −1 dBFS. `index.json` lists every sound with duration, lo
 | pack | sounds |
 |---|---|
 | editwithfahi | hook, light, whoosh, typing, click, pop_in, breaking, money |
+| subhangfx82 | low_rise, apply_keyboard, gear_click, riser, glass_shine, inertia_ramp |
 
 Source files come from the channel owner; use them only in our own reels.

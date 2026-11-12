@@ -79,6 +79,66 @@
    "rms_db": -18.2,
    "use": "scene cut, camera whip, text sliding in",
    "source": "editwithfahi SFX showcase (user-supplied, 2026-11-13)"
+  },
+  {
+   "id": "subhangfx82.apply_keyboard",
+   "pack": "subhangfx82",
+   "name": "apply_keyboard",
+   "file": "subhangfx82/apply_keyboard.wav",
+   "dur": 0.915,
+   "rms_db": -26.6,
+   "use": "keyboard keystrokes: typing a search, code, a number appearing (trim to text length)",
+   "source": "subhangfx82 'Talking Head Sound Effects' Part 4 (user-supplied, 2026-11-13)"
+  },
+  {
+   "id": "subhangfx82.gear_click",
+   "pack": "subhangfx82",
+   "name": "gear_click",
+   "file": "subhangfx82/gear_click.wav",
+   "dur": 0.801,
+   "rms_db": -29.4,
+   "use": "mechanical ratchet: gears, process steps, a mechanism working, counter ticking",
+   "source": "subhangfx82 'Talking Head Sound Effects' Part 4 (user-supplied, 2026-11-13)"
+  },
+  {
+   "id": "subhangfx82.glass_shine",
+   "pack": "subhangfx82",
+   "name": "glass_shine",
+   "file": "subhangfx82/glass_shine.wav",
+   "dur": 1.03,
+   "rms_db": -12.6,
+   "use": "bright shine/sparkle on a reveal, product shot, clean result",
+   "source": "subhangfx82 'Talking Head Sound Effects' Part 4 (user-supplied, 2026-11-13)"
+  },
+  {
+   "id": "subhangfx82.inertia_ramp",
+   "pack": "subhangfx82",
+   "name": "inertia_ramp",
+   "file": "subhangfx82/inertia_ramp.wav",
+   "dur": 1.688,
+   "rms_db": -18.8,
+   "use": "heavy ramp/slam-in for a big title, transition into the main part",
+   "source": "subhangfx82 'Talking Head Sound Effects' Part 4 (user-supplied, 2026-11-13)"
+  },
+  {
+   "id": "subhangfx82.low_rise",
+   "pack": "subhangfx82",
+   "name": "low_rise",
+   "file": "subhangfx82/low_rise.wav",
+   "dur": 0.889,
+   "rms_db": -14.3,
+   "use": "short low build-up under the hook / before a key line",
+   "source": "subhangfx82 'Talking Head Sound Effects' Part 4 (user-supplied, 2026-11-13)"
+  },
+  {
+   "id": "subhangfx82.riser",
+   "pack": "subhangfx82",
+   "name": "riser",
+   "file": "subhangfx82/riser.wav",
+   "dur": 1.194,
+   "rms_db": -18.7,
+   "use": "tension build ~1 s before a reveal or the punchline",
+   "source": "subhangfx82 'Talking Head Sound Effects' Part 4 (user-supplied, 2026-11-13)"
   }
  ]
 }

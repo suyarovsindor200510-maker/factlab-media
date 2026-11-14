@@ -1,0 +1,83 @@
+{
+ "voice": "uz-UZ-SardorNeural",
+ "items": [
+  {
+   "text": "Barmoqni qirsillatganda suyak sinayotgandek tuyuladi. Lekin asl sabab bo'g'im ichidagi suyuqlikda yashiringan!",
+   "out": "assets/tel/bogim/s01.mp3",
+   "rate": "+10%",
+   "pitch": "+6Hz"
+  },
+  {
+   "text": "Barmog'ingizni tortsangiz yoki bukkanda, bo'g'im ichidagi suyuqlikli bo'shliq birdan kengayadi.",
+   "out": "assets/tel/bogim/s02.mp3",
+   "rate": "+10%",
+   "pitch": "+6Hz"
+  },
+  {
+   "text": "Bu suyuqlik sinovial suyuqlik deyiladi, u bo'g'imlarni silliq harakatlantiradi.",
+   "out": "assets/tel/bogim/s03.mp3",
+   "rate": "+10%",
+   "pitch": "+6Hz"
+  },
+  {
+   "text": "Bo'g'im tez kengayganda ichidagi bosim keskin tushadi, va shunda g'alati hodisa ro'y beradi.",
+   "out": "assets/tel/bogim/s04.mp3",
+   "rate": "+10%",
+   "pitch": "+6Hz"
+  },
+  {
+   "text": "Suyuqlikda erigan gazlar bo'g'im ichida mitti bo'shliq hosil qiladi.",
+   "out": "assets/tel/bogim/s05.mp3",
+   "rate": "+10%",
+   "pitch": "+6Hz"
+  },
+  {
+   "text": "Bu jarayon kavitatsiya deyiladi, va aynan u o'sha tanish qirsillashni chiqaradi.",
+   "out": "assets/tel/bogim/s06.mp3",
+   "rate": "+10%",
+   "pitch": "+6Hz"
+  },
+  {
+   "text": "Demak, suyaklaringiz umuman sinmayapti!",
+   "out": "assets/tel/bogim/s07.mp3",
+   "rate": "+10%",
+   "pitch": "+6Hz"
+  },
+  {
+   "text": "Lekin yana bir qiziq savol bor.",
+   "out": "assets/tel/bogim/s08.mp3",
+   "rate": "+10%",
+   "pitch": "+6Hz"
+  },
+  {
+   "text": "Nega barmoqni bir marta qirsillatib, darhol yana qila olmaysiz?",
+   "out": "assets/tel/bogim/s09.mp3",
+   "rate": "+10%",
+   "pitch": "+6Hz"
+  },
+  {
+   "text": "Qirsillatgandan keyin bo'g'im yana kavitatsiya bo'lishi uchun kerakli holatga qaytishga vaqt kerak.",
+   "out": "assets/tel/bogim/s10.mp3",
+   "rate": "+10%",
+   "pitch": "+6Hz"
+  },
+  {
+   "text": "Shuning uchun o'sha yoqimli qirsillashni qayta eshitish uchun biroz kutasiz.",
+   "out": "assets/tel/bogim/s11.mp3",
+   "rate": "+10%",
+   "pitch": "+6Hz"
+  },
+  {
+   "text": "Keyingi safar barmog'ingiz qirsillasa, esda tuting: suyagingiz sinmayapti.",
+   "out": "assets/tel/bogim/s12.mp3",
+   "rate": "+10%",
+   "pitch": "+6Hz"
+  },
+  {
+   "text": "Siz bo'g'im ichidagi fizikani eshityapsiz!",
+   "out": "assets/tel/bogim/s13.mp3",
+   "rate": "+10%",
+   "pitch": "+6Hz"
+  }
+ ]
+}

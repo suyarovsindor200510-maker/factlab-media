@@ -1,0 +1,125 @@
+{
+ "voice": "uz-UZ-SardorNeural",
+ "items": [
+  {
+   "text": "Ozganingizda yog' qayerga ketadi?",
+   "out": "assets/tel/yog/s01.mp3",
+   "rate": "+12%",
+   "pitch": "+6Hz"
+  },
+  {
+   "text": "Ter bilan chiqadimi yoki yonib ketadimi?",
+   "out": "assets/tel/yog/s02.mp3",
+   "rate": "+12%",
+   "pitch": "+6Hz"
+  },
+  {
+   "text": "Ko'pchilik energiyaga aylanadi deydi.",
+   "out": "assets/tel/yog/s03.mp3",
+   "rate": "+12%",
+   "pitch": "+6Hz"
+  },
+  {
+   "text": "Lekin yog'ning og'irligi bor, og'irlik esa yo'qolib qolmaydi!",
+   "out": "assets/tel/yog/s04.mp3",
+   "rate": "+12%",
+   "pitch": "+6Hz"
+  },
+  {
+   "text": "Olimlar yuz ellikta shifokor, dietolog va trenerdan so'rashdi.",
+   "out": "assets/tel/yog/s05.mp3",
+   "rate": "+12%",
+   "pitch": "+6Hz"
+  },
+  {
+   "text": "Faqat uchtasi to'g'ri topdi!",
+   "out": "assets/tel/yog/s06.mp3",
+   "rate": "+12%",
+   "pitch": "+6Hz"
+  },
+  {
+   "text": "Xo'sh, ular nimani bilmagan?",
+   "out": "assets/tel/yog/s07.mp3",
+   "rate": "+12%",
+   "pitch": "+6Hz"
+  },
+  {
+   "text": "Yog' faqat uch xil atomdan iborat.",
+   "out": "assets/tel/yog/s08.mp3",
+   "rate": "+12%",
+   "pitch": "+6Hz"
+  },
+  {
+   "text": "Uglerod, vodorod, kislorod.",
+   "out": "assets/tel/yog/s09.mp3",
+   "rate": "+12%",
+   "pitch": "+6Hz"
+  },
+  {
+   "text": "Organizm uni nafas olgan kislorodingiz bilan parchalaydi.",
+   "out": "assets/tel/yog/s10.mp3",
+   "rate": "+12%",
+   "pitch": "+6Hz"
+  },
+  {
+   "text": "Vodorod suvga aylanadi.",
+   "out": "assets/tel/yog/s11.mp3",
+   "rate": "+12%",
+   "pitch": "+6Hz"
+  },
+  {
+   "text": "Uni siydik, ter, hatto ko'z yoshi bilan chiqarasiz.",
+   "out": "assets/tel/yog/s12.mp3",
+   "rate": "+12%",
+   "pitch": "+6Hz"
+  },
+  {
+   "text": "Lekin bu kichik qismi xolos.",
+   "out": "assets/tel/yog/s13.mp3",
+   "rate": "+12%",
+   "pitch": "+6Hz"
+  },
+  {
+   "text": "Yog' og'irligining ko'pi uglerod.",
+   "out": "assets/tel/yog/s14.mp3",
+   "rate": "+12%",
+   "pitch": "+6Hz"
+  },
+  {
+   "text": "Uglerod qayerga ketadi?",
+   "out": "assets/tel/yog/s15.mp3",
+   "rate": "+12%",
+   "pitch": "+6Hz"
+  },
+  {
+   "text": "Kislorodga birikib, karbonat angidrid bo'ladi.",
+   "out": "assets/tel/yog/s16.mp3",
+   "rate": "+12%",
+   "pitch": "+6Hz"
+  },
+  {
+   "text": "Qon uni to'g'ri o'pkaga olib boradi.",
+   "out": "assets/tel/yog/s17.mp3",
+   "rate": "+12%",
+   "pitch": "+6Hz"
+  },
+  {
+   "text": "O'n kilo yog' yo'qotsangiz, qariyb sakkiz yarim kilosi o'pka orqali chiqadi!",
+   "out": "assets/tel/yog/s18.mp3",
+   "rate": "+12%",
+   "pitch": "+6Hz"
+  },
+  {
+   "text": "Yog'ingizni tom ma'noda nafas bilan chiqarasiz!",
+   "out": "assets/tel/yog/s19.mp3",
+   "rate": "+12%",
+   "pitch": "+6Hz"
+  },
+  {
+   "text": "Shunday foydali videolar uchun obuna bo'ling!",
+   "out": "assets/tel/yog/s20.mp3",
+   "rate": "+12%",
+   "pitch": "+6Hz"
+  }
+ ]
+}

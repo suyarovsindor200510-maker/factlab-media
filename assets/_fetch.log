@@ -5433,6 +5433,19 @@ assets/tr/uz08.mp3 FAILED 22 curl: (22) The requested URL returned error: 400
 assets/tr/uz09.mp3 FAILED 22 curl: (22) The requested URL returned error: 400
 assets/tr/uz10.mp3 FAILED 22 curl: (22) The requested URL returned error: 400
 assets/tr/uz11.mp3 FAILED 22 curl: (22) The requested URL returned error: 400
+assets/tel/chet/clips/v01.mp4 ok
+assets/tel/chet/clips/v02.mp4 ok
+assets/tel/chet/clips/v03.mp4 ok
+assets/tel/chet/clips/v04.mp4 ok
+assets/tel/chet/clips/v05.mp4 ok
+assets/tel/chet/clips/v06.mp4 ok
+assets/tel/chet/clips/v07.mp4 ok
+assets/tel/chet/clips/v08.mp4 ok
+assets/tel/chet/clips/v09.mp4 ok
+assets/tel/chet/clips/v10.mp4 ok
+assets/tel/chet/clips/v11.mp4 ok
+assets/tel/chet/clips/v12.mp4 ok
+assets/tel/chet/clips/v13.mp4 ok
 assets/tr2/uz01.mp3 FAILED 22 curl: (22) The requested URL returned error: 400
 assets/tr2/uz02.mp3 FAILED 22 curl: (22) The requested URL returned error: 400
 assets/tr2/uz03.mp3 FAILED 22 curl: (22) The requested URL returned error: 400
